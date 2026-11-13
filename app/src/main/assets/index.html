@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+html,body{margin:0;background:#0b0705;color:#e8b86a;font-family:serif}
+#q{padding:40vh 18px;font-size:30px;line-height:2.3;text-align:center}
+.w{display:inline-block;padding:0 8px;margin:2px;border-radius:18px;opacity:.5;transition:all .35s ease}
+.w.on{background:rgba(232,184,106,.28);opacity:1;transform:scale(1.35)}
+#b{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);width:120px;height:46px;border:0;border-radius:23px;background:#e0506a;color:#fff;font-size:16px}
+</style></head><body>
+<div id="q"></div><button id="b">ابدأ</button>
+<script src="surah.js"></script>
+<script>
+const q=document.getElementById('q'),b=document.getElementById('b'),ws=[];
+SURAH.verses.forEach(v=>{
+  v.text_uthmani.split(' ').forEach(t=>{
+    const s=document.createElement('span');s.className='w';s.textContent=t;q.appendChild(s);ws.push(s);
+  });
+  const n=document.createElement('span');n.className='w';
+  n.textContent='﴿'+Number(v.verse_key.split(':')[1]).toLocaleString('ar-EG')+'﴾';
+  q.appendChild(n);
+});
+let i=-1,t=null;
+function stop(){clearInterval(t);t=null;b.textContent='ابدأ'}
+function go(){
+  if(i>=0)ws[i].classList.remove('on');
+  i++;
+  if(i>=ws.length){stop();i=-1;return}
+  ws[i].classList.add('on');
+  ws[i].scrollIntoView({behavior:'smooth',block:'center'});
+}
+b.onclick=()=>{if(t){stop()}else{b.textContent='إيقاف';go();t=setInterval(go,800)}};
+</script></body></html>
