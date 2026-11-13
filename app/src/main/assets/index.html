@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <style>
-html,body{margin:0;background:#0b0705;color:#e8b86a;font-family:serif}
-#q{padding:40vh 18px;font-size:30px;line-height:2.3;text-align:center}
-.w{display:inline-block;padding:0 8px;margin:2px;border-radius:18px;opacity:.5;transition:all .35s ease}
-.w.on{background:rgba(232,184,106,.28);opacity:1;transform:scale(1.35)}
-#b{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);width:120px;height:46px;border:0;border-radius:23px;background:#e0506a;color:#fff;font-size:16px}
+html,body{margin:0;background:#0b0705;color:#e8b86a;font-family:serif;touch-action:pan-y;overflow-x:hidden}
+#q{position:relative;padding:40vh 18px;font-size:26px;line-height:2.3;text-align:center;isolation:isolate}
+.w{display:inline-block;position:relative;z-index:1;padding:0 8px;margin:2px;opacity:.55;transition:opacity .3s,color .3s}
+.w.on{opacity:1;color:#fff0cf}
+#g{position:absolute;z-index:0;border-radius:999px;pointer-events:none;opacity:0;
+ background:linear-gradient(145deg,rgba(255,255,255,.28),rgba(255,255,255,.07));
+ border:1px solid rgba(255,255,255,.4);
+ box-shadow:inset 0 1px 1px rgba(255,255,255,.5),0 6px 18px rgba(0,0,0,.45);
+ -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+ transition:left .35s ease,top .35s ease,width .35s ease,height .35s ease,opacity .3s}
+#b{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);width:120px;height:46px;border:0;border-radius:23px;background:#e0506a;color:#fff;font-size:16px;z-index:5}
 </style></head><body>
-<div id="q"></div><button id="b">ابدأ</button>
+<div id="q"><div id="g"></div></div><button id="b">ابدأ</button>
 <script src="surah.js"></script>
 <script>
-const q=document.getElementById('q'),b=document.getElementById('b'),ws=[];
+const q=document.getElementById('q'),b=document.getElementById('b'),g=document.getElementById('g'),ws=[];
 SURAH.verses.forEach(v=>{
   v.text_uthmani.split(' ').forEach(t=>{
     const s=document.createElement('span');s.className='w';s.textContent=t;q.appendChild(s);ws.push(s);
   });
   const n=document.createElement('span');n.className='w';
   n.textContent='﴿'+Number(v.verse_key.split(':')[1]).toLocaleString('ar-EG')+'﴾';
-  q.appendChild(n);
+  q.appendChild(n);ws.push(n);
 });
-let i=-1,t=null;
+let i=-1,t=null,size=26;
+function place(anim){
+  const w=ws[i];
+  if(!w){g.style.opacity=0;return}
+  g.style.transition=anim?'':'none';
+  g.style.opacity=1;
+  g.style.left=(w.offsetLeft-4)+'px';
+  g.style.top=(w.offsetTop-2)+'px';
+  g.style.width=(w.offsetWidth+8)+'px';
+  g.style.height=(w.offsetHeight+4)+'px';
+}
 function stop(){clearInterval(t);t=null;b.textContent='ابدأ'}
 function go(){
   if(i>=0)ws[i].classList.remove('on');
   i++;
-  if(i>=ws.length){stop();i=-1;return}
+  if(i>=ws.length){stop();i=-1;place(true);return}
   ws[i].classList.add('on');
+  place(true);
   ws[i].scrollIntoView({behavior:'smooth',block:'center'});
 }
+let d0=0,s0=26;
+const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
+document.addEventListener('touchstart',e=>{if(e.touches.length==2){d0=dist(e);s0=size}},{passive:true});
+document.addEventListener('touchmove',e=>{
+  if(e.touches.length==2){
+    e.preventDefault();
+    size=Math.max(16,Math.min(64,s0*dist(e)/d0));
+    q.style.fontSize=size+'px';
+    place(false);
+  }
+},{passive:false});
+window.addEventListener('resize',()=>place(false));
 b.onclick=()=>{if(t){stop()}else{b.textContent='إيقاف';go();t=setInterval(go,800)}};
 </script></body></html>
