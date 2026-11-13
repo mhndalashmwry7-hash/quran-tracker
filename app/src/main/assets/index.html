@@ -141,16 +141,6 @@ pagesEl.addEventListener('scroll',()=>{
     if(k!==curPage&&k<pages.length){curPage=k;updCount()}
   });
 });
-let d0=0,s0=26,raf=0;
-const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
-document.addEventListener('touchstart',e=>{if(e.touches.length==2){d0=dist(e);s0=size}},{passive:true});
-document.addEventListener('touchmove',e=>{
-  if(e.touches.length==2){
-    e.preventDefault();
-    size=Math.max(16,Math.min(64,s0*dist(e)/d0));
-    if(!raf)raf=requestAnimationFrame(()=>{raf=0;paginate()});
-  }
-},{passive:false});
 window.addEventListener('resize',paginate);
 paginate();
 </script></body></html>
