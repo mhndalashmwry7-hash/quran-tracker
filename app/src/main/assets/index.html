@@ -5,10 +5,15 @@
 *{-webkit-tap-highlight-color:transparent}
 html,body{height:100%;margin:0;background:#0b0705;color:#e8b86a;font-family:serif;overflow:hidden}
 body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 50% 0%,#1d130b 0%,#0b0705 62%)}
-#top{flex:none;text-align:center;padding:20px 16px 6px}
-#title{font-size:30px;color:#f0cf8e;display:flex;align-items:center;justify-content:center;gap:14px;text-shadow:0 2px 14px rgba(232,184,106,.25)}
-#title:before,#title:after{content:"";width:52px;height:1px;background:linear-gradient(90deg,transparent,#c9923f,transparent)}
-#sub{font-size:13px;color:rgba(232,184,106,.6);margin-top:6px;letter-spacing:.3px}
+#top{flex:none;padding:16px 14px 6px}
+#head{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-radius:26px;
+ background:linear-gradient(145deg,rgba(255,255,255,.14),rgba(255,255,255,.04));
+ border:1px solid rgba(240,207,142,.35);
+ box-shadow:inset 0 1px 1px rgba(255,255,255,.35),0 8px 24px rgba(0,0,0,.45);
+ -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+#title{font-size:24px;color:#f6dca0;text-shadow:0 2px 12px rgba(232,184,106,.25)}
+#sub{font-size:12px;color:rgba(232,184,106,.65);margin-top:2px}
+#pg{font-size:15px;color:#f0cf8e;padding:6px 14px;border-radius:16px;background:rgba(240,207,142,.1);border:1px solid rgba(240,207,142,.25)}
 #pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x;scrollbar-width:none;font-size:26px}
 #pages::-webkit-scrollbar{display:none}
 .page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:6px 22px;overflow:hidden;isolation:isolate}
@@ -21,46 +26,51 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  box-shadow:inset 0 1px 1px rgba(255,255,255,.5),0 6px 18px rgba(0,0,0,.45);
  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
  transition:left .35s ease,top .35s ease,width .35s ease,height .35s ease,opacity .3s}
-#bar{flex:none;height:116px;display:grid;place-items:center;border-top:1px solid rgba(232,184,106,.12);background:linear-gradient(to top,#0b0705 55%,rgba(11,7,5,.85))}
-#b{position:relative;width:86px;height:86px;border:0;background:none;padding:0;outline:none;animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
-@keyframes rise{from{opacity:0;transform:translateY(18px) scale(.9)}to{opacity:1;transform:none}}
-#ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
-#ring circle{fill:none;stroke-width:3}
-.trk{stroke:rgba(232,184,106,.2)}
-#prog{stroke:#f0cf8e;stroke-linecap:round;stroke-dasharray:289;stroke-dashoffset:289;transition:stroke-dashoffset .6s ease;filter:drop-shadow(0 0 4px rgba(240,207,142,.6))}
-#core{position:absolute;inset:11px;border-radius:50%;display:grid;place-items:center;
- background:radial-gradient(circle at 30% 25%,#f8e3b0,#c9923f 58%,#8a5f22);
- box-shadow:inset 0 2px 3px rgba(255,255,255,.55),0 8px 22px rgba(0,0,0,.6),0 0 0 0 rgba(232,184,106,.45);
- transition:transform .25s cubic-bezier(.2,.8,.2,1)}
-#b:active #core{transform:scale(.9)}
-.ic{position:absolute;width:26px;height:26px;fill:#2a1a08;transition:opacity .35s ease,transform .5s cubic-bezier(.2,.9,.3,1.2)}
-.play{transform:translateX(-2px)}
-.pause{opacity:0;transform:scale(.4) rotate(-90deg)}
+#bar{flex:none;height:104px;display:grid;place-items:center}
+#b{position:relative;width:min(78vw,300px);height:58px;border-radius:29px;padding:0;outline:none;overflow:hidden;
+ border:1.5px solid rgba(240,207,142,.75);
+ background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.04));
+ -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+ box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 10px 26px rgba(0,0,0,.55),0 0 18px rgba(232,184,106,.18);
+ animation:rise .9s cubic-bezier(.2,.8,.2,1) both;transition:transform .25s cubic-bezier(.2,.8,.2,1)}
+#b:active{transform:scale(.96)}
+@keyframes rise{from{opacity:0;transform:translateY(18px) scale(.92)}to{opacity:1;transform:none}}
+#fill{position:absolute;top:0;bottom:0;right:0;width:0;transition:width .6s ease;
+ background:linear-gradient(270deg,rgba(255,140,170,.6),rgba(255,200,160,.3))}
+#sheen{position:absolute;top:0;bottom:0;width:40%;left:-50%;opacity:0;
+ background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent)}
+.playing #sheen{opacity:1;animation:sweep 2.8s ease-in-out infinite}
+@keyframes sweep{0%{left:-50%}100%{left:130%}}
+#ico{position:absolute;left:9px;top:8px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;
+ background:rgba(240,207,142,.14);border:1px solid rgba(240,207,142,.5)}
+.ic{position:absolute;width:18px;height:18px;fill:#f6dca0;transition:opacity .35s ease,transform .5s cubic-bezier(.2,.9,.3,1.2)}
+.play{transform:translateX(-1px)}
+.stop{opacity:0;transform:scale(.4) rotate(-90deg)}
 .playing .play{opacity:0;transform:scale(.4) rotate(90deg)}
-.playing .pause{opacity:1;transform:none}
-.playing #core{animation:breath 2.6s ease-in-out infinite}
-@keyframes breath{
- 0%,100%{box-shadow:inset 0 2px 3px rgba(255,255,255,.55),0 8px 22px rgba(0,0,0,.6),0 0 0 0 rgba(232,184,106,.45)}
- 60%{box-shadow:inset 0 2px 3px rgba(255,255,255,.55),0 8px 22px rgba(0,0,0,.6),0 0 0 14px rgba(232,184,106,0)}}
+.playing .stop{opacity:1;transform:none}
+.playing#b{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 10px 26px rgba(0,0,0,.55),0 0 14px rgba(232,184,106,.15)}
+ 50%{box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 10px 26px rgba(0,0,0,.55),0 0 30px rgba(232,184,106,.4)}}
 </style></head><body>
-<div id="top"><div id="title">سورة القيامة</div><div id="sub"></div></div>
+<div id="top"><div id="head"><div><div id="title">سورة القيامة</div><div id="sub"></div></div><div id="pg"></div></div></div>
 <div id="pages"></div>
 <div id="bar"><button id="b" aria-label="play">
- <svg id="ring" viewBox="0 0 100 100"><circle class="trk" cx="50" cy="50" r="46"/><circle id="prog" cx="50" cy="50" r="46"/></svg>
- <span id="core">
+ <span id="fill"></span><span id="sheen"></span>
+ <span id="ico">
   <svg class="ic play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-  <svg class="ic pause" viewBox="0 0 24 24"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+  <svg class="ic stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="3"/></svg>
  </span></button></div>
 <script src="surah.js"></script>
 <script>
-const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),prog=document.getElementById('prog'),sub=document.getElementById('sub');
+const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),fill=document.getElementById('fill'),sub=document.getElementById('sub'),pg=document.getElementById('pg');
 const ar=n=>Number(n).toLocaleString('ar-EG');
-const words=[];
+const ws=[];
 SURAH.verses.forEach(v=>{
-  v.text_uthmani.split(' ').forEach(t=>words.push(t));
-  words.push('﴿'+ar(v.verse_key.split(':')[1])+'﴾');
+  v.text_uthmani.split(' ').forEach(t=>{const s=document.createElement('span');s.className='w';s.textContent=t;ws.push(s)});
+  const n=document.createElement('span');n.className='w';n.textContent='﴿'+ar(v.verse_key.split(':')[1])+'﴾';ws.push(n);
 });
-let ws=[],pages=[],i=-1,t=null,size=26,curPage=0,lastP=-1,lock=0;
+sub.textContent='الجزء '+ar(29)+' · '+ar(SURAH.verses.length)+' آية';
+let pages=[],i=-1,t=null,size=26,curPage=0,lastP=-1,lock=0;
 
 function newPage(){
   const el=document.createElement('div');el.className='page';
@@ -70,9 +80,9 @@ function newPage(){
   const p={el,g,inner,avail:el.clientHeight-12};
   pages.push(p);return p;
 }
-function updCount(){sub.textContent='الصفحة '+ar(curPage+1)+' من '+ar(pages.length)+' · '+ar(SURAH.verses.length)+' آية'}
-function updProg(){prog.style.strokeDashoffset=289*(1-(i<0?0:(i+1)/ws.length))}
-function place(anim){
+function updCount(){pg.textContent=ar(curPage+1)+' / '+ar(pages.length)}
+function updProg(){fill.style.width=(i<0?0:((i+1)/ws.length)*100)+'%'}
+function place(anim,instant){
   const w=ws[i];
   pages.forEach((p,k)=>{if(!w||k!==w._p)p.g.style.opacity=0});
   if(!w)return;
@@ -82,28 +92,27 @@ function place(anim){
   g.style.top=(w.offsetTop-2)+'px';
   g.style.width=(w.offsetWidth+8)+'px';
   g.style.height=(w.offsetHeight+4)+'px';
-  if(same){g.style.opacity=1}
+  if(instant||same){g.style.opacity=1}
   else{requestAnimationFrame(()=>{g.style.transition='opacity .4s ease';g.style.opacity=1})}
   lastP=w._p;
 }
 function paginate(){
   const anchor=i>=0?i:Math.max(0,ws.findIndex(w=>w._p===curPage));
-  pagesEl.innerHTML='';ws=[];pages=[];lastP=-1;
+  lock=Date.now()+400;
+  pagesEl.textContent='';pages=[];lastP=-1;
   pagesEl.style.fontSize=size+'px';
   let page=newPage();
-  words.forEach(wd=>{
-    const s=document.createElement('span');s.className='w';s.textContent=wd;
+  ws.forEach(s=>{
     page.inner.appendChild(s);
     if(page.inner.offsetHeight>page.avail&&page.inner.children.length>1){
       page.inner.removeChild(s);page=newPage();page.inner.appendChild(s);
     }
-    s._p=pages.length-1;ws.push(s);
+    s._p=pages.length-1;
   });
   pages.forEach(p=>{p.inner.style.marginTop=Math.max(0,(p.avail-p.inner.offsetHeight)/2)+'px'});
-  if(i>=0)ws[i].classList.add('on');
   curPage=ws[Math.min(anchor,ws.length-1)]._p;
   pages[curPage].el.scrollIntoView({inline:'center',block:'nearest'});
-  place(false);updCount();updProg();
+  place(false,true);updCount();updProg();
 }
 function showPage(k){
   curPage=k;lock=Date.now()+700;updCount();
@@ -143,6 +152,5 @@ document.addEventListener('touchmove',e=>{
   }
 },{passive:false});
 window.addEventListener('resize',paginate);
-window.addEventListener('load',paginate);
 paginate();
 </script></body></html>
