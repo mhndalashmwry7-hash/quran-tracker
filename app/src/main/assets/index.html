@@ -2,61 +2,147 @@
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <style>
-html,body{margin:0;background:#0b0705;color:#e8b86a;font-family:serif;touch-action:pan-y;overflow-x:hidden}
-#q{position:relative;padding:40vh 18px;font-size:26px;line-height:2.3;text-align:center;isolation:isolate}
+*{-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0;background:#0b0705;color:#e8b86a;font-family:serif;overflow:hidden}
+body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 50% 0%,#1d130b 0%,#0b0705 62%)}
+#top{flex:none;text-align:center;padding:20px 16px 6px}
+#title{font-size:30px;color:#f0cf8e;display:flex;align-items:center;justify-content:center;gap:14px;text-shadow:0 2px 14px rgba(232,184,106,.25)}
+#title:before,#title:after{content:"";width:52px;height:1px;background:linear-gradient(90deg,transparent,#c9923f,transparent)}
+#sub{font-size:13px;color:rgba(232,184,106,.6);margin-top:6px;letter-spacing:.3px}
+#pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x;scrollbar-width:none;font-size:26px}
+#pages::-webkit-scrollbar{display:none}
+.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:6px 22px;overflow:hidden;isolation:isolate}
+.inner{text-align:center;line-height:2.3}
 .w{display:inline-block;position:relative;z-index:1;padding:0 8px;margin:2px;opacity:.55;transition:opacity .3s,color .3s}
 .w.on{opacity:1;color:#fff0cf}
-#g{position:absolute;z-index:0;border-radius:999px;pointer-events:none;opacity:0;
+.g{position:absolute;z-index:0;border-radius:999px;pointer-events:none;opacity:0;
  background:linear-gradient(145deg,rgba(255,255,255,.28),rgba(255,255,255,.07));
  border:1px solid rgba(255,255,255,.4);
  box-shadow:inset 0 1px 1px rgba(255,255,255,.5),0 6px 18px rgba(0,0,0,.45);
  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
  transition:left .35s ease,top .35s ease,width .35s ease,height .35s ease,opacity .3s}
-#b{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);width:120px;height:46px;border:0;border-radius:23px;background:#e0506a;color:#fff;font-size:16px;z-index:5}
+#bar{flex:none;height:116px;display:grid;place-items:center;border-top:1px solid rgba(232,184,106,.12);background:linear-gradient(to top,#0b0705 55%,rgba(11,7,5,.85))}
+#b{position:relative;width:86px;height:86px;border:0;background:none;padding:0;outline:none;animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(18px) scale(.9)}to{opacity:1;transform:none}}
+#ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+#ring circle{fill:none;stroke-width:3}
+.trk{stroke:rgba(232,184,106,.2)}
+#prog{stroke:#f0cf8e;stroke-linecap:round;stroke-dasharray:289;stroke-dashoffset:289;transition:stroke-dashoffset .6s ease;filter:drop-shadow(0 0 4px rgba(240,207,142,.6))}
+#core{position:absolute;inset:11px;border-radius:50%;display:grid;place-items:center;
+ background:radial-gradient(circle at 30% 25%,#f8e3b0,#c9923f 58%,#8a5f22);
+ box-shadow:inset 0 2px 3px rgba(255,255,255,.55),0 8px 22px rgba(0,0,0,.6),0 0 0 0 rgba(232,184,106,.45);
+ transition:transform .25s cubic-bezier(.2,.8,.2,1)}
+#b:active #core{transform:scale(.9)}
+.ic{position:absolute;width:26px;height:26px;fill:#2a1a08;transition:opacity .35s ease,transform .5s cubic-bezier(.2,.9,.3,1.2)}
+.play{transform:translateX(-2px)}
+.pause{opacity:0;transform:scale(.4) rotate(-90deg)}
+.playing .play{opacity:0;transform:scale(.4) rotate(90deg)}
+.playing .pause{opacity:1;transform:none}
+.playing #core{animation:breath 2.6s ease-in-out infinite}
+@keyframes breath{
+ 0%,100%{box-shadow:inset 0 2px 3px rgba(255,255,255,.55),0 8px 22px rgba(0,0,0,.6),0 0 0 0 rgba(232,184,106,.45)}
+ 60%{box-shadow:inset 0 2px 3px rgba(255,255,255,.55),0 8px 22px rgba(0,0,0,.6),0 0 0 14px rgba(232,184,106,0)}}
 </style></head><body>
-<div id="q"><div id="g"></div></div><button id="b">ابدأ</button>
+<div id="top"><div id="title">سورة القيامة</div><div id="sub"></div></div>
+<div id="pages"></div>
+<div id="bar"><button id="b" aria-label="play">
+ <svg id="ring" viewBox="0 0 100 100"><circle class="trk" cx="50" cy="50" r="46"/><circle id="prog" cx="50" cy="50" r="46"/></svg>
+ <span id="core">
+  <svg class="ic play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+  <svg class="ic pause" viewBox="0 0 24 24"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+ </span></button></div>
 <script src="surah.js"></script>
 <script>
-const q=document.getElementById('q'),b=document.getElementById('b'),g=document.getElementById('g'),ws=[];
+const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),prog=document.getElementById('prog'),sub=document.getElementById('sub');
+const ar=n=>Number(n).toLocaleString('ar-EG');
+const words=[];
 SURAH.verses.forEach(v=>{
-  v.text_uthmani.split(' ').forEach(t=>{
-    const s=document.createElement('span');s.className='w';s.textContent=t;q.appendChild(s);ws.push(s);
-  });
-  const n=document.createElement('span');n.className='w';
-  n.textContent='﴿'+Number(v.verse_key.split(':')[1]).toLocaleString('ar-EG')+'﴾';
-  q.appendChild(n);ws.push(n);
+  v.text_uthmani.split(' ').forEach(t=>words.push(t));
+  words.push('﴿'+ar(v.verse_key.split(':')[1])+'﴾');
 });
-let i=-1,t=null,size=26;
+let ws=[],pages=[],i=-1,t=null,size=26,curPage=0,lastP=-1,lock=0;
+
+function newPage(){
+  const el=document.createElement('div');el.className='page';
+  const g=document.createElement('div');g.className='g';
+  const inner=document.createElement('div');inner.className='inner';
+  el.appendChild(g);el.appendChild(inner);pagesEl.appendChild(el);
+  const p={el,g,inner,avail:el.clientHeight-12};
+  pages.push(p);return p;
+}
+function updCount(){sub.textContent='الصفحة '+ar(curPage+1)+' من '+ar(pages.length)+' · '+ar(SURAH.verses.length)+' آية'}
+function updProg(){prog.style.strokeDashoffset=289*(1-(i<0?0:(i+1)/ws.length))}
 function place(anim){
   const w=ws[i];
-  if(!w){g.style.opacity=0;return}
-  g.style.transition=anim?'':'none';
-  g.style.opacity=1;
+  pages.forEach((p,k)=>{if(!w||k!==w._p)p.g.style.opacity=0});
+  if(!w)return;
+  const p=pages[w._p],g=p.g,same=(w._p===lastP);
+  g.style.transition=(anim&&same)?'':'none';
   g.style.left=(w.offsetLeft-4)+'px';
   g.style.top=(w.offsetTop-2)+'px';
   g.style.width=(w.offsetWidth+8)+'px';
   g.style.height=(w.offsetHeight+4)+'px';
+  if(same){g.style.opacity=1}
+  else{requestAnimationFrame(()=>{g.style.transition='opacity .4s ease';g.style.opacity=1})}
+  lastP=w._p;
 }
-function stop(){clearInterval(t);t=null;b.textContent='ابدأ'}
+function paginate(){
+  const anchor=i>=0?i:Math.max(0,ws.findIndex(w=>w._p===curPage));
+  pagesEl.innerHTML='';ws=[];pages=[];lastP=-1;
+  pagesEl.style.fontSize=size+'px';
+  let page=newPage();
+  words.forEach(wd=>{
+    const s=document.createElement('span');s.className='w';s.textContent=wd;
+    page.inner.appendChild(s);
+    if(page.inner.offsetHeight>page.avail&&page.inner.children.length>1){
+      page.inner.removeChild(s);page=newPage();page.inner.appendChild(s);
+    }
+    s._p=pages.length-1;ws.push(s);
+  });
+  pages.forEach(p=>{p.inner.style.marginTop=Math.max(0,(p.avail-p.inner.offsetHeight)/2)+'px'});
+  if(i>=0)ws[i].classList.add('on');
+  curPage=ws[Math.min(anchor,ws.length-1)]._p;
+  pages[curPage].el.scrollIntoView({inline:'center',block:'nearest'});
+  place(false);updCount();updProg();
+}
+function showPage(k){
+  curPage=k;lock=Date.now()+700;updCount();
+  pages[k].el.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
+}
+function stop(){clearInterval(t);t=null;b.classList.remove('playing')}
 function go(){
   if(i>=0)ws[i].classList.remove('on');
   i++;
-  if(i>=ws.length){stop();i=-1;place(true);return}
+  if(i>=ws.length){stop();i=-1;place(false);updProg();return}
   ws[i].classList.add('on');
-  place(true);
-  ws[i].scrollIntoView({behavior:'smooth',block:'center'});
+  if(ws[i]._p!==curPage&&Date.now()>lock)showPage(ws[i]._p);
+  place(true);updProg();
 }
-let d0=0,s0=26;
+b.onclick=()=>{
+  if(t){stop();return}
+  if(i<0){i=ws.findIndex(w=>w._p===curPage)-1}
+  b.classList.add('playing');go();t=setInterval(go,800);
+};
+let rafS=0;
+pagesEl.addEventListener('scroll',()=>{
+  cancelAnimationFrame(rafS);
+  rafS=requestAnimationFrame(()=>{
+    if(Date.now()<lock)return;
+    const k=Math.round(Math.abs(pagesEl.scrollLeft)/pagesEl.clientWidth);
+    if(k!==curPage&&k<pages.length){curPage=k;updCount()}
+  });
+});
+let d0=0,s0=26,raf=0;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
 document.addEventListener('touchstart',e=>{if(e.touches.length==2){d0=dist(e);s0=size}},{passive:true});
 document.addEventListener('touchmove',e=>{
   if(e.touches.length==2){
     e.preventDefault();
     size=Math.max(16,Math.min(64,s0*dist(e)/d0));
-    q.style.fontSize=size+'px';
-    place(false);
+    if(!raf)raf=requestAnimationFrame(()=>{raf=0;paginate()});
   }
 },{passive:false});
-window.addEventListener('resize',()=>place(false));
-b.onclick=()=>{if(t){stop()}else{b.textContent='إيقاف';go();t=setInterval(go,800)}};
+window.addEventListener('resize',paginate);
+window.addEventListener('load',paginate);
+paginate();
 </script></body></html>
