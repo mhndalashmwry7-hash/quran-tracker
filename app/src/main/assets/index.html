@@ -18,7 +18,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 #pages::-webkit-scrollbar{display:none}
 .page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:6px 14px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
 .page::-webkit-scrollbar{display:none}
-.zoom{position:relative;display:flow-root;transform-origin:0 0}
+.zoom{position:relative;display:flow-root;transform-origin:50% 50%}
 .inner{text-align:center;line-height:2.1}
 .w{display:inline-block;position:relative;z-index:1;padding:0 2px;margin:1px 1px;opacity:.55;transition:opacity .3s,color .3s}
 .w.on{opacity:1;color:#fff0cf}
@@ -165,7 +165,7 @@ pagesEl.addEventListener('scroll',()=>{
   });
 });
 
-/* ---- التكبير: أثناء القرص تتكبر الشاشة فقط، وعند رفع اليد تترتب الآيات ---- */
+/* ---- التكبير المقيد في المنتصف بدون حركة يمين ويسار ---- */
 let pinch=null,flipT=0,flipPage=null;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
 const mid=e=>({x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2});
@@ -183,12 +183,10 @@ function commit(p,s){
   const olds=p.words.map(w=>w.getBoundingClientRect());
   const og=p.g.getBoundingClientRect();
   const gVisible=p.g.style.opacity==='1';
-  /* نشيل التكبير المؤقت ونعيد ترتيب الآيات بالحجم الجديد */
-  p.z.style.transition='none';p.z.style.transform='';p.z.style.transformOrigin='';
+  p.z.style.transition='none';p.z.style.transform='';
   size=ns;fit();place(false,true);
   const news=p.words.map(w=>w.getBoundingClientRect());
   const ng=p.g.getBoundingClientRect();
-  /* نرجع كل كلمة لمكانها قبل الترتيب، وبعدين نحركها لمكانها الجديد بسلاسة */
   p.words.forEach((w,j)=>{
     const o=olds[j],n=news[j];
     if(!n.width)return;
@@ -212,20 +210,23 @@ document.addEventListener('touchstart',e=>{
     if(e.cancelable)e.preventDefault();
     if(pinch)return;
     cleanFlip();
-    const p=pages[curPage],r=p.z.getBoundingClientRect(),c=mid(e);
+    const p=pages[curPage],c=mid(e);
     pinch={p,d0:dist(e)||1,c0:c,s:1};
     p.z.style.transition='none';
-    p.z.style.transformOrigin=(c.x-r.left)+'px '+(c.y-r.top)+'px';
+    p.z.style.transformOrigin='50% 50%';
   }
 },{passive:false});
+
 document.addEventListener('touchmove',e=>{
   if(pinch&&e.touches.length>=2){
     if(e.cancelable)e.preventDefault();
     const c=mid(e);
     pinch.s=Math.max(12/size,Math.min(60/size,dist(e)/pinch.d0));
-    pinch.p.z.style.transform='translate('+(c.x-pinch.c0.x)+'px,'+(c.y-pinch.c0.y)+'px) scale('+pinch.s+')';
+    // قفل الحركة الأفقية تماماً (X = 0) والسماح بالحركة العمودية فقط مع التكبير
+    pinch.p.z.style.transform='translate(0px, '+(c.y-pinch.c0.y)+'px) scale('+pinch.s+')';
   }
 },{passive:false});
+
 function endPinch(e){
   if(pinch&&e.touches.length<2){
     const {p,s}=pinch;pinch=null;
