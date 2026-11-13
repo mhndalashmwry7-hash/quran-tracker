@@ -18,11 +18,11 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 #pages::-webkit-scrollbar{display:none}
 .page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:6px 14px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
 .page::-webkit-scrollbar{display:none}
-.zoom{position:relative;display:flow-root;transform-origin:50% 50%}
+.zoom{position:relative;display:flow-root;transform-origin:0 0}
 .inner{text-align:center;line-height:2.1}
-.w{display:inline-block;position:relative;z-index:1;padding:0 2px;margin:1px 1px;opacity:.55;transition:opacity .3s,color .3s}
+.w{display:inline-block;position:relative;z-index:1;padding:0 5px;margin:1px 2px;opacity:.55;transition:opacity .4s,color .4s}
 .w.on{opacity:1;color:#fff0cf}
-.num{width:1.6em;height:1.6em;padding:0;margin:0 2px;vertical-align:middle;opacity:.85}
+.num{width:1.6em;height:1.6em;padding:0;margin:0 5px;vertical-align:middle;opacity:.85}
 .num svg{position:absolute;inset:0;width:100%;height:100%}
 .num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.5em;font-weight:normal;color:#f6dca0;line-height:1;padding-top:.1em}
 .num.on b{color:#fff}
@@ -31,7 +31,9 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  border:1px solid rgba(255,255,255,.4);
  box-shadow:inset 0 1px 1px rgba(255,255,255,.5),0 6px 18px rgba(0,0,0,.45);
  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
- transition:left .35s ease,top .35s ease,width .35s ease,height .35s ease,opacity .3s}
+ /* تعديل الانتقال ليصبح سلو موشن احترافي وناعم جداً */
+ transition:left 0.75s cubic-bezier(0.25, 1, 0.5, 1), top 0.75s cubic-bezier(0.25, 1, 0.5, 1), width 0.75s cubic-bezier(0.25, 1, 0.5, 1), height 0.75s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease;
+}
 #bar{flex:none;height:76px;display:grid;place-items:center}
 #b{position:relative;width:min(62vw,240px);height:50px;border-radius:25px;padding:0;margin:0;outline:none;overflow:hidden;cursor:pointer;
  color:#fff0cf;font-family:inherit;border:1.5px solid rgba(240,207,142,.85);
@@ -130,7 +132,7 @@ function place(anim,instant){
   g.style.width=(w.offsetWidth+6)+'px';
   g.style.height=(w.offsetHeight+4)+'px';
   if(instant||same){g.style.opacity=1}
-  else{requestAnimationFrame(()=>{g.style.transition='opacity .4s ease';g.style.opacity=1})}
+  else{requestAnimationFrame(()=>{g.style.transition='left 0.75s cubic-bezier(0.25, 1, 0.5, 1), top 0.75s cubic-bezier(0.25, 1, 0.5, 1), width 0.75s cubic-bezier(0.25, 1, 0.5, 1), height 0.75s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.5s ease';g.style.opacity=1})}
   lastP=w._p;
 }
 function follow(w){
@@ -165,7 +167,6 @@ pagesEl.addEventListener('scroll',()=>{
   });
 });
 
-/* ---- التكبير المقيد في المنتصف بدون حركة يمين ويسار ---- */
 let pinch=null,flipT=0,flipPage=null;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
 const mid=e=>({x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2});
@@ -183,7 +184,7 @@ function commit(p,s){
   const olds=p.words.map(w=>w.getBoundingClientRect());
   const og=p.g.getBoundingClientRect();
   const gVisible=p.g.style.opacity==='1';
-  p.z.style.transition='none';p.z.style.transform='';
+  p.z.style.transition='none';p.z.style.transform='';p.z.style.transformOrigin='';
   size=ns;fit();place(false,true);
   const news=p.words.map(w=>w.getBoundingClientRect());
   const ng=p.g.getBoundingClientRect();
@@ -210,23 +211,20 @@ document.addEventListener('touchstart',e=>{
     if(e.cancelable)e.preventDefault();
     if(pinch)return;
     cleanFlip();
-    const p=pages[curPage],c=mid(e);
+    const p=pages[curPage],r=p.z.getBoundingClientRect(),c=mid(e);
     pinch={p,d0:dist(e)||1,c0:c,s:1};
     p.z.style.transition='none';
-    p.z.style.transformOrigin='50% 50%';
+    p.z.style.transformOrigin=(c.x-r.left)+'px '+(c.y-r.top)+'px';
   }
 },{passive:false});
-
 document.addEventListener('touchmove',e=>{
   if(pinch&&e.touches.length>=2){
     if(e.cancelable)e.preventDefault();
     const c=mid(e);
     pinch.s=Math.max(12/size,Math.min(60/size,dist(e)/pinch.d0));
-    // قفل الحركة الأفقية تماماً (X = 0) والسماح بالحركة العمودية فقط مع التكبير
-    pinch.p.z.style.transform='translate(0px, '+(c.y-pinch.c0.y)+'px) scale('+pinch.s+')';
+    pinch.p.z.style.transform='translate('+(c.x-pinch.c0.x)+'px,'+(c.y-pinch.c0.y)+'px) scale('+pinch.s+')';
   }
 },{passive:false});
-
 function endPinch(e){
   if(pinch&&e.touches.length<2){
     const {p,s}=pinch;pinch=null;
