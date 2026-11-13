@@ -18,6 +18,50 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 #pages::-webkit-scrollbar{display:none}
 .page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:6px 14px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
 .page::-webkit-scrollbar{display:none}
+.pinching #pages,.pinching .page{overflow:hidden}
+.zoom{position:relative;will-change:transform}
+.inner{text-align:center;line-height:2.1}
+.w{display:inline-block;position:relative;z-index:1;padding:0 5px;margin:1px 2px;opacity:.55;transition:opacity .3s,color .3s}
+.w.on{opacity:1;color:#fff0cf}
+.num{width:1.6em;height:1.6em;padding:0;margin:0 5px;vertical-align:middle;opacity:.85}
+.num svg{position:absolute;inset:0;width:100%;height:100%}
+.num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.5em;font-weight:normal;color:#f6dca0;line-height:1;padding-top:.1em}
+.num.on b{color:#fff}
+.g{position:absolute;z-index:0;border-radius:999px;pointer-events:none;opacity:0;
+ background:linear-gradient(145deg,rgba(255,255,255,.28),rgba(255,255,255,.07));
+ border:1px solid rgba(255,255,255,.4);
+ box-shadow:inset 0 1px 1px rgba(255,255,255,.5),0 6px 18px rgba(0,0,0,.45);
+ -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+ transition:left .35s ease,top .35s ease,width .35s ease,height .35s ease,opacity .3s}
+#bar{flex:none;height:72px;display:grid;place-items:center}
+#b{position:relative;width:min(60vw,230px);height:44px;border-radius:22px;padding:0;outline:none;overflow:hidden;
+ border:1.5px solid rgba(240,207,142,.75);
+ background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.04));
+ -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+ box-shadow:inset 0 1px 1px rgba(255,255,25
+cd ~/quran-tracker
+cat > app/src/main/assets/index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<style>
+*{-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0;background:#0b0705;color:#e8b86a;font-family:serif;overflow:hidden}
+body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 50% 0%,#1d130b 0%,#0b0705 62%)}
+#top{flex:none;padding:8px 12px 4px}
+#head{display:flex;align-items:center;justify-content:space-between;padding:6px 16px;border-radius:20px;
+ background:linear-gradient(145deg,rgba(255,255,255,.14),rgba(255,255,255,.04));
+ border:1px solid rgba(240,207,142,.35);
+ box-shadow:inset 0 1px 1px rgba(255,255,255,.35),0 6px 18px rgba(0,0,0,.45);
+ -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+#title{font-size:19px;color:#f6dca0;text-shadow:0 2px 12px rgba(232,184,106,.25);line-height:1.5}
+#sub{font-size:11px;color:rgba(232,184,106,.65);line-height:1.3}
+#pg{font-size:13px;color:#f0cf8e;padding:3px 11px;border-radius:12px;background:rgba(240,207,142,.1);border:1px solid rgba(240,207,142,.25)}
+#pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x pan-y;scrollbar-width:none;font-size:20px}
+#pages::-webkit-scrollbar{display:none}
+.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:6px 14px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
+.page::-webkit-scrollbar{display:none}
+.zoom{position:relative;display:flow-root;transform-origin:0 0}
 .inner{text-align:center;line-height:2.1}
 .w{display:inline-block;position:relative;z-index:1;padding:0 5px;margin:1px 2px;opacity:.55;transition:opacity .3s,color .3s}
 .w.on{opacity:1;color:#fff0cf}
@@ -75,17 +119,18 @@ for(let k=0;k<32;k++){const a=k*Math.PI/16,r=k%2?40:49;pts.push((50+r*Math.sin(a
 const ROSE='<svg viewBox="0 0 100 100"><polygon points="'+pts.join(' ')+'" fill="#c99a52" stroke="#f0cf8e" stroke-width="1.5"/><circle cx="50" cy="50" r="33" fill="#150c05" stroke="#f0cf8e" stroke-width="2.5"/><circle cx="50" cy="50" r="28" fill="none" stroke="rgba(240,207,142,.45)" stroke-width="1"/></svg>';
 function newPage(n){
   const el=document.createElement('div');el.className='page';
+  const z=document.createElement('div');z.className='zoom';
   const g=document.createElement('div');g.className='g';
   const inner=document.createElement('div');inner.className='inner';
-  el.appendChild(g);el.appendChild(inner);pagesEl.appendChild(el);
-  const p={el,g,inner,n,k:pages.length};
+  z.appendChild(g);z.appendChild(inner);el.appendChild(z);pagesEl.appendChild(el);
+  const p={el,z,g,inner,n,k:pages.length,words:[]};
   pages.push(p);return p;
 }
 function add(p,txt,isNum){
   const s=document.createElement('span');
   if(isNum){s.className='w num';s.innerHTML=ROSE+'<b>'+txt+'</b>'}
   else{s.className='w';s.textContent=txt}
-  s._p=p.k;p.inner.appendChild(s);ws.push(s);
+  s._p=p.k;p.inner.appendChild(s);p.words.push(s);ws.push(s);
 }
 SURAH.verses.forEach(v=>{
   const n=Number(v.verse_key.split(':')[1]);
@@ -95,7 +140,7 @@ SURAH.verses.forEach(v=>{
   add(p,ar(n),true);
 });
 sub.textContent='الجزء '+ar(29)+' · '+ar(SURAH.verses.length)+' آية';
-let i=-1,t=null,size=20,target=20,curPage=0,lastP=-1,lock=0;
+let i=-1,t=null,size=20,curPage=0,lastP=-1,lock=0;
 
 function updCount(){pg.textContent=ar(pages[curPage].n)}
 function updProg(){fill.style.width=(i<0?0:((i+1)/ws.length)*100)+'%'}
@@ -112,7 +157,7 @@ function autoFit(){
     pagesEl.style.fontSize=size+'px';
     if(pages.every(p=>p.inner.offsetHeight<=p.el.clientHeight-12))break;
   }
-  target=size;fit();
+  fit();
 }
 function place(anim,instant){
   const w=ws[i];
@@ -129,8 +174,8 @@ function place(anim,instant){
   lastP=w._p;
 }
 function follow(w){
-  const el=pages[w._p].el;
-  if(el.scrollHeight>el.clientHeight+2)el.scrollTo({top:w.offsetTop-el.clientHeight/2,behavior:'smooth'});
+  const p=pages[w._p],el=p.el;
+  if(el.scrollHeight>el.clientHeight+2)el.scrollTo({top:w.offsetTop+p.z.offsetTop-el.clientHeight/2,behavior:'smooth'});
 }
 function showPage(k){
   curPage=k;lock=Date.now()+700;updCount();
@@ -159,29 +204,77 @@ pagesEl.addEventListener('scroll',()=>{
     if(k!==curPage&&k<pages.length){curPage=k;updCount()}
   });
 });
-let d0=1,s0=20,raf2=0,last=0;
+
+/* ---- التكبير: أثناء القرص تتكبر الشاشة فقط، وعند رفع اليد تترتب الآيات ---- */
+let pinch=null,flipT=0,flipPage=null;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
-function tick(now){
-  const dt=Math.min(50,now-(last||now));last=now;
-  const d=target-size;
-  if(Math.abs(d)<0.05){size=target;fit();place(false,true);raf2=0;last=0;return}
-  size+=d*(1-Math.exp(-dt/140));
-  fit();place(false,true);
-  raf2=requestAnimationFrame(tick);
+const mid=e=>({x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2});
+
+function cleanFlip(){
+  clearTimeout(flipT);
+  if(!flipPage)return;
+  flipPage.words.forEach(w=>{w.style.transition='';w.style.transform='';w.style.transformOrigin=''});
+  flipPage.g.style.transform='';flipPage.g.style.transformOrigin='';
+  flipPage=null;
 }
+
+function commit(p,s){
+  const ns=Math.max(12,Math.min(60,size*s));
+  const olds=p.words.map(w=>w.getBoundingClientRect());
+  const og=p.g.getBoundingClientRect();
+  const gVisible=p.g.style.opacity==='1';
+  /* نشيل التكبير المؤقت ونعيد ترتيب الآيات بالحجم الجديد */
+  p.z.style.transition='none';p.z.style.transform='';p.z.style.transformOrigin='';
+  size=ns;fit();place(false,true);
+  const news=p.words.map(w=>w.getBoundingClientRect());
+  const ng=p.g.getBoundingClientRect();
+  /* نرجع كل كلمة لمكانها قبل الترتيب، وبعدين نحركها لمكانها الجديد بسلاسة */
+  p.words.forEach((w,j)=>{
+    const o=olds[j],n=news[j];
+    if(!n.width)return;
+    w.style.transition='none';w.style.transformOrigin='0 0';
+    w.style.transform='translate('+(o.left-n.left)+'px,'+(o.top-n.top)+'px) scale('+(o.width/n.width)+')';
+  });
+  if(gVisible&&ng.width){
+    p.g.style.transition='none';p.g.style.transformOrigin='0 0';
+    p.g.style.transform='translate('+(og.left-ng.left)+'px,'+(og.top-ng.top)+'px) scale('+(og.width/ng.width)+','+(og.height/ng.height)+')';
+  }
+  void p.el.offsetWidth;
+  const T='transform .55s cubic-bezier(.2,.8,.2,1)';
+  p.words.forEach(w=>{w.style.transition=T+',opacity .3s,color .3s';w.style.transform=''});
+  if(gVisible){p.g.style.transition=T;p.g.style.transform=''}
+  flipPage=p;
+  flipT=setTimeout(cleanFlip,650);
+}
+
 document.addEventListener('touchstart',e=>{
   if(e.touches.length>=2){
     if(e.cancelable)e.preventDefault();
-    d0=dist(e)||1;s0=raf2?target:size;
+    if(pinch)return;
+    cleanFlip();
+    const p=pages[curPage],r=p.z.getBoundingClientRect(),c=mid(e);
+    pinch={p,d0:dist(e)||1,c0:c,s:1};
+    p.z.style.transition='none';
+    p.z.style.transformOrigin=(c.x-r.left)+'px '+(c.y-r.top)+'px';
   }
 },{passive:false});
 document.addEventListener('touchmove',e=>{
-  if(e.touches.length>=2){
+  if(pinch&&e.touches.length>=2){
     if(e.cancelable)e.preventDefault();
-    target=Math.max(12,Math.min(60,s0*dist(e)/d0));
-    if(!raf2)raf2=requestAnimationFrame(tick);
+    const c=mid(e);
+    pinch.s=Math.max(12/size,Math.min(60/size,dist(e)/pinch.d0));
+    pinch.p.z.style.transform='translate('+(c.x-pinch.c0.x)+'px,'+(c.y-pinch.c0.y)+'px) scale('+pinch.s+')';
   }
 },{passive:false});
+function endPinch(e){
+  if(pinch&&e.touches.length<2){
+    const {p,s}=pinch;pinch=null;
+    commit(p,s);
+  }
+}
+document.addEventListener('touchend',endPinch);
+document.addEventListener('touchcancel',endPinch);
+
 window.addEventListener('resize',()=>{fit();place(false,true)});
 autoFit();
 curPage=0;pages[0].el.scrollIntoView({inline:'center',block:'nearest'});
