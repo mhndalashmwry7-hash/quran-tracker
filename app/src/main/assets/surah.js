@@ -1,6 +1,91 @@
 const SURAH={
   "verses": [
     {
+      "verse_key": "86:1",
+      "page_number": 591,
+      "text_uthmani": " وَٱلسَّمَآءِ وَٱلطَّارِقِ"
+    },
+    {
+      "verse_key": "86:2",
+      "page_number": 591,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ"
+    },
+    {
+      "verse_key": "86:3",
+      "page_number": 591,
+      "text_uthmani": "ٱلنَّجْمُ ٱلثَّاقِبُ"
+    },
+    {
+      "verse_key": "86:4",
+      "page_number": 591,
+      "text_uthmani": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ"
+    },
+    {
+      "verse_key": "86:5",
+      "page_number": 591,
+      "text_uthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ"
+    },
+    {
+      "verse_key": "86:6",
+      "page_number": 591,
+      "text_uthmani": "خُلِقَ مِن مَّآءٍ دَافِقٍ"
+    },
+    {
+      "verse_key": "86:7",
+      "page_number": 591,
+      "text_uthmani": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ"
+    },
+    {
+      "verse_key": "86:8",
+      "page_number": 591,
+      "text_uthmani": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ"
+    },
+    {
+      "verse_key": "86:9",
+      "page_number": 591,
+      "text_uthmani": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ"
+    },
+    {
+      "verse_key": "86:10",
+      "page_number": 591,
+      "text_uthmani": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ"
+    },
+    {
+      "verse_key": "86:11",
+      "page_number": 591,
+      "text_uthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ"
+    },
+    {
+      "verse_key": "86:12",
+      "page_number": 591,
+      "text_uthmani": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ"
+    },
+    {
+      "verse_key": "86:13",
+      "page_number": 591,
+      "text_uthmani": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ"
+    },
+    {
+      "verse_key": "86:14",
+      "page_number": 591,
+      "text_uthmani": "وَمَا هُوَ بِٱلْهَزْلِ"
+    },
+    {
+      "verse_key": "86:15",
+      "page_number": 591,
+      "text_uthmani": "إِنَّهُمْ يَكِيدُونَ كَيْدًا"
+    },
+    {
+      "verse_key": "86:16",
+      "page_number": 591,
+      "text_uthmani": "وَأَكِيدُ كَيْدًا"
+    },
+    {
+      "verse_key": "86:17",
+      "page_number": 591,
+      "text_uthmani": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا"
+    },
+    {
       "verse_key": "87:1",
       "page_number": 591,
       "text_uthmani": " سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى"
@@ -1442,3 +1527,4 @@ const SURAH={
     }
   ]
 };
+const BASMALA="بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ";
