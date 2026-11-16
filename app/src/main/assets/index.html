@@ -25,9 +25,9 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .inner{text-align:justify;text-align-last:center;text-justify:inter-word;line-height:2.1}
 .w{display:inline-block;position:relative;z-index:1;padding:0 3px;margin:1px 1px;opacity:.55;transition:opacity .3s,color .3s}
 .w.on{opacity:1;color:#fff0cf}
-.num{width:1.65em;padding:0;margin:0 3px;opacity:.95}
-.num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.52em;font-weight:bold;color:#1c1209;line-height:1;padding-top:.04em}
-.num.on b{color:#000}
+.num{width:1.7em;padding:0;margin:0 4px;opacity:.85}
+.num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.5em;font-weight:normal;color:#f6dca0;line-height:1;padding-top:.05em}
+.num.on b{color:#fff}
 .ban{display:flex;align-items:center;justify-content:space-between;gap:6px;min-width:0;margin:.6em 0 .1em;padding:.3em .45em;border-radius:.5em;text-align:start;font-size:min(1em,4.4vw);
  background:repeating-linear-gradient(45deg,rgba(201,154,82,.2) 0 3px,rgba(201,154,82,.06) 3px 6px),linear-gradient(180deg,#2a1b0d,#140c05);
  border:1.5px solid #c99a52;
@@ -46,12 +46,12 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  box-shadow:inset 0 1px 1px rgba(255,255,255,.5),0 6px 18px rgba(0,0,0,.45);
  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
  transition:left .35s ease,top .35s ease,width .35s ease,height .35s ease,opacity .3s}
-#bar{flex:none;height:58px;display:grid;place-items:center}
-#b{position:relative;width:min(44vw,170px);height:36px;border-radius:18px;padding:0;outline:none;overflow:hidden;
+#bar{flex:none;height:62px;display:grid;place-items:center}
+#b{position:relative;width:min(48vw,185px);height:38px;border-radius:19px;padding:0;outline:none;overflow:hidden;
  border:1.5px solid rgba(240,207,142,.75);
  background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.04));
  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
- box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 6px 16px rgba(0,0,0,.55),0 0 12px rgba(232,184,106,.18);
+ box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 6px 18px rgba(0,0,0,.55),0 0 12px rgba(232,184,106,.18);
  animation:rise .9s cubic-bezier(.2,.8,.2,1) both;transition:transform .25s cubic-bezier(.2,.8,.2,1)}
 #b:active{transform:scale(.96)}
 @keyframes rise{from{opacity:0;transform:translateY(18px) scale(.92)}to{opacity:1;transform:none}}
@@ -61,16 +61,16 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent)}
 .playing #sheen{opacity:1;animation:sweep 2.8s ease-in-out infinite}
 @keyframes sweep{0%{left:-50%}100%{left:130%}}
-#ico{position:absolute;left:4px;top:3px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+#ico{position:absolute;left:5px;top:3px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
  background:rgba(240,207,142,.14);border:1px solid rgba(240,207,142,.5)}
-.ic{position:absolute;width:12px;height:12px;fill:#f6dca0;transition:opacity .35s ease,transform .5s cubic-bezier(.2,.9,.3,1.2)}
+.ic{position:absolute;width:13px;height:13px;fill:#f6dca0;transition:opacity .35s ease,transform .5s cubic-bezier(.2,.9,.3,1.2)}
 .play{transform:translateX(-1px)}
 .stop{opacity:0;transform:scale(.4) rotate(-90deg)}
 .playing .play{opacity:0;transform:scale(.4) rotate(90deg)}
 .playing .stop{opacity:1;transform:none}
 .playing#b{animation:glow 2.6s ease-in-out infinite}
-@keyframes glow{0%,100%{box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 6px 16px rgba(0,0,0,.55),0 0 10px rgba(232,184,106,.15)}
- 50%{box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 6px 16px rgba(0,0,0,.55),0 0 22px rgba(232,184,106,.4)}}
+@keyframes glow{0%,100%{box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 6px 18px rgba(0,0,0,.55),0 0 10px rgba(232,184,106,.15)}
+ 50%{box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 6px 18px rgba(0,0,0,.55),0 0 24px rgba(232,184,106,.4)}}
 </style></head><body>
 <div id="top"><div id="head"><div><div id="title"></div><div id="sub"></div></div><div id="pg"></div></div></div>
 <div id="pages"></div>
@@ -90,11 +90,11 @@ const BSM=(typeof BASMALA!=='undefined'&&BASMALA)?BASMALA:'بِسْمِ ٱللَ
 const cnt={};
 SURAH.verses.forEach(v=>{const a=v.verse_key.split(':').map(Number);cnt[a[0]]=Math.max(cnt[a[0]]||0,a[1])});
 const ws=[],pages=[];
-let lobes='';
-for(let k=0;k<12;k++){const a=k*Math.PI/6;lobes+='<circle cx="'+(50+39*Math.sin(a)).toFixed(1)+'" cy="'+(50-39*Math.cos(a)).toFixed(1)+'" r="9"/>'}
-const badgeSvg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="#4a3516" stroke="#d2ad63" stroke-width="1.6">'+lobes+'</g><circle cx="50" cy="50" r="37" fill="#4a3516" stroke="#d2ad63" stroke-width="1.6"/><circle cx="50" cy="50" r="33" fill="none" stroke="#d2ad63" stroke-width="1.2"/><circle cx="50" cy="50" r="29" fill="#f6eedb" stroke="#8a6a2f" stroke-width="1.6"/></svg>';
+let pts=[];
+for(let k=0;k<32;k++){const a=k*Math.PI/16,r=k%2?40:49;pts.push((50+r*Math.sin(a)).toFixed(1)+','+(50-r*Math.cos(a)).toFixed(1))}
+const roseSvg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="'+pts.join(' ')+'" fill="#c99a52" stroke="#f0cf8e" stroke-width="1.5"/><circle cx="50" cy="50" r="33" fill="#150c05" stroke="#f0cf8e" stroke-width="2.5"/><circle cx="50" cy="50" r="28" fill="none" stroke="#f0cf8e" stroke-opacity=".45" stroke-width="1"/></svg>';
 const st=document.createElement('style');
-st.textContent='.num{background:url("data:image/svg+xml,'+encodeURIComponent(badgeSvg)+'") center/1.65em 1.65em no-repeat}';
+st.textContent='.num{background:url("data:image/svg+xml,'+encodeURIComponent(roseSvg)+'") center/1.7em 1.7em no-repeat}';
 document.head.appendChild(st);
 function newPage(n){
   const el=document.createElement('div');el.className='page';
