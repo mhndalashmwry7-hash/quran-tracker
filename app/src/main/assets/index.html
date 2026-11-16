@@ -2,9 +2,8 @@
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <style>
-@font-face{font-family:'AmiriQuran';src:url('AmiriQuran.ttf');font-display:swap}
 *{-webkit-tap-highlight-color:transparent}
-html,body{height:100%;margin:0;background:#0b0705;color:#e8b86a;font-family:'AmiriQuran','Amiri Quran','Scheherazade New','Noto Naskh Arabic',serif;overflow:hidden}
+html,body{height:100%;margin:0;background:#0b0705;color:#e8b86a;font-family:serif;overflow:hidden}
 body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 50% 0%,#1d130b 0%,#0b0705 62%)}
 #top{flex:none;padding:8px 12px 4px}
 #head{display:flex;align-items:center;justify-content:space-between;padding:6px 16px;border-radius:20px;
@@ -15,29 +14,20 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 #title{font-size:19px;color:#f6dca0;text-shadow:0 2px 12px rgba(232,184,106,.25);line-height:1.5}
 #sub{font-size:11px;color:rgba(232,184,106,.65);line-height:1.3}
 #pg{font-size:13px;color:#f0cf8e;padding:3px 11px;border-radius:12px;background:rgba(240,207,142,.1);border:1px solid rgba(240,207,142,.25)}
-#pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x pan-y;scrollbar-width:none;font-size:16px}
+#pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x pan-y;scrollbar-width:none;font-size:17px}
 #pages::-webkit-scrollbar{display:none}
-.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:8px 10px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
+.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:8px 16px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
 .page::-webkit-scrollbar{display:none}
 .zoom{position:relative;display:flow-root;transform-origin:0 0}
-.inner{text-align:center}
-.seg{text-align:justify;text-align-last:center;line-height:2.15}
-.w{display:inline-block;position:relative;z-index:1;padding:0 2px;margin:1px 1px;opacity:.5;transform:scale(1);
+.inner{text-align:justify;text-align-last:center;line-height:2.4}
+.w{display:inline-block;position:relative;z-index:1;padding:0 3px;margin:1px 2px;opacity:.5;transform:scale(1);
  transition:opacity .4s ease, color .4s ease, transform 0.75s cubic-bezier(0.25, 1, 0.5, 1);
  transform-origin:center center}
-.w.on{opacity:1;color:#ffffff;transform:scale(1.12);text-shadow:0 0 12px rgba(255,240,207,0.6)}
-.num{width:1.4em;height:1.4em;padding:0;margin:0 3px;vertical-align:middle;opacity:.85}
+.w.on{opacity:1;color:#ffffff;transform:scale(1.15);text-shadow:0 0 12px rgba(255,240,207,0.6)}
+.num{width:1.4em;height:1.4em;padding:0;margin:0 4px;vertical-align:middle;opacity:.85}
 .num svg{position:absolute;inset:0;width:100%;height:100%}
 .num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.45em;font-weight:normal;color:#f6dca0;line-height:1;padding-top:.1em}
 .num.on b{color:#fff}
-.shead{margin:.5em 0 0;filter:drop-shadow(0 2px 10px rgba(232,184,106,.2))}
-.shead svg{display:block;width:100%;height:auto}
-.sn{font-family:'AmiriQuran','Amiri Quran','Scheherazade New','Noto Naskh Arabic',serif;font-size:25px;fill:#f6dca0}
-.bsm{display:flex;align-items:center;justify-content:center;gap:.7em;font-size:1.2em;line-height:2.1;margin:.05em 0 .25em;text-align:center}
-.bsm i{flex:1;height:1px}
-.bsm i.r{background:linear-gradient(90deg,rgba(240,207,142,.75),transparent)}
-.bsm i.l{background:linear-gradient(90deg,transparent,rgba(240,207,142,.75))}
-.bsm .bt{flex:none}
 .g{position:absolute;z-index:0;border-radius:999px;pointer-events:none;opacity:0;
  background:linear-gradient(145deg,rgba(255,255,255,.32),rgba(255,255,255,.08));
  border:1.5px solid rgba(255,255,255,.55);
@@ -75,13 +65,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 @keyframes glow{0%,100%{box-shadow:inset 0 1px 1px rgba(255,255,255,.5),inset 0 -8px 16px rgba(0,0,0,.35),0 8px 20px rgba(0,0,0,.55),0 0 14px rgba(232,184,106,.2)}
  50%{box-shadow:inset 0 1px 1px rgba(255,255,255,.5),inset 0 -8px 16px rgba(0,0,0,.35),0 8px 20px rgba(0,0,0,.55),0 0 30px rgba(232,184,106,.55)}}
 </style></head><body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
- <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8e2ab"/><stop offset=".35" stop-color="#c99a52"/><stop offset=".65" stop-color="#f0cf8e"/><stop offset="1" stop-color="#9a6b2f"/></linearGradient>
- <linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b1a0b"/><stop offset="1" stop-color="#150c05"/></linearGradient>
- <pattern id="lat" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M6 0.8L11.2 6L6 11.2L0.8 6Z" fill="none" stroke="#c99a52" stroke-width=".7" opacity=".85"/><circle cx="6" cy="6" r="1.5" fill="#e3b866" opacity=".9"/><circle cx="0" cy="0" r="1" fill="#c99a52" opacity=".6"/><circle cx="12" cy="0" r="1" fill="#c99a52" opacity=".6"/><circle cx="0" cy="12" r="1" fill="#c99a52" opacity=".6"/><circle cx="12" cy="12" r="1" fill="#c99a52" opacity=".6"/></pattern>
- <g id="medal"><circle r="17.500" fill="#150c05" stroke="url(#gold)" stroke-width="2.200"/><circle r="12.500" fill="none" stroke="#c99a52" stroke-width=".9"/><path d="M0-9L2.600-2.600L9 0L2.600 2.600L0 9L-2.600 2.600L-9 0L-2.600-2.600Z" fill="#e3b866"/><circle r="2" fill="#150c05"/></g>
-</defs></svg>
-<div id="top"><div id="head"><div><div id="title"></div><div id="sub"></div></div><div id="pg"></div></div></div>
+<div id="top"><div id="head"><div><div id="title">حزب الأعلى (من الأعلى للناس)</div><div id="sub"></div></div><div id="pg"></div></div></div>
 <div id="pages"></div>
 <div id="bar"><button id="b" aria-label="play">
  <span id="fill"></span><span id="sheen"></span>
@@ -92,92 +76,51 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  </span></button></div>
 <script src="surah.js"></script>
 <script>
-const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),fill=document.getElementById('fill'),sub=document.getElementById('sub'),pg=document.getElementById('pg'),titleEl=document.getElementById('title');
+const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),fill=document.getElementById('fill'),sub=document.getElementById('sub'),pg=document.getElementById('pg');
 const ar=n=>Number(n).toLocaleString('ar-EG');
-const SN={87:'الْأَعْلَىٰ',88:'الْغَاشِيَةِ',89:'الْفَجْرِ',90:'الْبَلَدِ',91:'الشَّمْسِ',92:'اللَّيْلِ',93:'الضُّحَىٰ',94:'الشَّرْحِ',95:'التِّينِ',96:'الْعَلَقِ',97:'الْقَدْرِ',98:'الْبَيِّنَةِ',99:'الزَّلْزَلَةِ',100:'الْعَادِيَاتِ',101:'الْقَارِعَةِ',102:'التَّكَاثُرِ',103:'الْعَصْرِ',104:'الْهُمَزَةِ',105:'الْفِيلِ',106:'قُرَيْشٍ',107:'الْمَاعُونِ',108:'الْكَوْثَرِ',109:'الْكَافِرُونَ',110:'النَّصْرِ',111:'الْمَسَدِ',112:'الْإِخْلَاصِ',113:'الْفَلَقِ',114:'النَّاسِ'};
-const BSM='بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِيمِ';
 const ws=[],pages=[],pmap={};
 const ROSE='<svg viewBox="0 0 100 120" fill="none" stroke="#e3b866" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="62" r="41"/><ellipse cx="50" cy="62" rx="37.500" ry="21"/><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/><path d="M46.500 15.500C41 11 35 14 35 24"/><g transform="translate(100,0) scale(-1,1)"><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/><path d="M46.500 15.500C41 11 35 14 35 24"/></g><g transform="translate(0,124) scale(1,-1)"><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/></g><g transform="translate(0,124) scale(1,-1)"><g transform="translate(100,0) scale(-1,1)"><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/></g></g><path d="M50 3.500C47 6.800 47 10.200 50 13.500C53 10.200 53 6.800 50 3.500Z" fill="#e3b866" stroke="none"/><circle cx="50" cy="19" r="2.200" fill="#e3b866" stroke="none"/><path d="M35 100.500C34 110 42 111 45.500 106C47 112 53 112 54.500 106C58 111 66 110 65 100.500"/></svg>';
-function banner(c){
-  return '<svg viewBox="0 0 600 66" xmlns="http://www.w3.org/2000/svg">'
-  +'<rect x="1.500" y="1.500" width="597" height="63" rx="6" fill="url(#hbg)" stroke="url(#gold)" stroke-width="2.600"/>'
-  +'<rect x="6" y="6" width="588" height="54" rx="3.500" fill="none" stroke="url(#gold)" stroke-width=".9" opacity=".85"/>'
-  +'<rect x="12" y="11" width="112" height="44" rx="3" fill="url(#lat)" stroke="url(#gold)" stroke-width=".9"/>'
-  +'<rect x="476" y="11" width="112" height="44" rx="3" fill="url(#lat)" stroke="url(#gold)" stroke-width=".9"/>'
-  +'<path d="M124 33H133M167 33H184M416 33H433M467 33H476" stroke="url(#gold)" stroke-width="1.400"/>'
-  +'<use href="#medal" x="150" y="33"/><use href="#medal" x="450" y="33"/>'
-  +'<path d="M184 33Q198 8 228 8H372Q402 8 416 33Q402 58 372 58H228Q198 58 184 33Z" fill="#120a05" stroke="url(#gold)" stroke-width="2.400"/>'
-  +'<path d="M192 33Q204 14 230 14H370Q396 14 408 33Q396 52 370 52H230Q204 52 192 33Z" fill="none" stroke="#c99a52" stroke-width=".8" opacity=".8"/>'
-  +'<text x="300" y="43" text-anchor="middle" class="sn">سُورَةُ '+SN[c]+'</text></svg>';
-}
 function newPage(n){
   const el=document.createElement('div');el.className='page';
   const z=document.createElement('div');z.className='zoom';
   const g=document.createElement('div');g.className='g';
   const inner=document.createElement('div');inner.className='inner';
   z.appendChild(g);z.appendChild(inner);el.appendChild(z);pagesEl.appendChild(el);
-  const p={el,z,g,inner,n,k:pages.length,words:[],seg:null,ch:null};
+  const p={el,z,g,inner,n,k:pages.length,words:[]};
   pages.push(p);return p;
 }
-function add(p,cont,txt,isNum,flip){
+function add(p,txt,isNum){
   const s=document.createElement('span');
   if(isNum){s.className='w num';s.innerHTML=ROSE+'<b>'+txt+'</b>'}
   else{s.className='w';s.textContent=txt}
-  s._p=p.k;cont.appendChild(s);cont.appendChild(document.createTextNode(' '));
-  if(flip)p.words.push(s);
-  ws.push(s);return s;
-}
-function head(p,c){
-  const h=document.createElement('div');h.className='shead';h.innerHTML=banner(c);
-  p.inner.appendChild(h);p.words.push(h);
-  const m=document.createElement('div');m.className='bsm';
-  const r=document.createElement('i');r.className='r';
-  const bt=document.createElement('span');bt.className='bt';
-  const l=document.createElement('i');l.className='l';
-  m.appendChild(r);m.appendChild(bt);m.appendChild(l);
-  p.inner.appendChild(m);p.words.push(m);
-  BSM.split(' ').forEach(t=>add(p,bt,t,false,false));
-  p.seg=null;
-}
-function curSeg(p){
-  if(!p.seg){p.seg=document.createElement('div');p.seg.className='seg';p.inner.appendChild(p.seg)}
-  return p.seg;
+  s._p=p.k;p.inner.appendChild(s);p.words.push(s);ws.push(s);
 }
 SURAH.verses.forEach(v=>{
-  const kk=v.verse_key.split(':'),c=Number(kk[0]),n=Number(kk[1]);
+  const n=Number(v.verse_key.split(':')[1]);
   const pn=v.page_number||591;
   const p=pmap[pn]||(pmap[pn]=newPage(pn));
-  if(p.ch===null)p.ch=c;
-  if(n===1&&SN[c])head(p,c);
-  const seg=curSeg(p);
-  let last=null;
-  v.text_uthmani.split(' ').filter(Boolean).forEach(t=>{
-    if(t==='\u06E9'&&last){last.textContent+=' \u06E9';return}
-    last=add(p,seg,t,false,true);
-  });
-  add(p,seg,ar(n),true,true);
+  v.text_uthmani.split(' ').forEach(t=>add(p,t,false));
+  add(p,ar(n),true);
 });
-sub.textContent='الجزء '+ar(30)+' · الحزب '+ar(60);
-let i=-1,t=null,base=16,zf=1,size=16,curPage=0,lastP=-1,lock=0;
+sub.textContent='الجزء '+ar(30)+' · متعدد السور';
+let i=-1,t=null,size=16,curPage=0,lastP=-1,lock=0;
 
-function updCount(){pg.textContent=ar(pages[curPage].n);const c=pages[curPage].ch;titleEl.textContent=c&&SN[c]?'سورة '+SN[c]:''}
+function updCount(){pg.textContent=ar(pages[curPage].n)}
 function updProg(){fill.style.width=(i<0?0:((i+1)/ws.length)*100)+'%'}
 function fit(){
-  size=base*zf;
   pagesEl.style.fontSize=size+'px';
   pages.forEach(p=>{
     const avail=p.el.clientHeight-16;
-    const h=p.inner.offsetHeight;p.inner.style.marginTop=(h<avail*0.8?0:Math.max(0,(avail-h)/2))+'px';
+    p.inner.style.marginTop=Math.max(0,(avail-p.inner.offsetHeight)/2)+'px';
   });
 }
-/* أصغر تصغير = الصفحة كاملة على الشاشة (مثل المصحف) */
 function autoFit(){
   pages.forEach(p=>p.inner.style.marginTop='0px');
-  const fits=m=>{pagesEl.style.fontSize=m+'px';return pages.every(p=>p.inner.offsetHeight<=p.el.clientHeight-16)};
-  let lo=7,hi=26;
-  for(let k=0;k<8;k++){const m=(lo+hi)/2;if(fits(m))lo=m;else hi=m}
-  while(lo>7&&!fits(lo))lo-=0.25;
-  base=lo;zf=1;fit();
+  for(size=20;size>12;size--){
+    pagesEl.style.fontSize=size+'px';
+    if(pages.every(p=>p.inner.offsetHeight<=p.el.clientHeight-16))break;
+  }
+  fit();
 }
 function place(anim,instant){
   const w=ws[i];
@@ -238,12 +181,12 @@ function cleanFlip(){
 }
 
 function commit(p,s){
-  zf=Math.max(1,Math.min(3,zf*s));
+  const ns=Math.max(10,Math.min(50,size*s));
   const olds=p.words.map(w=>w.getBoundingClientRect());
   const og=p.g.getBoundingClientRect();
   const gVisible=p.g.style.opacity==='1';
   p.z.style.transition='none';p.z.style.transform='';p.z.style.transformOrigin='';
-  fit();place(false,true);
+  size=ns;fit();place(false,true);
   const news=p.words.map(w=>w.getBoundingClientRect());
   const ng=p.g.getBoundingClientRect();
   p.words.forEach((w,j)=>{
@@ -279,7 +222,7 @@ document.addEventListener('touchmove',e=>{
   if(pinch&&e.touches.length>=2){
     if(e.cancelable)e.preventDefault();
     const c=mid(e);
-    pinch.s=Math.max(1/zf,Math.min(3/zf,dist(e)/pinch.d0));
+    pinch.s=Math.max(10/size,Math.min(50/size,dist(e)/pinch.d0));
     pinch.p.z.style.transform='translate('+(c.x-pinch.c0.x)+'px,'+(c.y-pinch.c0.y)+'px) scale('+pinch.s+')';
   }
 },{passive:false});
@@ -292,14 +235,8 @@ function endPinch(e){
 document.addEventListener('touchend',endPinch);
 document.addEventListener('touchcancel',endPinch);
 
-window.addEventListener('resize',()=>{autoFit();place(false,true)});
+window.addEventListener('resize',()=>{fit();place(false,true)});
 autoFit();
 curPage=0;pages[0].el.scrollIntoView({inline:'center',block:'nearest'});
 updCount();updProg();
-if(document.fonts&&document.fonts.load){
-  const refit=()=>{autoFit();place(false,true)};
-  document.fonts.load('20px AmiriQuran','بسم').then(refit,refit);
-  document.fonts.ready.then(refit);
-}
 </script></body></html>
-
