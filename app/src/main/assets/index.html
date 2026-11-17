@@ -101,6 +101,23 @@ const ROSE='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" fill="
 const roseStyle=document.createElement('style');
 roseStyle.textContent='.num{background:url("data:image/svg+xml,'+encodeURIComponent(ROSE)+'") center/auto 1.4em no-repeat}';
 document.head.appendChild(roseStyle);
+
+/* خط المصحف المدني (QCF V1) من خوادم Quran Foundation */
+const QBASE='https://verses.quran.foundation/fonts/quran/hafs/v1/woff2/p';
+const qready={};
+function loadQ(pn){
+  return new FontFace('qv1-'+pn,'url('+QBASE+pn+'.woff2)').load()
+    .then(f=>{document.fonts.add(f);qready[pn]=true})
+    .catch(()=>{qready[pn]=false});
+}
+function loadAll(){
+  if(typeof FontFace==='undefined')return Promise.resolve();
+  const need=new Set();
+  SURAH.verses.forEach(v=>(v.words||[]).forEach(w=>need.add(w.p)));
+  if(typeof BASMALA_W!=='undefined')BASMALA_W.forEach(w=>need.add(w.p));
+  return Promise.race([Promise.all([...need].map(loadQ)),new Promise(r=>setTimeout(r,7000))]);
+}
+
 function newPage(n){
   const el=document.createElement('div');el.className='page';
   const z=document.createElement('div');z.className='zoom';
@@ -110,9 +127,10 @@ function newPage(n){
   const p={el,z,g,inner,n,k:pages.length,words:[],items:[]};
   pages.push(p);return p;
 }
-function add(p,txt,isNum){
+function add(p,txt,isNum,w){
   const s=document.createElement('span');
   if(isNum){s.className='w num';s.innerHTML='&#8203;<b>'+txt+'</b>'}
+  else if(w&&qready[w.p]){s.className='w';s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c}
   else{s.className='w';s.textContent=txt}
   s._p=p.k;p.inner.appendChild(s);p.inner.appendChild(document.createTextNode(' '));
   p.words.push(s);p.items.push(s);ws.push(s);
@@ -121,19 +139,29 @@ function banner(p,c){
   const d=document.createElement('div');d.className='ban';
   d.innerHTML='<div class="bd"><small>ترتيبها</small><b>'+ar(c)+'</b></div><div class="bn">'+SUR+NAMES[c]+'</div><div class="bd"><small>آياتها</small><b>'+ar(cnt[c])+'</b></div>';
   p.inner.appendChild(d);p.items.push(d);
-  const m=document.createElement('div');m.className='bsm';m.textContent=BSM;
+  const m=document.createElement('div');m.className='bsm';
+  if(typeof BASMALA_W!=='undefined'&&BASMALA_W.length&&BASMALA_W.every(w=>qready[w.p])){
+    BASMALA_W.forEach((w,k)=>{
+      const s=document.createElement('span');
+      s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c;m.appendChild(s);
+      if(k<BASMALA_W.length-1)m.appendChild(document.createTextNode(' '));
+    });
+  }else m.textContent=BSM;
   p.inner.appendChild(m);p.items.push(m);
 }
-SURAH.verses.forEach(v=>{
-  const a=v.verse_key.split(':').map(Number),c=a[0],n=a[1];
-  const pn=v.page_number||591;
-  const p=pmap[pn]||(pmap[pn]=newPage(pn));
-  if(n===1)banner(p,c);
-  v.text_uthmani.split(' ').forEach(t=>add(p,t,false));
-  add(p,ar(n),true);
-});
+function build(){
+  SURAH.verses.forEach(v=>{
+    const a=v.verse_key.split(':').map(Number),c=a[0],n=a[1];
+    const pn=v.page_number||591;
+    const p=pmap[pn]||(pmap[pn]=newPage(pn));
+    if(n===1)banner(p,c);
+    if(v.words&&v.words.length)v.words.forEach(w=>add(p,w.t,false,w));
+    else v.text_uthmani.split(' ').forEach(t=>add(p,t,false));
+    add(p,ar(n),true);
+  });
+}
 sub.textContent='الجزء '+ar(30)+' · متعدد السور';
-let i=-1,t=null,size=16,curPage=0,lastP=-1,lock=0,minSize=12;
+let i=-1,t=null,size=16,curPage=0,lastP=-1,lock=0,minSize=12,ready=false;
 
 function updCount(){pg.textContent=ar(pages[curPage].n)}
 function updProg(){fill.style.width=(i<0?0:((i+1)/ws.length)*100)+'%'}
@@ -191,6 +219,7 @@ function go(){
   follow(ws[i]);place(true);updProg();
 }
 b.onclick=()=>{
+  if(!ready)return;
   if(t){stop();return}
   if(i<0){i=ws.findIndex(w=>w._p===curPage)-1}
   b.classList.add('playing');go();t=setInterval(go,800);
@@ -267,7 +296,7 @@ function applyPinch(){
 document.addEventListener('touchstart',e=>{
   if(e.touches.length>=2){
     if(e.cancelable)e.preventDefault();
-    if(pinch)return;
+    if(pinch||!ready)return;
     cleanFlip();
     document.body.classList.add('busy');
     const p=pages[curPage],r=p.z.getBoundingClientRect(),c=mid(e);
@@ -298,8 +327,15 @@ document.addEventListener('touchend',endPinch);
 document.addEventListener('touchcancel',endPinch);
 
 window.addEventListener('resize',()=>{fit();place(false,true)});
-autoFit();
-minSize=size;
-curPage=0;pages[0].el.scrollIntoView({inline:'center',block:'nearest'});
-updCount();updProg();
+function start(){
+  pagesEl.innerHTML='';
+  build();
+  autoFit();
+  minSize=size;
+  curPage=0;pages[0].el.scrollIntoView({inline:'center',block:'nearest'});
+  updCount();updProg();
+  ready=true;
+}
+pagesEl.innerHTML='<div style="margin:auto;opacity:.7">جارٍ تحميل الخطوط…</div>';
+loadAll().then(start,start);
 </script></body></html>
