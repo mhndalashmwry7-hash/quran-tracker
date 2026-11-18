@@ -20,11 +20,11 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .page::-webkit-scrollbar{display:none}
 .zoom{position:relative;display:flow-root;transform-origin:0 0}
 .inner{text-align:justify;text-align-last:center;line-height:2.1}
-.w{display:inline-block;position:relative;z-index:1;padding:0 1px;margin:calc(-.2em + var(--gap,0px)) 0;opacity:.5;transform:scale(1);
+.w{display:inline-block;position:relative;z-index:1;padding:0 1px;margin:calc(-.2em + var(--gap,0px)) 0;opacity:.95;color:#f2d28f;transform:scale(1);
  transition:opacity .4s ease, color .4s ease, transform 0.75s cubic-bezier(0.25, 1, 0.5, 1);
  transform-origin:center center}
 .w.on{opacity:1;color:#ffffff;transform:scale(1.15);text-shadow:0 0 12px rgba(255,240,207,0.6)}
-.num{width:1.4em;padding:0;margin:calc(-.2em + var(--gap,0px)) 2px;opacity:.85}
+.num{width:1.4em;padding:0;margin:calc(-.2em + var(--gap,0px)) 1px calc(-.2em + var(--gap,0px)) 2px;opacity:.85}
 .num svg{position:absolute;inset:0;width:100%;height:100%}
 .num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.45em;font-weight:normal;color:#f6dca0;line-height:1;padding-top:.1em}
 .num.on b{color:#fff}
@@ -131,7 +131,11 @@ function newPage(n){
 function pageOf(pn){return pmap[pn]||(pmap[pn]=newPage(pn))}
 function add(p,txt,isNum,w){
   const s=document.createElement('span');
-  if(isNum){s.className='w num';s.innerHTML='&#8203;<b>'+txt+'</b>'}
+  if(isNum){
+    s.className='w num';s.innerHTML='&#8203;<b>'+txt+'</b>';
+    const lc=p.inner.lastChild;
+    if(lc&&lc.nodeType===3)p.inner.removeChild(lc);
+  }
   else if(w&&qready[w.p]){s.className='w q';s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c}
   else{s.className='w';s.textContent=txt}
   s._p=p.k;p.inner.appendChild(s);p.inner.appendChild(document.createTextNode(' '));
