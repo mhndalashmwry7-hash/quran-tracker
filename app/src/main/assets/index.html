@@ -19,12 +19,11 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:8px 16px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
 .page::-webkit-scrollbar{display:none}
 .zoom{position:relative;display:flow-root;transform-origin:0 0}
-.inner{text-align:justify;text-align-last:center;line-height:2.4}
+.inner{text-align:justify;text-align-last:center;line-height:2.1}
 .w{display:inline-block;position:relative;z-index:1;padding:0 1px;margin:calc(-.2em + var(--gap,0px)) 0;opacity:.5;transform:scale(1);
  transition:opacity .4s ease, color .4s ease, transform 0.75s cubic-bezier(0.25, 1, 0.5, 1);
  transform-origin:center center}
 .w.on{opacity:1;color:#ffffff;transform:scale(1.15);text-shadow:0 0 12px rgba(255,240,207,0.6)}
-.q{-webkit-text-stroke:.025em currentColor}
 .num{width:1.4em;padding:0;margin:calc(-.2em + var(--gap,0px)) 2px;opacity:.85}
 .num svg{position:absolute;inset:0;width:100%;height:100%}
 .num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.45em;font-weight:normal;color:#f6dca0;line-height:1;padding-top:.1em}
@@ -129,6 +128,7 @@ function newPage(n){
   const p={el,z,g,inner,n,k:pages.length,words:[],items:[]};
   pages.push(p);return p;
 }
+function pageOf(pn){return pmap[pn]||(pmap[pn]=newPage(pn))}
 function add(p,txt,isNum,w){
   const s=document.createElement('span');
   if(isNum){s.className='w num';s.innerHTML='&#8203;<b>'+txt+'</b>'}
@@ -154,12 +154,13 @@ function banner(p,c){
 function build(){
   SURAH.verses.forEach(v=>{
     const a=v.verse_key.split(':').map(Number),c=a[0],n=a[1];
-    const pn=v.page_number||591;
-    const p=pmap[pn]||(pmap[pn]=newPage(pn));
-    if(n===1)banner(p,c);
-    if(v.words&&v.words.length)v.words.forEach(w=>add(p,w.t,false,w));
-    else v.text_uthmani.split(' ').forEach(t=>add(p,t,false));
-    add(p,ar(n),true);
+    const wl=(v.words&&v.words.length)?v.words:null;
+    const first=wl?wl[0].p:(v.page_number||591);
+    const last=wl?wl[wl.length-1].p:first;
+    if(n===1)banner(pageOf(first),c);
+    if(wl)wl.forEach(w=>add(pageOf(w.p),w.t,false,w));
+    else v.text_uthmani.split(' ').forEach(t=>add(pageOf(first),t,false));
+    add(pageOf(last),ar(n),true);
   });
 }
 sub.textContent='الجزء '+ar(30)+' · متعدد السور';
