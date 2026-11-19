@@ -40,6 +40,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .ban .bd small{font-size:.45em;color:#e8b86a}
 .ban .bd b{font-size:.75em;font-weight:normal;color:#f6dca0}
 .bsm{text-align:center;font-size:min(2.3em,9vw);line-height:1.7;color:#f6dca0;margin:.15em 0 .3em}
+.bsmimg{display:inline-block;height:1.5em;width:auto;max-width:92%;aspect-ratio:780/157;vertical-align:middle}
 .g{position:absolute;z-index:0;border-radius:999px;pointer-events:none;opacity:0;
  background:linear-gradient(145deg,rgba(255,255,255,.32),rgba(255,255,255,.08));
  border:1.5px solid rgba(255,255,255,.55);
@@ -88,7 +89,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
   <svg class="ic stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="3"/></svg>
   <span class="lbl l-play">ابدأ التلاوة</span><span class="lbl l-stop">إيقاف</span>
  </span></button></div>
-<script src="surah.js"></script>
+<script src="surah.js"></script><script src="basmala.js"></script>
 <script>
 const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),fill=document.getElementById('fill'),sub=document.getElementById('sub'),pg=document.getElementById('pg');
 const ar=n=>Number(n).toLocaleString('ar-EG');
@@ -153,6 +154,12 @@ function banner(p,c){
       if(k<BASMALA_W.length-1)m.appendChild(document.createTextNode(' '));
     });
   }else m.textContent=BSM;
+  if(typeof BASMALA_IMG!=='undefined'&&BASMALA_IMG){
+    m.textContent='';
+    const im=new Image();im.className='bsmimg';im.alt='';
+    im.onerror=()=>{im.remove();m.textContent=BSM};
+    im.src=BASMALA_IMG;m.appendChild(im);
+  }
   p.inner.appendChild(m);p.items.push(m);
 }
 function build(){
