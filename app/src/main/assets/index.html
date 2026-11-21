@@ -19,12 +19,12 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:8px 16px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
 .page::-webkit-scrollbar{display:none}
 .zoom{position:relative;display:flow-root;transform-origin:0 0}
-.inner{text-align:justify;text-align-last:center;line-height:2.1}
+.inner{word-spacing:-.1em;text-align:justify;text-align-last:center;line-height:2.1}
 .w{display:inline-block;position:relative;z-index:1;padding:0 1px;margin:calc(-.2em + var(--gap,0px)) 0;opacity:.95;color:#f2d28f;transform:scale(1);
  transition:opacity .4s ease, color .4s ease, transform 0.75s cubic-bezier(0.25, 1, 0.5, 1);
  transform-origin:center center}
 .w.on{opacity:1;color:#ffffff;transform:scale(1.15);text-shadow:0 0 12px rgba(255,240,207,0.6)}
-.num{width:1.4em;padding:0;margin:calc(-.2em + var(--gap,0px)) 1px calc(-.2em + var(--gap,0px)) 2px;opacity:.85}
+.num{width:1.4em;padding:0;margin:calc(-.2em + var(--gap,0px)) 0 calc(-.2em + var(--gap,0px)) 1px;opacity:.85}
 .num svg{position:absolute;inset:0;width:100%;height:100%}
 .num b{position:absolute;inset:0;display:grid;place-items:center;font-size:.45em;font-weight:normal;color:#f6dca0;line-height:1;padding-top:.1em}
 .num.on b{color:#fff}
@@ -178,6 +178,37 @@ function build(){
 }
 sub.textContent='الجزء '+ar(30)+' · متعدد السور';
 let i=-1,t=null,size=16,mul=1,curPage=0,lastP=-1,lock=0,ready=false,progPage=-1;
+const MAXS=1.22;
+function clearStretch(p){
+  p.words.forEach(w=>{w.style.scale='';w.style.marginLeft='';w.style.marginRight=''});
+  p.inner.style.textAlign='';p.inner.style.textAlignLast='';
+}
+function stretchPage(p){
+  clearStretch(p);
+  const C=p.inner.clientWidth;
+  if(!C||!p.words.length)return;
+  p.inner.style.textAlign='start';p.inner.style.textAlignLast='start';
+  const lines=[];let cur=[],top=null;
+  p.words.forEach(w=>{
+    const t=w.offsetTop;
+    if(top===null||Math.abs(t-top)>6){if(cur.length)lines.push(cur);cur=[];top=t}
+    cur.push(w);
+  });
+  if(cur.length)lines.push(cur);
+  const plan=[];
+  lines.forEach(L=>{
+    const r=L.map(w=>w.getBoundingClientRect());
+    let l=1e9,rr=-1e9,sw=0;
+    r.forEach((q,k)=>{l=Math.min(l,q.left);rr=Math.max(rr,q.right);if(!L[k].classList.contains('num'))sw+=q.width});
+    const left=C-(rr-l);
+    if(left<=1||left/C>0.28||!sw)return;
+    const s=Math.min(MAXS,1+left*0.96/sw);
+    if(s<1.002)return;
+    L.forEach((w,k)=>{if(!w.classList.contains('num'))plan.push([w,s,r[k].width*(s-1)/2])});
+  });
+  plan.forEach(a=>{a[0].style.scale=a[1]+' 1';a[0].style.marginLeft=a[0].style.marginRight=a[2]+'px'});
+  p.inner.style.textAlign='';p.inner.style.textAlignLast='';
+}
 
 function updCount(){pg.textContent=ar(pages[curPage].n)}
 function resetFill(){fill.style.transition='none';fill.style.width='0%';void fill.offsetWidth;fill.style.transition=''}
@@ -193,7 +224,7 @@ function lineCount(p,fpx){
   for(let k=1;k<tp.length;k++)if(tp[k]-tp[k-1]>fpx*0.9)n++;
   return n;
 }
-function fitPage(p){
+function fitPage(p){stretchPage(p);
   const avail=p.el.clientHeight-16;
   p.z.style.setProperty('--gap','0px');
   p.inner.style.marginTop='0px';
@@ -211,7 +242,7 @@ function syncPage(q){
   fitPage(q);
   if(i>=0&&ws[i]._p===q.k)place(false,true);
 }
-function autoFit(){
+function autoFit(){pages.forEach(clearStretch);
   mul=1;
   pages.forEach(p=>{p.el.style.fontSize='';p.inner.style.marginTop='0px';p.z.style.setProperty('--gap','0px')});
   let s;
