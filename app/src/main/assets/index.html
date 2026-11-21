@@ -40,6 +40,8 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .ban .bd small{font-size:.45em;color:#e8b86a}
 .ban .bd b{font-size:.75em;font-weight:normal;color:#f6dca0}
 .bsm{text-align:center;font-size:min(2.3em,9vw);line-height:1.7;color:#f6dca0;margin:.15em 0 .3em}
+.bsm .r{color:#ff6a5c}
+.bsm .q{-webkit-text-stroke:.018em currentColor}
 .bsmimg{display:inline-block;height:1.5em;width:auto;max-width:92%;aspect-ratio:780/157;vertical-align:middle}
 .g{position:absolute;z-index:0;border-radius:999px;pointer-events:none;opacity:0;
  background:linear-gradient(145deg,rgba(255,255,255,.32),rgba(255,255,255,.08));
@@ -150,11 +152,11 @@ function banner(p,c){
   if(typeof BASMALA_W!=='undefined'&&BASMALA_W.length&&BASMALA_W.every(w=>qready[w.p])){
     BASMALA_W.forEach((w,k)=>{
       const s=document.createElement('span');
-      s.className='q';s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c;m.appendChild(s);
+      s.className=k===1?'q r':'q';s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c;m.appendChild(s);
       if(k<BASMALA_W.length-1)m.appendChild(document.createTextNode(' '));
     });
   }else m.textContent=BSM;
-  if(typeof BASMALA_IMG!=='undefined'&&BASMALA_IMG){
+  if(typeof BASMALA_IMX!=='undefined'&&BASMALA_IMG){
     m.textContent='';
     const im=new Image();im.className='bsmimg';im.alt='';
     im.onerror=()=>{im.remove();m.textContent=BSM};
