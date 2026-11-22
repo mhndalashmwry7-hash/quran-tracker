@@ -6,6 +6,7 @@
 html,body{height:100%;margin:0;background:#0b0705;color:#e8b86a;font-family:serif;overflow:hidden}
 body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 50% 0%,#1d130b 0%,#0b0705 62%)}
 #top{flex:none;padding:8px 12px 4px}
+.nohead #top{display:none}
 #head{display:flex;align-items:center;justify-content:space-between;padding:6px 16px;border-radius:20px;
  background:linear-gradient(145deg,rgba(255,255,255,.14),rgba(255,255,255,.04));
  border:1px solid rgba(240,207,142,.35);
@@ -58,7 +59,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 }
 .busy .g,.busy .ban .bn{-webkit-backdrop-filter:none;backdrop-filter:none}
 #bar{flex:none;height:76px;display:grid;place-items:center}
-#b{position:relative;width:min(57vw,220px);height:50px;border-radius:25px;padding:0;margin:0;outline:none;overflow:hidden;cursor:pointer;
+#b{position:relative;width:min(49vw,190px);height:50px;border-radius:25px;padding:0;margin:0;outline:none;overflow:hidden;cursor:pointer;
  color:#fff0cf;font-family:inherit;border:1.5px solid rgba(240,207,142,.85);
  background:linear-gradient(115deg,#2a170a 0%,#5e3a16 18%,#c99a52 36%,#7a4a1a 50%,#4a2a12 66%,#8f3f55 82%,#2a170a 100%);
  background-size:320% 100%;
@@ -101,7 +102,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 <script>
 const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),fill=document.getElementById('fill'),sub=document.getElementById('sub'),pg=document.getElementById('pg');
 const ar=n=>Number(n).toLocaleString('ar-EG');
-const ws=[],pages=[],pmap={},fs=[];
+const ws=[],pages=[],pmap={},fs=[],cinfo={};
 const MAXS=1.35;
 const NAMES={86:'الطَّارِقِ',87:'الأَعْلَى',88:'الغَاشِيَةِ',89:'الفَجْرِ',90:'البَلَدِ',91:'الشَّمْسِ',92:'اللَّيْلِ',93:'الضُّحَى',94:'الشَّرْحِ',95:'التِّينِ',96:'العَلَقِ',97:'القَدْرِ',98:'البَيِّنَةِ',99:'الزَّلْزَلَةِ',100:'العَادِيَاتِ',101:'القَارِعَةِ',102:'التَّكَاثُرِ',103:'العَصْرِ',104:'الهُمَزَةِ',105:'الفِيلِ',106:'قُرَيْشٍ',107:'المَاعُونِ',108:'الكَوْثَرِ',109:'الكَافِرُونَ',110:'النَّصْرِ',111:'المَسَدِ',112:'الإِخْلَاصِ',113:'الفَلَقِ',114:'النَّاسِ'};
 const SUR='سُورَةُ ';
@@ -139,7 +140,7 @@ function newPage(n){
   pages.push(p);return p;
 }
 function pageOf(pn){return pmap[pn]||(pmap[pn]=newPage(pn))}
-function add(p,txt,isNum,w,row){
+function add(p,txt,isNum,w,row,c){
   const s=document.createElement('span');
   if(isNum){
     s.className='w num';s.innerHTML='&#8203;<b>'+txt+'</b>';
@@ -147,7 +148,7 @@ function add(p,txt,isNum,w,row){
   }
   else if(w&&qready[w.p]){s.className='w q';s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c}
   else{s.className='w';s.textContent=txt}
-  s._p=p.k;
+  s._p=p.k;s._c=c;
   if(row==null)p.canMush=false;
   p.seq.push({el:s,row:row,sp:!isNum});
   p.words.push(s);p.items.push(s);ws.push(s);
@@ -163,12 +164,13 @@ function banner(p,c,L0){
       if(k<BASMALA_W.length-1)m.appendChild(document.createTextNode(' '));
     });
   }else m.textContent=BSM;
-  let rb=null,rm=null;
-  if(L0==null)p.canMush=false;
+  let pb=p,pm=p,rb=null,rm=null;
+  if(L0==null){p.canMush=false}
   else if(L0>=3){rb=L0-2;rm=L0-1}
-  else if(L0===2){rm=1}
-  p.seq.push({el:d,row:rb,sp:false});p.seq.push({el:m,row:rm,sp:false});
-  p.items.push(d);p.items.push(m);
+  else if(L0===2){rm=1;pb=pmap[p.n-1]||null;rb=15}
+  else{pb=pmap[p.n-1]||null;pm=pb;rb=14;rm=15}
+  if(pb){pb.seq.push({el:d,row:rb,sp:false});pb.items.push(d)}
+  if(pm){pm.seq.push({el:m,row:rm,sp:false});pm.items.push(m)}
 }
 function build(){
   SURAH.verses.forEach(v=>{
@@ -177,21 +179,24 @@ function build(){
     const first=wl?wl[0].p:(v.page_number||591);
     const last=wl?wl[wl.length-1].p:first;
     if(n===1)banner(pageOf(first),c,wl?wl[0].l:null);
-    if(wl)wl.forEach(w=>add(pageOf(w.p),w.t,false,w,w.l));
-    else v.text_uthmani.split(' ').forEach(t=>add(pageOf(first),t,false,null,null));
-    add(pageOf(last),ar(n),true,null,wl?wl[wl.length-1].l:null);
+    if(wl)wl.forEach(w=>add(pageOf(w.p),w.t,false,w,w.l,c));
+    else v.text_uthmani.split(' ').forEach(t=>add(pageOf(first),t,false,null,null,c));
+    add(pageOf(last),ar(n),true,null,wl?wl[wl.length-1].l:null,c);
   });
 }
+function mkInfo(){
+  ws.forEach((w,k)=>{const o=cinfo[w._c]||(cinfo[w._c]={a:k,n:0});o.n++});
+}
 sub.textContent='الجزء '+ar(30)+' · متعدد السور';
-let i=-1,t=null,mul=1,curPage=0,lastP=-1,lock=0,ready=false,progPage=-1;
+let i=-1,t=null,mul=1,curPage=0,lastP=-1,lock=0,ready=false,progCh=-1,lastPE=0;
 
 function updCount(){pg.textContent=ar(pages[curPage].n)}
 function resetFill(){fill.style.transition='none';fill.style.width='0%';void fill.offsetWidth;fill.style.transition=''}
 function updProg(){
-  if(i<0){resetFill();progPage=-1;return}
-  const w=ws[i],p=pages[w._p];
-  if(progPage!==w._p){resetFill();progPage=w._p}
-  fill.style.width=((p.words.indexOf(w)+1)/p.words.length*100)+'%';
+  if(i<0){resetFill();progCh=-1;return}
+  const w=ws[i],o=cinfo[w._c];
+  if(progCh!==w._c){resetFill();progCh=w._c}
+  fill.style.width=((i-o.a+1)/o.n*100)+'%';
 }
 
 /* ===== وضع أسطر المصحف (١٥ سطراً ثابتة) ===== */
@@ -390,6 +395,13 @@ pagesEl.addEventListener('scroll',()=>{
   });
 });
 
+/* الضغط على الشاشة يخفي/يظهر القائمة العلوية */
+pagesEl.addEventListener('click',()=>{
+  if(!ready||pinch||Date.now()-lastPE<500)return;
+  document.body.classList.toggle('nohead');
+  setTimeout(()=>{autoFit();place(false,true)},30);
+});
+
 let pinch=null,flipT=0,flipPage=null,raf=0;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
 const mid=e=>({x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2});
@@ -474,7 +486,7 @@ document.addEventListener('touchmove',e=>{
 function endPinch(e){
   if(pinch&&e.touches.length<2){
     cancelAnimationFrame(raf);raf=0;
-    const {p,s,dx,dy}=pinch;pinch=null;
+    const {p,s,dx,dy}=pinch;pinch=null;lastPE=Date.now();
     p.z.style.transform='translate3d('+dx+'px,'+dy+'px,0) scale('+s+')';
     commit(p,s);
   }
@@ -486,6 +498,7 @@ window.addEventListener('resize',()=>{if(ready){autoFit();place(false,true)}});
 function start(){
   pagesEl.innerHTML='';
   build();
+  mkInfo();
   autoFit();
   curPage=0;pages[0].el.scrollIntoView({inline:'center',block:'nearest'});
   updCount();updProg();
