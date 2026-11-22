@@ -6,7 +6,7 @@
 html,body{height:100%;margin:0;background:#0b0705;color:#e8b86a;font-family:serif;overflow:hidden}
 body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 50% 0%,#1d130b 0%,#0b0705 62%)}
 #top{flex:none;padding:8px 12px 4px}
-.nohead #top{display:none}
+.nohead #top{visibility:hidden}
 #head{display:flex;align-items:center;justify-content:space-between;padding:6px 16px;border-radius:20px;
  background:linear-gradient(145deg,rgba(255,255,255,.14),rgba(255,255,255,.04));
  border:1px solid rgba(240,207,142,.35);
@@ -17,7 +17,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 #pg{font-size:13px;color:#f0cf8e;padding:3px 11px;border-radius:12px;background:rgba(240,207,142,.1);border:1px solid rgba(240,207,142,.25)}
 #pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x pan-y;scrollbar-width:none;font-size:17px}
 #pages::-webkit-scrollbar{display:none}
-.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:8px 16px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
+.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:3px 8px 3px 12px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
 .page::-webkit-scrollbar{display:none}
 .zoom{position:relative;display:flow-root;transform-origin:0 0}
 .inner{word-spacing:-.16em;text-align:justify;text-align-last:center;line-height:2.1}
@@ -223,13 +223,13 @@ function natW(d){
   let s=0;
   [...d.children].forEach(c=>{
     const cs=getComputedStyle(c);
-    s+=c.offsetWidth+(parseFloat(cs.marginLeft)||0)+(parseFloat(cs.marginRight)||0);
+    s+=c.getBoundingClientRect().width+(parseFloat(cs.marginLeft)||0)+(parseFloat(cs.marginRight)||0);
   });
   return s;
 }
 function clearRow(d){[...d.children].forEach(c=>{c.style.scale='';c.style.marginLeft='';c.style.marginRight='';c._sx=1})}
 function layoutMush(p){
-  const el=p.el,H=el.clientHeight-16,rh=H/15;
+  const el=p.el,H=el.clientHeight-6,rh=H/15;
   p.z.style.paddingTop='0px';
   p.inner.style.marginTop='0px';p.inner.style.height=H+'px';
   const wrows=[];
@@ -247,7 +247,7 @@ function layoutMush(p){
     el.style.fontSize=f+'px';
     let mx=0;wrows.forEach(d=>{mx=Math.max(mx,natW(d))});
     if(!mx)break;
-    f=Math.max(9,Math.min(rh*0.95,f*C/mx*0.997));
+    f=Math.max(9,Math.min(rh*0.95,f*C/mx*0.985));
   }
   el.style.fontSize=f+'px';
   fs[p.k]=f;
@@ -255,13 +255,13 @@ function layoutMush(p){
     const kids=[...d.children];
     const nat=natW(d),left=C-nat;
     if(nat/C<0.8){d.classList.add('c');return}
-    let sw=0;kids.forEach(c=>{if(!c.classList.contains('num'))sw+=c.offsetWidth});
+    let sw=0;kids.forEach(c=>{if(!c.classList.contains('num'))sw+=c.getBoundingClientRect().width});
     if(left<=0.5||!sw)return;
     const s=Math.min(MAXS,1+left*0.9/sw);
     if(s<1.003)return;
     kids.forEach(c=>{
       if(c.classList.contains('num'))return;
-      const ex=c.offsetWidth*(s-1)/2;
+      const ex=c.getBoundingClientRect().width*(s-1)/2;
       c.style.scale=s+' 1';c.style.marginLeft=c.style.marginRight=ex+'px';c._sx=s;
     });
   });
@@ -306,7 +306,7 @@ function lineCount(p,fpx){
 }
 function flowFit(p){
   stretchPage(p);
-  const avail=p.el.clientHeight-16;
+  const avail=p.el.clientHeight-6;
   p.z.style.setProperty('--gap','0px');
   p.inner.style.marginTop='0px';
   const h=p.inner.offsetHeight;
@@ -341,7 +341,7 @@ function autoFit(){
       while(lo<hi){
         const m=Math.ceil((lo+hi)/2);
         p.el.style.fontSize=m+'px';
-        if(p.inner.offsetHeight<=p.el.clientHeight-16)lo=m;else hi=m-1;
+        if(p.inner.offsetHeight<=p.el.clientHeight-6)lo=m;else hi=m-1;
       }
       fs[p.k]=lo;p.el.style.fontSize=lo+'px';flowFit(p);
     }
@@ -399,7 +399,6 @@ pagesEl.addEventListener('scroll',()=>{
 pagesEl.addEventListener('click',()=>{
   if(!ready||pinch||Date.now()-lastPE<500)return;
   document.body.classList.toggle('nohead');
-  setTimeout(()=>{autoFit();place(false,true)},30);
 });
 
 let pinch=null,flipT=0,flipPage=null,raf=0;
