@@ -9,6 +9,7 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         val web = WebView(this)
         web.settings.javaScriptEnabled = true
+        web.settings.domStorageEnabled = true
         setContentView(web)
         web.loadUrl("file:///android_asset/index.html")
     }

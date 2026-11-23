@@ -14,7 +14,9 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
 #title{font-size:19px;color:#f6dca0;text-shadow:0 2px 12px rgba(232,184,106,.25);line-height:1.5}
 #sub{font-size:11px;color:rgba(232,184,106,.65);line-height:1.3}
-#pg{font-size:13px;color:#f0cf8e;padding:3px 11px;border-radius:12px;background:rgba(240,207,142,.1);border:1px solid rgba(240,207,142,.25)}
+#menuBtn{flex:none;width:42px;height:32px;display:grid;place-items:center;padding:0;margin:0;border-radius:12px;outline:none;cursor:pointer;
+ background:rgba(240,207,142,.1);border:1px solid rgba(240,207,142,.25);color:#f0cf8e;transition:transform .2s ease}
+#menuBtn:active{transform:scale(.94)}
 #pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x pan-y;scrollbar-width:none;font-size:17px}
 #pages::-webkit-scrollbar{display:none}
 .page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:3px 8px 3px 12px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
@@ -88,8 +90,48 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .playing#b{animation:glow 2.6s ease-in-out infinite,flow 3.5s linear infinite alternate}
 @keyframes glow{0%,100%{box-shadow:inset 0 1px 1px rgba(255,255,255,.5),inset 0 -8px 16px rgba(0,0,0,.35),0 8px 20px rgba(0,0,0,.55),0 0 14px rgba(232,184,106,.2)}
  50%{box-shadow:inset 0 1px 1px rgba(255,255,255,.5),inset 0 -8px 16px rgba(0,0,0,.35),0 8px 20px rgba(0,0,0,.55),0 0 30px rgba(232,184,106,.55)}}
+/* ===== القائمة الجانبية الزجاجية ===== */
+#scrim{position:fixed;top:0;right:0;bottom:0;left:0;z-index:50;background:rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:opacity .8s ease}
+#menu{position:fixed;top:0;bottom:0;left:0;z-index:60;width:min(74vw,290px);box-sizing:border-box;padding:16px 0;
+ transform:translateX(-104%);transition:transform .85s cubic-bezier(.22,1,.36,1);
+ background:linear-gradient(160deg,rgba(255,255,255,.2),rgba(255,255,255,.06));
+ -webkit-backdrop-filter:blur(22px) saturate(1.3);backdrop-filter:blur(22px) saturate(1.3);
+ border-right:1px solid rgba(240,207,142,.4);box-shadow:8px 0 40px rgba(0,0,0,.5),inset -1px 0 1px rgba(255,255,255,.25)}
+.menuopen #scrim{opacity:1;pointer-events:auto}
+.menuopen #menu{transform:none}
+.mi{display:flex;align-items:center;justify-content:space-between;width:100%;box-sizing:border-box;padding:16px 22px;background:none;border:0;border-bottom:1px solid rgba(240,207,142,.2);color:#f6dca0;font-family:inherit;font-size:18px;text-align:start;outline:none;cursor:pointer}
+.mi .chev{transition:transform .45s ease;font-size:16px;opacity:.85}
+.mi.open .chev{transform:rotate(180deg)}
+.sub{max-height:0;overflow:hidden;transition:max-height .6s ease}
+.sub.open{max-height:160px}
+.opt{display:flex;align-items:center;justify-content:space-between;width:100%;box-sizing:border-box;padding:13px 22px 13px 22px;background:none;border:0;color:#e8cf9a;font-family:inherit;font-size:16px;text-align:start;outline:none;cursor:pointer;transition:background .3s ease}
+.opt.sel{background:rgba(240,207,142,.14);color:#fff0cf}
+.opt.sel::after{content:'✓'}
+/* ===== المظهر الفاتح ===== */
+body.light{background:#fff;color:#111}
+body.light #head{background:linear-gradient(145deg,rgba(0,0,0,.07),rgba(0,0,0,.02));border-color:rgba(0,0,0,.28);box-shadow:inset 0 1px 1px rgba(255,255,255,.8),0 6px 18px rgba(0,0,0,.12)}
+body.light #title{color:#111;text-shadow:none}
+body.light #sub{color:rgba(0,0,0,.55)}
+body.light #menuBtn{background:rgba(0,0,0,.06);border-color:rgba(0,0,0,.3);color:#111}
+body.light .w{color:#111}
+body.light .w.on{color:#000;text-shadow:0 0 10px rgba(0,0,0,.25)}
+body.light .num b{color:#111}
+body.light .num.on b{color:#000}
+body.light .g{background:linear-gradient(145deg,rgba(0,0,0,.16),rgba(0,0,0,.05));border-color:rgba(0,0,0,.4);box-shadow:inset 0 1px 2px rgba(255,255,255,.6),0 6px 18px rgba(0,0,0,.2)}
+body.light .ban{background:repeating-linear-gradient(45deg,rgba(0,0,0,.09) 0 3px,rgba(0,0,0,.02) 3px 6px),#f4f4f4;border-color:#222;box-shadow:inset 0 0 0 2px #fff,inset 0 0 0 3px rgba(0,0,0,.55),0 4px 14px rgba(0,0,0,.15)}
+body.light .ban .bn{color:#111;background:linear-gradient(145deg,rgba(0,0,0,.06),rgba(0,0,0,.01));border-color:rgba(0,0,0,.4)}
+body.light .ban .bd{border-color:rgba(0,0,0,.5);background:radial-gradient(circle at 35% 30%,rgba(0,0,0,.1),rgba(0,0,0,.02))}
+body.light .ban .bd small{color:#444}
+body.light .ban .bd b{color:#111}
+body.light .bsm{color:#111}
+body.light .bsm .r{color:#d3281c}
+body.light #scrim{background:rgba(0,0,0,.25)}
+body.light #menu{background:linear-gradient(160deg,rgba(255,255,255,.78),rgba(240,240,240,.55));border-right-color:rgba(0,0,0,.2);box-shadow:8px 0 40px rgba(0,0,0,.18),inset -1px 0 1px rgba(255,255,255,.7)}
+body.light .mi{color:#111;border-bottom-color:rgba(0,0,0,.15)}
+body.light .opt{color:#222}
+body.light .opt.sel{background:rgba(0,0,0,.08);color:#000}
 </style></head><body>
-<div id="top"><div id="head"><div><div id="title">حزب الأعلى (من الأعلى للناس)</div><div id="sub"></div></div><div id="pg"></div></div></div>
+<div id="top"><div id="head"><div><div id="title">حزب الأعلى (من الأعلى للناس)</div><div id="sub"></div></div><button id="menuBtn" aria-label="menu"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"/></svg></button><div id="pg" style="display:none"></div></div></div>
 <div id="pages"></div>
 <div id="bar"><button id="b" aria-label="play">
  <span id="fill"></span><span id="sheen"></span>
@@ -98,6 +140,14 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
   <svg class="ic stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="3"/></svg>
   <span class="lbl l-play">ابدأ التلاوة</span><span class="lbl l-stop">إيقاف</span>
  </span></button></div>
+<div id="scrim"></div>
+<aside id="menu">
+ <button class="mi" id="miTheme"><span>المظهر</span><span class="chev">▾</span></button>
+ <div class="sub" id="subTheme">
+  <button class="opt" data-th="dark"><span>داكن</span></button>
+  <button class="opt" data-th="light"><span>فاتح</span></button>
+ </div>
+</aside>
 <script src="surah.js"></script>
 <script>
 const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),fill=document.getElementById('fill'),sub=document.getElementById('sub'),pg=document.getElementById('pg');
@@ -110,8 +160,9 @@ const BSM=(typeof BASMALA!=='undefined'&&BASMALA)?BASMALA:'بِسْمِ ٱللَ
 const cnt={};
 SURAH.verses.forEach(v=>{const a=v.verse_key.split(':').map(Number);cnt[a[0]]=Math.max(cnt[a[0]]||0,a[1])});
 const ROSE='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" fill="none" stroke="#e3b866" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="62" r="41"/><ellipse cx="50" cy="62" rx="37.500" ry="21"/><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/><path d="M46.500 15.500C41 11 35 14 35 24"/><g transform="translate(100,0) scale(-1,1)"><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/><path d="M46.500 15.500C41 11 35 14 35 24"/></g><g transform="translate(0,124) scale(1,-1)"><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/></g><g transform="translate(0,124) scale(1,-1)"><g transform="translate(100,0) scale(-1,1)"><path d="M12 58C13 44 26 32 40.500 31.500C32 36 24 44 12 58Z" fill="#e3b866" stroke="none"/><circle cx="43.500" cy="35" r="3.800"/><circle cx="43.500" cy="35" r="1.100" fill="#e3b866" stroke="none"/></g></g><path d="M50 3.500C47 6.800 47 10.200 50 13.500C53 10.200 53 6.800 50 3.500Z" fill="#e3b866" stroke="none"/><circle cx="50" cy="19" r="2.200" fill="#e3b866" stroke="none"/><path d="M35 100.500C34 110 42 111 45.500 106C47 112 53 112 54.500 106C58 111 66 110 65 100.500"/></svg>';
+const ROSE_L=ROSE.split('#e3b866').join('#1d1d1d');
 const roseStyle=document.createElement('style');
-roseStyle.textContent='.num{background:url("data:image/svg+xml,'+encodeURIComponent(ROSE)+'") center/auto 1.4em no-repeat}';
+roseStyle.textContent='.num{background:url("data:image/svg+xml,'+encodeURIComponent(ROSE)+'") center/auto 1.4em no-repeat}body.light .num{background-image:url("data:image/svg+xml,'+encodeURIComponent(ROSE_L)+'")}';
 document.head.appendChild(roseStyle);
 
 /* خط المصحف المدني (QCF V1) من خوادم Quran Foundation */
@@ -185,7 +236,10 @@ function build(){
   });
 }
 function mkInfo(){
-  ws.forEach((w,k)=>{const o=cinfo[w._c]||(cinfo[w._c]={a:k,n:0});o.n++});
+  ws.forEach((w,k)=>{
+    const o=cinfo[w._c]||(cinfo[w._c]={a:k,n:0});
+    if(!w.classList.contains('num')){o.n++;w._ci=o.n}else w._ci=o.n;
+  });
 }
 sub.textContent='الجزء '+ar(30)+' · متعدد السور';
 let i=-1,t=null,mul=1,curPage=0,lastP=-1,lock=0,ready=false,progCh=-1,lastPE=0;
@@ -196,7 +250,7 @@ function updProg(){
   if(i<0){resetFill();progCh=-1;return}
   const w=ws[i],o=cinfo[w._c];
   if(progCh!==w._c){resetFill();progCh=w._c}
-  fill.style.width=((i-o.a+1)/o.n*100)+'%';
+  fill.style.width=(w._ci/o.n*100)+'%';
 }
 
 /* ===== وضع أسطر المصحف (١٥ سطراً ثابتة) ===== */
@@ -353,11 +407,12 @@ function place(anim,instant){
   if(!w)return;
   const g=pages[w._p].g,same=(w._p===lastP);
   const sx=w._sx||1,ow=w.offsetWidth*sx,ol=w.offsetLeft-(ow-w.offsetWidth)/2;
+  const hh=w.offsetHeight,gh=(hh+6)*0.86;
   g.style.transition=(anim&&same)?'':'none';
   g.style.left=(ol-5)+'px';
-  g.style.top=(w.offsetTop-3)+'px';
+  g.style.top=(w.offsetTop+(hh-gh)/2)+'px';
   g.style.width=(ow+10)+'px';
-  g.style.height=(w.offsetHeight+6)+'px';
+  g.style.height=gh+'px';
   if(instant||same){g.style.opacity=1}
   else{requestAnimationFrame(()=>{g.style.transition='left 0.75s cubic-bezier(0.25, 1, 0.5, 1), top 0.75s cubic-bezier(0.25, 1, 0.5, 1), width 0.75s cubic-bezier(0.25, 1, 0.5, 1), height 0.75s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.5s ease';g.style.opacity=1})}
   lastP=w._p;
@@ -374,6 +429,7 @@ function stop(){clearInterval(t);t=null;b.classList.remove('playing')}
 function go(){
   if(i>=0)ws[i].classList.remove('on');
   i++;
+  while(i<ws.length&&ws[i].classList.contains('num'))i++;
   if(i>=ws.length){stop();i=-1;place(false);updProg();return}
   ws[i].classList.add('on');
   if(ws[i]._p!==curPage&&Date.now()>lock)showPage(ws[i]._p);
@@ -400,6 +456,20 @@ pagesEl.addEventListener('click',()=>{
   if(!ready||pinch||Date.now()-lastPE<500)return;
   document.body.classList.toggle('nohead');
 });
+
+/* القائمة الجانبية والمظهر */
+const menuBtn=document.getElementById('menuBtn'),scrim=document.getElementById('scrim'),miTheme=document.getElementById('miTheme'),subTheme=document.getElementById('subTheme');
+function setTheme(th){
+  document.body.classList.toggle('light',th==='light');
+  document.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',o.dataset.th===th));
+  try{localStorage.setItem('qtheme',th)}catch(e){}
+}
+menuBtn.addEventListener('click',e=>{e.stopPropagation();document.body.classList.add('menuopen')});
+scrim.addEventListener('click',()=>document.body.classList.remove('menuopen'));
+miTheme.addEventListener('click',()=>{miTheme.classList.toggle('open');subTheme.classList.toggle('open')});
+document.querySelectorAll('.opt').forEach(o=>o.addEventListener('click',()=>setTheme(o.dataset.th)));
+let savedTheme='dark';try{savedTheme=localStorage.getItem('qtheme')||'dark'}catch(e){}
+setTheme(savedTheme);
 
 let pinch=null,flipT=0,flipPage=null,raf=0;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
