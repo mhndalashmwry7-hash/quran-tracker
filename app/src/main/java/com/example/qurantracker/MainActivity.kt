@@ -2,46 +2,61 @@ package com.example.qurantracker
 
 import android.annotation.SuppressLint
 import android.app.Activity
+import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.WindowInsets
-import android.view.WindowInsetsController
+import android.view.WindowManager
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
 
 class MainActivity : Activity() {
 
+    @Volatile private var topPx = 0
+    private var darkIcons = false
+
     inner class Bridge {
-        @Suppress("DEPRECATION")
         @JavascriptInterface
-        fun setFullscreen(on: Boolean) {
-            runOnUiThread {
-                if (Build.VERSION.SDK_INT >= 30) {
-                    val c = window.insetsController
-                    if (c != null) {
-                        val bars = WindowInsets.Type.statusBars() or WindowInsets.Type.navigationBars()
-                        if (on) {
-                            c.systemBarsBehavior = WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-                            c.hide(bars)
-                        } else {
-                            c.show(bars)
-                        }
-                    }
-                } else {
-                    window.decorView.systemUiVisibility = if (on) {
-                        View.SYSTEM_UI_FLAG_FULLSCREEN or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                    } else {
-                        View.SYSTEM_UI_FLAG_VISIBLE
-                    }
-                }
+        fun topInset(): Float {
+            var px = topPx
+            if (px <= 0) {
+                val id = resources.getIdentifier("status_bar_height", "dimen", "android")
+                if (id > 0) px = resources.getDimensionPixelSize(id)
             }
+            return px / resources.displayMetrics.density
+        }
+
+        @JavascriptInterface
+        fun setDarkIcons(on: Boolean) {
+            darkIcons = on
+            runOnUiThread { applyBars() }
         }
     }
 
+    @Suppress("DEPRECATION")
+    private fun applyBars() {
+        var f = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+        if (darkIcons) f = f or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+        window.decorView.systemUiVisibility = f
+    }
+
+    @Suppress("DEPRECATION")
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+        window.statusBarColor = Color.TRANSPARENT
+        applyBars()
+        window.decorView.setOnApplyWindowInsetsListener { v, insets ->
+            topPx = if (Build.VERSION.SDK_INT >= 30) {
+                insets.getInsets(WindowInsets.Type.statusBars()).top
+            } else {
+                insets.systemWindowInsetTop
+            }
+            v.onApplyWindowInsets(insets)
+        }
         val web = WebView(this)
         web.settings.javaScriptEnabled = true
         web.settings.domStorageEnabled = true
