@@ -1,20 +1,8400 @@
 const SURAH={
   "verses": [
     {
+      "verse_key": "78:1",
+      "page_number": 582,
+      "text_uthmani": " عَمَّ يَتَسَآءَلُونَ",
+      "tj": "عَ<tajweed class=ghunnah>مّ</tajweed>َ يَتَس<tajweed class=madda_obligatory>َا</tajweed>ٓءَل<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١</span>",
+      "e": {
+        "p": 582,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "عَمَّ",
+          "p": 582,
+          "l": 3
+        },
+        {
+          "t": "يَتَسَآءَلُونَ",
+          "p": 582,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "78:2",
+      "page_number": 582,
+      "text_uthmani": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
+      "tj": "عَنِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َبَإِ <tajweed class=ham_wasl>ٱ</tajweed>لْعَظ<tajweed class=madda_permissible>ِي</tajweed>مِ <span class=end>٢</span>",
+      "e": {
+        "p": 582,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "عَنِ",
+          "p": 582,
+          "l": 3
+        },
+        {
+          "t": "ٱلنَّبَإِ",
+          "p": 582,
+          "l": 3
+        },
+        {
+          "t": "ٱلْعَظِيمِ",
+          "p": 582,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "78:3",
+      "page_number": 582,
+      "text_uthmani": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ",
+      "tj": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِف<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣</span>",
+      "e": {
+        "p": 582,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "ٱلَّذِى",
+          "p": 582,
+          "l": 3
+        },
+        {
+          "t": "هُمْ",
+          "p": 582,
+          "l": 3
+        },
+        {
+          "t": "فِيهِ",
+          "p": 582,
+          "l": 3
+        },
+        {
+          "t": "مُخْتَلِفُونَ",
+          "p": 582,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "78:4",
+      "page_number": 582,
+      "text_uthmani": "كَلَّا سَيَعْلَمُونَ",
+      "tj": "كَلَّا سَيَعْلَم<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٤</span>",
+      "e": {
+        "p": 582,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "كَلَّا",
+          "p": 582,
+          "l": 4
+        },
+        {
+          "t": "سَيَعْلَمُونَ",
+          "p": 582,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "78:5",
+      "page_number": 582,
+      "text_uthmani": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ كَلَّا سَيَعْلَم<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٥</span>",
+      "e": {
+        "p": 582,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 582,
+          "l": 4
+        },
+        {
+          "t": "كَلَّا",
+          "p": 582,
+          "l": 4
+        },
+        {
+          "t": "سَيَعْلَمُونَ",
+          "p": 582,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "78:6",
+      "page_number": 582,
+      "text_uthmani": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَـٰدًا",
+      "tj": "أَلَمْ نَ<tajweed class=qalaqah>جْ</tajweed>عَلِ <tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضَ مِهَ<tajweed class=madda_normal>ـٰ</tajweed>دًا <span class=end>٦</span>",
+      "e": {
+        "p": 582,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "أَلَمْ",
+          "p": 582,
+          "l": 4
+        },
+        {
+          "t": "نَجْعَلِ",
+          "p": 582,
+          "l": 4
+        },
+        {
+          "t": "ٱلْأَرْضَ",
+          "p": 582,
+          "l": 4
+        },
+        {
+          "t": "مِهَـٰدًۭا",
+          "p": 582,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "78:7",
+      "page_number": 582,
+      "text_uthmani": "وَٱلْجِبَالَ أَوْتَادًا",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْجِبَالَ أَوْتَادًا <span class=end>٧</span>",
+      "e": {
+        "p": 582,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَٱلْجِبَالَ",
+          "p": 582,
+          "l": 5
+        },
+        {
+          "t": "أَوْتَادًۭا",
+          "p": 582,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "78:8",
+      "page_number": 582,
+      "text_uthmani": "وَخَلَقْنَـٰكُمْ أَزْوَٰجًا",
+      "tj": "وَخَلَ<tajweed class=qalaqah>قْ</tajweed>نَ<tajweed class=madda_normal>ـٰ</tajweed>كُمْ أَزْو<tajweed class=madda_normal>َٲ</tajweed>جًا <span class=end>٨</span>",
+      "e": {
+        "p": 582,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَخَلَقْنَـٰكُمْ",
+          "p": 582,
+          "l": 5
+        },
+        {
+          "t": "أَزْوَٰجًۭا",
+          "p": 582,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "78:9",
+      "page_number": 582,
+      "text_uthmani": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا",
+      "tj": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا <span class=end>٩</span>",
+      "e": {
+        "p": 582,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "وَجَعَلْنَا",
+          "p": 582,
+          "l": 5
+        },
+        {
+          "t": "نَوْمَكُمْ",
+          "p": 582,
+          "l": 5
+        },
+        {
+          "t": "سُبَاتًۭا",
+          "p": 582,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "78:10",
+      "page_number": 582,
+      "text_uthmani": "وَجَعَلْنَا ٱلَّيْلَ لِبَاسًا",
+      "tj": "وَجَعَلْنَا <tajweed class=ham_wasl>ٱ</tajweed>لَّيْلَ لِبَاسًا <span class=end>١٠</span>",
+      "e": {
+        "p": 582,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "وَجَعَلْنَا",
+          "p": 582,
+          "l": 6
+        },
+        {
+          "t": "ٱلَّيْلَ",
+          "p": 582,
+          "l": 6
+        },
+        {
+          "t": "لِبَاسًۭا",
+          "p": 582,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "78:11",
+      "page_number": 582,
+      "text_uthmani": "وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًا",
+      "tj": "وَجَعَلْنَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َهَارَ مَعَاشًا <span class=end>١١</span>",
+      "e": {
+        "p": 582,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "وَجَعَلْنَا",
+          "p": 582,
+          "l": 6
+        },
+        {
+          "t": "ٱلنَّهَارَ",
+          "p": 582,
+          "l": 6
+        },
+        {
+          "t": "مَعَاشًۭا",
+          "p": 582,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "78:12",
+      "page_number": 582,
+      "text_uthmani": "وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا",
+      "tj": "وَبَنَيْنَا فَوْقَكُمْ سَ<tajweed class=qalaqah>بْ</tajweed><tajweed class=ikhafa>عًا ش</tajweed>ِدَادًا <span class=end>١٢</span>",
+      "e": {
+        "p": 582,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "وَبَنَيْنَا",
+          "p": 582,
+          "l": 6
+        },
+        {
+          "t": "فَوْقَكُمْ",
+          "p": 582,
+          "l": 7
+        },
+        {
+          "t": "سَبْعًۭا",
+          "p": 582,
+          "l": 7
+        },
+        {
+          "t": "شِدَادًۭا",
+          "p": 582,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "78:13",
+      "page_number": 582,
+      "text_uthmani": "وَجَعَلْنَا سِرَاجًا وَهَّاجًا",
+      "tj": "وَجَعَلْنَا سِرَا<tajweed class=idgham_ghunnah>جًا و</tajweed>َهَّاجًا <span class=end>١٣</span>",
+      "e": {
+        "p": 582,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "وَجَعَلْنَا",
+          "p": 582,
+          "l": 7
+        },
+        {
+          "t": "سِرَاجًۭا",
+          "p": 582,
+          "l": 7
+        },
+        {
+          "t": "وَهَّاجًۭا",
+          "p": 582,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "78:14",
+      "page_number": 582,
+      "text_uthmani": "وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءً ثَجَّاجًا",
+      "tj": "وَأَ<tajweed class=ikhafa>نز</tajweed>َلْنَا مِنَ <tajweed class=ham_wasl>ٱ</tajweed>لْمُعْصِر<tajweed class=madda_normal>َٲ</tajweed>تِ م<tajweed class=madda_obligatory>َا</tajweed>ٓ<tajweed class=ikhafa>ءً ث</tajweed>َجَّاجًا <span class=end>١٤</span>",
+      "e": {
+        "p": 582,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "وَأَنزَلْنَا",
+          "p": 582,
+          "l": 7
+        },
+        {
+          "t": "مِنَ",
+          "p": 582,
+          "l": 8
+        },
+        {
+          "t": "ٱلْمُعْصِرَٰتِ",
+          "p": 582,
+          "l": 8
+        },
+        {
+          "t": "مَآءًۭ",
+          "p": 582,
+          "l": 8
+        },
+        {
+          "t": "ثَجَّاجًۭا",
+          "p": 582,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "78:15",
+      "page_number": 582,
+      "text_uthmani": "لِّنُخْرِجَ بِهِۦ حَبًّا وَنَبَاتًا",
+      "tj": "لِّنُخْرِجَ بِه<tajweed class=madda_normal>ِۦ</tajweed> حَب<tajweed class=idgham_ghunnah>ًّا و</tajweed>َنَبَاتًا <span class=end>١٥</span>",
+      "e": {
+        "p": 582,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "لِّنُخْرِجَ",
+          "p": 582,
+          "l": 8
+        },
+        {
+          "t": "بِهِۦ",
+          "p": 582,
+          "l": 8
+        },
+        {
+          "t": "حَبًّۭا",
+          "p": 582,
+          "l": 8
+        },
+        {
+          "t": "وَنَبَاتًۭا",
+          "p": 582,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "78:16",
+      "page_number": 582,
+      "text_uthmani": "وَجَنَّـٰتٍ أَلْفَافًا",
+      "tj": "وَجَ<tajweed class=ghunnah>نّ</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>تٍ أَلْفَافًا <span class=end>١٦</span>",
+      "e": {
+        "p": 582,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "وَجَنَّـٰتٍ",
+          "p": 582,
+          "l": 8
+        },
+        {
+          "t": "أَلْفَافًا",
+          "p": 582,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "78:17",
+      "page_number": 582,
+      "text_uthmani": "إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَـٰتًا",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ يَوْمَ <tajweed class=ham_wasl>ٱ</tajweed>لْفَصْلِ كَانَ مِيقَ<tajweed class=madda_normal>ـٰ</tajweed>تًا <span class=end>١٧</span>",
+      "e": {
+        "p": 582,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "يَوْمَ",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "ٱلْفَصْلِ",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "كَانَ",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "مِيقَـٰتًۭا",
+          "p": 582,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "78:18",
+      "page_number": 582,
+      "text_uthmani": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا",
+      "tj": "يَوْمَ يُ<tajweed class=ikhafa>نف</tajweed>َخُ فِى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صُّورِ فَتَأْتُونَ أَفْوَاجًا <span class=end>١٨</span>",
+      "e": {
+        "p": 582,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "يَوْمَ",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "يُنفَخُ",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "فِى",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "ٱلصُّورِ",
+          "p": 582,
+          "l": 9
+        },
+        {
+          "t": "فَتَأْتُونَ",
+          "p": 582,
+          "l": 10
+        },
+        {
+          "t": "أَفْوَاجًۭا",
+          "p": 582,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "78:19",
+      "page_number": 582,
+      "text_uthmani": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًا",
+      "tj": "وَفُتِحَتِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءُ فَكَانَتْ أَ<tajweed class=qalaqah>بْ</tajweed>و<tajweed class=madda_normal>َٲ</tajweed>بًا <span class=end>١٩</span>",
+      "e": {
+        "p": 582,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "وَفُتِحَتِ",
+          "p": 582,
+          "l": 10
+        },
+        {
+          "t": "ٱلسَّمَآءُ",
+          "p": 582,
+          "l": 10
+        },
+        {
+          "t": "فَكَانَتْ",
+          "p": 582,
+          "l": 10
+        },
+        {
+          "t": "أَبْوَٰبًۭا",
+          "p": 582,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "78:20",
+      "page_number": 582,
+      "text_uthmani": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا",
+      "tj": "وَسُيِّرَتِ <tajweed class=ham_wasl>ٱ</tajweed>لْجِبَالُ فَكَانَتْ سَرَابًا <span class=end>٢٠</span>",
+      "e": {
+        "p": 582,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَسُيِّرَتِ",
+          "p": 582,
+          "l": 10
+        },
+        {
+          "t": "ٱلْجِبَالُ",
+          "p": 582,
+          "l": 11
+        },
+        {
+          "t": "فَكَانَتْ",
+          "p": 582,
+          "l": 11
+        },
+        {
+          "t": "سَرَابًا",
+          "p": 582,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "78:21",
+      "page_number": 582,
+      "text_uthmani": "إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ جَهَ<tajweed class=ghunnah>نّ</tajweed>َمَ كَانَتْ مِرْصَادًا <span class=end>٢١</span>",
+      "e": {
+        "p": 582,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 582,
+          "l": 11
+        },
+        {
+          "t": "جَهَنَّمَ",
+          "p": 582,
+          "l": 11
+        },
+        {
+          "t": "كَانَتْ",
+          "p": 582,
+          "l": 11
+        },
+        {
+          "t": "مِرْصَادًۭا",
+          "p": 582,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "78:22",
+      "page_number": 582,
+      "text_uthmani": "لِّلطَّـٰغِينَ مَـَٔابًا",
+      "tj": "لِّلطَّ<tajweed class=madda_normal>ـٰ</tajweed>غِينَ مَـَٔـابًا <span class=end>٢٢</span>",
+      "e": {
+        "p": 582,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "لِّلطَّـٰغِينَ",
+          "p": 582,
+          "l": 11
+        },
+        {
+          "t": "مَـَٔابًۭا",
+          "p": 582,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "78:23",
+      "page_number": 582,
+      "text_uthmani": "لَّـٰبِثِينَ فِيهَآ أَحْقَابًا",
+      "tj": "لَّ<tajweed class=madda_normal>ـٰ</tajweed>بِثِينَ فِيه<tajweed class=madda_obligatory>َآ</tajweed> أَحْقَابًا <span class=end>٢٣</span>",
+      "e": {
+        "p": 582,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "لَّـٰبِثِينَ",
+          "p": 582,
+          "l": 12
+        },
+        {
+          "t": "فِيهَآ",
+          "p": 582,
+          "l": 12
+        },
+        {
+          "t": "أَحْقَابًۭا",
+          "p": 582,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "78:24",
+      "page_number": 582,
+      "text_uthmani": "لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا",
+      "tj": "لَّا يَذُوقُونَ فِيهَا بَرْ<tajweed class=idgham_ghunnah>دًا و</tajweed>َلَا شَرَابًا <span class=end>٢٤</span>",
+      "e": {
+        "p": 582,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "لَّا",
+          "p": 582,
+          "l": 12
+        },
+        {
+          "t": "يَذُوقُونَ",
+          "p": 582,
+          "l": 12
+        },
+        {
+          "t": "فِيهَا",
+          "p": 582,
+          "l": 12
+        },
+        {
+          "t": "بَرْدًۭا",
+          "p": 582,
+          "l": 12
+        },
+        {
+          "t": "وَلَا",
+          "p": 582,
+          "l": 12
+        },
+        {
+          "t": "شَرَابًا",
+          "p": 582,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "78:25",
+      "page_number": 582,
+      "text_uthmani": "إِلَّا حَمِيمًا وَغَسَّاقًا",
+      "tj": "إِلَّا حَمِي<tajweed class=idgham_ghunnah>مًا و</tajweed>َغَسَّاقًا <span class=end>٢٥</span>",
+      "e": {
+        "p": 582,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "إِلَّا",
+          "p": 582,
+          "l": 13
+        },
+        {
+          "t": "حَمِيمًۭا",
+          "p": 582,
+          "l": 13
+        },
+        {
+          "t": "وَغَسَّاقًۭا",
+          "p": 582,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "78:26",
+      "page_number": 582,
+      "text_uthmani": "جَزَآءً وِفَاقًا",
+      "tj": "جَز<tajweed class=madda_obligatory>َا</tajweed>ٓ<tajweed class=idgham_ghunnah>ءً و</tajweed>ِفَاقًا <span class=end>٢٦</span>",
+      "e": {
+        "p": 582,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "جَزَآءًۭ",
+          "p": 582,
+          "l": 13
+        },
+        {
+          "t": "وِفَاقًا",
+          "p": 582,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "78:27",
+      "page_number": 582,
+      "text_uthmani": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًا",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُمْ كَانُو<tajweed class=slnt>اْ</tajweed> لَا يَرْجُونَ حِسَابًا <span class=end>٢٧</span>",
+      "e": {
+        "p": 582,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "إِنَّهُمْ",
+          "p": 582,
+          "l": 13
+        },
+        {
+          "t": "كَانُوا۟",
+          "p": 582,
+          "l": 13
+        },
+        {
+          "t": "لَا",
+          "p": 582,
+          "l": 14
+        },
+        {
+          "t": "يَرْجُونَ",
+          "p": 582,
+          "l": 14
+        },
+        {
+          "t": "حِسَابًۭا",
+          "p": 582,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "78:28",
+      "page_number": 582,
+      "text_uthmani": "وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا كِذَّابًا",
+      "tj": "وَكَذَّبُو<tajweed class=slnt>اْ</tajweed> بِـَٔـايَ<tajweed class=madda_normal>ـٰ</tajweed>تِنَا كِذَّابًا <span class=end>٢٨</span>",
+      "e": {
+        "p": 582,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "وَكَذَّبُوا۟",
+          "p": 582,
+          "l": 14
+        },
+        {
+          "t": "بِـَٔايَـٰتِنَا",
+          "p": 582,
+          "l": 14
+        },
+        {
+          "t": "كِذَّابًۭا",
+          "p": 582,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "78:29",
+      "page_number": 582,
+      "text_uthmani": "وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ كِتَـٰبًا",
+      "tj": "وَكُلَّ شَىْءٍ أَحْصَيْنَ<tajweed class=madda_normal>ـٰ</tajweed>هُ كِتَ<tajweed class=madda_normal>ـٰ</tajweed>بًا <span class=end>٢٩</span>",
+      "e": {
+        "p": 582,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "وَكُلَّ",
+          "p": 582,
+          "l": 14
+        },
+        {
+          "t": "شَىْءٍ",
+          "p": 582,
+          "l": 14
+        },
+        {
+          "t": "أَحْصَيْنَـٰهُ",
+          "p": 582,
+          "l": 15
+        },
+        {
+          "t": "كِتَـٰبًۭا",
+          "p": 582,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "78:30",
+      "page_number": 582,
+      "text_uthmani": "فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
+      "tj": "فَذُوقُو<tajweed class=slnt>اْ</tajweed> فَل<tajweed class=idgham_ghunnah>َن ن</tajweed>َّزِيدَكُمْ إِلَّا عَذَابًا <span class=end>٣٠</span>",
+      "e": {
+        "p": 582,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "فَذُوقُوا۟",
+          "p": 582,
+          "l": 15
+        },
+        {
+          "t": "فَلَن",
+          "p": 582,
+          "l": 15
+        },
+        {
+          "t": "نَّزِيدَكُمْ",
+          "p": 582,
+          "l": 15
+        },
+        {
+          "t": "إِلَّا",
+          "p": 582,
+          "l": 15
+        },
+        {
+          "t": "عَذَابًا",
+          "p": 582,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "78:31",
+      "page_number": 583,
+      "text_uthmani": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ لِلْمُتَّقِينَ مَفَازًا <span class=end>٣١</span>",
+      "e": {
+        "p": 583,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 583,
+          "l": 1
+        },
+        {
+          "t": "لِلْمُتَّقِينَ",
+          "p": 583,
+          "l": 1
+        },
+        {
+          "t": "مَفَازًا",
+          "p": 583,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "78:32",
+      "page_number": 583,
+      "text_uthmani": "حَدَآئِقَ وَأَعْنَـٰبًا",
+      "tj": "حَد<tajweed class=madda_obligatory>َا</tajweed>ٓئِقَ وَأَعْنَ<tajweed class=madda_normal>ـٰ</tajweed>بًا <span class=end>٣٢</span>",
+      "e": {
+        "p": 583,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "حَدَآئِقَ",
+          "p": 583,
+          "l": 1
+        },
+        {
+          "t": "وَأَعْنَـٰبًۭا",
+          "p": 583,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "78:33",
+      "page_number": 583,
+      "text_uthmani": "وَكَوَاعِبَ أَتْرَابًا",
+      "tj": "وَكَوَاعِبَ أَتْرَابًا <span class=end>٣٣</span>",
+      "e": {
+        "p": 583,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "وَكَوَاعِبَ",
+          "p": 583,
+          "l": 1
+        },
+        {
+          "t": "أَتْرَابًۭا",
+          "p": 583,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "78:34",
+      "page_number": 583,
+      "text_uthmani": "وَكَأْسًا دِهَاقًا",
+      "tj": "وَكَأْ<tajweed class=ikhafa>سًا د</tajweed>ِهَاقًا <span class=end>٣٤</span>",
+      "e": {
+        "p": 583,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "وَكَأْسًۭا",
+          "p": 583,
+          "l": 1
+        },
+        {
+          "t": "دِهَاقًۭا",
+          "p": 583,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "78:35",
+      "page_number": 583,
+      "text_uthmani": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّٰبًا",
+      "tj": "لَّا يَسْمَعُونَ فِيهَا لَغْ<tajweed class=idgham_ghunnah>وًا و</tajweed>َلَا كِذّ<tajweed class=madda_normal>َٲ</tajweed>بًا <span class=end>٣٥</span>",
+      "e": {
+        "p": 583,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "لَّا",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "يَسْمَعُونَ",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "فِيهَا",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "لَغْوًۭا",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "وَلَا",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "كِذَّٰبًۭا",
+          "p": 583,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "78:36",
+      "page_number": 583,
+      "text_uthmani": "جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَابًا",
+      "tj": "جَز<tajweed class=madda_obligatory>َا</tajweed>ٓ<tajweed class=idgham_ghunnah>ءً م</tajweed>ّ<tajweed class=idgham_wo_ghunnah>ِن ر</tajweed>َّبِّكَ عَط<tajweed class=madda_obligatory>َا</tajweed>ٓءً حِسَابًا <span class=end>٣٦</span>",
+      "e": {
+        "p": 583,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "جَزَآءًۭ",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "مِّن",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "رَّبِّكَ",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "عَطَآءً",
+          "p": 583,
+          "l": 2
+        },
+        {
+          "t": "حِسَابًۭا",
+          "p": 583,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "78:37",
+      "page_number": 583,
+      "text_uthmani": "رَّبِّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَـٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
+      "tj": "رَّبِّ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّمَ<tajweed class=madda_normal>ـٰ</tajweed>و<tajweed class=madda_normal>َٲ</tajweed>تِ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضِ وَمَا بَيْنَهُمَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رَّحْمَ<tajweed class=madda_normal>ـٰ</tajweed>نِ‌ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا <span class=end>٣٧</span>",
+      "e": {
+        "p": 583,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "رَّبِّ",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "ٱلسَّمَـٰوَٰتِ",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "وَٱلْأَرْضِ",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "وَمَا",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "بَيْنَهُمَا",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "ٱلرَّحْمَـٰنِ ۖ",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "لَا",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "يَمْلِكُونَ",
+          "p": 583,
+          "l": 3
+        },
+        {
+          "t": "مِنْهُ",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "خِطَابًۭا",
+          "p": 583,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "78:38",
+      "page_number": 583,
+      "text_uthmani": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَـٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَقَالَ صَوَابًا",
+      "tj": "يَوْمَ يَقُومُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رُّوحُ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْمَلَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ئِكَةُ صَف<tajweed class=idgham_wo_ghunnah>ًّا‌ۖ ل</tajweed>َّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رَّحْمَ<tajweed class=madda_normal>ـٰ</tajweed>نُ وَقَالَ صَوَابًا <span class=end>٣٨</span>",
+      "e": {
+        "p": 583,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "يَوْمَ",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "يَقُومُ",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "ٱلرُّوحُ",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "وَٱلْمَلَـٰٓئِكَةُ",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "صَفًّۭا ۖ",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "لَّا",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "يَتَكَلَّمُونَ",
+          "p": 583,
+          "l": 4
+        },
+        {
+          "t": "إِلَّا",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "مَنْ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "أَذِنَ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "لَهُ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "ٱلرَّحْمَـٰنُ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "وَقَالَ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "صَوَابًۭا",
+          "p": 583,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "78:39",
+      "page_number": 583,
+      "text_uthmani": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+      "tj": "ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ <tajweed class=ham_wasl>ٱ</tajweed>لْيَوْمُ <tajweed class=ham_wasl>ٱ</tajweed>لْحَقُّ‌ۖ فَمَ<tajweed class=ikhafa>ن ش</tajweed><tajweed class=madda_obligatory>َا</tajweed>ٓءَ <tajweed class=ham_wasl>ٱ</tajweed>تَّخَذَ إِلَىٰ رَبِّه<tajweed class=madda_normal>ِۦ</tajweed> مَـَٔـابًا <span class=end>٣٩</span>",
+      "e": {
+        "p": 583,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "ذَٰلِكَ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "ٱلْيَوْمُ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "ٱلْحَقُّ ۖ",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "فَمَن",
+          "p": 583,
+          "l": 5
+        },
+        {
+          "t": "شَآءَ",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "ٱتَّخَذَ",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "إِلَىٰ",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "رَبِّهِۦ",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "مَـَٔابًا",
+          "p": 583,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "78:40",
+      "page_number": 583,
+      "text_uthmani": "إِنَّآ أَنذَرْنَـٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَـٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نذ</tajweed>َرْنَ<tajweed class=madda_normal>ـٰ</tajweed>كُمْ عَذَا<tajweed class=ikhafa>بًا ق</tajweed>َرِي<tajweed class=idgham_ghunnah>بًا ي</tajweed>َوْمَ يَ<tajweed class=ikhafa>نظ</tajweed>ُرُ <tajweed class=ham_wasl>ٱ</tajweed>لْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ <tajweed class=ham_wasl>ٱ</tajweed>لْكَافِرُ يَ<tajweed class=madda_normal>ـٰ</tajweed>لَيْتَنِى كُ<tajweed class=ikhafa>نت</tajweed>ُ تُر<tajweed class=madda_normal>َٲ</tajweed>بَۢا <span class=end>٤٠</span>",
+      "e": {
+        "p": 583,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "إِنَّآ",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "أَنذَرْنَـٰكُمْ",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "عَذَابًۭا",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "قَرِيبًۭا",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "يَوْمَ",
+          "p": 583,
+          "l": 6
+        },
+        {
+          "t": "يَنظُرُ",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "ٱلْمَرْءُ",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "مَا",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "قَدَّمَتْ",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "يَدَاهُ",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "وَيَقُولُ",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "ٱلْكَافِرُ",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "يَـٰلَيْتَنِى",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "كُنتُ",
+          "p": 583,
+          "l": 7
+        },
+        {
+          "t": "تُرَٰبًۢا",
+          "p": 583,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "79:1",
+      "page_number": 583,
+      "text_uthmani": " وَٱلنَّـٰزِعَـٰتِ غَرْقًا",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>زِعَ<tajweed class=madda_normal>ـٰ</tajweed>تِ غَرْقًا <span class=end>١</span>",
+      "e": {
+        "p": 583,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "وَٱلنَّـٰزِعَـٰتِ",
+          "p": 583,
+          "l": 10
+        },
+        {
+          "t": "غَرْقًۭا",
+          "p": 583,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "79:2",
+      "page_number": 583,
+      "text_uthmani": "وَٱلنَّـٰشِطَـٰتِ نَشْطًا",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>شِطَ<tajweed class=madda_normal>ـٰ</tajweed>تِ نَشْطًا <span class=end>٢</span>",
+      "e": {
+        "p": 583,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "وَٱلنَّـٰشِطَـٰتِ",
+          "p": 583,
+          "l": 10
+        },
+        {
+          "t": "نَشْطًۭا",
+          "p": 583,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "79:3",
+      "page_number": 583,
+      "text_uthmani": "وَٱلسَّـٰبِحَـٰتِ سَبْحًا",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّ<tajweed class=madda_normal>ـٰ</tajweed>بِحَ<tajweed class=madda_normal>ـٰ</tajweed>تِ سَ<tajweed class=qalaqah>بْ</tajweed>حًا <span class=end>٣</span>",
+      "e": {
+        "p": 583,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَٱلسَّـٰبِحَـٰتِ",
+          "p": 583,
+          "l": 10
+        },
+        {
+          "t": "سَبْحًۭا",
+          "p": 583,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "79:4",
+      "page_number": 583,
+      "text_uthmani": "فَٱلسَّـٰبِقَـٰتِ سَبْقًا",
+      "tj": "فَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّ<tajweed class=madda_normal>ـٰ</tajweed>بِقَ<tajweed class=madda_normal>ـٰ</tajweed>تِ سَ<tajweed class=qalaqah>بْ</tajweed>قًا <span class=end>٤</span>",
+      "e": {
+        "p": 583,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "فَٱلسَّـٰبِقَـٰتِ",
+          "p": 583,
+          "l": 11
+        },
+        {
+          "t": "سَبْقًۭا",
+          "p": 583,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "79:5",
+      "page_number": 583,
+      "text_uthmani": "فَٱلْمُدَبِّرَٰتِ أَمْرًا",
+      "tj": "فَ<tajweed class=ham_wasl>ٱ</tajweed>لْمُدَبِّر<tajweed class=madda_normal>َٲ</tajweed>تِ أَمْرًا <span class=end>٥</span>",
+      "e": {
+        "p": 583,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "فَٱلْمُدَبِّرَٰتِ",
+          "p": 583,
+          "l": 11
+        },
+        {
+          "t": "أَمْرًۭا",
+          "p": 583,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "79:6",
+      "page_number": 583,
+      "text_uthmani": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ",
+      "tj": "يَوْمَ تَرْجُفُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رَّاجِفَةُ <span class=end>٦</span>",
+      "e": {
+        "p": 583,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "يَوْمَ",
+          "p": 583,
+          "l": 11
+        },
+        {
+          "t": "تَرْجُفُ",
+          "p": 583,
+          "l": 11
+        },
+        {
+          "t": "ٱلرَّاجِفَةُ",
+          "p": 583,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "79:7",
+      "page_number": 583,
+      "text_uthmani": "تَتْبَعُهَا ٱلرَّادِفَةُ",
+      "tj": "تَتْبَعُهَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رَّادِفَةُ <span class=end>٧</span>",
+      "e": {
+        "p": 583,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "تَتْبَعُهَا",
+          "p": 583,
+          "l": 12
+        },
+        {
+          "t": "ٱلرَّادِفَةُ",
+          "p": 583,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "79:8",
+      "page_number": 583,
+      "text_uthmani": "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ",
+      "tj": "قُلُو<tajweed class=idgham_ghunnah>بٌ ي</tajweed>َوْمَئِ<tajweed class=idgham_ghunnah>ذٍ و</tajweed>َاجِفَةٌ <span class=end>٨</span>",
+      "e": {
+        "p": 583,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "قُلُوبٌۭ",
+          "p": 583,
+          "l": 12
+        },
+        {
+          "t": "يَوْمَئِذٍۢ",
+          "p": 583,
+          "l": 12
+        },
+        {
+          "t": "وَاجِفَةٌ",
+          "p": 583,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "79:9",
+      "page_number": 583,
+      "text_uthmani": "أَبْصَـٰرُهَا خَـٰشِعَةٌ",
+      "tj": "أَ<tajweed class=qalaqah>بْ</tajweed>صَ<tajweed class=madda_normal>ـٰ</tajweed>رُهَا خَ<tajweed class=madda_normal>ـٰ</tajweed>شِعَةٌ <span class=end>٩</span>",
+      "e": {
+        "p": 583,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "أَبْصَـٰرُهَا",
+          "p": 583,
+          "l": 12
+        },
+        {
+          "t": "خَـٰشِعَةٌۭ",
+          "p": 583,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "79:10",
+      "page_number": 583,
+      "text_uthmani": "يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ",
+      "tj": "يَقُولُونَ أَءِ<tajweed class=ghunnah>نّ</tajweed>َا لَمَرْدُودُونَ فِى <tajweed class=ham_wasl>ٱ</tajweed>لْحَافِرَةِ <span class=end>١٠</span>",
+      "e": {
+        "p": 583,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "يَقُولُونَ",
+          "p": 583,
+          "l": 13
+        },
+        {
+          "t": "أَءِنَّا",
+          "p": 583,
+          "l": 13
+        },
+        {
+          "t": "لَمَرْدُودُونَ",
+          "p": 583,
+          "l": 13
+        },
+        {
+          "t": "فِى",
+          "p": 583,
+          "l": 13
+        },
+        {
+          "t": "ٱلْحَافِرَةِ",
+          "p": 583,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "79:11",
+      "page_number": 583,
+      "text_uthmani": "أَءِذَا كُنَّا عِظَـٰمًا نَّخِرَةً",
+      "tj": "أَءِذَا كُ<tajweed class=ghunnah>نّ</tajweed>َا عِظَ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=idgham_ghunnah>مًا ن</tajweed>َّخِرَةً <span class=end>١١</span>",
+      "e": {
+        "p": 583,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "أَءِذَا",
+          "p": 583,
+          "l": 13
+        },
+        {
+          "t": "كُنَّا",
+          "p": 583,
+          "l": 13
+        },
+        {
+          "t": "عِظَـٰمًۭا",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "نَّخِرَةًۭ",
+          "p": 583,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "79:12",
+      "page_number": 583,
+      "text_uthmani": "قَالُوا۟ تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ",
+      "tj": "قَالُو<tajweed class=slnt>اْ</tajweed> تِلْكَ إِ<tajweed class=ikhafa>ذًا ك</tajweed>َرَّةٌ خَاسِرَةٌ <span class=end>١٢</span>",
+      "e": {
+        "p": 583,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "قَالُوا۟",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "تِلْكَ",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "إِذًۭا",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "كَرَّةٌ",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "خَاسِرَةٌۭ",
+          "p": 583,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "79:13",
+      "page_number": 583,
+      "text_uthmani": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ",
+      "tj": "فَإِ<tajweed class=ghunnah>نّ</tajweed>َمَا هِىَ زَ<tajweed class=qalaqah>جْ</tajweed>رَ<tajweed class=idgham_ghunnah>ةٌ و</tajweed><tajweed class=madda_normal>َٲ</tajweed>حِدَةٌ <span class=end>١٣</span>",
+      "e": {
+        "p": 583,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "فَإِنَّمَا",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "هِىَ",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "زَجْرَةٌۭ",
+          "p": 583,
+          "l": 14
+        },
+        {
+          "t": "وَٰحِدَةٌۭ",
+          "p": 583,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "79:14",
+      "page_number": 583,
+      "text_uthmani": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
+      "tj": "فَإِذَا ه<tajweed class=ikhafa_shafawi>ُم ب</tajweed>ِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّاهِرَةِ <span class=end>١٤</span>",
+      "e": {
+        "p": 583,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "فَإِذَا",
+          "p": 583,
+          "l": 15
+        },
+        {
+          "t": "هُم",
+          "p": 583,
+          "l": 15
+        },
+        {
+          "t": "بِٱلسَّاهِرَةِ",
+          "p": 583,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "79:15",
+      "page_number": 583,
+      "text_uthmani": "هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+      "tj": "هَلْ أَتَ<tajweed class=madda_normal>ـٰ</tajweed>كَ حَدِيثُ مُوسَىٰٓ <span class=end>١٥</span>",
+      "e": {
+        "p": 583,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "هَلْ",
+          "p": 583,
+          "l": 15
+        },
+        {
+          "t": "أَتَىٰكَ",
+          "p": 583,
+          "l": 15
+        },
+        {
+          "t": "حَدِيثُ",
+          "p": 583,
+          "l": 15
+        },
+        {
+          "t": "مُوسَىٰٓ",
+          "p": 583,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "79:16",
+      "page_number": 583,
+      "text_uthmani": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "tj": "إِذْ نَادَ<tajweed class=madda_normal>ٮٰ</tajweed>هُ رَبُّهُ<tajweed class=madda_normal>ۥ</tajweed> بِ<tajweed class=ham_wasl>ٱ</tajweed>لْوَادِ <tajweed class=ham_wasl>ٱ</tajweed>لْمُقَدَّسِ طُوًى <span class=end>١٦</span>",
+      "e": {
+        "p": 584,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "إِذْ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "نَادَىٰهُ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "رَبُّهُۥ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "بِٱلْوَادِ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "ٱلْمُقَدَّسِ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "طُوًى",
+          "p": 584,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "79:17",
+      "page_number": 584,
+      "text_uthmani": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "tj": "ٱذْهَ<tajweed class=qalaqah>بْ</tajweed> إِلَىٰ فِرْعَوْنَ إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> طَغَىٰ <span class=end>١٧</span>",
+      "e": {
+        "p": 584,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "ٱذْهَبْ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "إِلَىٰ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "فِرْعَوْنَ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "إِنَّهُۥ",
+          "p": 584,
+          "l": 1
+        },
+        {
+          "t": "طَغَىٰ",
+          "p": 584,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "79:18",
+      "page_number": 584,
+      "text_uthmani": "فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
+      "tj": "فَقُلْ هَل لَّكَ إِلَ<tajweed class=madda_obligatory>ىٰٓ</tajweed> أَ<tajweed class=ikhafa>ن ت</tajweed>َزَكَّىٰ <span class=end>١٨</span>",
+      "e": {
+        "p": 584,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "فَقُلْ",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "هَل",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "لَّكَ",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "إِلَىٰٓ",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "أَن",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "تَزَكَّىٰ",
+          "p": 584,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "79:19",
+      "page_number": 584,
+      "text_uthmani": "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ",
+      "tj": "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ <span class=end>١٩</span>",
+      "e": {
+        "p": 584,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "وَأَهْدِيَكَ",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "إِلَىٰ",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "رَبِّكَ",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "فَتَخْشَىٰ",
+          "p": 584,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "79:20",
+      "page_number": 584,
+      "text_uthmani": "فَأَرَىٰهُ ٱلْـَٔايَةَ ٱلْكُبْرَىٰ",
+      "tj": "فَأَرَ<tajweed class=madda_normal>ٮٰ</tajweed>هُ <tajweed class=ham_wasl>ٱ</tajweed>لْأَيَةَ <tajweed class=ham_wasl>ٱ</tajweed>لْكُ<tajweed class=qalaqah>بْ</tajweed>رَىٰ <span class=end>٢٠</span>",
+      "e": {
+        "p": 584,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "فَأَرَىٰهُ",
+          "p": 584,
+          "l": 2
+        },
+        {
+          "t": "ٱلْـَٔايَةَ",
+          "p": 584,
+          "l": 3
+        },
+        {
+          "t": "ٱلْكُبْرَىٰ",
+          "p": 584,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "79:21",
+      "page_number": 584,
+      "text_uthmani": "فَكَذَّبَ وَعَصَىٰ",
+      "tj": "فَكَذَّبَ وَعَصَىٰ <span class=end>٢١</span>",
+      "e": {
+        "p": 584,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "فَكَذَّبَ",
+          "p": 584,
+          "l": 3
+        },
+        {
+          "t": "وَعَصَىٰ",
+          "p": 584,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "79:22",
+      "page_number": 584,
+      "text_uthmani": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ أَ<tajweed class=qalaqah>دْ</tajweed>بَرَ يَسْعَىٰ <span class=end>٢٢</span>",
+      "e": {
+        "p": 584,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 584,
+          "l": 3
+        },
+        {
+          "t": "أَدْبَرَ",
+          "p": 584,
+          "l": 3
+        },
+        {
+          "t": "يَسْعَىٰ",
+          "p": 584,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "79:23",
+      "page_number": 584,
+      "text_uthmani": "فَحَشَرَ فَنَادَىٰ",
+      "tj": "فَحَشَرَ فَنَادَىٰ <span class=end>٢٣</span>",
+      "e": {
+        "p": 584,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "فَحَشَرَ",
+          "p": 584,
+          "l": 3
+        },
+        {
+          "t": "فَنَادَىٰ",
+          "p": 584,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "79:24",
+      "page_number": 584,
+      "text_uthmani": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ",
+      "tj": "فَقَالَ أَنَا۟ رَبُّكُمُ <tajweed class=ham_wasl>ٱ</tajweed>لْأَعْلَىٰ <span class=end>٢٤</span>",
+      "e": {
+        "p": 584,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "فَقَالَ",
+          "p": 584,
+          "l": 4
+        },
+        {
+          "t": "أَنَا۠",
+          "p": 584,
+          "l": 4
+        },
+        {
+          "t": "رَبُّكُمُ",
+          "p": 584,
+          "l": 4
+        },
+        {
+          "t": "ٱلْأَعْلَىٰ",
+          "p": 584,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "79:25",
+      "page_number": 584,
+      "text_uthmani": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْـَٔاخِرَةِ وَٱلْأُولَىٰٓ",
+      "tj": "فَأَخَذَهُ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ نَكَالَ <tajweed class=ham_wasl>ٱ</tajweed>لْأَخِرَةِ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأُولَىٰٓ <span class=end>٢٥</span>",
+      "e": {
+        "p": 584,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "فَأَخَذَهُ",
+          "p": 584,
+          "l": 4
+        },
+        {
+          "t": "ٱللَّهُ",
+          "p": 584,
+          "l": 4
+        },
+        {
+          "t": "نَكَالَ",
+          "p": 584,
+          "l": 4
+        },
+        {
+          "t": "ٱلْـَٔاخِرَةِ",
+          "p": 584,
+          "l": 4
+        },
+        {
+          "t": "وَٱلْأُولَىٰٓ",
+          "p": 584,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "79:26",
+      "page_number": 584,
+      "text_uthmani": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰٓ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ فِى ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ لَعِ<tajweed class=qalaqah>بْ</tajweed>رَ<tajweed class=idgham_wo_ghunnah>ةً ل</tajweed>ِّم<tajweed class=idgham_ghunnah>َن ي</tajweed>َخْشَىٰٓ <span class=end>٢٦</span>",
+      "e": {
+        "p": 584,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "فِى",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "ذَٰلِكَ",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "لَعِبْرَةًۭ",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "لِّمَن",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "يَخْشَىٰٓ",
+          "p": 584,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "79:27",
+      "page_number": 584,
+      "text_uthmani": "ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا",
+      "tj": "ءَأَ<tajweed class=ikhafa>نت</tajweed>ُمْ أَشَدُّ خَلْقًا أَمِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءُ‌ۚ بَنَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٢٧</span>",
+      "e": {
+        "p": 584,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "ءَأَنتُمْ",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "أَشَدُّ",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "خَلْقًا",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "أَمِ",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "ٱلسَّمَآءُ ۚ",
+          "p": 584,
+          "l": 5
+        },
+        {
+          "t": "بَنَىٰهَا",
+          "p": 584,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "79:28",
+      "page_number": 584,
+      "text_uthmani": "رَفَعَ سَمْكَهَا فَسَوَّىٰهَا",
+      "tj": "رَفَعَ سَمْكَهَا فَسَوَّ<tajweed class=madda_normal>ٮٰ</tajweed>هَا <span class=end>٢٨</span>",
+      "e": {
+        "p": 584,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "رَفَعَ",
+          "p": 584,
+          "l": 6
+        },
+        {
+          "t": "سَمْكَهَا",
+          "p": 584,
+          "l": 6
+        },
+        {
+          "t": "فَسَوَّىٰهَا",
+          "p": 584,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "79:29",
+      "page_number": 584,
+      "text_uthmani": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
+      "tj": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٢٩</span>",
+      "e": {
+        "p": 584,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "وَأَغْطَشَ",
+          "p": 584,
+          "l": 6
+        },
+        {
+          "t": "لَيْلَهَا",
+          "p": 584,
+          "l": 6
+        },
+        {
+          "t": "وَأَخْرَجَ",
+          "p": 584,
+          "l": 6
+        },
+        {
+          "t": "ضُحَىٰهَا",
+          "p": 584,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "79:30",
+      "page_number": 584,
+      "text_uthmani": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضَ بَعْدَ ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ دَحَ<tajweed class=madda_normal>ـٰ</tajweed>هَآ <span class=end>٣٠</span>",
+      "e": {
+        "p": 584,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "وَٱلْأَرْضَ",
+          "p": 584,
+          "l": 7
+        },
+        {
+          "t": "بَعْدَ",
+          "p": 584,
+          "l": 7
+        },
+        {
+          "t": "ذَٰلِكَ",
+          "p": 584,
+          "l": 7
+        },
+        {
+          "t": "دَحَىٰهَآ",
+          "p": 584,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "79:31",
+      "page_number": 584,
+      "text_uthmani": "أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا",
+      "tj": "أَخْرَجَ مِنْهَا م<tajweed class=madda_obligatory>َا</tajweed>ٓءَهَا وَمَرْعَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٣١</span>",
+      "e": {
+        "p": 584,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "أَخْرَجَ",
+          "p": 584,
+          "l": 7
+        },
+        {
+          "t": "مِنْهَا",
+          "p": 584,
+          "l": 7
+        },
+        {
+          "t": "مَآءَهَا",
+          "p": 584,
+          "l": 7
+        },
+        {
+          "t": "وَمَرْعَىٰهَا",
+          "p": 584,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "79:32",
+      "page_number": 584,
+      "text_uthmani": "وَٱلْجِبَالَ أَرْسَىٰهَا",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْجِبَالَ أَرْسَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٣٢</span>",
+      "e": {
+        "p": 584,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "وَٱلْجِبَالَ",
+          "p": 584,
+          "l": 8
+        },
+        {
+          "t": "أَرْسَىٰهَا",
+          "p": 584,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "79:33",
+      "page_number": 584,
+      "text_uthmani": "مَتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
+      "tj": "مَتَ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=idgham_wo_ghunnah>عًا ل</tajweed>َّكُمْ وَلِأَنْعَ<tajweed class=madda_normal>ـٰ</tajweed>مِكُمْ <span class=end>٣٣</span>",
+      "e": {
+        "p": 584,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "مَتَـٰعًۭا",
+          "p": 584,
+          "l": 8
+        },
+        {
+          "t": "لَّكُمْ",
+          "p": 584,
+          "l": 8
+        },
+        {
+          "t": "وَلِأَنْعَـٰمِكُمْ",
+          "p": 584,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "79:34",
+      "page_number": 584,
+      "text_uthmani": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ",
+      "tj": "فَإِذَا ج<tajweed class=madda_obligatory>َا</tajweed>ٓءَتِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>طّ<tajweed class=madda_necessary>َا</tajweed>ٓ<tajweed class=ghunnah>مّ</tajweed>َةُ <tajweed class=ham_wasl>ٱ</tajweed>لْكُ<tajweed class=qalaqah>بْ</tajweed>رَىٰ <span class=end>٣٤</span>",
+      "e": {
+        "p": 584,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "فَإِذَا",
+          "p": 584,
+          "l": 8
+        },
+        {
+          "t": "جَآءَتِ",
+          "p": 584,
+          "l": 8
+        },
+        {
+          "t": "ٱلطَّآمَّةُ",
+          "p": 584,
+          "l": 8
+        },
+        {
+          "t": "ٱلْكُبْرَىٰ",
+          "p": 584,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "79:35",
+      "page_number": 584,
+      "text_uthmani": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَـٰنُ مَا سَعَىٰ",
+      "tj": "يَوْمَ يَتَذَكَّرُ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ مَا سَعَىٰ <span class=end>٣٥</span>",
+      "e": {
+        "p": 584,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "يَوْمَ",
+          "p": 584,
+          "l": 9
+        },
+        {
+          "t": "يَتَذَكَّرُ",
+          "p": 584,
+          "l": 9
+        },
+        {
+          "t": "ٱلْإِنسَـٰنُ",
+          "p": 584,
+          "l": 9
+        },
+        {
+          "t": "مَا",
+          "p": 584,
+          "l": 9
+        },
+        {
+          "t": "سَعَىٰ",
+          "p": 584,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "79:36",
+      "page_number": 584,
+      "text_uthmani": "وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ",
+      "tj": "وَبُرِّزَتِ <tajweed class=ham_wasl>ٱ</tajweed>لْجَحِيمُ لِم<tajweed class=idgham_ghunnah>َن ي</tajweed>َرَىٰ <span class=end>٣٦</span>",
+      "e": {
+        "p": 584,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "وَبُرِّزَتِ",
+          "p": 584,
+          "l": 9
+        },
+        {
+          "t": "ٱلْجَحِيمُ",
+          "p": 584,
+          "l": 9
+        },
+        {
+          "t": "لِمَن",
+          "p": 584,
+          "l": 10
+        },
+        {
+          "t": "يَرَىٰ",
+          "p": 584,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "79:37",
+      "page_number": 584,
+      "text_uthmani": "فَأَمَّا مَن طَغَىٰ",
+      "tj": "فَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَ<tajweed class=ikhafa>ن ط</tajweed>َغَىٰ <span class=end>٣٧</span>",
+      "e": {
+        "p": 584,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "فَأَمَّا",
+          "p": 584,
+          "l": 10
+        },
+        {
+          "t": "مَن",
+          "p": 584,
+          "l": 10
+        },
+        {
+          "t": "طَغَىٰ",
+          "p": 584,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "79:38",
+      "page_number": 584,
+      "text_uthmani": "وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "tj": "وَءَاثَرَ <tajweed class=ham_wasl>ٱ</tajweed>لْحَيَ<tajweed class=slnt>و</tajweed><tajweed class=madda_normal>ٲ</tajweed>ةَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دُّنْيَا <span class=end>٣٨</span>",
+      "e": {
+        "p": 584,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "وَءَاثَرَ",
+          "p": 584,
+          "l": 10
+        },
+        {
+          "t": "ٱلْحَيَوٰةَ",
+          "p": 584,
+          "l": 10
+        },
+        {
+          "t": "ٱلدُّنْيَا",
+          "p": 584,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "79:39",
+      "page_number": 584,
+      "text_uthmani": "فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ",
+      "tj": "فَإِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْجَحِيمَ هِىَ <tajweed class=ham_wasl>ٱ</tajweed>لْمَأْوَىٰ <span class=end>٣٩</span>",
+      "e": {
+        "p": 584,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "فَإِنَّ",
+          "p": 584,
+          "l": 10
+        },
+        {
+          "t": "ٱلْجَحِيمَ",
+          "p": 584,
+          "l": 10
+        },
+        {
+          "t": "هِىَ",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "ٱلْمَأْوَىٰ",
+          "p": 584,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "79:40",
+      "page_number": 584,
+      "text_uthmani": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
+      "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَنْ خَافَ مَقَامَ رَبِّه<tajweed class=madda_normal>ِۦ</tajweed> وَنَهَى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َفْسَ عَنِ <tajweed class=ham_wasl>ٱ</tajweed>لْهَوَىٰ <span class=end>٤٠</span>",
+      "e": {
+        "p": 584,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "وَأَمَّا",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "مَنْ",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "خَافَ",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "مَقَامَ",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "رَبِّهِۦ",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "وَنَهَى",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "ٱلنَّفْسَ",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "عَنِ",
+          "p": 584,
+          "l": 11
+        },
+        {
+          "t": "ٱلْهَوَىٰ",
+          "p": 584,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "79:41",
+      "page_number": 584,
+      "text_uthmani": "فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ",
+      "tj": "فَإِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْجَ<tajweed class=ghunnah>نّ</tajweed>َةَ هِىَ <tajweed class=ham_wasl>ٱ</tajweed>لْمَأْوَىٰ <span class=end>٤١</span>",
+      "e": {
+        "p": 584,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "فَإِنَّ",
+          "p": 584,
+          "l": 12
+        },
+        {
+          "t": "ٱلْجَنَّةَ",
+          "p": 584,
+          "l": 12
+        },
+        {
+          "t": "هِىَ",
+          "p": 584,
+          "l": 12
+        },
+        {
+          "t": "ٱلْمَأْوَىٰ",
+          "p": 584,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "79:42",
+      "page_number": 584,
+      "text_uthmani": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا",
+      "tj": "يَسْــَٔلُونَكَ عَنِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّاعَةِ أَيَّانَ مُرْسَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٤٢</span>",
+      "e": {
+        "p": 584,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "يَسْـَٔلُونَكَ",
+          "p": 584,
+          "l": 12
+        },
+        {
+          "t": "عَنِ",
+          "p": 584,
+          "l": 12
+        },
+        {
+          "t": "ٱلسَّاعَةِ",
+          "p": 584,
+          "l": 12
+        },
+        {
+          "t": "أَيَّانَ",
+          "p": 584,
+          "l": 12
+        },
+        {
+          "t": "مُرْسَىٰهَا",
+          "p": 584,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "79:43",
+      "page_number": 584,
+      "text_uthmani": "فِيمَ أَنتَ مِن ذِكْرَىٰهَآ",
+      "tj": "فِيمَ أَ<tajweed class=ikhafa>نت</tajweed>َ مِ<tajweed class=ikhafa>ن ذ</tajweed>ِكْرَ<tajweed class=madda_normal>ٮٰ</tajweed>هَآ <span class=end>٤٣</span>",
+      "e": {
+        "p": 584,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "فِيمَ",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "أَنتَ",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "مِن",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "ذِكْرَىٰهَآ",
+          "p": 584,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "79:44",
+      "page_number": 584,
+      "text_uthmani": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+      "tj": "إِلَىٰ رَبِّكَ مُ<tajweed class=ikhafa>نت</tajweed>َهَ<tajweed class=madda_normal>ـٰ</tajweed>هَآ <span class=end>٤٤</span>",
+      "e": {
+        "p": 584,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "إِلَىٰ",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "رَبِّكَ",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "مُنتَهَىٰهَآ",
+          "p": 584,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "79:45",
+      "page_number": 584,
+      "text_uthmani": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نت</tajweed>َ مُ<tajweed class=ikhafa>نذ</tajweed>ِرُ م<tajweed class=idgham_ghunnah>َن ي</tajweed>َخْشَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٤٥</span>",
+      "e": {
+        "p": 584,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "إِنَّمَآ",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "أَنتَ",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "مُنذِرُ",
+          "p": 584,
+          "l": 13
+        },
+        {
+          "t": "مَن",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "يَخْشَىٰهَا",
+          "p": 584,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "79:46",
+      "page_number": 584,
+      "text_uthmani": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا",
+      "tj": "كَأَ<tajweed class=ghunnah>نّ</tajweed>َهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَث<tajweed class=madda_obligatory>ُوٓ</tajweed><tajweed class=slnt>اْ</tajweed> إِلَّا عَشِيَّةً أَوْ ضُحَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٤٦</span>",
+      "e": {
+        "p": 584,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "كَأَنَّهُمْ",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "يَوْمَ",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "يَرَوْنَهَا",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "لَمْ",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "يَلْبَثُوٓا۟",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "إِلَّا",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "عَشِيَّةً",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "أَوْ",
+          "p": 584,
+          "l": 14
+        },
+        {
+          "t": "ضُحَىٰهَا",
+          "p": 584,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "80:1",
+      "page_number": 585,
+      "text_uthmani": " عَبَسَ وَتَوَلَّىٰٓ",
+      "tj": "عَبَسَ وَتَوَلَّىٰٓ <span class=end>١</span>",
+      "e": {
+        "p": 585,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "عَبَسَ",
+          "p": 585,
+          "l": 2
+        },
+        {
+          "t": "وَتَوَلَّىٰٓ",
+          "p": 585,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "80:2",
+      "page_number": 585,
+      "text_uthmani": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
+      "tj": "أَ<tajweed class=ikhafa>ن ج</tajweed><tajweed class=madda_obligatory>َا</tajweed>ٓءَهُ <tajweed class=ham_wasl>ٱ</tajweed>لْأَعْمَىٰ <span class=end>٢</span>",
+      "e": {
+        "p": 585,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "أَن",
+          "p": 585,
+          "l": 2
+        },
+        {
+          "t": "جَآءَهُ",
+          "p": 585,
+          "l": 2
+        },
+        {
+          "t": "ٱلْأَعْمَىٰ",
+          "p": 585,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "80:3",
+      "page_number": 585,
+      "text_uthmani": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+      "tj": "وَمَا يُ<tajweed class=qalaqah>دْ</tajweed>رِيكَ لَعَلَّهُ<tajweed class=madda_normal>ۥ</tajweed> يَزَّكَّىٰٓ <span class=end>٣</span>",
+      "e": {
+        "p": 585,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 585,
+          "l": 2
+        },
+        {
+          "t": "يُدْرِيكَ",
+          "p": 585,
+          "l": 2
+        },
+        {
+          "t": "لَعَلَّهُۥ",
+          "p": 585,
+          "l": 2
+        },
+        {
+          "t": "يَزَّكَّىٰٓ",
+          "p": 585,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "80:4",
+      "page_number": 585,
+      "text_uthmani": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ",
+      "tj": "أَوْ يَذَّكَّرُ فَتَ<tajweed class=ikhafa>نف</tajweed>َعَهُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>ذِّكْرَىٰٓ <span class=end>٤</span>",
+      "e": {
+        "p": 585,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "أَوْ",
+          "p": 585,
+          "l": 2
+        },
+        {
+          "t": "يَذَّكَّرُ",
+          "p": 585,
+          "l": 3
+        },
+        {
+          "t": "فَتَنفَعَهُ",
+          "p": 585,
+          "l": 3
+        },
+        {
+          "t": "ٱلذِّكْرَىٰٓ",
+          "p": 585,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "80:5",
+      "page_number": 585,
+      "text_uthmani": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
+      "tj": "أَ<tajweed class=ghunnah>مّ</tajweed>َا مَنِ <tajweed class=ham_wasl>ٱ</tajweed>سْتَغْنَىٰ <span class=end>٥</span>",
+      "e": {
+        "p": 585,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "أَمَّا",
+          "p": 585,
+          "l": 3
+        },
+        {
+          "t": "مَنِ",
+          "p": 585,
+          "l": 3
+        },
+        {
+          "t": "ٱسْتَغْنَىٰ",
+          "p": 585,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "80:6",
+      "page_number": 585,
+      "text_uthmani": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+      "tj": "فَأَ<tajweed class=ikhafa>نت</tajweed>َ لَهُ<tajweed class=madda_normal>ۥ</tajweed> تَصَدَّىٰ <span class=end>٦</span>",
+      "e": {
+        "p": 585,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "فَأَنتَ",
+          "p": 585,
+          "l": 3
+        },
+        {
+          "t": "لَهُۥ",
+          "p": 585,
+          "l": 3
+        },
+        {
+          "t": "تَصَدَّىٰ",
+          "p": 585,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "80:7",
+      "page_number": 585,
+      "text_uthmani": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
+      "tj": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ <span class=end>٧</span>",
+      "e": {
+        "p": 585,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "عَلَيْكَ",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "أَلَّا",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "يَزَّكَّىٰ",
+          "p": 585,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "80:8",
+      "page_number": 585,
+      "text_uthmani": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+      "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَ<tajweed class=ikhafa>ن ج</tajweed><tajweed class=madda_obligatory>َا</tajweed>ٓءَكَ يَسْعَىٰ <span class=end>٨</span>",
+      "e": {
+        "p": 585,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "وَأَمَّا",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "مَن",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "جَآءَكَ",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "يَسْعَىٰ",
+          "p": 585,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "80:9",
+      "page_number": 585,
+      "text_uthmani": "وَهُوَ يَخْشَىٰ",
+      "tj": "وَهُوَ يَخْشَىٰ <span class=end>٩</span>",
+      "e": {
+        "p": 585,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "وَهُوَ",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "يَخْشَىٰ",
+          "p": 585,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "80:10",
+      "page_number": 585,
+      "text_uthmani": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+      "tj": "فَأَ<tajweed class=ikhafa>نت</tajweed>َ عَنْهُ تَلَهَّىٰ <span class=end>١٠</span>",
+      "e": {
+        "p": 585,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "فَأَنتَ",
+          "p": 585,
+          "l": 4
+        },
+        {
+          "t": "عَنْهُ",
+          "p": 585,
+          "l": 5
+        },
+        {
+          "t": "تَلَهَّىٰ",
+          "p": 585,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "80:11",
+      "page_number": 585,
+      "text_uthmani": "كَلَّآ إِنَّهَا تَذْكِرَةٌ",
+      "tj": "كَلّ<tajweed class=madda_obligatory>َآ</tajweed> إِ<tajweed class=ghunnah>نّ</tajweed>َهَا تَذْكِرَةٌ <span class=end>١١</span>",
+      "e": {
+        "p": 585,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "كَلَّآ",
+          "p": 585,
+          "l": 5
+        },
+        {
+          "t": "إِنَّهَا",
+          "p": 585,
+          "l": 5
+        },
+        {
+          "t": "تَذْكِرَةٌۭ",
+          "p": 585,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "80:12",
+      "page_number": 585,
+      "text_uthmani": "فَمَن شَآءَ ذَكَرَهُۥ",
+      "tj": "فَمَ<tajweed class=ikhafa>ن ش</tajweed><tajweed class=madda_obligatory>َا</tajweed>ٓءَ ذَكَرَهُۥ <span class=end>١٢</span>",
+      "e": {
+        "p": 585,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "فَمَن",
+          "p": 585,
+          "l": 5
+        },
+        {
+          "t": "شَآءَ",
+          "p": 585,
+          "l": 5
+        },
+        {
+          "t": "ذَكَرَهُۥ",
+          "p": 585,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "80:13",
+      "page_number": 585,
+      "text_uthmani": "فِى صُحُفٍ مُّكَرَّمَةٍ",
+      "tj": "فِى صُحُ<tajweed class=idgham_ghunnah>فٍ م</tajweed>ُّكَرَّمَةٍ <span class=end>١٣</span>",
+      "e": {
+        "p": 585,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "فِى",
+          "p": 585,
+          "l": 5
+        },
+        {
+          "t": "صُحُفٍۢ",
+          "p": 585,
+          "l": 5
+        },
+        {
+          "t": "مُّكَرَّمَةٍۢ",
+          "p": 585,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "80:14",
+      "page_number": 585,
+      "text_uthmani": "مَّرْفُوعَةٍ مُّطَهَّرَةٍۭ",
+      "tj": "مَّرْفُوعَ<tajweed class=idgham_ghunnah>ةٍ م</tajweed>ُّطَهَّرَةِۭ <span class=end>١٤</span>",
+      "e": {
+        "p": 585,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "مَّرْفُوعَةٍۢ",
+          "p": 585,
+          "l": 6
+        },
+        {
+          "t": "مُّطَهَّرَةٍۭ",
+          "p": 585,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "80:15",
+      "page_number": 585,
+      "text_uthmani": "بِأَيْدِى سَفَرَةٍ",
+      "tj": "بِأَيْدِى سَفَرَةٍ <span class=end>١٥</span>",
+      "e": {
+        "p": 585,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "بِأَيْدِى",
+          "p": 585,
+          "l": 6
+        },
+        {
+          "t": "سَفَرَةٍۢ",
+          "p": 585,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "80:16",
+      "page_number": 585,
+      "text_uthmani": "كِرَامٍۭ بَرَرَةٍ",
+      "tj": "كِرَا<tajweed class=iqlab>مِۭ ب</tajweed>َرَرَةٍ <span class=end>١٦</span>",
+      "e": {
+        "p": 585,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "كِرَامٍۭ",
+          "p": 585,
+          "l": 6
+        },
+        {
+          "t": "بَرَرَةٍۢ",
+          "p": 585,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "80:17",
+      "page_number": 585,
+      "text_uthmani": "قُتِلَ ٱلْإِنسَـٰنُ مَآ أَكْفَرَهُۥ",
+      "tj": "قُتِلَ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ م<tajweed class=madda_obligatory>َآ</tajweed> أَكْفَرَهُۥ <span class=end>١٧</span>",
+      "e": {
+        "p": 585,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "قُتِلَ",
+          "p": 585,
+          "l": 6
+        },
+        {
+          "t": "ٱلْإِنسَـٰنُ",
+          "p": 585,
+          "l": 6
+        },
+        {
+          "t": "مَآ",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "أَكْفَرَهُۥ",
+          "p": 585,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "80:18",
+      "page_number": 585,
+      "text_uthmani": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
+      "tj": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ <span class=end>١٨</span>",
+      "e": {
+        "p": 585,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "مِنْ",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "أَىِّ",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "شَىْءٍ",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "خَلَقَهُۥ",
+          "p": 585,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "80:19",
+      "page_number": 585,
+      "text_uthmani": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+      "tj": "م<tajweed class=idgham_ghunnah>ِن ن</tajweed>ُّ<tajweed class=qalaqah>طْ</tajweed>فَةٍ خَلَقَهُ<tajweed class=madda_normal>ۥ</tajweed> فَقَدَّرَهُۥ <span class=end>١٩</span>",
+      "e": {
+        "p": 585,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "مِن",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "نُّطْفَةٍ",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "خَلَقَهُۥ",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "فَقَدَّرَهُۥ",
+          "p": 585,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "80:20",
+      "page_number": 585,
+      "text_uthmani": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّبِيلَ يَسَّرَهُۥ <span class=end>٢٠</span>",
+      "e": {
+        "p": 585,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 585,
+          "l": 7
+        },
+        {
+          "t": "ٱلسَّبِيلَ",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "يَسَّرَهُۥ",
+          "p": 585,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "80:21",
+      "page_number": 585,
+      "text_uthmani": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ أَمَاتَهُ<tajweed class=madda_normal>ۥ</tajweed> فَأَ<tajweed class=qalaqah>قْ</tajweed>بَرَهُۥ <span class=end>٢١</span>",
+      "e": {
+        "p": 585,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "أَمَاتَهُۥ",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "فَأَقْبَرَهُۥ",
+          "p": 585,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "80:22",
+      "page_number": 585,
+      "text_uthmani": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ إِذَا ش<tajweed class=madda_obligatory>َا</tajweed>ٓءَ أَ<tajweed class=ikhafa>نش</tajweed>َرَهُۥ <span class=end>٢٢</span>",
+      "e": {
+        "p": 585,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "إِذَا",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "شَآءَ",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "أَنشَرَهُۥ",
+          "p": 585,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "80:23",
+      "page_number": 585,
+      "text_uthmani": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
+      "tj": "كَلَّا لَ<tajweed class=ghunnah>مّ</tajweed>َا يَ<tajweed class=qalaqah>قْ</tajweed>ضِ م<tajweed class=madda_obligatory>َآ</tajweed> أَمَرَهُۥ <span class=end>٢٣</span>",
+      "e": {
+        "p": 585,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "كَلَّا",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "لَمَّا",
+          "p": 585,
+          "l": 8
+        },
+        {
+          "t": "يَقْضِ",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "مَآ",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "أَمَرَهُۥ",
+          "p": 585,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "80:24",
+      "page_number": 585,
+      "text_uthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ إِلَىٰ طَعَامِهِۦٓ",
+      "tj": "فَلْيَ<tajweed class=ikhafa>نظ</tajweed>ُرِ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ إِلَىٰ طَعَامِهِۦٓ <span class=end>٢٤</span>",
+      "e": {
+        "p": 585,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "فَلْيَنظُرِ",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "ٱلْإِنسَـٰنُ",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "إِلَىٰ",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "طَعَامِهِۦٓ",
+          "p": 585,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "80:25",
+      "page_number": 585,
+      "text_uthmani": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا",
+      "tj": "أَ<tajweed class=ghunnah>نّ</tajweed>َا صَبَ<tajweed class=qalaqah>بْ</tajweed>نَا <tajweed class=ham_wasl>ٱ</tajweed>لْم<tajweed class=madda_obligatory>َا</tajweed>ٓءَ صَبًّا <span class=end>٢٥</span>",
+      "e": {
+        "p": 585,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "اَنَّا",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "صَبَبْنَا",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "ٱلْمَآءَ",
+          "p": 585,
+          "l": 9
+        },
+        {
+          "t": "صَبًّۭا",
+          "p": 585,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "80:26",
+      "page_number": 585,
+      "text_uthmani": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ شَقَ<tajweed class=qalaqah>قْ</tajweed>نَا <tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضَ شَقًّا <span class=end>٢٦</span>",
+      "e": {
+        "p": 585,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 585,
+          "l": 10
+        },
+        {
+          "t": "شَقَقْنَا",
+          "p": 585,
+          "l": 10
+        },
+        {
+          "t": "ٱلْأَرْضَ",
+          "p": 585,
+          "l": 10
+        },
+        {
+          "t": "شَقًّۭا",
+          "p": 585,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "80:27",
+      "page_number": 585,
+      "text_uthmani": "فَأَنۢبَتْنَا فِيهَا حَبًّا",
+      "tj": "فَأَ<tajweed class=iqlab>نۢب</tajweed>َتْنَا فِيهَا حَبًّا <span class=end>٢٧</span>",
+      "e": {
+        "p": 585,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "فَأَنۢبَتْنَا",
+          "p": 585,
+          "l": 10
+        },
+        {
+          "t": "فِيهَا",
+          "p": 585,
+          "l": 10
+        },
+        {
+          "t": "حَبًّۭا",
+          "p": 585,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "80:28",
+      "page_number": 585,
+      "text_uthmani": "وَعِنَبًا وَقَضْبًا",
+      "tj": "وَعِنَ<tajweed class=idgham_ghunnah>بًا و</tajweed>َقَضْبًا <span class=end>٢٨</span>",
+      "e": {
+        "p": 585,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "وَعِنَبًۭا",
+          "p": 585,
+          "l": 10
+        },
+        {
+          "t": "وَقَضْبًۭا",
+          "p": 585,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "80:29",
+      "page_number": 585,
+      "text_uthmani": "وَزَيْتُونًا وَنَخْلًا",
+      "tj": "وَزَيْتُو<tajweed class=idgham_ghunnah>نًا و</tajweed>َنَخْلاً <span class=end>٢٩</span>",
+      "e": {
+        "p": 585,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَزَيْتُونًۭا",
+          "p": 585,
+          "l": 11
+        },
+        {
+          "t": "وَنَخْلًۭا",
+          "p": 585,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "80:30",
+      "page_number": 585,
+      "text_uthmani": "وَحَدَآئِقَ غُلْبًا",
+      "tj": "وَحَد<tajweed class=madda_obligatory>َا</tajweed>ٓئِقَ غُلْبًا <span class=end>٣٠</span>",
+      "e": {
+        "p": 585,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَحَدَآئِقَ",
+          "p": 585,
+          "l": 11
+        },
+        {
+          "t": "غُلْبًۭا",
+          "p": 585,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "80:31",
+      "page_number": 585,
+      "text_uthmani": "وَفَـٰكِهَةً وَأَبًّا",
+      "tj": "وَفَ<tajweed class=madda_normal>ـٰ</tajweed>كِهَ<tajweed class=idgham_ghunnah>ةً و</tajweed>َأَبًّا <span class=end>٣١</span>",
+      "e": {
+        "p": 585,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَفَـٰكِهَةًۭ",
+          "p": 585,
+          "l": 11
+        },
+        {
+          "t": "وَأَبًّۭا",
+          "p": 585,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "80:32",
+      "page_number": 585,
+      "text_uthmani": "مَّتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
+      "tj": "مَّتَ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=idgham_wo_ghunnah>عًا ل</tajweed>َّكُمْ وَلِأَنْعَ<tajweed class=madda_normal>ـٰ</tajweed>مِكُمْ <span class=end>٣٢</span>",
+      "e": {
+        "p": 585,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "مَّتَـٰعًۭا",
+          "p": 585,
+          "l": 11
+        },
+        {
+          "t": "لَّكُمْ",
+          "p": 585,
+          "l": 11
+        },
+        {
+          "t": "وَلِأَنْعَـٰمِكُمْ",
+          "p": 585,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "80:33",
+      "page_number": 585,
+      "text_uthmani": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+      "tj": "فَإِذَا ج<tajweed class=madda_obligatory>َا</tajweed>ٓءَتِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صّ<tajweed class=madda_necessary>َا</tajweed>ٓخَّةُ <span class=end>٣٣</span>",
+      "e": {
+        "p": 585,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "فَإِذَا",
+          "p": 585,
+          "l": 12
+        },
+        {
+          "t": "جَآءَتِ",
+          "p": 585,
+          "l": 12
+        },
+        {
+          "t": "ٱلصَّآخَّةُ",
+          "p": 585,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "80:34",
+      "page_number": 585,
+      "text_uthmani": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
+      "tj": "يَوْمَ يَفِرُّ <tajweed class=ham_wasl>ٱ</tajweed>لْمَرْءُ مِنْ أَخ<tajweed class=madda_permissible>ِي</tajweed>هِ <span class=end>٣٤</span>",
+      "e": {
+        "p": 585,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "يَوْمَ",
+          "p": 585,
+          "l": 12
+        },
+        {
+          "t": "يَفِرُّ",
+          "p": 585,
+          "l": 12
+        },
+        {
+          "t": "ٱلْمَرْءُ",
+          "p": 585,
+          "l": 12
+        },
+        {
+          "t": "مِنْ",
+          "p": 585,
+          "l": 12
+        },
+        {
+          "t": "أَخِيهِ",
+          "p": 585,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "80:35",
+      "page_number": 585,
+      "text_uthmani": "وَأُمِّهِۦ وَأَبِيهِ",
+      "tj": "وَأُ<tajweed class=ghunnah>مّ</tajweed>ِه<tajweed class=madda_normal>ِۦ</tajweed> وَأَب<tajweed class=madda_permissible>ِي</tajweed>هِ <span class=end>٣٥</span>",
+      "e": {
+        "p": 585,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "وَأُمِّهِۦ",
+          "p": 585,
+          "l": 13
+        },
+        {
+          "t": "وَأَبِيهِ",
+          "p": 585,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "80:36",
+      "page_number": 585,
+      "text_uthmani": "وَصَـٰحِبَتِهِۦ وَبَنِيهِ",
+      "tj": "وَصَ<tajweed class=madda_normal>ـٰ</tajweed>حِبَتِه<tajweed class=madda_normal>ِۦ</tajweed> وَبَن<tajweed class=madda_permissible>ِي</tajweed>هِ <span class=end>٣٦</span>",
+      "e": {
+        "p": 585,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "وَصَـٰحِبَتِهِۦ",
+          "p": 585,
+          "l": 13
+        },
+        {
+          "t": "وَبَنِيهِ",
+          "p": 585,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "80:37",
+      "page_number": 585,
+      "text_uthmani": "لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
+      "tj": "لِكُلِّ <tajweed class=ham_wasl>ٱ</tajweed>مْرِى<tajweed class=idgham_ghunnah>ٍٕ م</tajweed>ِّنْهُمْ يَوْمَئِ<tajweed class=ikhafa>ذٍ ش</tajweed>َأْ<tajweed class=idgham_ghunnah>نٌ ي</tajweed>ُغْن<tajweed class=madda_permissible>ِي</tajweed>هِ <span class=end>٣٧</span>",
+      "e": {
+        "p": 585,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "لِكُلِّ",
+          "p": 585,
+          "l": 13
+        },
+        {
+          "t": "ٱمْرِئٍۢ",
+          "p": 585,
+          "l": 13
+        },
+        {
+          "t": "مِّنْهُمْ",
+          "p": 585,
+          "l": 13
+        },
+        {
+          "t": "يَوْمَئِذٍۢ",
+          "p": 585,
+          "l": 13
+        },
+        {
+          "t": "شَأْنٌۭ",
+          "p": 585,
+          "l": 13
+        },
+        {
+          "t": "يُغْنِيهِ",
+          "p": 585,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "80:38",
+      "page_number": 585,
+      "text_uthmani": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
+      "tj": "وُجُو<tajweed class=idgham_ghunnah>هٌ ي</tajweed>َوْمَئِ<tajweed class=idgham_ghunnah>ذٍ م</tajweed>ُّسْفِرَةٌ <span class=end>٣٨</span>",
+      "e": {
+        "p": 585,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "وُجُوهٌۭ",
+          "p": 585,
+          "l": 14
+        },
+        {
+          "t": "يَوْمَئِذٍۢ",
+          "p": 585,
+          "l": 14
+        },
+        {
+          "t": "مُّسْفِرَةٌۭ",
+          "p": 585,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "80:39",
+      "page_number": 585,
+      "text_uthmani": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
+      "tj": "ضَاحِكَ<tajweed class=idgham_ghunnah>ةٌ م</tajweed>ُّسْتَ<tajweed class=qalaqah>بْ</tajweed>شِرَةٌ <span class=end>٣٩</span>",
+      "e": {
+        "p": 585,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "ضَاحِكَةٌۭ",
+          "p": 585,
+          "l": 14
+        },
+        {
+          "t": "مُّسْتَبْشِرَةٌۭ",
+          "p": 585,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "80:40",
+      "page_number": 585,
+      "text_uthmani": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
+      "tj": "وَوُجُو<tajweed class=idgham_ghunnah>هٌ ي</tajweed>َوْمَئِذٍ عَلَيْهَا غَبَرَةٌ <span class=end>٤٠</span>",
+      "e": {
+        "p": 585,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "وَوُجُوهٌۭ",
+          "p": 585,
+          "l": 14
+        },
+        {
+          "t": "يَوْمَئِذٍ",
+          "p": 585,
+          "l": 15
+        },
+        {
+          "t": "عَلَيْهَا",
+          "p": 585,
+          "l": 15
+        },
+        {
+          "t": "غَبَرَةٌۭ",
+          "p": 585,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "80:41",
+      "page_number": 586,
+      "text_uthmani": "تَرْهَقُهَا قَتَرَةٌ",
+      "tj": "تَرْهَقُهَا قَتَرَةٌ <span class=end>٤١</span>",
+      "e": {
+        "p": 585,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "تَرْهَقُهَا",
+          "p": 585,
+          "l": 15
+        },
+        {
+          "t": "قَتَرَةٌ",
+          "p": 585,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "80:42",
+      "page_number": 586,
+      "text_uthmani": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+      "tj": "أُ<tajweed class=slnt>وْ</tajweed>لَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ئِكَ هُمُ <tajweed class=ham_wasl>ٱ</tajweed>لْكَفَرَةُ <tajweed class=ham_wasl>ٱ</tajweed>لْفَجَرَةُ <span class=end>٤٢</span>",
+      "e": {
+        "p": 585,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "أُو۟لَـٰٓئِكَ",
+          "p": 585,
+          "l": 15
+        },
+        {
+          "t": "هُمُ",
+          "p": 585,
+          "l": 15
+        },
+        {
+          "t": "ٱلْكَفَرَةُ",
+          "p": 585,
+          "l": 15
+        },
+        {
+          "t": "ٱلْفَجَرَةُ",
+          "p": 585,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "81:1",
+      "page_number": 586,
+      "text_uthmani": " إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+      "tj": "إِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>شَّمْسُ كُوِّرَتْ <span class=end>١</span>",
+      "e": {
+        "p": 586,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "إِذَا",
+          "p": 586,
+          "l": 3
+        },
+        {
+          "t": "ٱلشَّمْسُ",
+          "p": 586,
+          "l": 3
+        },
+        {
+          "t": "كُوِّرَتْ",
+          "p": 586,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "81:2",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>ُجُومُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=ikhafa>نك</tajweed>َدَرَتْ <span class=end>٢</span>",
+      "e": {
+        "p": 586,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 3
+        },
+        {
+          "t": "ٱلنُّجُومُ",
+          "p": 586,
+          "l": 3
+        },
+        {
+          "t": "ٱنكَدَرَتْ",
+          "p": 586,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "81:3",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْجِبَالُ سُيِّرَتْ <span class=end>٣</span>",
+      "e": {
+        "p": 586,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 3
+        },
+        {
+          "t": "ٱلْجِبَالُ",
+          "p": 586,
+          "l": 3
+        },
+        {
+          "t": "سُيِّرَتْ",
+          "p": 586,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "81:4",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْعِشَارُ عُطِّلَتْ <span class=end>٤</span>",
+      "e": {
+        "p": 586,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 4
+        },
+        {
+          "t": "ٱلْعِشَارُ",
+          "p": 586,
+          "l": 4
+        },
+        {
+          "t": "عُطِّلَتْ",
+          "p": 586,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "81:5",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْوُحُوشُ حُشِرَتْ <span class=end>٥</span>",
+      "e": {
+        "p": 586,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 4
+        },
+        {
+          "t": "ٱلْوُحُوشُ",
+          "p": 586,
+          "l": 4
+        },
+        {
+          "t": "حُشِرَتْ",
+          "p": 586,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "81:6",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْبِحَارُ سُجِّرَتْ <span class=end>٦</span>",
+      "e": {
+        "p": 586,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 5
+        },
+        {
+          "t": "ٱلْبِحَارُ",
+          "p": 586,
+          "l": 5
+        },
+        {
+          "t": "سُجِّرَتْ",
+          "p": 586,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "81:7",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>ُفُوسُ زُوِّجَتْ <span class=end>٧</span>",
+      "e": {
+        "p": 586,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 5
+        },
+        {
+          "t": "ٱلنُّفُوسُ",
+          "p": 586,
+          "l": 5
+        },
+        {
+          "t": "زُوِّجَتْ",
+          "p": 586,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "81:8",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْمَوْءُ<tajweed class=madda_normal>ۥ</tajweed>دَةُ سُئِلَتْ <span class=end>٨</span>",
+      "e": {
+        "p": 586,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 5
+        },
+        {
+          "t": "ٱلْمَوْءُۥدَةُ",
+          "p": 586,
+          "l": 6
+        },
+        {
+          "t": "سُئِلَتْ",
+          "p": 586,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "81:9",
+      "page_number": 586,
+      "text_uthmani": "بِأَىِّ ذَنۢبٍ قُتِلَتْ",
+      "tj": "بِأَىِّ ذَ<tajweed class=iqlab>نۢب</tajweed><tajweed class=ikhafa>ٍ ق</tajweed>ُتِلَتْ <span class=end>٩</span>",
+      "e": {
+        "p": 586,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "بِأَىِّ",
+          "p": 586,
+          "l": 6
+        },
+        {
+          "t": "ذَنۢبٍۢ",
+          "p": 586,
+          "l": 6
+        },
+        {
+          "t": "قُتِلَتْ",
+          "p": 586,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "81:10",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صُّحُفُ نُشِرَتْ <span class=end>١٠</span>",
+      "e": {
+        "p": 586,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 6
+        },
+        {
+          "t": "ٱلصُّحُفُ",
+          "p": 586,
+          "l": 6
+        },
+        {
+          "t": "نُشِرَتْ",
+          "p": 586,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "81:11",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءُ كُشِطَتْ <span class=end>١١</span>",
+      "e": {
+        "p": 586,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 7
+        },
+        {
+          "t": "ٱلسَّمَآءُ",
+          "p": 586,
+          "l": 7
+        },
+        {
+          "t": "كُشِطَتْ",
+          "p": 586,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "81:12",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْجَحِيمُ سُعِّرَتْ <span class=end>١٢</span>",
+      "e": {
+        "p": 586,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 7
+        },
+        {
+          "t": "ٱلْجَحِيمُ",
+          "p": 586,
+          "l": 7
+        },
+        {
+          "t": "سُعِّرَتْ",
+          "p": 586,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "81:13",
+      "page_number": 586,
+      "text_uthmani": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْجَ<tajweed class=ghunnah>نّ</tajweed>َةُ أُزْلِفَتْ <span class=end>١٣</span>",
+      "e": {
+        "p": 586,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 586,
+          "l": 7
+        },
+        {
+          "t": "ٱلْجَنَّةُ",
+          "p": 586,
+          "l": 7
+        },
+        {
+          "t": "أُزْلِفَتْ",
+          "p": 586,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "81:14",
+      "page_number": 586,
+      "text_uthmani": "عَلِمَتْ نَفْسٌ مَّآ أَحْضَرَتْ",
+      "tj": "عَلِمَتْ نَفْ<tajweed class=idgham_ghunnah>سٌ م</tajweed>ّ<tajweed class=madda_obligatory>َآ</tajweed> أَحْضَرَتْ <span class=end>١٤</span>",
+      "e": {
+        "p": 586,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "عَلِمَتْ",
+          "p": 586,
+          "l": 8
+        },
+        {
+          "t": "نَفْسٌۭ",
+          "p": 586,
+          "l": 8
+        },
+        {
+          "t": "مَّآ",
+          "p": 586,
+          "l": 8
+        },
+        {
+          "t": "أَحْضَرَتْ",
+          "p": 586,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "81:15",
+      "page_number": 586,
+      "text_uthmani": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
+      "tj": "فَل<tajweed class=madda_obligatory>َآ</tajweed> أُ<tajweed class=qalaqah>قْ</tajweed>سِمُ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْخُ<tajweed class=ghunnah>نّ</tajweed>َسِ <span class=end>١٥</span>",
+      "e": {
+        "p": 586,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "فَلَآ",
+          "p": 586,
+          "l": 8
+        },
+        {
+          "t": "أُقْسِمُ",
+          "p": 586,
+          "l": 8
+        },
+        {
+          "t": "بِٱلْخُنَّسِ",
+          "p": 586,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "81:16",
+      "page_number": 586,
+      "text_uthmani": "ٱلْجَوَارِ ٱلْكُنَّسِ",
+      "tj": "ٱلْجَوَارِ <tajweed class=ham_wasl>ٱ</tajweed>لْكُ<tajweed class=ghunnah>نّ</tajweed>َسِ <span class=end>١٦</span>",
+      "e": {
+        "p": 586,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "ٱلْجَوَارِ",
+          "p": 586,
+          "l": 9
+        },
+        {
+          "t": "ٱلْكُنَّسِ",
+          "p": 586,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "81:17",
+      "page_number": 586,
+      "text_uthmani": "وَٱلَّيْلِ إِذَا عَسْعَسَ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّيْلِ إِذَا عَسْعَسَ <span class=end>١٧</span>",
+      "e": {
+        "p": 586,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "وَٱلَّيْلِ",
+          "p": 586,
+          "l": 9
+        },
+        {
+          "t": "إِذَا",
+          "p": 586,
+          "l": 9
+        },
+        {
+          "t": "عَسْعَسَ",
+          "p": 586,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "81:18",
+      "page_number": 586,
+      "text_uthmani": "وَٱلصُّبْحِ إِذَا تَنَفَّسَ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صُّ<tajweed class=qalaqah>بْ</tajweed>حِ إِذَا تَنَفَّسَ <span class=end>١٨</span>",
+      "e": {
+        "p": 586,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "وَٱلصُّبْحِ",
+          "p": 586,
+          "l": 9
+        },
+        {
+          "t": "إِذَا",
+          "p": 586,
+          "l": 9
+        },
+        {
+          "t": "تَنَفَّسَ",
+          "p": 586,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "81:19",
+      "page_number": 586,
+      "text_uthmani": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> لَقَوْلُ رَسُو<tajweed class=ikhafa>لٍ ك</tajweed>َر<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>١٩</span>",
+      "e": {
+        "p": 586,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "إِنَّهُۥ",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "لَقَوْلُ",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "رَسُولٍۢ",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "كَرِيمٍۢ",
+          "p": 586,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "81:20",
+      "page_number": 586,
+      "text_uthmani": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍ",
+      "tj": "ذِى قُوَّةٍ عِ<tajweed class=ikhafa>ند</tajweed>َ ذِى <tajweed class=ham_wasl>ٱ</tajweed>لْعَرْشِ مَك<tajweed class=madda_permissible>ِي</tajweed>نٍ <span class=end>٢٠</span>",
+      "e": {
+        "p": 586,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "ذِى",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "قُوَّةٍ",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "عِندَ",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "ذِى",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "ٱلْعَرْشِ",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "مَكِينٍۢ",
+          "p": 586,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "81:21",
+      "page_number": 586,
+      "text_uthmani": "مُّطَاعٍ ثَمَّ أَمِينٍ",
+      "tj": "مُّطَا<tajweed class=ikhafa>عٍ ث</tajweed>َ<tajweed class=ghunnah>مّ</tajweed>َ أَم<tajweed class=madda_permissible>ِي</tajweed>نٍ <span class=end>٢١</span>",
+      "e": {
+        "p": 586,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "مُّطَاعٍۢ",
+          "p": 586,
+          "l": 10
+        },
+        {
+          "t": "ثَمَّ",
+          "p": 586,
+          "l": 11
+        },
+        {
+          "t": "أَمِينٍۢ",
+          "p": 586,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "81:22",
+      "page_number": 586,
+      "text_uthmani": "وَمَا صَاحِبُكُم بِمَجْنُونٍ",
+      "tj": "وَمَا صَاحِبُك<tajweed class=ikhafa_shafawi>ُم ب</tajweed>ِمَ<tajweed class=qalaqah>جْ</tajweed>ن<tajweed class=madda_permissible>ُو</tajweed>نٍ <span class=end>٢٢</span>",
+      "e": {
+        "p": 586,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 586,
+          "l": 11
+        },
+        {
+          "t": "صَاحِبُكُم",
+          "p": 586,
+          "l": 11
+        },
+        {
+          "t": "بِمَجْنُونٍۢ",
+          "p": 586,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "81:23",
+      "page_number": 586,
+      "text_uthmani": "وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ",
+      "tj": "وَلَقَ<tajweed class=qalaqah>دْ</tajweed> رَءَاهُ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْأُفُقِ <tajweed class=ham_wasl>ٱ</tajweed>لْمُب<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٢٣</span>",
+      "e": {
+        "p": 586,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "وَلَقَدْ",
+          "p": 586,
+          "l": 11
+        },
+        {
+          "t": "رَءَاهُ",
+          "p": 586,
+          "l": 11
+        },
+        {
+          "t": "بِٱلْأُفُقِ",
+          "p": 586,
+          "l": 11
+        },
+        {
+          "t": "ٱلْمُبِينِ",
+          "p": 586,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "81:24",
+      "page_number": 586,
+      "text_uthmani": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍ",
+      "tj": "وَمَا هُوَ عَلَى <tajweed class=ham_wasl>ٱ</tajweed>لْغَيْبِ بِضَن<tajweed class=madda_permissible>ِي</tajweed>نٍ <span class=end>٢٤</span>",
+      "e": {
+        "p": 586,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "هُوَ",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "عَلَى",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "ٱلْغَيْبِ",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "بِضَنِينٍۢ",
+          "p": 586,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "81:25",
+      "page_number": 586,
+      "text_uthmani": "وَمَا هُوَ بِقَوْلِ شَيْطَـٰنٍ رَّجِيمٍ",
+      "tj": "وَمَا هُوَ بِقَوْلِ شَيْطَ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=idgham_wo_ghunnah>نٍ ر</tajweed>َّج<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>٢٥</span>",
+      "e": {
+        "p": 586,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "هُوَ",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "بِقَوْلِ",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "شَيْطَـٰنٍۢ",
+          "p": 586,
+          "l": 12
+        },
+        {
+          "t": "رَّجِيمٍۢ",
+          "p": 586,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "81:26",
+      "page_number": 586,
+      "text_uthmani": "فَأَيْنَ تَذْهَبُونَ",
+      "tj": "فَأَيْنَ تَذْهَب<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٦</span>",
+      "e": {
+        "p": 586,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "فَأَيْنَ",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "تَذْهَبُونَ",
+          "p": 586,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "81:27",
+      "page_number": 586,
+      "text_uthmani": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَـٰلَمِينَ",
+      "tj": "إِنْ هُوَ إِلَّا ذِكْ<tajweed class=idgham_wo_ghunnah>رٌ ل</tajweed>ِّلْعَ<tajweed class=madda_normal>ـٰ</tajweed>لَم<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٢٧</span>",
+      "e": {
+        "p": 586,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "إِنْ",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "هُوَ",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "إِلَّا",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "ذِكْرٌۭ",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "لِّلْعَـٰلَمِينَ",
+          "p": 586,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "81:28",
+      "page_number": 586,
+      "text_uthmani": "لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ",
+      "tj": "لِمَ<tajweed class=ikhafa>ن ش</tajweed><tajweed class=madda_obligatory>َا</tajweed>ٓءَ مِ<tajweed class=ikhafa>نك</tajweed>ُمْ أ<tajweed class=idgham_ghunnah>َن ي</tajweed>َسْتَق<tajweed class=madda_permissible>ِي</tajweed>مَ <span class=end>٢٨</span>",
+      "e": {
+        "p": 586,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "لِمَن",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "شَآءَ",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "مِنكُمْ",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "أَن",
+          "p": 586,
+          "l": 13
+        },
+        {
+          "t": "يَسْتَقِيمَ",
+          "p": 586,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "81:29",
+      "page_number": 586,
+      "text_uthmani": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ",
+      "tj": "وَمَا تَش<tajweed class=madda_obligatory>َا</tajweed>ٓءُونَ إِلّ<tajweed class=madda_obligatory>َآ</tajweed> أ<tajweed class=idgham_ghunnah>َن ي</tajweed>َش<tajweed class=madda_obligatory>َا</tajweed>ٓءَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ رَبُّ <tajweed class=ham_wasl>ٱ</tajweed>لْعَ<tajweed class=madda_normal>ـٰ</tajweed>لَم<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٢٩</span>",
+      "e": {
+        "p": 586,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 586,
+          "l": 14
+        },
+        {
+          "t": "تَشَآءُونَ",
+          "p": 586,
+          "l": 14
+        },
+        {
+          "t": "إِلَّآ",
+          "p": 586,
+          "l": 14
+        },
+        {
+          "t": "أَن",
+          "p": 586,
+          "l": 14
+        },
+        {
+          "t": "يَشَآءَ",
+          "p": 586,
+          "l": 14
+        },
+        {
+          "t": "ٱللَّهُ",
+          "p": 586,
+          "l": 14
+        },
+        {
+          "t": "رَبُّ",
+          "p": 586,
+          "l": 14
+        },
+        {
+          "t": "ٱلْعَـٰلَمِينَ",
+          "p": 586,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "82:1",
+      "page_number": 587,
+      "text_uthmani": " إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+      "tj": "إِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=ikhafa>نف</tajweed>َطَرَتْ <span class=end>١</span>",
+      "e": {
+        "p": 587,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "إِذَا",
+          "p": 587,
+          "l": 2
+        },
+        {
+          "t": "ٱلسَّمَآءُ",
+          "p": 587,
+          "l": 2
+        },
+        {
+          "t": "ٱنفَطَرَتْ",
+          "p": 587,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "82:2",
+      "page_number": 587,
+      "text_uthmani": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْكَوَاكِبُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=ikhafa>نت</tajweed>َثَرَتْ <span class=end>٢</span>",
+      "e": {
+        "p": 587,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 587,
+          "l": 2
+        },
+        {
+          "t": "ٱلْكَوَاكِبُ",
+          "p": 587,
+          "l": 2
+        },
+        {
+          "t": "ٱنتَثَرَتْ",
+          "p": 587,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "82:3",
+      "page_number": 587,
+      "text_uthmani": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْبِحَارُ فُجِّرَتْ <span class=end>٣</span>",
+      "e": {
+        "p": 587,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 587,
+          "l": 2
+        },
+        {
+          "t": "ٱلْبِحَارُ",
+          "p": 587,
+          "l": 2
+        },
+        {
+          "t": "فُجِّرَتْ",
+          "p": 587,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "82:4",
+      "page_number": 587,
+      "text_uthmani": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْقُبُورُ بُعْثِرَتْ <span class=end>٤</span>",
+      "e": {
+        "p": 587,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 587,
+          "l": 3
+        },
+        {
+          "t": "ٱلْقُبُورُ",
+          "p": 587,
+          "l": 3
+        },
+        {
+          "t": "بُعْثِرَتْ",
+          "p": 587,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "82:5",
+      "page_number": 587,
+      "text_uthmani": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+      "tj": "عَلِمَتْ نَفْ<tajweed class=idgham_ghunnah>سٌ م</tajweed>َّا قَدَّمَتْ وَأَخَّرَتْ <span class=end>٥</span>",
+      "e": {
+        "p": 587,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "عَلِمَتْ",
+          "p": 587,
+          "l": 3
+        },
+        {
+          "t": "نَفْسٌۭ",
+          "p": 587,
+          "l": 3
+        },
+        {
+          "t": "مَّا",
+          "p": 587,
+          "l": 3
+        },
+        {
+          "t": "قَدَّمَتْ",
+          "p": 587,
+          "l": 3
+        },
+        {
+          "t": "وَأَخَّرَتْ",
+          "p": 587,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "82:6",
+      "page_number": 587,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
+      "tj": "يَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>أَيُّهَا <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ مَا غَرَّكَ بِرَبِّكَ <tajweed class=ham_wasl>ٱ</tajweed>لْكَر<tajweed class=madda_permissible>ِي</tajweed>مِ <span class=end>٦</span>",
+      "e": {
+        "p": 587,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "يَـٰٓأَيُّهَا",
+          "p": 587,
+          "l": 4
+        },
+        {
+          "t": "ٱلْإِنسَـٰنُ",
+          "p": 587,
+          "l": 4
+        },
+        {
+          "t": "مَا",
+          "p": 587,
+          "l": 4
+        },
+        {
+          "t": "غَرَّكَ",
+          "p": 587,
+          "l": 4
+        },
+        {
+          "t": "بِرَبِّكَ",
+          "p": 587,
+          "l": 4
+        },
+        {
+          "t": "ٱلْكَرِيمِ",
+          "p": 587,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "82:7",
+      "page_number": 587,
+      "text_uthmani": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+      "tj": "ٱلَّذِى خَلَقَكَ فَسَوَّ<tajweed class=madda_normal>ٮٰ</tajweed>كَ فَعَدَلَكَ <span class=end>٧</span>",
+      "e": {
+        "p": 587,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "ٱلَّذِى",
+          "p": 587,
+          "l": 4
+        },
+        {
+          "t": "خَلَقَكَ",
+          "p": 587,
+          "l": 5
+        },
+        {
+          "t": "فَسَوَّىٰكَ",
+          "p": 587,
+          "l": 5
+        },
+        {
+          "t": "فَعَدَلَكَ",
+          "p": 587,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "82:8",
+      "page_number": 587,
+      "text_uthmani": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ رَكَّبَكَ",
+      "tj": "ف<tajweed class=madda_obligatory>ِىٓ</tajweed> أَىِّ صُورَ<tajweed class=idgham_ghunnah>ةٍ م</tajweed>َّا ش<tajweed class=madda_obligatory>َا</tajweed>ٓءَ رَكَّبَكَ <span class=end>٨</span>",
+      "e": {
+        "p": 587,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "فِىٓ",
+          "p": 587,
+          "l": 5
+        },
+        {
+          "t": "أَىِّ",
+          "p": 587,
+          "l": 5
+        },
+        {
+          "t": "صُورَةٍۢ",
+          "p": 587,
+          "l": 5
+        },
+        {
+          "t": "مَّا",
+          "p": 587,
+          "l": 5
+        },
+        {
+          "t": "شَآءَ",
+          "p": 587,
+          "l": 5
+        },
+        {
+          "t": "رَكَّبَكَ",
+          "p": 587,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "82:9",
+      "page_number": 587,
+      "text_uthmani": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ",
+      "tj": "كَلَّا بَلْ تُكَذِّبُونَ بِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دّ<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٩</span>",
+      "e": {
+        "p": 587,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "كَلَّا",
+          "p": 587,
+          "l": 6
+        },
+        {
+          "t": "بَلْ",
+          "p": 587,
+          "l": 6
+        },
+        {
+          "t": "تُكَذِّبُونَ",
+          "p": 587,
+          "l": 6
+        },
+        {
+          "t": "بِٱلدِّينِ",
+          "p": 587,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "82:10",
+      "page_number": 587,
+      "text_uthmani": "وَإِنَّ عَلَيْكُمْ لَحَـٰفِظِينَ",
+      "tj": "وَإِ<tajweed class=ghunnah>نّ</tajweed>َ عَلَيْكُمْ لَحَ<tajweed class=madda_normal>ـٰ</tajweed>فِظ<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>١٠</span>",
+      "e": {
+        "p": 587,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "وَإِنَّ",
+          "p": 587,
+          "l": 6
+        },
+        {
+          "t": "عَلَيْكُمْ",
+          "p": 587,
+          "l": 6
+        },
+        {
+          "t": "لَحَـٰفِظِينَ",
+          "p": 587,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "82:11",
+      "page_number": 587,
+      "text_uthmani": "كِرَامًا كَـٰتِبِينَ",
+      "tj": "كِرَا<tajweed class=ikhafa>مًا ك</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>تِب<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>١١</span>",
+      "e": {
+        "p": 587,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "كِرَامًۭا",
+          "p": 587,
+          "l": 6
+        },
+        {
+          "t": "كَـٰتِبِينَ",
+          "p": 587,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "82:12",
+      "page_number": 587,
+      "text_uthmani": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+      "tj": "يَعْلَمُونَ مَا تَفْعَل<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١٢</span>",
+      "e": {
+        "p": 587,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "يَعْلَمُونَ",
+          "p": 587,
+          "l": 7
+        },
+        {
+          "t": "مَا",
+          "p": 587,
+          "l": 7
+        },
+        {
+          "t": "تَفْعَلُونَ",
+          "p": 587,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "82:13",
+      "page_number": 587,
+      "text_uthmani": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْأَ<tajweed class=qalaqah>بْ</tajweed>رَارَ لَفِى نَع<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>١٣</span>",
+      "e": {
+        "p": 587,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 587,
+          "l": 7
+        },
+        {
+          "t": "ٱلْأَبْرَارَ",
+          "p": 587,
+          "l": 7
+        },
+        {
+          "t": "لَفِى",
+          "p": 587,
+          "l": 7
+        },
+        {
+          "t": "نَعِيمٍۢ",
+          "p": 587,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "82:14",
+      "page_number": 587,
+      "text_uthmani": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ",
+      "tj": "وَإِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْفُجَّارَ لَفِى جَح<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>١٤</span>",
+      "e": {
+        "p": 587,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "وَإِنَّ",
+          "p": 587,
+          "l": 7
+        },
+        {
+          "t": "ٱلْفُجَّارَ",
+          "p": 587,
+          "l": 8
+        },
+        {
+          "t": "لَفِى",
+          "p": 587,
+          "l": 8
+        },
+        {
+          "t": "جَحِيمٍۢ",
+          "p": 587,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "82:15",
+      "page_number": 587,
+      "text_uthmani": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ",
+      "tj": "يَصْلَوْنَهَا يَوْمَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دّ<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>١٥</span>",
+      "e": {
+        "p": 587,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "يَصْلَوْنَهَا",
+          "p": 587,
+          "l": 8
+        },
+        {
+          "t": "يَوْمَ",
+          "p": 587,
+          "l": 8
+        },
+        {
+          "t": "ٱلدِّينِ",
+          "p": 587,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "82:16",
+      "page_number": 587,
+      "text_uthmani": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ",
+      "tj": "وَمَا هُمْ عَنْهَا بِغ<tajweed class=madda_obligatory>َا</tajweed>ٓئِب<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>١٦</span>",
+      "e": {
+        "p": 587,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 587,
+          "l": 8
+        },
+        {
+          "t": "هُمْ",
+          "p": 587,
+          "l": 8
+        },
+        {
+          "t": "عَنْهَا",
+          "p": 587,
+          "l": 8
+        },
+        {
+          "t": "بِغَآئِبِينَ",
+          "p": 587,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "82:17",
+      "page_number": 587,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+      "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا يَوْمُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دّ<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>١٧</span>",
+      "e": {
+        "p": 587,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "وَمَآ",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "أَدْرَىٰكَ",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "مَا",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "يَوْمُ",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "ٱلدِّينِ",
+          "p": 587,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "82:18",
+      "page_number": 587,
+      "text_uthmani": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ م<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا يَوْمُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دّ<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>١٨</span>",
+      "e": {
+        "p": 587,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "مَآ",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "أَدْرَىٰكَ",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "مَا",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "يَوْمُ",
+          "p": 587,
+          "l": 9
+        },
+        {
+          "t": "ٱلدِّينِ",
+          "p": 587,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "82:19",
+      "page_number": 587,
+      "text_uthmani": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْـًٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍ لِّلَّهِ",
+      "tj": "يَوْمَ لَا تَمْلِكُ نَفْ<tajweed class=idgham_wo_ghunnah>سٌ ل</tajweed>ِّنَفْ<tajweed class=ikhafa>سٍ ش</tajweed>َيْـ<tajweed class=idgham_ghunnah>ـًٔا‌ۖ و</tajweed>َ<tajweed class=ham_wasl>ٱ</tajweed>لْأَمْرُ يَوْمَئِ<tajweed class=idgham_wo_ghunnah>ذٍ ل</tajweed>ِّلَّهِ <span class=end>١٩</span>",
+      "e": {
+        "p": 587,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "يَوْمَ",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "لَا",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "تَمْلِكُ",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "نَفْسٌۭ",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "لِّنَفْسٍۢ",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "شَيْـًۭٔا ۖ",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "وَٱلْأَمْرُ",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "يَوْمَئِذٍۢ",
+          "p": 587,
+          "l": 10
+        },
+        {
+          "t": "لِّلَّهِ",
+          "p": 587,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "83:1",
+      "page_number": 587,
+      "text_uthmani": " وَيْلٌ لِّلْمُطَفِّفِينَ",
+      "tj": "وَيْ<tajweed class=idgham_wo_ghunnah>لٌ ل</tajweed>ِّلْمُطَفِّف<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>١</span>",
+      "e": {
+        "p": 587,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "وَيْلٌۭ",
+          "p": 587,
+          "l": 13
+        },
+        {
+          "t": "لِّلْمُطَفِّفِينَ",
+          "p": 587,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "83:2",
+      "page_number": 587,
+      "text_uthmani": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
+      "tj": "ٱلَّذِينَ إِذَا <tajweed class=ham_wasl>ٱ</tajweed>كْتَالُو<tajweed class=slnt>اْ</tajweed> عَلَى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َاسِ يَسْتَوْف<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢</span>",
+      "e": {
+        "p": 587,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 587,
+          "l": 13
+        },
+        {
+          "t": "إِذَا",
+          "p": 587,
+          "l": 13
+        },
+        {
+          "t": "ٱكْتَالُوا۟",
+          "p": 587,
+          "l": 13
+        },
+        {
+          "t": "عَلَى",
+          "p": 587,
+          "l": 13
+        },
+        {
+          "t": "ٱلنَّاسِ",
+          "p": 587,
+          "l": 13
+        },
+        {
+          "t": "يَسْتَوْفُونَ",
+          "p": 587,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "83:3",
+      "page_number": 587,
+      "text_uthmani": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+      "tj": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِر<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣</span>",
+      "e": {
+        "p": 587,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "كَالُوهُمْ",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "أَو",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "وَّزَنُوهُمْ",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "يُخْسِرُونَ",
+          "p": 587,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "83:4",
+      "page_number": 587,
+      "text_uthmani": "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+      "tj": "أَلَا يَظُ<tajweed class=ghunnah>نّ</tajweed>ُ أُ<tajweed class=slnt>وْ</tajweed>لَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ئِكَ أَ<tajweed class=ghunnah>نّ</tajweed>َه<tajweed class=idgham_shafawi>ُم م</tajweed>َّ<tajweed class=qalaqah>بْ</tajweed>عُوث<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٤</span>",
+      "e": {
+        "p": 587,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "أَلَا",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "يَظُنُّ",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "أُو۟لَـٰٓئِكَ",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "أَنَّهُم",
+          "p": 587,
+          "l": 14
+        },
+        {
+          "t": "مَّبْعُوثُونَ",
+          "p": 587,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "83:5",
+      "page_number": 588,
+      "text_uthmani": "لِيَوْمٍ عَظِيمٍ",
+      "tj": "لِيَوْمٍ عَظ<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>٥</span>",
+      "e": {
+        "p": 587,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "لِيَوْمٍ",
+          "p": 587,
+          "l": 15
+        },
+        {
+          "t": "عَظِيمٍۢ",
+          "p": 587,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "83:6",
+      "page_number": 588,
+      "text_uthmani": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَـٰلَمِينَ",
+      "tj": "يَوْمَ يَقُومُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َاسُ لِرَبِّ <tajweed class=ham_wasl>ٱ</tajweed>لْعَ<tajweed class=madda_normal>ـٰ</tajweed>لَم<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٦</span>",
+      "e": {
+        "p": 587,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "يَوْمَ",
+          "p": 587,
+          "l": 15
+        },
+        {
+          "t": "يَقُومُ",
+          "p": 587,
+          "l": 15
+        },
+        {
+          "t": "ٱلنَّاسُ",
+          "p": 587,
+          "l": 15
+        },
+        {
+          "t": "لِرَبِّ",
+          "p": 587,
+          "l": 15
+        },
+        {
+          "t": "ٱلْعَـٰلَمِينَ",
+          "p": 587,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "83:7",
+      "page_number": 588,
+      "text_uthmani": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
+      "tj": "كَلّ<tajweed class=madda_obligatory>َآ</tajweed> إِ<tajweed class=ghunnah>نّ</tajweed>َ كِتَ<tajweed class=madda_normal>ـٰ</tajweed>بَ <tajweed class=ham_wasl>ٱ</tajweed>لْفُجَّارِ لَفِى سِجّ<tajweed class=madda_permissible>ِي</tajweed>نٍ <span class=end>٧</span>",
+      "e": {
+        "p": 588,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "كَلَّآ",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "إِنَّ",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "كِتَـٰبَ",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "ٱلْفُجَّارِ",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "لَفِى",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "سِجِّينٍۢ",
+          "p": 588,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "83:8",
+      "page_number": 588,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ",
+      "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا سِجّ<tajweed class=madda_permissible>ِي</tajweed>نٌ <span class=end>٨</span>",
+      "e": {
+        "p": 588,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "وَمَآ",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "أَدْرَىٰكَ",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "مَا",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "سِجِّينٌۭ",
+          "p": 588,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "83:9",
+      "page_number": 588,
+      "text_uthmani": "كِتَـٰبٌ مَّرْقُومٌ",
+      "tj": "كِتَ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=idgham_ghunnah>بٌ م</tajweed>َّرْق<tajweed class=madda_permissible>ُو</tajweed>مٌ <span class=end>٩</span>",
+      "e": {
+        "p": 588,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "كِتَـٰبٌۭ",
+          "p": 588,
+          "l": 1
+        },
+        {
+          "t": "مَّرْقُومٌۭ",
+          "p": 588,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "83:10",
+      "page_number": 588,
+      "text_uthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "tj": "وَيْ<tajweed class=idgham_ghunnah>لٌ ي</tajweed>َوْمَئِ<tajweed class=idgham_wo_ghunnah>ذٍ ل</tajweed>ِّلْمُكَذِّب<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>١٠</span>",
+      "e": {
+        "p": 588,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "وَيْلٌۭ",
+          "p": 588,
+          "l": 2
+        },
+        {
+          "t": "يَوْمَئِذٍۢ",
+          "p": 588,
+          "l": 2
+        },
+        {
+          "t": "لِّلْمُكَذِّبِينَ",
+          "p": 588,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "83:11",
+      "page_number": 588,
+      "text_uthmani": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ",
+      "tj": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دّ<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>١١</span>",
+      "e": {
+        "p": 588,
+        "l": 2
+      },
+      "words": [
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 588,
+          "l": 2
+        },
+        {
+          "t": "يُكَذِّبُونَ",
+          "p": 588,
+          "l": 2
+        },
+        {
+          "t": "بِيَوْمِ",
+          "p": 588,
+          "l": 2
+        },
+        {
+          "t": "ٱلدِّينِ",
+          "p": 588,
+          "l": 2
+        }
+      ]
+    },
+    {
+      "verse_key": "83:12",
+      "page_number": 588,
+      "text_uthmani": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+      "tj": "وَمَا يُكَذِّبُ بِه<tajweed class=madda_obligatory>ِۦٓ</tajweed> إِلَّا كُلُّ مُعْتَدٍ أَث<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>١٢</span>",
+      "e": {
+        "p": 588,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "يُكَذِّبُ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "بِهِۦٓ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "إِلَّا",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "كُلُّ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "مُعْتَدٍ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "أَثِيمٍ",
+          "p": 588,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "83:13",
+      "page_number": 588,
+      "text_uthmani": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+      "tj": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَ<tajweed class=madda_normal>ـٰ</tajweed>تُنَا قَالَ أَسَ<tajweed class=madda_normal>ـٰ</tajweed>طِيرُ <tajweed class=ham_wasl>ٱ</tajweed>لْأَوَّل<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>١٣</span>",
+      "e": {
+        "p": 588,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "إِذَا",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "تُتْلَىٰ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "عَلَيْهِ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "ءَايَـٰتُنَا",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "قَالَ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "أَسَـٰطِيرُ",
+          "p": 588,
+          "l": 3
+        },
+        {
+          "t": "ٱلْأَوَّلِينَ",
+          "p": 588,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "83:14",
+      "page_number": 588,
+      "text_uthmani": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "tj": "كَلَّا‌ۖ بَلْۜ رَانَ عَلَىٰ قُلُوبِه<tajweed class=idgham_shafawi>ِم م</tajweed>َّا كَانُو<tajweed class=slnt>اْ</tajweed> يَكْسِب<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١٤</span>",
+      "e": {
+        "p": 588,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "كَلَّا ۖ",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "بَلْ ۜ",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "رَانَ",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "عَلَىٰ",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "قُلُوبِهِم",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "مَّا",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "كَانُوا۟",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "يَكْسِبُونَ",
+          "p": 588,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "83:15",
+      "page_number": 588,
+      "text_uthmani": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ",
+      "tj": "كَلّ<tajweed class=madda_obligatory>َآ</tajweed> إِ<tajweed class=ghunnah>نّ</tajweed>َهُمْ ع<tajweed class=idgham_wo_ghunnah>َن ر</tajweed>َّبِّهِمْ يَوْمَئِ<tajweed class=idgham_wo_ghunnah>ذٍ ل</tajweed>َّمَحْجُوب<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١٥</span>",
+      "e": {
+        "p": 588,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "كَلَّآ",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "إِنَّهُمْ",
+          "p": 588,
+          "l": 4
+        },
+        {
+          "t": "عَن",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "رَّبِّهِمْ",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "يَوْمَئِذٍۢ",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "لَّمَحْجُوبُونَ",
+          "p": 588,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "83:16",
+      "page_number": 588,
+      "text_uthmani": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ إِ<tajweed class=ghunnah>نّ</tajweed>َهُمْ لَصَالُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed>لْجَح<tajweed class=madda_permissible>ِي</tajweed>مِ <span class=end>١٦</span>",
+      "e": {
+        "p": 588,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "إِنَّهُمْ",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "لَصَالُوا۟",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "ٱلْجَحِيمِ",
+          "p": 588,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "83:17",
+      "page_number": 588,
+      "text_uthmani": "ثُمَّ يُقَالُ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ يُقَالُ هَ<tajweed class=madda_normal>ـٰ</tajweed>ذَا <tajweed class=ham_wasl>ٱ</tajweed>لَّذِى كُ<tajweed class=ikhafa>نت</tajweed><tajweed class=ikhafa_shafawi>ُم ب</tajweed>ِه<tajweed class=madda_normal>ِۦ</tajweed> تُكَذِّب<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١٧</span>",
+      "e": {
+        "p": 588,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "ثُمَّ",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "يُقَالُ",
+          "p": 588,
+          "l": 5
+        },
+        {
+          "t": "هَـٰذَا",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "ٱلَّذِى",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "كُنتُم",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "بِهِۦ",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "تُكَذِّبُونَ",
+          "p": 588,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "83:18",
+      "page_number": 588,
+      "text_uthmani": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+      "tj": "كَلّ<tajweed class=madda_obligatory>َآ</tajweed> إِ<tajweed class=ghunnah>نّ</tajweed>َ كِتَ<tajweed class=madda_normal>ـٰ</tajweed>بَ <tajweed class=ham_wasl>ٱ</tajweed>لْأَ<tajweed class=qalaqah>بْ</tajweed>رَارِ لَفِى عِلِّيّ<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>١٨</span>",
+      "e": {
+        "p": 588,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "كَلَّآ",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "إِنَّ",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "كِتَـٰبَ",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "ٱلْأَبْرَارِ",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "لَفِى",
+          "p": 588,
+          "l": 6
+        },
+        {
+          "t": "عِلِّيِّينَ",
+          "p": 588,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "83:19",
+      "page_number": 588,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
+      "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا عِلِّيّ<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١٩</span>",
+      "e": {
+        "p": 588,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "وَمَآ",
+          "p": 588,
+          "l": 7
+        },
+        {
+          "t": "أَدْرَىٰكَ",
+          "p": 588,
+          "l": 7
+        },
+        {
+          "t": "مَا",
+          "p": 588,
+          "l": 7
+        },
+        {
+          "t": "عِلِّيُّونَ",
+          "p": 588,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "83:20",
+      "page_number": 588,
+      "text_uthmani": "كِتَـٰبٌ مَّرْقُومٌ",
+      "tj": "كِتَ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=idgham_ghunnah>بٌ م</tajweed>َّرْق<tajweed class=madda_permissible>ُو</tajweed>مٌ <span class=end>٢٠</span>",
+      "e": {
+        "p": 588,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "كِتَـٰبٌۭ",
+          "p": 588,
+          "l": 7
+        },
+        {
+          "t": "مَّرْقُومٌۭ",
+          "p": 588,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "83:21",
+      "page_number": 588,
+      "text_uthmani": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+      "tj": "يَشْهَدُهُ <tajweed class=ham_wasl>ٱ</tajweed>لْمُقَرَّب<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢١</span>",
+      "e": {
+        "p": 588,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "يَشْهَدُهُ",
+          "p": 588,
+          "l": 7
+        },
+        {
+          "t": "ٱلْمُقَرَّبُونَ",
+          "p": 588,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "83:22",
+      "page_number": 588,
+      "text_uthmani": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْأَ<tajweed class=qalaqah>بْ</tajweed>رَارَ لَفِى نَع<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>٢٢</span>",
+      "e": {
+        "p": 588,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 588,
+          "l": 8
+        },
+        {
+          "t": "ٱلْأَبْرَارَ",
+          "p": 588,
+          "l": 8
+        },
+        {
+          "t": "لَفِى",
+          "p": 588,
+          "l": 8
+        },
+        {
+          "t": "نَعِيمٍ",
+          "p": 588,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "83:23",
+      "page_number": 588,
+      "text_uthmani": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+      "tj": "عَلَى <tajweed class=ham_wasl>ٱ</tajweed>لْأَر<tajweed class=madda_obligatory>َا</tajweed>ٓئِكِ يَ<tajweed class=ikhafa>نظ</tajweed>ُر<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٣</span>",
+      "e": {
+        "p": 588,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "عَلَى",
+          "p": 588,
+          "l": 8
+        },
+        {
+          "t": "ٱلْأَرَآئِكِ",
+          "p": 588,
+          "l": 8
+        },
+        {
+          "t": "يَنظُرُونَ",
+          "p": 588,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "83:24",
+      "page_number": 588,
+      "text_uthmani": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+      "tj": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َع<tajweed class=madda_permissible>ِي</tajweed>مِ <span class=end>٢٤</span>",
+      "e": {
+        "p": 588,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "تَعْرِفُ",
+          "p": 588,
+          "l": 8
+        },
+        {
+          "t": "فِى",
+          "p": 588,
+          "l": 8
+        },
+        {
+          "t": "وُجُوهِهِمْ",
+          "p": 588,
+          "l": 9
+        },
+        {
+          "t": "نَضْرَةَ",
+          "p": 588,
+          "l": 9
+        },
+        {
+          "t": "ٱلنَّعِيمِ",
+          "p": 588,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "83:25",
+      "page_number": 588,
+      "text_uthmani": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ",
+      "tj": "يُسْقَوْنَ م<tajweed class=idgham_wo_ghunnah>ِن ر</tajweed>َّحِي<tajweed class=idgham_ghunnah>قٍ م</tajweed>َّخْت<tajweed class=madda_permissible>ُو</tajweed>مٍ <span class=end>٢٥</span>",
+      "e": {
+        "p": 588,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "يُسْقَوْنَ",
+          "p": 588,
+          "l": 9
+        },
+        {
+          "t": "مِن",
+          "p": 588,
+          "l": 9
+        },
+        {
+          "t": "رَّحِيقٍۢ",
+          "p": 588,
+          "l": 9
+        },
+        {
+          "t": "مَّخْتُومٍ",
+          "p": 588,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "83:26",
+      "page_number": 588,
+      "text_uthmani": "خِتَـٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ",
+      "tj": "خِتَ<tajweed class=madda_normal>ـٰ</tajweed>مُهُ<tajweed class=madda_normal>ۥ</tajweed> مِسْ<tajweed class=idgham_ghunnah>كٌ‌ۚ و</tajweed>َفِى ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ فَلْيَتَنَافَسِ <tajweed class=ham_wasl>ٱ</tajweed>لْمُتَنَ<tajweed class=madda_normal>ـٰ</tajweed>فِس<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٦</span>",
+      "e": {
+        "p": 588,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "خِتَـٰمُهُۥ",
+          "p": 588,
+          "l": 10
+        },
+        {
+          "t": "مِسْكٌۭ ۚ",
+          "p": 588,
+          "l": 10
+        },
+        {
+          "t": "وَفِى",
+          "p": 588,
+          "l": 10
+        },
+        {
+          "t": "ذَٰلِكَ",
+          "p": 588,
+          "l": 10
+        },
+        {
+          "t": "فَلْيَتَنَافَسِ",
+          "p": 588,
+          "l": 10
+        },
+        {
+          "t": "ٱلْمُتَنَـٰفِسُونَ",
+          "p": 588,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "83:27",
+      "page_number": 588,
+      "text_uthmani": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
+      "tj": "وَمِزَاجُهُ<tajweed class=madda_normal>ۥ</tajweed> مِ<tajweed class=ikhafa>ن ت</tajweed>َسْن<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>٢٧</span>",
+      "e": {
+        "p": 588,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَمِزَاجُهُۥ",
+          "p": 588,
+          "l": 10
+        },
+        {
+          "t": "مِن",
+          "p": 588,
+          "l": 11
+        },
+        {
+          "t": "تَسْنِيمٍ",
+          "p": 588,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "83:28",
+      "page_number": 588,
+      "text_uthmani": "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+      "tj": "عَيْ<tajweed class=idgham_ghunnah>نًا ي</tajweed>َشْرَبُ بِهَا <tajweed class=ham_wasl>ٱ</tajweed>لْمُقَرَّب<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٨</span>",
+      "e": {
+        "p": 588,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "عَيْنًۭا",
+          "p": 588,
+          "l": 11
+        },
+        {
+          "t": "يَشْرَبُ",
+          "p": 588,
+          "l": 11
+        },
+        {
+          "t": "بِهَا",
+          "p": 588,
+          "l": 11
+        },
+        {
+          "t": "ٱلْمُقَرَّبُونَ",
+          "p": 588,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "83:29",
+      "page_number": 588,
+      "text_uthmani": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ أَ<tajweed class=qalaqah>جْ</tajweed>رَمُو<tajweed class=slnt>اْ</tajweed> كَانُو<tajweed class=slnt>اْ</tajweed> مِنَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> يَضْحَك<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٩</span>",
+      "e": {
+        "p": 588,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 588,
+          "l": 11
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 588,
+          "l": 11
+        },
+        {
+          "t": "أَجْرَمُوا۟",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "كَانُوا۟",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "مِنَ",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "ءَامَنُوا۟",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "يَضْحَكُونَ",
+          "p": 588,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "83:30",
+      "page_number": 588,
+      "text_uthmani": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+      "tj": "وَإِذَا مَرُّو<tajweed class=slnt>اْ</tajweed> بِهِمْ يَتَغَامَز<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣٠</span>",
+      "e": {
+        "p": 588,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "مَرُّوا۟",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "بِهِمْ",
+          "p": 588,
+          "l": 12
+        },
+        {
+          "t": "يَتَغَامَزُونَ",
+          "p": 588,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "83:31",
+      "page_number": 588,
+      "text_uthmani": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=ikhafa>نق</tajweed>َلَب<tajweed class=madda_obligatory>ُوٓ</tajweed><tajweed class=slnt>اْ</tajweed> إِلَ<tajweed class=madda_obligatory>ىٰٓ</tajweed> أَهْلِهِمُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=ikhafa>نق</tajweed>َلَبُو<tajweed class=slnt>اْ</tajweed> فَكِه<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٣١</span>",
+      "e": {
+        "p": 588,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 588,
+          "l": 13
+        },
+        {
+          "t": "ٱنقَلَبُوٓا۟",
+          "p": 588,
+          "l": 13
+        },
+        {
+          "t": "إِلَىٰٓ",
+          "p": 588,
+          "l": 13
+        },
+        {
+          "t": "أَهْلِهِمُ",
+          "p": 588,
+          "l": 13
+        },
+        {
+          "t": "ٱنقَلَبُوا۟",
+          "p": 588,
+          "l": 13
+        },
+        {
+          "t": "فَكِهِينَ",
+          "p": 588,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "83:32",
+      "page_number": 588,
+      "text_uthmani": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ",
+      "tj": "وَإِذَا رَأَوْهُمْ قَال<tajweed class=madda_obligatory>ُوٓ</tajweed><tajweed class=slnt>اْ</tajweed> إِ<tajweed class=ghunnah>نّ</tajweed>َ هَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ؤُل<tajweed class=madda_obligatory>َا</tajweed>ٓءِ لَض<tajweed class=madda_necessary>َا</tajweed>ٓلّ<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣٢</span>",
+      "e": {
+        "p": 588,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "رَأَوْهُمْ",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "قَالُوٓا۟",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "إِنَّ",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "هَـٰٓؤُلَآءِ",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "لَضَآلُّونَ",
+          "p": 588,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "83:33",
+      "page_number": 588,
+      "text_uthmani": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ",
+      "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أُرْسِلُو<tajweed class=slnt>اْ</tajweed> عَلَيْهِمْ حَ<tajweed class=madda_normal>ـٰ</tajweed>فِظ<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٣٣</span>",
+      "e": {
+        "p": 588,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "وَمَآ",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "أُرْسِلُوا۟",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "عَلَيْهِمْ",
+          "p": 588,
+          "l": 14
+        },
+        {
+          "t": "حَـٰفِظِينَ",
+          "p": 588,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "83:34",
+      "page_number": 589,
+      "text_uthmani": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+      "tj": "فَ<tajweed class=ham_wasl>ٱ</tajweed>لْيَوْمَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> مِنَ <tajweed class=ham_wasl>ٱ</tajweed>لْكُفَّارِ يَضْحَك<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣٤</span>",
+      "e": {
+        "p": 588,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "فَٱلْيَوْمَ",
+          "p": 588,
+          "l": 15
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 588,
+          "l": 15
+        },
+        {
+          "t": "ءَامَنُوا۟",
+          "p": 588,
+          "l": 15
+        },
+        {
+          "t": "مِنَ",
+          "p": 588,
+          "l": 15
+        },
+        {
+          "t": "ٱلْكُفَّارِ",
+          "p": 588,
+          "l": 15
+        },
+        {
+          "t": "يَضْحَكُونَ",
+          "p": 588,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "83:35",
+      "page_number": 589,
+      "text_uthmani": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+      "tj": "عَلَى <tajweed class=ham_wasl>ٱ</tajweed>لْأَر<tajweed class=madda_obligatory>َا</tajweed>ٓئِكِ يَ<tajweed class=ikhafa>نظ</tajweed>ُر<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣٥</span>",
+      "e": {
+        "p": 589,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "عَلَى",
+          "p": 589,
+          "l": 1
+        },
+        {
+          "t": "ٱلْأَرَآئِكِ",
+          "p": 589,
+          "l": 1
+        },
+        {
+          "t": "يَنظُرُونَ",
+          "p": 589,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "83:36",
+      "page_number": 589,
+      "text_uthmani": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+      "tj": "هَلْ ثُوِّبَ <tajweed class=ham_wasl>ٱ</tajweed>لْكُفَّارُ مَا كَانُو<tajweed class=slnt>اْ</tajweed> يَفْعَل<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣٦</span>",
+      "e": {
+        "p": 589,
+        "l": 1
+      },
+      "words": [
+        {
+          "t": "هَلْ",
+          "p": 589,
+          "l": 1
+        },
+        {
+          "t": "ثُوِّبَ",
+          "p": 589,
+          "l": 1
+        },
+        {
+          "t": "ٱلْكُفَّارُ",
+          "p": 589,
+          "l": 1
+        },
+        {
+          "t": "مَا",
+          "p": 589,
+          "l": 1
+        },
+        {
+          "t": "كَانُوا۟",
+          "p": 589,
+          "l": 1
+        },
+        {
+          "t": "يَفْعَلُونَ",
+          "p": 589,
+          "l": 1
+        }
+      ]
+    },
+    {
+      "verse_key": "84:1",
+      "page_number": 589,
+      "text_uthmani": " إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+      "tj": "إِذَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=ikhafa>نش</tajweed>َقَّتْ <span class=end>١</span>",
+      "e": {
+        "p": 589,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "إِذَا",
+          "p": 589,
+          "l": 4
+        },
+        {
+          "t": "ٱلسَّمَآءُ",
+          "p": 589,
+          "l": 4
+        },
+        {
+          "t": "ٱنشَقَّتْ",
+          "p": 589,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "84:2",
+      "page_number": 589,
+      "text_uthmani": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "tj": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ <span class=end>٢</span>",
+      "e": {
+        "p": 589,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "وَأَذِنَتْ",
+          "p": 589,
+          "l": 4
+        },
+        {
+          "t": "لِرَبِّهَا",
+          "p": 589,
+          "l": 4
+        },
+        {
+          "t": "وَحُقَّتْ",
+          "p": 589,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "84:3",
+      "page_number": 589,
+      "text_uthmani": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+      "tj": "وَإِذَا <tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضُ مُدَّتْ <span class=end>٣</span>",
+      "e": {
+        "p": 589,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 589,
+          "l": 4
+        },
+        {
+          "t": "ٱلْأَرْضُ",
+          "p": 589,
+          "l": 4
+        },
+        {
+          "t": "مُدَّتْ",
+          "p": 589,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "84:4",
+      "page_number": 589,
+      "text_uthmani": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+      "tj": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ <span class=end>٤</span>",
+      "e": {
+        "p": 589,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَأَلْقَتْ",
+          "p": 589,
+          "l": 5
+        },
+        {
+          "t": "مَا",
+          "p": 589,
+          "l": 5
+        },
+        {
+          "t": "فِيهَا",
+          "p": 589,
+          "l": 5
+        },
+        {
+          "t": "وَتَخَلَّتْ",
+          "p": 589,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "84:5",
+      "page_number": 589,
+      "text_uthmani": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "tj": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ <span class=end>٥</span>",
+      "e": {
+        "p": 589,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَأَذِنَتْ",
+          "p": 589,
+          "l": 5
+        },
+        {
+          "t": "لِرَبِّهَا",
+          "p": 589,
+          "l": 5
+        },
+        {
+          "t": "وَحُقَّتْ",
+          "p": 589,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "84:6",
+      "page_number": 589,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَـٰقِيهِ",
+      "tj": "يَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>أَيُّهَا <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ إِ<tajweed class=ghunnah>نّ</tajweed>َكَ كَادِحٌ إِلَىٰ رَبِّكَ كَ<tajweed class=qalaqah>دْ</tajweed><tajweed class=ikhafa>حًا ف</tajweed>َمُلَ<tajweed class=madda_normal>ـٰ</tajweed>ق<tajweed class=madda_permissible>ِي</tajweed>هِ <span class=end>٦</span>",
+      "e": {
+        "p": 589,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "يَـٰٓأَيُّهَا",
+          "p": 589,
+          "l": 5
+        },
+        {
+          "t": "ٱلْإِنسَـٰنُ",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "إِنَّكَ",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "كَادِحٌ",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "إِلَىٰ",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "رَبِّكَ",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "كَدْحًۭا",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "فَمُلَـٰقِيهِ",
+          "p": 589,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "84:7",
+      "page_number": 589,
+      "text_uthmani": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ",
+      "tj": "فَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَنْ أُوتِىَ كِتَ<tajweed class=madda_normal>ـٰ</tajweed>بَهُ<tajweed class=madda_normal>ۥ</tajweed> بِيَمِينِهِۦ <span class=end>٧</span>",
+      "e": {
+        "p": 589,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "فَأَمَّا",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "مَنْ",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "أُوتِىَ",
+          "p": 589,
+          "l": 6
+        },
+        {
+          "t": "كِتَـٰبَهُۥ",
+          "p": 589,
+          "l": 7
+        },
+        {
+          "t": "بِيَمِينِهِۦ",
+          "p": 589,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "84:8",
+      "page_number": 589,
+      "text_uthmani": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
+      "tj": "فَسَوْفَ يُحَاسَبُ حِسَا<tajweed class=idgham_ghunnah>بًا ي</tajweed>َسِيرًا <span class=end>٨</span>",
+      "e": {
+        "p": 589,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "فَسَوْفَ",
+          "p": 589,
+          "l": 7
+        },
+        {
+          "t": "يُحَاسَبُ",
+          "p": 589,
+          "l": 7
+        },
+        {
+          "t": "حِسَابًۭا",
+          "p": 589,
+          "l": 7
+        },
+        {
+          "t": "يَسِيرًۭا",
+          "p": 589,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "84:9",
+      "page_number": 589,
+      "text_uthmani": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًا",
+      "tj": "وَيَ<tajweed class=ikhafa>نق</tajweed>َلِبُ إِلَ<tajweed class=madda_obligatory>ىٰٓ</tajweed> أَهْلِه<tajweed class=madda_normal>ِۦ</tajweed> مَسْرُورًا <span class=end>٩</span>",
+      "e": {
+        "p": 589,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "وَيَنقَلِبُ",
+          "p": 589,
+          "l": 7
+        },
+        {
+          "t": "إِلَىٰٓ",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "أَهْلِهِۦ",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "مَسْرُورًۭا",
+          "p": 589,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "84:10",
+      "page_number": 589,
+      "text_uthmani": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+      "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَنْ أُوتِىَ كِتَ<tajweed class=madda_normal>ـٰ</tajweed>بَهُ<tajweed class=madda_normal>ۥ</tajweed> وَر<tajweed class=madda_obligatory>َا</tajweed>ٓءَ ظَهْرِهِۦ <span class=end>١٠</span>",
+      "e": {
+        "p": 589,
+        "l": 8
+      },
+      "words": [
+        {
+          "t": "وَأَمَّا",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "مَنْ",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "أُوتِىَ",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "كِتَـٰبَهُۥ",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "وَرَآءَ",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "ظَهْرِهِۦ",
+          "p": 589,
+          "l": 8
+        }
+      ]
+    },
+    {
+      "verse_key": "84:11",
+      "page_number": 589,
+      "text_uthmani": "فَسَوْفَ يَدْعُوا۟ ثُبُورًا",
+      "tj": "فَسَوْفَ يَ<tajweed class=qalaqah>دْ</tajweed>عُو<tajweed class=slnt>اْ</tajweed> ثُبُورًا <span class=end>١١</span>",
+      "e": {
+        "p": 589,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "فَسَوْفَ",
+          "p": 589,
+          "l": 8
+        },
+        {
+          "t": "يَدْعُوا۟",
+          "p": 589,
+          "l": 9
+        },
+        {
+          "t": "ثُبُورًۭا",
+          "p": 589,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "84:12",
+      "page_number": 589,
+      "text_uthmani": "وَيَصْلَىٰ سَعِيرًا",
+      "tj": "وَيَصْلَىٰ سَعِيرًا <span class=end>١٢</span>",
+      "e": {
+        "p": 589,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "وَيَصْلَىٰ",
+          "p": 589,
+          "l": 9
+        },
+        {
+          "t": "سَعِيرًا",
+          "p": 589,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "84:13",
+      "page_number": 589,
+      "text_uthmani": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> كَانَ ف<tajweed class=madda_obligatory>ِىٓ</tajweed> أَهْلِه<tajweed class=madda_normal>ِۦ</tajweed> مَسْرُورًا <span class=end>١٣</span>",
+      "e": {
+        "p": 589,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "إِنَّهُۥ",
+          "p": 589,
+          "l": 9
+        },
+        {
+          "t": "كَانَ",
+          "p": 589,
+          "l": 9
+        },
+        {
+          "t": "فِىٓ",
+          "p": 589,
+          "l": 9
+        },
+        {
+          "t": "أَهْلِهِۦ",
+          "p": 589,
+          "l": 9
+        },
+        {
+          "t": "مَسْرُورًا",
+          "p": 589,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "84:14",
+      "page_number": 589,
+      "text_uthmani": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> ظَ<tajweed class=ghunnah>نّ</tajweed>َ أ<tajweed class=idgham_wo_ghunnah>َن ل</tajweed>ّ<tajweed class=idgham_ghunnah>َن ي</tajweed>َح<tajweed class=madda_permissible>ُو</tajweed>رَ <span class=end>١٤</span>",
+      "e": {
+        "p": 589,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "إِنَّهُۥ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "ظَنَّ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "أَن",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "لَّن",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "يَحُورَ",
+          "p": 589,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "84:15",
+      "page_number": 589,
+      "text_uthmani": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًا",
+      "tj": "بَلَ<tajweed class=madda_obligatory>ىٰٓ</tajweed> إِ<tajweed class=ghunnah>نّ</tajweed>َ رَبَّهُ<tajweed class=madda_normal>ۥ</tajweed> كَانَ بِه<tajweed class=madda_normal>ِۦ</tajweed> بَصِيرًا <span class=end>١٥</span>",
+      "e": {
+        "p": 589,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "بَلَىٰٓ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "إِنَّ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "رَبَّهُۥ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "كَانَ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "بِهِۦ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "بَصِيرًۭا",
+          "p": 589,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "84:16",
+      "page_number": 589,
+      "text_uthmani": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+      "tj": "فَل<tajweed class=madda_obligatory>َآ</tajweed> أُ<tajweed class=qalaqah>قْ</tajweed>سِمُ بِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>شَّفَ<tajweed class=qalaqah>ق</tajweed>ِ <span class=end>١٦</span>",
+      "e": {
+        "p": 589,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "فَلَآ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "أُقْسِمُ",
+          "p": 589,
+          "l": 10
+        },
+        {
+          "t": "بِٱلشَّفَقِ",
+          "p": 589,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "84:17",
+      "page_number": 589,
+      "text_uthmani": "وَٱلَّيْلِ وَمَا وَسَقَ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّيْلِ وَمَا وَسَ<tajweed class=qalaqah>ق</tajweed>َ <span class=end>١٧</span>",
+      "e": {
+        "p": 589,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَٱلَّيْلِ",
+          "p": 589,
+          "l": 11
+        },
+        {
+          "t": "وَمَا",
+          "p": 589,
+          "l": 11
+        },
+        {
+          "t": "وَسَقَ",
+          "p": 589,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "84:18",
+      "page_number": 589,
+      "text_uthmani": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْقَمَرِ إِذَا <tajweed class=ham_wasl>ٱ</tajweed>تَّسَ<tajweed class=qalaqah>ق</tajweed>َ <span class=end>١٨</span>",
+      "e": {
+        "p": 589,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَٱلْقَمَرِ",
+          "p": 589,
+          "l": 11
+        },
+        {
+          "t": "إِذَا",
+          "p": 589,
+          "l": 11
+        },
+        {
+          "t": "ٱتَّسَقَ",
+          "p": 589,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "84:19",
+      "page_number": 589,
+      "text_uthmani": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ",
+      "tj": "لَتَرْكَبُ<tajweed class=ghunnah>نّ</tajweed>َ طَبَقًا عَ<tajweed class=ikhafa>ن ط</tajweed>َبَ<tajweed class=qalaqah>ق</tajweed>ٍ <span class=end>١٩</span>",
+      "e": {
+        "p": 589,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "لَتَرْكَبُنَّ",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "طَبَقًا",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "عَن",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "طَبَقٍۢ",
+          "p": 589,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "84:20",
+      "page_number": 589,
+      "text_uthmani": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+      "tj": "فَمَا لَهُمْ لَا يُؤْمِن<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٠</span>",
+      "e": {
+        "p": 589,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "فَمَا",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "لَهُمْ",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "لَا",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "يُؤْمِنُونَ",
+          "p": 589,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "84:21",
+      "page_number": 589,
+      "text_uthmani": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+      "tj": "وَإِذَا قُرِئَ عَلَيْهِمُ <tajweed class=ham_wasl>ٱ</tajweed>لْقُرْءَانُ لَا يَسْجُدُ<tajweed class=madda_permissible>و</tajweed>نَ ۩ <span class=end>٢١</span>",
+      "e": {
+        "p": 589,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "وَإِذَا",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "قُرِئَ",
+          "p": 589,
+          "l": 12
+        },
+        {
+          "t": "عَلَيْهِمُ",
+          "p": 589,
+          "l": 13
+        },
+        {
+          "t": "ٱلْقُرْءَانُ",
+          "p": 589,
+          "l": 13
+        },
+        {
+          "t": "لَا",
+          "p": 589,
+          "l": 13
+        },
+        {
+          "t": "يَسْجُدُونَ ۩",
+          "p": 589,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "84:22",
+      "page_number": 589,
+      "text_uthmani": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+      "tj": "بَلِ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ كَفَرُو<tajweed class=slnt>اْ</tajweed> يُكَذِّب<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٢</span>",
+      "e": {
+        "p": 589,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "بَلِ",
+          "p": 589,
+          "l": 13
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 589,
+          "l": 13
+        },
+        {
+          "t": "كَفَرُوا۟",
+          "p": 589,
+          "l": 13
+        },
+        {
+          "t": "يُكَذِّبُونَ",
+          "p": 589,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "84:23",
+      "page_number": 589,
+      "text_uthmani": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>للَّهُ أَعْلَمُ بِمَا يُوع<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢٣</span>",
+      "e": {
+        "p": 589,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "وَٱللَّهُ",
+          "p": 589,
+          "l": 14
+        },
+        {
+          "t": "أَعْلَمُ",
+          "p": 589,
+          "l": 14
+        },
+        {
+          "t": "بِمَا",
+          "p": 589,
+          "l": 14
+        },
+        {
+          "t": "يُوعُونَ",
+          "p": 589,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "84:24",
+      "page_number": 589,
+      "text_uthmani": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "tj": "فَبَشِّرْه<tajweed class=ikhafa_shafawi>ُم ب</tajweed>ِعَذَابٍ أَل<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>٢٤</span>",
+      "e": {
+        "p": 589,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "فَبَشِّرْهُم",
+          "p": 589,
+          "l": 14
+        },
+        {
+          "t": "بِعَذَابٍ",
+          "p": 589,
+          "l": 14
+        },
+        {
+          "t": "أَلِيمٍ",
+          "p": 589,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "84:25",
+      "page_number": 590,
+      "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+      "tj": "إِلَّا <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> وَعَمِلُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=madda_normal>ـٰ</tajweed>لِحَ<tajweed class=madda_normal>ـٰ</tajweed>تِ لَهُمْ أَ<tajweed class=qalaqah>جْ</tajweed>رٌ غَيْرُ مَمْن<tajweed class=madda_permissible>ُو</tajweed>نِۭ <span class=end>٢٥</span>",
+      "e": {
+        "p": 589,
+        "l": 15
+      },
+      "words": [
+        {
+          "t": "إِلَّا",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "ءَامَنُوا۟",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "وَعَمِلُوا۟",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "ٱلصَّـٰلِحَـٰتِ",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "لَهُمْ",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "أَجْرٌ",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "غَيْرُ",
+          "p": 589,
+          "l": 15
+        },
+        {
+          "t": "مَمْنُونٍۭ",
+          "p": 589,
+          "l": 15
+        }
+      ]
+    },
+    {
+      "verse_key": "85:1",
+      "page_number": 590,
+      "text_uthmani": " وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءِ ذَاتِ <tajweed class=ham_wasl>ٱ</tajweed>لْبُر<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>ج</tajweed>ِ <span class=end>١</span>",
+      "e": {
+        "p": 590,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "وَٱلسَّمَآءِ",
+          "p": 590,
+          "l": 3
+        },
+        {
+          "t": "ذَاتِ",
+          "p": 590,
+          "l": 3
+        },
+        {
+          "t": "ٱلْبُرُوجِ",
+          "p": 590,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "85:2",
+      "page_number": 590,
+      "text_uthmani": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْيَوْمِ <tajweed class=ham_wasl>ٱ</tajweed>لْمَوْع<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>٢</span>",
+      "e": {
+        "p": 590,
+        "l": 3
+      },
+      "words": [
+        {
+          "t": "وَٱلْيَوْمِ",
+          "p": 590,
+          "l": 3
+        },
+        {
+          "t": "ٱلْمَوْعُودِ",
+          "p": 590,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "85:3",
+      "page_number": 590,
+      "text_uthmani": "وَشَاهِدٍ وَمَشْهُودٍ",
+      "tj": "وَشَاهِ<tajweed class=idgham_ghunnah>دٍ و</tajweed>َمَشْه<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ٍ <span class=end>٣</span>",
+      "e": {
+        "p": 590,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "وَشَاهِدٍۢ",
+          "p": 590,
+          "l": 3
+        },
+        {
+          "t": "وَمَشْهُودٍۢ",
+          "p": 590,
+          "l": 3
+        }
+      ]
+    },
+    {
+      "verse_key": "85:4",
+      "page_number": 590,
+      "text_uthmani": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
+      "tj": "قُتِلَ أَصْحَ<tajweed class=madda_normal>ـٰ</tajweed>بُ <tajweed class=ham_wasl>ٱ</tajweed>لْأُخْد<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>٤</span>",
+      "e": {
+        "p": 590,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "قُتِلَ",
+          "p": 590,
+          "l": 4
+        },
+        {
+          "t": "أَصْحَـٰبُ",
+          "p": 590,
+          "l": 4
+        },
+        {
+          "t": "ٱلْأُخْدُودِ",
+          "p": 590,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "85:5",
+      "page_number": 590,
+      "text_uthmani": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+      "tj": "ٱ<tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َارِ ذَاتِ <tajweed class=ham_wasl>ٱ</tajweed>لْوَق<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>٥</span>",
+      "e": {
+        "p": 590,
+        "l": 4
+      },
+      "words": [
+        {
+          "t": "ٱلنَّارِ",
+          "p": 590,
+          "l": 4
+        },
+        {
+          "t": "ذَاتِ",
+          "p": 590,
+          "l": 4
+        },
+        {
+          "t": "ٱلْوَقُودِ",
+          "p": 590,
+          "l": 4
+        }
+      ]
+    },
+    {
+      "verse_key": "85:6",
+      "page_number": 590,
+      "text_uthmani": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
+      "tj": "إِذْ هُمْ عَلَيْهَا قُع<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٦</span>",
+      "e": {
+        "p": 590,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "إِذْ",
+          "p": 590,
+          "l": 4
+        },
+        {
+          "t": "هُمْ",
+          "p": 590,
+          "l": 4
+        },
+        {
+          "t": "عَلَيْهَا",
+          "p": 590,
+          "l": 4
+        },
+        {
+          "t": "قُعُودٌۭ",
+          "p": 590,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "85:7",
+      "page_number": 590,
+      "text_uthmani": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ",
+      "tj": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْمُؤْمِنِينَ شُه<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٧</span>",
+      "e": {
+        "p": 590,
+        "l": 5
+      },
+      "words": [
+        {
+          "t": "وَهُمْ",
+          "p": 590,
+          "l": 5
+        },
+        {
+          "t": "عَلَىٰ",
+          "p": 590,
+          "l": 5
+        },
+        {
+          "t": "مَا",
+          "p": 590,
+          "l": 5
+        },
+        {
+          "t": "يَفْعَلُونَ",
+          "p": 590,
+          "l": 5
+        },
+        {
+          "t": "بِٱلْمُؤْمِنِينَ",
+          "p": 590,
+          "l": 5
+        },
+        {
+          "t": "شُهُودٌۭ",
+          "p": 590,
+          "l": 5
+        }
+      ]
+    },
+    {
+      "verse_key": "85:8",
+      "page_number": 590,
+      "text_uthmani": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+      "tj": "وَمَا نَقَمُو<tajweed class=slnt>اْ</tajweed> مِنْهُمْ إِلّ<tajweed class=madda_obligatory>َآ</tajweed> أ<tajweed class=idgham_ghunnah>َن ي</tajweed>ُؤْمِنُو<tajweed class=slnt>اْ</tajweed> بِ<tajweed class=ham_wasl>ٱ</tajweed>للَّهِ <tajweed class=ham_wasl>ٱ</tajweed>لْعَزِيزِ <tajweed class=ham_wasl>ٱ</tajweed>لْحَم<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>٨</span>",
+      "e": {
+        "p": 590,
+        "l": 6
+      },
+      "words": [
+        {
+          "t": "وَمَا",
+          "p": 590,
+          "l": 5
+        },
+        {
+          "t": "نَقَمُوا۟",
+          "p": 590,
+          "l": 5
+        },
+        {
+          "t": "مِنْهُمْ",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "إِلَّآ",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "أَن",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "يُؤْمِنُوا۟",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "بِٱللَّهِ",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "ٱلْعَزِيزِ",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "ٱلْحَمِيدِ",
+          "p": 590,
+          "l": 6
+        }
+      ]
+    },
+    {
+      "verse_key": "85:9",
+      "page_number": 590,
+      "text_uthmani": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "tj": "ٱلَّذِى لَهُ<tajweed class=madda_normal>ۥ</tajweed> مُلْكُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّمَ<tajweed class=madda_normal>ـٰ</tajweed>و<tajweed class=madda_normal>َٲ</tajweed>تِ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضِ‌ۚ وَ<tajweed class=ham_wasl>ٱ</tajweed>للَّهُ عَلَىٰ كُلِّ ش<tajweed class=ikhafa>َىْءٍ ش</tajweed>َه<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٩</span>",
+      "e": {
+        "p": 590,
+        "l": 7
+      },
+      "words": [
+        {
+          "t": "ٱلَّذِى",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "لَهُۥ",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "مُلْكُ",
+          "p": 590,
+          "l": 6
+        },
+        {
+          "t": "ٱلسَّمَـٰوَٰتِ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "وَٱلْأَرْضِ ۚ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "وَٱللَّهُ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "عَلَىٰ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "كُلِّ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "شَىْءٍۢ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "شَهِيدٌ",
+          "p": 590,
+          "l": 7
+        }
+      ]
+    },
+    {
+      "verse_key": "85:10",
+      "page_number": 590,
+      "text_uthmani": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ فَتَنُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed>لْمُؤْمِنِينَ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْمُؤْمِنَ<tajweed class=madda_normal>ـٰ</tajweed>تِ ثُ<tajweed class=ghunnah>مّ</tajweed>َ لَمْ يَتُوبُو<tajweed class=slnt>اْ</tajweed> فَلَهُمْ عَذَابُ جَهَ<tajweed class=ghunnah>نّ</tajweed>َمَ وَلَهُمْ عَذَابُ <tajweed class=ham_wasl>ٱ</tajweed>لْحَر<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>ق</tajweed>ِ <span class=end>١٠</span>",
+      "e": {
+        "p": 590,
+        "l": 9
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 590,
+          "l": 7
+        },
+        {
+          "t": "فَتَنُوا۟",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "ٱلْمُؤْمِنِينَ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "وَٱلْمُؤْمِنَـٰتِ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "ثُمَّ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "لَمْ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "يَتُوبُوا۟",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "فَلَهُمْ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "عَذَابُ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "جَهَنَّمَ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "وَلَهُمْ",
+          "p": 590,
+          "l": 8
+        },
+        {
+          "t": "عَذَابُ",
+          "p": 590,
+          "l": 9
+        },
+        {
+          "t": "ٱلْحَرِيقِ",
+          "p": 590,
+          "l": 9
+        }
+      ]
+    },
+    {
+      "verse_key": "85:11",
+      "page_number": 590,
+      "text_uthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> وَعَمِلُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=madda_normal>ـٰ</tajweed>لِحَ<tajweed class=madda_normal>ـٰ</tajweed>تِ لَهُمْ جَ<tajweed class=ghunnah>نّ</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=ikhafa>تٌ ت</tajweed>َ<tajweed class=qalaqah>جْ</tajweed>رِى مِ<tajweed class=ikhafa>ن ت</tajweed>َحْتِهَا <tajweed class=ham_wasl>ٱ</tajweed>لْأَنْهَ<tajweed class=madda_normal>ـٰ</tajweed>رُ‌ۚ ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ <tajweed class=ham_wasl>ٱ</tajweed>لْفَوْزُ <tajweed class=ham_wasl>ٱ</tajweed>لْكَب<tajweed class=madda_permissible>ِي</tajweed>رُ <span class=end>١١</span>",
+      "e": {
+        "p": 590,
+        "l": 10
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 590,
+          "l": 9
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 590,
+          "l": 9
+        },
+        {
+          "t": "ءَامَنُوا۟",
+          "p": 590,
+          "l": 9
+        },
+        {
+          "t": "وَعَمِلُوا۟",
+          "p": 590,
+          "l": 9
+        },
+        {
+          "t": "ٱلصَّـٰلِحَـٰتِ",
+          "p": 590,
+          "l": 9
+        },
+        {
+          "t": "لَهُمْ",
+          "p": 590,
+          "l": 9
+        },
+        {
+          "t": "جَنَّـٰتٌۭ",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "تَجْرِى",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "مِن",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "تَحْتِهَا",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "ٱلْأَنْهَـٰرُ ۚ",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "ذَٰلِكَ",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "ٱلْفَوْزُ",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "ٱلْكَبِيرُ",
+          "p": 590,
+          "l": 10
+        }
+      ]
+    },
+    {
+      "verse_key": "85:12",
+      "page_number": 590,
+      "text_uthmani": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ بَ<tajweed class=qalaqah>طْ</tajweed>شَ رَبِّكَ لَشَد<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>١٢</span>",
+      "e": {
+        "p": 590,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "إِنَّ",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "بَطْشَ",
+          "p": 590,
+          "l": 10
+        },
+        {
+          "t": "رَبِّكَ",
+          "p": 590,
+          "l": 11
+        },
+        {
+          "t": "لَشَدِيدٌ",
+          "p": 590,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "85:13",
+      "page_number": 590,
+      "text_uthmani": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+      "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> هُوَ يُ<tajweed class=qalaqah>بْ</tajweed>دِئُ وَيُع<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ُ <span class=end>١٣</span>",
+      "e": {
+        "p": 590,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "إِنَّهُۥ",
+          "p": 590,
+          "l": 11
+        },
+        {
+          "t": "هُوَ",
+          "p": 590,
+          "l": 11
+        },
+        {
+          "t": "يُبْدِئُ",
+          "p": 590,
+          "l": 11
+        },
+        {
+          "t": "وَيُعِيدُ",
+          "p": 590,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "85:14",
+      "page_number": 590,
+      "text_uthmani": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
+      "tj": "وَهُوَ <tajweed class=ham_wasl>ٱ</tajweed>لْغَفُورُ <tajweed class=ham_wasl>ٱ</tajweed>لْوَد<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ُ <span class=end>١٤</span>",
+      "e": {
+        "p": 590,
+        "l": 11
+      },
+      "words": [
+        {
+          "t": "وَهُوَ",
+          "p": 590,
+          "l": 11
+        },
+        {
+          "t": "ٱلْغَفُورُ",
+          "p": 590,
+          "l": 11
+        },
+        {
+          "t": "ٱلْوَدُودُ",
+          "p": 590,
+          "l": 11
+        }
+      ]
+    },
+    {
+      "verse_key": "85:15",
+      "page_number": 590,
+      "text_uthmani": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
+      "tj": "ذُو <tajweed class=ham_wasl>ٱ</tajweed>لْعَرْشِ <tajweed class=ham_wasl>ٱ</tajweed>لْمَج<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ُ <span class=end>١٥</span>",
+      "e": {
+        "p": 590,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "ذُو",
+          "p": 590,
+          "l": 12
+        },
+        {
+          "t": "ٱلْعَرْشِ",
+          "p": 590,
+          "l": 12
+        },
+        {
+          "t": "ٱلْمَجِيدُ",
+          "p": 590,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "85:16",
+      "page_number": 590,
+      "text_uthmani": "فَعَّالٌ لِّمَا يُرِيدُ",
+      "tj": "فَعَّا<tajweed class=idgham_wo_ghunnah>لٌ ل</tajweed>ِّمَا يُر<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ُ <span class=end>١٦</span>",
+      "e": {
+        "p": 590,
+        "l": 12
+      },
+      "words": [
+        {
+          "t": "فَعَّالٌۭ",
+          "p": 590,
+          "l": 12
+        },
+        {
+          "t": "لِّمَا",
+          "p": 590,
+          "l": 12
+        },
+        {
+          "t": "يُرِيدُ",
+          "p": 590,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "85:17",
+      "page_number": 590,
+      "text_uthmani": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+      "tj": "هَلْ أَتَ<tajweed class=madda_normal>ـٰ</tajweed>كَ حَدِيثُ <tajweed class=ham_wasl>ٱ</tajweed>لْجُن<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>١٧</span>",
+      "e": {
+        "p": 590,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "هَلْ",
+          "p": 590,
+          "l": 12
+        },
+        {
+          "t": "أَتَىٰكَ",
+          "p": 590,
+          "l": 12
+        },
+        {
+          "t": "حَدِيثُ",
+          "p": 590,
+          "l": 12
+        },
+        {
+          "t": "ٱلْجُنُودِ",
+          "p": 590,
+          "l": 12
+        }
+      ]
+    },
+    {
+      "verse_key": "85:18",
+      "page_number": 590,
+      "text_uthmani": "فِرْعَوْنَ وَثَمُودَ",
+      "tj": "فِرْعَوْنَ وَثَم<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>َ <span class=end>١٨</span>",
+      "e": {
+        "p": 590,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "فِرْعَوْنَ",
+          "p": 590,
+          "l": 13
+        },
+        {
+          "t": "وَثَمُودَ",
+          "p": 590,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "85:19",
+      "page_number": 590,
+      "text_uthmani": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
+      "tj": "بَلِ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ كَفَرُو<tajweed class=slnt>اْ</tajweed> فِى تَكْذ<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>ب</tajweed>ٍ <span class=end>١٩</span>",
+      "e": {
+        "p": 590,
+        "l": 13
+      },
+      "words": [
+        {
+          "t": "بَلِ",
+          "p": 590,
+          "l": 13
+        },
+        {
+          "t": "ٱلَّذِينَ",
+          "p": 590,
+          "l": 13
+        },
+        {
+          "t": "كَفَرُوا۟",
+          "p": 590,
+          "l": 13
+        },
+        {
+          "t": "فِى",
+          "p": 590,
+          "l": 13
+        },
+        {
+          "t": "تَكْذِيبٍۢ",
+          "p": 590,
+          "l": 13
+        }
+      ]
+    },
+    {
+      "verse_key": "85:20",
+      "page_number": 590,
+      "text_uthmani": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+      "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>للَّهُ م<tajweed class=idgham_ghunnah>ِن و</tajweed>َر<tajweed class=madda_obligatory>َا</tajweed>ٓئِه<tajweed class=idgham_shafawi>ِم م</tajweed>ُّح<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>ط</tajweed>ُۢ <span class=end>٢٠</span>",
+      "e": {
+        "p": 590,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "وَٱللَّهُ",
+          "p": 590,
+          "l": 13
+        },
+        {
+          "t": "مِن",
+          "p": 590,
+          "l": 13
+        },
+        {
+          "t": "وَرَآئِهِم",
+          "p": 590,
+          "l": 14
+        },
+        {
+          "t": "مُّحِيطٌۢ",
+          "p": 590,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "85:21",
+      "page_number": 590,
+      "text_uthmani": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ",
+      "tj": "بَلْ هُوَ قُرْءَا<tajweed class=idgham_ghunnah>نٌ م</tajweed>َّج<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٢١</span>",
+      "e": {
+        "p": 590,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "بَلْ",
+          "p": 590,
+          "l": 14
+        },
+        {
+          "t": "هُوَ",
+          "p": 590,
+          "l": 14
+        },
+        {
+          "t": "قُرْءَانٌۭ",
+          "p": 590,
+          "l": 14
+        },
+        {
+          "t": "مَّجِيدٌۭ",
+          "p": 590,
+          "l": 14
+        }
+      ]
+    },
+    {
+      "verse_key": "85:22",
+      "page_number": 590,
+      "text_uthmani": "فِى لَوْحٍ مَّحْفُوظٍۭ",
+      "tj": "فِى لَوْ<tajweed class=idgham_ghunnah>حٍ م</tajweed>َّحْف<tajweed class=madda_permissible>ُو</tajweed>ظِۭ <span class=end>٢٢</span>",
+      "e": {
+        "p": 590,
+        "l": 14
+      },
+      "words": [
+        {
+          "t": "فِى",
+          "p": 590,
+          "l": 14
+        },
+        {
+          "t": "لَوْحٍۢ",
+          "p": 590,
+          "l": 14
+        },
+        {
+          "t": "مَّحْفُوظٍۭ",
+          "p": 590,
+          "l": 14
+        }
+      ]
+    },
+    {
       "verse_key": "86:1",
       "page_number": 591,
       "text_uthmani": " وَٱلسَّمَآءِ وَٱلطَّارِقِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءِ وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>طَّارِ<tajweed class=qalaqah>ق</tajweed>ِ <span class=end>١</span>",
+      "e": {
+        "p": 591,
+        "l": 2
+      },
       "words": [
         {
           "t": "وَٱلسَّمَآءِ",
-          "c": "ﭑ",
           "p": 591,
           "l": 2
         },
         {
           "t": "وَٱلطَّارِقِ",
-          "c": "ﭒ",
           "p": 591,
           "l": 2
         }
@@ -25,28 +8405,28 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
       "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>طَّارِ<tajweed class=qalaqah>ق</tajweed>ُ <span class=end>٢</span>",
+      "e": {
+        "p": 591,
+        "l": 2
+      },
       "words": [
         {
           "t": "وَمَآ",
-          "c": "ﭔ",
           "p": 591,
           "l": 2
         },
         {
           "t": "أَدْرَىٰكَ",
-          "c": "ﭕ",
           "p": 591,
           "l": 2
         },
         {
           "t": "مَا",
-          "c": "ﭖ",
           "p": 591,
           "l": 2
         },
         {
           "t": "ٱلطَّارِقُ",
-          "c": "ﭗ",
           "p": 591,
           "l": 2
         }
@@ -57,16 +8437,18 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "ٱلنَّجْمُ ٱلثَّاقِبُ",
       "tj": "ٱ<tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َ<tajweed class=qalaqah>جْ</tajweed>مُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>ثَّاقِ<tajweed class=qalaqah>ب</tajweed>ُ <span class=end>٣</span>",
+      "e": {
+        "p": 591,
+        "l": 2
+      },
       "words": [
         {
           "t": "ٱلنَّجْمُ",
-          "c": "ﭙ",
           "p": 591,
           "l": 2
         },
         {
           "t": "ٱلثَّاقِبُ",
-          "c": "ﭚ",
           "p": 591,
           "l": 2
         }
@@ -77,40 +8459,38 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
       "tj": "إِ<tajweed class=ikhafa>ن ك</tajweed>ُلُّ نَفْ<tajweed class=idgham_wo_ghunnah>سٍ ل</tajweed>َّ<tajweed class=ghunnah>مّ</tajweed>َا عَلَيْهَا حَافِظٌ <span class=end>٤</span>",
+      "e": {
+        "p": 591,
+        "l": 3
+      },
       "words": [
         {
           "t": "إِن",
-          "c": "ﭜ",
           "p": 591,
           "l": 2
         },
         {
           "t": "كُلُّ",
-          "c": "ﭝ",
           "p": 591,
           "l": 2
         },
         {
           "t": "نَفْسٍۢ",
-          "c": "ﭞ",
           "p": 591,
           "l": 3
         },
         {
           "t": "لَّمَّا",
-          "c": "ﭟ",
           "p": 591,
           "l": 3
         },
         {
           "t": "عَلَيْهَا",
-          "c": "ﭠ",
           "p": 591,
           "l": 3
         },
         {
           "t": "حَافِظٌۭ",
-          "c": "ﭡ",
           "p": 591,
           "l": 3
         }
@@ -121,28 +8501,28 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ",
       "tj": "فَلْيَ<tajweed class=ikhafa>نظ</tajweed>ُرِ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ مِ<tajweed class=ghunnah>مّ</tajweed>َ خُلِ<tajweed class=qalaqah>ق</tajweed>َ <span class=end>٥</span>",
+      "e": {
+        "p": 591,
+        "l": 3
+      },
       "words": [
         {
           "t": "فَلْيَنظُرِ",
-          "c": "ﭣ",
           "p": 591,
           "l": 3
         },
         {
           "t": "ٱلْإِنسَـٰنُ",
-          "c": "ﭤ",
           "p": 591,
           "l": 3
         },
         {
           "t": "مِمَّ",
-          "c": "ﭥ",
           "p": 591,
           "l": 3
         },
         {
           "t": "خُلِقَ",
-          "c": "ﭦ",
           "p": 591,
           "l": 3
         }
@@ -153,28 +8533,28 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
       "tj": "خُلِقَ م<tajweed class=idgham_ghunnah>ِن م</tajweed>ّ<tajweed class=madda_obligatory>َا</tajweed>ٓ<tajweed class=ikhafa>ءٍ د</tajweed>َافِ<tajweed class=qalaqah>ق</tajweed>ٍ <span class=end>٦</span>",
+      "e": {
+        "p": 591,
+        "l": 4
+      },
       "words": [
         {
           "t": "خُلِقَ",
-          "c": "ﭨ",
           "p": 591,
           "l": 3
         },
         {
           "t": "مِن",
-          "c": "ﭩ",
           "p": 591,
           "l": 3
         },
         {
           "t": "مَّآءٍۢ",
-          "c": "ﭪ",
           "p": 591,
           "l": 3
         },
         {
           "t": "دَافِقٍۢ",
-          "c": "ﭫ",
           "p": 591,
           "l": 4
         }
@@ -185,34 +8565,33 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
       "tj": "يَخْرُجُ م<tajweed class=iqlab>ِنۢ ب</tajweed>َيْنِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صُّلْبِ وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>تَّر<tajweed class=madda_obligatory>َا</tajweed>ٓئِ<tajweed class=qalaqah>ب</tajweed>ِ <span class=end>٧</span>",
+      "e": {
+        "p": 591,
+        "l": 4
+      },
       "words": [
         {
           "t": "يَخْرُجُ",
-          "c": "ﭭ",
           "p": 591,
           "l": 4
         },
         {
           "t": "مِنۢ",
-          "c": "ﭮ",
           "p": 591,
           "l": 4
         },
         {
           "t": "بَيْنِ",
-          "c": "ﭯ",
           "p": 591,
           "l": 4
         },
         {
           "t": "ٱلصُّلْبِ",
-          "c": "ﭰ",
           "p": 591,
           "l": 4
         },
         {
           "t": "وَٱلتَّرَآئِبِ",
-          "c": "ﭱ",
           "p": 591,
           "l": 4
         }
@@ -223,28 +8602,28 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> عَلَىٰ رَ<tajweed class=qalaqah>جْ</tajweed>عِه<tajweed class=madda_normal>ِۦ</tajweed> لَقَادِرٌ <span class=end>٨</span>",
+      "e": {
+        "p": 591,
+        "l": 4
+      },
       "words": [
         {
           "t": "إِنَّهُۥ",
-          "c": "ﭳ",
           "p": 591,
           "l": 4
         },
         {
           "t": "عَلَىٰ",
-          "c": "ﭴ",
           "p": 591,
           "l": 4
         },
         {
           "t": "رَجْعِهِۦ",
-          "c": "ﭵ",
           "p": 591,
           "l": 4
         },
         {
           "t": "لَقَادِرٌۭ",
-          "c": "ﭶ",
           "p": 591,
           "l": 4
         }
@@ -255,22 +8634,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
       "tj": "يَوْمَ تُ<tajweed class=qalaqah>بْ</tajweed>لَى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّر<tajweed class=madda_obligatory>َا</tajweed>ٓئِرُ <span class=end>٩</span>",
+      "e": {
+        "p": 591,
+        "l": 5
+      },
       "words": [
         {
           "t": "يَوْمَ",
-          "c": "ﭸ",
           "p": 591,
           "l": 5
         },
         {
           "t": "تُبْلَى",
-          "c": "ﭹ",
           "p": 591,
           "l": 5
         },
         {
           "t": "ٱلسَّرَآئِرُ",
-          "c": "ﭺ",
           "p": 591,
           "l": 5
         }
@@ -281,40 +8661,38 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ",
       "tj": "فَمَا لَهُ<tajweed class=madda_normal>ۥ</tajweed> مِ<tajweed class=ikhafa>ن ق</tajweed>ُوَّ<tajweed class=idgham_ghunnah>ةٍ و</tajweed>َلَا نَاصِرٍ <span class=end>١٠</span>",
+      "e": {
+        "p": 591,
+        "l": 5
+      },
       "words": [
         {
           "t": "فَمَا",
-          "c": "ﭼ",
           "p": 591,
           "l": 5
         },
         {
           "t": "لَهُۥ",
-          "c": "ﭽ",
           "p": 591,
           "l": 5
         },
         {
           "t": "مِن",
-          "c": "ﭾ",
           "p": 591,
           "l": 5
         },
         {
           "t": "قُوَّةٍۢ",
-          "c": "ﭿ",
           "p": 591,
           "l": 5
         },
         {
           "t": "وَلَا",
-          "c": "ﮀ",
           "p": 591,
           "l": 5
         },
         {
           "t": "نَاصِرٍۢ",
-          "c": "ﮁ",
           "p": 591,
           "l": 5
         }
@@ -325,22 +8703,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءِ ذَاتِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رَّ<tajweed class=qalaqah>جْ</tajweed>عِ <span class=end>١١</span>",
+      "e": {
+        "p": 591,
+        "l": 5
+      },
       "words": [
         {
           "t": "وَٱلسَّمَآءِ",
-          "c": "ﮃ",
           "p": 591,
           "l": 5
         },
         {
           "t": "ذَاتِ",
-          "c": "ﮄ",
           "p": 591,
           "l": 5
         },
         {
           "t": "ٱلرَّجْعِ",
-          "c": "ﮅ",
           "p": 591,
           "l": 5
         }
@@ -351,22 +8730,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضِ ذَاتِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=qalaqah>دْ</tajweed>عِ <span class=end>١٢</span>",
+      "e": {
+        "p": 591,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَٱلْأَرْضِ",
-          "c": "ﮇ",
           "p": 591,
           "l": 6
         },
         {
           "t": "ذَاتِ",
-          "c": "ﮈ",
           "p": 591,
           "l": 6
         },
         {
           "t": "ٱلصَّدْعِ",
-          "c": "ﮉ",
           "p": 591,
           "l": 6
         }
@@ -377,22 +8757,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> لَقَوْ<tajweed class=ikhafa>لٌ ف</tajweed>َصْلٌ <span class=end>١٣</span>",
+      "e": {
+        "p": 591,
+        "l": 6
+      },
       "words": [
         {
           "t": "إِنَّهُۥ",
-          "c": "ﮋ",
           "p": 591,
           "l": 6
         },
         {
           "t": "لَقَوْلٌۭ",
-          "c": "ﮌ",
           "p": 591,
           "l": 6
         },
         {
           "t": "فَصْلٌۭ",
-          "c": "ﮍ",
           "p": 591,
           "l": 6
         }
@@ -403,22 +8784,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَمَا هُوَ بِٱلْهَزْلِ",
       "tj": "وَمَا هُوَ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْهَزْلِ <span class=end>١٤</span>",
+      "e": {
+        "p": 591,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَمَا",
-          "c": "ﮏ",
           "p": 591,
           "l": 6
         },
         {
           "t": "هُوَ",
-          "c": "ﮐ",
           "p": 591,
           "l": 6
         },
         {
           "t": "بِٱلْهَزْلِ",
-          "c": "ﮑ",
           "p": 591,
           "l": 6
         }
@@ -429,22 +8811,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهُمْ يَكِيدُونَ كَيْدًا <span class=end>١٥</span>",
+      "e": {
+        "p": 591,
+        "l": 7
+      },
       "words": [
         {
           "t": "إِنَّهُمْ",
-          "c": "ﮓ",
           "p": 591,
           "l": 6
         },
         {
           "t": "يَكِيدُونَ",
-          "c": "ﮔ",
           "p": 591,
           "l": 7
         },
         {
           "t": "كَيْدًۭا",
-          "c": "ﮕ",
           "p": 591,
           "l": 7
         }
@@ -455,16 +8838,18 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَأَكِيدُ كَيْدًا",
       "tj": "وَأَكِيدُ كَيْدًا <span class=end>١٦</span>",
+      "e": {
+        "p": 591,
+        "l": 7
+      },
       "words": [
         {
           "t": "وَأَكِيدُ",
-          "c": "ﮗ",
           "p": 591,
           "l": 7
         },
         {
           "t": "كَيْدًۭا",
-          "c": "ﮘ",
           "p": 591,
           "l": 7
         }
@@ -475,28 +8860,28 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
       "tj": "فَمَهِّلِ <tajweed class=ham_wasl>ٱ</tajweed>لْكَ<tajweed class=madda_normal>ـٰ</tajweed>فِرِينَ أَمْهِلْهُمْ رُوَيْدَۢا <span class=end>١٧</span>",
+      "e": {
+        "p": 591,
+        "l": 7
+      },
       "words": [
         {
           "t": "فَمَهِّلِ",
-          "c": "ﮚ",
           "p": 591,
           "l": 7
         },
         {
           "t": "ٱلْكَـٰفِرِينَ",
-          "c": "ﮛ",
           "p": 591,
           "l": 7
         },
         {
           "t": "أَمْهِلْهُمْ",
-          "c": "ﮜ",
           "p": 591,
           "l": 7
         },
         {
           "t": "رُوَيْدًۢا",
-          "c": "ﮝ",
           "p": 591,
           "l": 7
         }
@@ -507,28 +8892,28 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": " سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
       "tj": "سَبِّحِ <tajweed class=ham_wasl>ٱ</tajweed>سْمَ رَبِّكَ <tajweed class=ham_wasl>ٱ</tajweed>لْأَعْلَى <span class=end>١</span>",
+      "e": {
+        "p": 591,
+        "l": 10
+      },
       "words": [
         {
           "t": "سَبِّحِ",
-          "c": "ﮟ",
           "p": 591,
           "l": 10
         },
         {
           "t": "ٱسْمَ",
-          "c": "ﮠ",
           "p": 591,
           "l": 10
         },
         {
           "t": "رَبِّكَ",
-          "c": "ﮡ",
           "p": 591,
           "l": 10
         },
         {
           "t": "ٱلْأَعْلَى",
-          "c": "ﮢ",
           "p": 591,
           "l": 10
         }
@@ -539,22 +8924,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
       "tj": "ٱلَّذِى خَلَقَ فَسَوَّىٰ <span class=end>٢</span>",
+      "e": {
+        "p": 591,
+        "l": 10
+      },
       "words": [
         {
           "t": "ٱلَّذِى",
-          "c": "ﮤ",
           "p": 591,
           "l": 10
         },
         {
           "t": "خَلَقَ",
-          "c": "ﮥ",
           "p": 591,
           "l": 10
         },
         {
           "t": "فَسَوَّىٰ",
-          "c": "ﮦ",
           "p": 591,
           "l": 10
         }
@@ -565,22 +8951,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّذِى قَدَّرَ فَهَدَىٰ <span class=end>٣</span>",
+      "e": {
+        "p": 591,
+        "l": 11
+      },
       "words": [
         {
           "t": "وَٱلَّذِى",
-          "c": "ﮨ",
           "p": 591,
           "l": 10
         },
         {
           "t": "قَدَّرَ",
-          "c": "ﮩ",
           "p": 591,
           "l": 10
         },
         {
           "t": "فَهَدَىٰ",
-          "c": "ﮪ",
           "p": 591,
           "l": 10
         }
@@ -591,22 +8978,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّذ<tajweed class=madda_obligatory>ِىٓ</tajweed> أَخْرَجَ <tajweed class=ham_wasl>ٱ</tajweed>لْمَرْعَىٰ <span class=end>٤</span>",
+      "e": {
+        "p": 591,
+        "l": 11
+      },
       "words": [
         {
           "t": "وَٱلَّذِىٓ",
-          "c": "ﮬ",
           "p": 591,
           "l": 11
         },
         {
           "t": "أَخْرَجَ",
-          "c": "ﮭ",
           "p": 591,
           "l": 11
         },
         {
           "t": "ٱلْمَرْعَىٰ",
-          "c": "ﮮ",
           "p": 591,
           "l": 11
         }
@@ -617,22 +9005,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
       "tj": "فَجَعَلَهُ<tajweed class=madda_normal>ۥ</tajweed> غُث<tajweed class=madda_obligatory>َا</tajweed>ٓءً أَحْوَىٰ <span class=end>٥</span>",
+      "e": {
+        "p": 591,
+        "l": 11
+      },
       "words": [
         {
           "t": "فَجَعَلَهُۥ",
-          "c": "ﮰ",
           "p": 591,
           "l": 11
         },
         {
           "t": "غُثَآءً",
-          "c": "ﮱ",
           "p": 591,
           "l": 11
         },
         {
           "t": "أَحْوَىٰ",
-          "c": "ﯓ",
           "p": 591,
           "l": 11
         }
@@ -643,22 +9032,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
       "tj": "سَنُ<tajweed class=qalaqah>قْ</tajweed>رِئُكَ فَلَا تَ<tajweed class=ikhafa>نس</tajweed>َىٰٓ <span class=end>٦</span>",
+      "e": {
+        "p": 591,
+        "l": 12
+      },
       "words": [
         {
           "t": "سَنُقْرِئُكَ",
-          "c": "ﯕ",
           "p": 591,
           "l": 11
         },
         {
           "t": "فَلَا",
-          "c": "ﯖ",
           "p": 591,
           "l": 12
         },
         {
           "t": "تَنسَىٰٓ",
-          "c": "ﯗ",
           "p": 591,
           "l": 12
         }
@@ -669,58 +9059,53 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
       "tj": "إِلَّا مَا ش<tajweed class=madda_obligatory>َا</tajweed>ٓءَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ‌ۚ إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> يَعْلَمُ <tajweed class=ham_wasl>ٱ</tajweed>لْجَهْرَ وَمَا يَخْفَىٰ <span class=end>٧</span>",
+      "e": {
+        "p": 591,
+        "l": 12
+      },
       "words": [
         {
           "t": "إِلَّا",
-          "c": "ﯙ",
           "p": 591,
           "l": 12
         },
         {
           "t": "مَا",
-          "c": "ﯚ",
           "p": 591,
           "l": 12
         },
         {
           "t": "شَآءَ",
-          "c": "ﯛ",
           "p": 591,
           "l": 12
         },
         {
           "t": "ٱللَّهُ ۚ",
-          "c": "ﯜﯝ",
           "p": 591,
           "l": 12
         },
         {
           "t": "إِنَّهُۥ",
-          "c": "ﯞ",
           "p": 591,
           "l": 12
         },
         {
           "t": "يَعْلَمُ",
-          "c": "ﯟ",
           "p": 591,
           "l": 12
         },
         {
           "t": "ٱلْجَهْرَ",
-          "c": "ﯠ",
           "p": 591,
           "l": 12
         },
         {
           "t": "وَمَا",
-          "c": "ﯡ",
           "p": 591,
           "l": 12
         },
         {
           "t": "يَخْفَىٰ",
-          "c": "ﯢ",
           "p": 591,
           "l": 12
         }
@@ -731,16 +9116,18 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
       "tj": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ <span class=end>٨</span>",
+      "e": {
+        "p": 591,
+        "l": 13
+      },
       "words": [
         {
           "t": "وَنُيَسِّرُكَ",
-          "c": "ﯤ",
           "p": 591,
           "l": 12
         },
         {
           "t": "لِلْيُسْرَىٰ",
-          "c": "ﯥ",
           "p": 591,
           "l": 13
         }
@@ -751,28 +9138,28 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
       "tj": "فَذَكِّرْ إ<tajweed class=idgham_ghunnah>ِن ن</tajweed>َّفَعَتِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>ذِّكْرَىٰ <span class=end>٩</span>",
+      "e": {
+        "p": 591,
+        "l": 13
+      },
       "words": [
         {
           "t": "فَذَكِّرْ",
-          "c": "ﯧ",
           "p": 591,
           "l": 13
         },
         {
           "t": "إِن",
-          "c": "ﯨ",
           "p": 591,
           "l": 13
         },
         {
           "t": "نَّفَعَتِ",
-          "c": "ﯩ",
           "p": 591,
           "l": 13
         },
         {
           "t": "ٱلذِّكْرَىٰ",
-          "c": "ﯪ",
           "p": 591,
           "l": 13
         }
@@ -783,22 +9170,23 @@ const SURAH={
       "page_number": 591,
       "text_uthmani": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
       "tj": "سَيَذَّكَّرُ م<tajweed class=idgham_ghunnah>َن ي</tajweed>َخْشَىٰ <span class=end>١٠</span>",
+      "e": {
+        "p": 591,
+        "l": 13
+      },
       "words": [
         {
           "t": "سَيَذَّكَّرُ",
-          "c": "ﯬ",
           "p": 591,
           "l": 13
         },
         {
           "t": "مَن",
-          "c": "ﯭ",
           "p": 591,
           "l": 13
         },
         {
           "t": "يَخْشَىٰ",
-          "c": "ﯮ",
           "p": 591,
           "l": 13
         }
@@ -809,16 +9197,18 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
       "tj": "وَيَتَجَ<tajweed class=ghunnah>نّ</tajweed>َبُهَا <tajweed class=ham_wasl>ٱ</tajweed>لْأَشْقَى <span class=end>١١</span>",
+      "e": {
+        "p": 591,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَيَتَجَنَّبُهَا",
-          "c": "ﯰ",
           "p": 591,
           "l": 14
         },
         {
           "t": "ٱلْأَشْقَى",
-          "c": "ﯱ",
           "p": 591,
           "l": 14
         }
@@ -829,28 +9219,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
       "tj": "ٱلَّذِى يَصْلَى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َارَ <tajweed class=ham_wasl>ٱ</tajweed>لْكُ<tajweed class=qalaqah>بْ</tajweed>رَىٰ <span class=end>١٢</span>",
+      "e": {
+        "p": 591,
+        "l": 14
+      },
       "words": [
         {
           "t": "ٱلَّذِى",
-          "c": "ﯳ",
           "p": 591,
           "l": 14
         },
         {
           "t": "يَصْلَى",
-          "c": "ﯴ",
           "p": 591,
           "l": 14
         },
         {
           "t": "ٱلنَّارَ",
-          "c": "ﯵ",
           "p": 591,
           "l": 14
         },
         {
           "t": "ٱلْكُبْرَىٰ",
-          "c": "ﯶ",
           "p": 591,
           "l": 14
         }
@@ -861,40 +9251,38 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
       "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ <span class=end>١٣</span>",
+      "e": {
+        "p": 591,
+        "l": 15
+      },
       "words": [
         {
           "t": "ثُمَّ",
-          "c": "ﯸ",
           "p": 591,
           "l": 14
         },
         {
           "t": "لَا",
-          "c": "ﯹ",
           "p": 591,
           "l": 14
         },
         {
           "t": "يَمُوتُ",
-          "c": "ﯺ",
           "p": 591,
           "l": 14
         },
         {
           "t": "فِيهَا",
-          "c": "ﯻ",
           "p": 591,
           "l": 15
         },
         {
           "t": "وَلَا",
-          "c": "ﯼ",
           "p": 591,
           "l": 15
         },
         {
           "t": "يَحْيَىٰ",
-          "c": "ﯽ",
           "p": 591,
           "l": 15
         }
@@ -905,28 +9293,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
       "tj": "قَ<tajweed class=qalaqah>دْ</tajweed> أَفْلَحَ مَ<tajweed class=ikhafa>ن ت</tajweed>َزَكَّىٰ <span class=end>١٤</span>",
+      "e": {
+        "p": 591,
+        "l": 15
+      },
       "words": [
         {
           "t": "قَدْ",
-          "c": "ﯿ",
           "p": 591,
           "l": 15
         },
         {
           "t": "أَفْلَحَ",
-          "c": "ﰀ",
           "p": 591,
           "l": 15
         },
         {
           "t": "مَن",
-          "c": "ﰁ",
           "p": 591,
           "l": 15
         },
         {
           "t": "تَزَكَّىٰ",
-          "c": "ﰂ",
           "p": 591,
           "l": 15
         }
@@ -937,28 +9325,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
       "tj": "وَذَكَرَ <tajweed class=ham_wasl>ٱ</tajweed>سْمَ رَبِّه<tajweed class=madda_normal>ِۦ</tajweed> فَصَلَّىٰ <span class=end>١٥</span>",
+      "e": {
+        "p": 591,
+        "l": 15
+      },
       "words": [
         {
           "t": "وَذَكَرَ",
-          "c": "ﰄ",
           "p": 591,
           "l": 15
         },
         {
           "t": "ٱسْمَ",
-          "c": "ﰅ",
           "p": 591,
           "l": 15
         },
         {
           "t": "رَبِّهِۦ",
-          "c": "ﰆ",
           "p": 591,
           "l": 15
         },
         {
           "t": "فَصَلَّىٰ",
-          "c": "ﰇ",
           "p": 591,
           "l": 15
         }
@@ -969,28 +9357,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
       "tj": "بَلْ تُؤْثِرُونَ <tajweed class=ham_wasl>ٱ</tajweed>لْحَيَ<tajweed class=slnt>و</tajweed><tajweed class=madda_normal>ٲ</tajweed>ةَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دُّنْيَا <span class=end>١٦</span>",
+      "e": {
+        "p": 592,
+        "l": 1
+      },
       "words": [
         {
           "t": "بَلْ",
-          "c": "ﭑ",
           "p": 592,
           "l": 1
         },
         {
           "t": "تُؤْثِرُونَ",
-          "c": "ﭒ",
           "p": 592,
           "l": 1
         },
         {
           "t": "ٱلْحَيَوٰةَ",
-          "c": "ﭓ",
           "p": 592,
           "l": 1
         },
         {
           "t": "ٱلدُّنْيَا",
-          "c": "ﭔ",
           "p": 592,
           "l": 1
         }
@@ -1001,22 +9389,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأَخِرَةُ خَيْ<tajweed class=idgham_ghunnah>رٌ و</tajweed>َأَ<tajweed class=qalaqah>بْ</tajweed>قَىٰٓ <span class=end>١٧</span>",
+      "e": {
+        "p": 592,
+        "l": 1
+      },
       "words": [
         {
           "t": "وَٱلْـَٔاخِرَةُ",
-          "c": "ﭖ",
           "p": 592,
           "l": 1
         },
         {
           "t": "خَيْرٌۭ",
-          "c": "ﭗ",
           "p": 592,
           "l": 1
         },
         {
           "t": "وَأَبْقَىٰٓ",
-          "c": "ﭘ",
           "p": 592,
           "l": 1
         }
@@ -1027,34 +9416,33 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ هَ<tajweed class=madda_normal>ـٰ</tajweed>ذَا لَفِى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صُّحُفِ <tajweed class=ham_wasl>ٱ</tajweed>لْأُولَىٰ <span class=end>١٨</span>",
+      "e": {
+        "p": 592,
+        "l": 2
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﭚ",
           "p": 592,
           "l": 1
         },
         {
           "t": "هَـٰذَا",
-          "c": "ﭛ",
           "p": 592,
           "l": 2
         },
         {
           "t": "لَفِى",
-          "c": "ﭜ",
           "p": 592,
           "l": 2
         },
         {
           "t": "ٱلصُّحُفِ",
-          "c": "ﭝ",
           "p": 592,
           "l": 2
         },
         {
           "t": "ٱلْأُولَىٰ",
-          "c": "ﭞ",
           "p": 592,
           "l": 2
         }
@@ -1065,22 +9453,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
       "tj": "صُحُفِ إِ<tajweed class=qalaqah>بْ</tajweed>ر<tajweed class=madda_normal>َٲ</tajweed>هِيمَ وَمُوسَىٰ <span class=end>١٩</span>",
+      "e": {
+        "p": 592,
+        "l": 2
+      },
       "words": [
         {
           "t": "صُحُفِ",
-          "c": "ﭠ",
           "p": 592,
           "l": 2
         },
         {
           "t": "إِبْرَٰهِيمَ",
-          "c": "ﭡ",
           "p": 592,
           "l": 2
         },
         {
           "t": "وَمُوسَىٰ",
-          "c": "ﭢ",
           "p": 592,
           "l": 2
         }
@@ -1091,28 +9480,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": " هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
       "tj": "هَلْ أَتَ<tajweed class=madda_normal>ـٰ</tajweed>كَ حَدِيثُ <tajweed class=ham_wasl>ٱ</tajweed>لْغَ<tajweed class=madda_normal>ـٰ</tajweed>شِيَةِ <span class=end>١</span>",
+      "e": {
+        "p": 592,
+        "l": 5
+      },
       "words": [
         {
           "t": "هَلْ",
-          "c": "ﭤ",
           "p": 592,
           "l": 5
         },
         {
           "t": "أَتَىٰكَ",
-          "c": "ﭥ",
           "p": 592,
           "l": 5
         },
         {
           "t": "حَدِيثُ",
-          "c": "ﭦ",
           "p": 592,
           "l": 5
         },
         {
           "t": "ٱلْغَـٰشِيَةِ",
-          "c": "ﭧ",
           "p": 592,
           "l": 5
         }
@@ -1123,22 +9512,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
       "tj": "وُجُو<tajweed class=idgham_ghunnah>هٌ ي</tajweed>َوْمَئِذٍ خَ<tajweed class=madda_normal>ـٰ</tajweed>شِعَةٌ <span class=end>٢</span>",
+      "e": {
+        "p": 592,
+        "l": 5
+      },
       "words": [
         {
           "t": "وُجُوهٌۭ",
-          "c": "ﭩ",
           "p": 592,
           "l": 5
         },
         {
           "t": "يَوْمَئِذٍ",
-          "c": "ﭪ",
           "p": 592,
           "l": 5
         },
         {
           "t": "خَـٰشِعَةٌ",
-          "c": "ﭫ",
           "p": 592,
           "l": 5
         }
@@ -1149,16 +9539,18 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "عَامِلَةٌ نَّاصِبَةٌ",
       "tj": "عَامِلَ<tajweed class=idgham_ghunnah>ةٌ ن</tajweed>َّاصِبَةٌ <span class=end>٣</span>",
+      "e": {
+        "p": 592,
+        "l": 6
+      },
       "words": [
         {
           "t": "عَامِلَةٌۭ",
-          "c": "ﭭ",
           "p": 592,
           "l": 6
         },
         {
           "t": "نَّاصِبَةٌۭ",
-          "c": "ﭮ",
           "p": 592,
           "l": 6
         }
@@ -1169,22 +9561,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "تَصْلَىٰ نَارًا حَامِيَةً",
       "tj": "تَصْلَىٰ نَارًا حَامِيَةً <span class=end>٤</span>",
+      "e": {
+        "p": 592,
+        "l": 6
+      },
       "words": [
         {
           "t": "تَصْلَىٰ",
-          "c": "ﭰ",
           "p": 592,
           "l": 6
         },
         {
           "t": "نَارًا",
-          "c": "ﭱ",
           "p": 592,
           "l": 6
         },
         {
           "t": "حَامِيَةًۭ",
-          "c": "ﭲ",
           "p": 592,
           "l": 6
         }
@@ -1195,28 +9588,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
       "tj": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ <span class=end>٥</span>",
+      "e": {
+        "p": 592,
+        "l": 6
+      },
       "words": [
         {
           "t": "تُسْقَىٰ",
-          "c": "ﭴ",
           "p": 592,
           "l": 6
         },
         {
           "t": "مِنْ",
-          "c": "ﭵ",
           "p": 592,
           "l": 6
         },
         {
           "t": "عَيْنٍ",
-          "c": "ﭶ",
           "p": 592,
           "l": 6
         },
         {
           "t": "ءَانِيَةٍۢ",
-          "c": "ﭷ",
           "p": 592,
           "l": 6
         }
@@ -1227,40 +9620,38 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
       "tj": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِ<tajweed class=ikhafa>ن ض</tajweed>َر<tajweed class=madda_permissible>ِي</tajweed>عٍ <span class=end>٦</span>",
+      "e": {
+        "p": 592,
+        "l": 7
+      },
       "words": [
         {
           "t": "لَّيْسَ",
-          "c": "ﭹ",
           "p": 592,
           "l": 7
         },
         {
           "t": "لَهُمْ",
-          "c": "ﭺ",
           "p": 592,
           "l": 7
         },
         {
           "t": "طَعَامٌ",
-          "c": "ﭻ",
           "p": 592,
           "l": 7
         },
         {
           "t": "إِلَّا",
-          "c": "ﭼ",
           "p": 592,
           "l": 7
         },
         {
           "t": "مِن",
-          "c": "ﭽ",
           "p": 592,
           "l": 7
         },
         {
           "t": "ضَرِيعٍۢ",
-          "c": "ﭾ",
           "p": 592,
           "l": 7
         }
@@ -1271,40 +9662,38 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
       "tj": "لَّا يُسْمِنُ وَلَا يُغْنِى مِ<tajweed class=ikhafa>ن ج</tajweed><tajweed class=madda_permissible>ُو</tajweed>عٍ <span class=end>٧</span>",
+      "e": {
+        "p": 592,
+        "l": 7
+      },
       "words": [
         {
           "t": "لَّا",
-          "c": "ﮀ",
           "p": 592,
           "l": 7
         },
         {
           "t": "يُسْمِنُ",
-          "c": "ﮁ",
           "p": 592,
           "l": 7
         },
         {
           "t": "وَلَا",
-          "c": "ﮂ",
           "p": 592,
           "l": 7
         },
         {
           "t": "يُغْنِى",
-          "c": "ﮃ",
           "p": 592,
           "l": 7
         },
         {
           "t": "مِن",
-          "c": "ﮄ",
           "p": 592,
           "l": 7
         },
         {
           "t": "جُوعٍۢ",
-          "c": "ﮅ",
           "p": 592,
           "l": 7
         }
@@ -1315,22 +9704,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
       "tj": "وُجُو<tajweed class=idgham_ghunnah>هٌ ي</tajweed>َوْمَئِ<tajweed class=idgham_ghunnah>ذٍ ن</tajweed>َّاعِمَةٌ <span class=end>٨</span>",
+      "e": {
+        "p": 592,
+        "l": 8
+      },
       "words": [
         {
           "t": "وُجُوهٌۭ",
-          "c": "ﮇ",
           "p": 592,
           "l": 8
         },
         {
           "t": "يَوْمَئِذٍۢ",
-          "c": "ﮈ",
           "p": 592,
           "l": 8
         },
         {
           "t": "نَّاعِمَةٌۭ",
-          "c": "ﮉ",
           "p": 592,
           "l": 8
         }
@@ -1341,16 +9731,18 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "لِّسَعْيِهَا رَاضِيَةٌ",
       "tj": "لِّسَعْيِهَا رَاضِيَةٌ <span class=end>٩</span>",
+      "e": {
+        "p": 592,
+        "l": 8
+      },
       "words": [
         {
           "t": "لِّسَعْيِهَا",
-          "c": "ﮋ",
           "p": 592,
           "l": 8
         },
         {
           "t": "رَاضِيَةٌۭ",
-          "c": "ﮌ",
           "p": 592,
           "l": 8
         }
@@ -1361,22 +9753,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "فِى جَنَّةٍ عَالِيَةٍ",
       "tj": "فِى جَ<tajweed class=ghunnah>نّ</tajweed>َةٍ عَالِيَةٍ <span class=end>١٠</span>",
+      "e": {
+        "p": 592,
+        "l": 8
+      },
       "words": [
         {
           "t": "فِى",
-          "c": "ﮎ",
           "p": 592,
           "l": 8
         },
         {
           "t": "جَنَّةٍ",
-          "c": "ﮏ",
           "p": 592,
           "l": 8
         },
         {
           "t": "عَالِيَةٍۢ",
-          "c": "ﮐ",
           "p": 592,
           "l": 8
         }
@@ -1387,28 +9780,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
       "tj": "لَّا تَسْمَعُ فِيهَا لَ<tajweed class=madda_normal>ـٰ</tajweed>غِيَةً <span class=end>١١</span>",
+      "e": {
+        "p": 592,
+        "l": 9
+      },
       "words": [
         {
           "t": "لَّا",
-          "c": "ﮒ",
           "p": 592,
           "l": 9
         },
         {
           "t": "تَسْمَعُ",
-          "c": "ﮓ",
           "p": 592,
           "l": 9
         },
         {
           "t": "فِيهَا",
-          "c": "ﮔ",
           "p": 592,
           "l": 9
         },
         {
           "t": "لَـٰغِيَةًۭ",
-          "c": "ﮕ",
           "p": 592,
           "l": 9
         }
@@ -1419,22 +9812,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "فِيهَا عَيْنٌ جَارِيَةٌ",
       "tj": "فِيهَا عَيْ<tajweed class=ikhafa>نٌ ج</tajweed>َارِيَةٌ <span class=end>١٢</span>",
+      "e": {
+        "p": 592,
+        "l": 9
+      },
       "words": [
         {
           "t": "فِيهَا",
-          "c": "ﮗ",
           "p": 592,
           "l": 9
         },
         {
           "t": "عَيْنٌۭ",
-          "c": "ﮘ",
           "p": 592,
           "l": 9
         },
         {
           "t": "جَارِيَةٌۭ",
-          "c": "ﮙ",
           "p": 592,
           "l": 9
         }
@@ -1445,22 +9839,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
       "tj": "فِيهَا سُرُ<tajweed class=idgham_ghunnah>رٌ م</tajweed>َّرْفُوعَةٌ <span class=end>١٣</span>",
+      "e": {
+        "p": 592,
+        "l": 9
+      },
       "words": [
         {
           "t": "فِيهَا",
-          "c": "ﮛ",
           "p": 592,
           "l": 9
         },
         {
           "t": "سُرُرٌۭ",
-          "c": "ﮜ",
           "p": 592,
           "l": 9
         },
         {
           "t": "مَّرْفُوعَةٌۭ",
-          "c": "ﮝ",
           "p": 592,
           "l": 9
         }
@@ -1471,16 +9866,18 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
       "tj": "وَأَكْوَا<tajweed class=idgham_ghunnah>بٌ م</tajweed>َّوْضُوعَةٌ <span class=end>١٤</span>",
+      "e": {
+        "p": 592,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَأَكْوَابٌۭ",
-          "c": "ﮟ",
           "p": 592,
           "l": 10
         },
         {
           "t": "مَّوْضُوعَةٌۭ",
-          "c": "ﮠ",
           "p": 592,
           "l": 10
         }
@@ -1491,16 +9888,18 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَنَمَارِقُ مَصْفُوفَةٌ",
       "tj": "وَنَمَارِقُ مَصْفُوفَةٌ <span class=end>١٥</span>",
+      "e": {
+        "p": 592,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَنَمَارِقُ",
-          "c": "ﮢ",
           "p": 592,
           "l": 10
         },
         {
           "t": "مَصْفُوفَةٌۭ",
-          "c": "ﮣ",
           "p": 592,
           "l": 10
         }
@@ -1511,16 +9910,18 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَزَرَابِىُّ مَبْثُوثَةٌ",
       "tj": "وَزَرَابِىُّ مَ<tajweed class=qalaqah>بْ</tajweed>ثُوثَةٌ <span class=end>١٦</span>",
+      "e": {
+        "p": 592,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَزَرَابِىُّ",
-          "c": "ﮥ",
           "p": 592,
           "l": 10
         },
         {
           "t": "مَبْثُوثَةٌ",
-          "c": "ﮦ",
           "p": 592,
           "l": 10
         }
@@ -1531,40 +9932,38 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
       "tj": "أَفَلَا يَ<tajweed class=ikhafa>نظ</tajweed>ُرُونَ إِلَى <tajweed class=ham_wasl>ٱ</tajweed>لْإِبِلِ كَيْفَ خُلِقَتْ <span class=end>١٧</span>",
+      "e": {
+        "p": 592,
+        "l": 11
+      },
       "words": [
         {
           "t": "أَفَلَا",
-          "c": "ﮨ",
           "p": 592,
           "l": 11
         },
         {
           "t": "يَنظُرُونَ",
-          "c": "ﮩ",
           "p": 592,
           "l": 11
         },
         {
           "t": "إِلَى",
-          "c": "ﮪ",
           "p": 592,
           "l": 11
         },
         {
           "t": "ٱلْإِبِلِ",
-          "c": "ﮫ",
           "p": 592,
           "l": 11
         },
         {
           "t": "كَيْفَ",
-          "c": "ﮬ",
           "p": 592,
           "l": 11
         },
         {
           "t": "خُلِقَتْ",
-          "c": "ﮭ",
           "p": 592,
           "l": 11
         }
@@ -1575,28 +9974,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
       "tj": "وَإِلَى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءِ كَيْفَ رُفِعَتْ <span class=end>١٨</span>",
+      "e": {
+        "p": 592,
+        "l": 12
+      },
       "words": [
         {
           "t": "وَإِلَى",
-          "c": "ﮯ",
           "p": 592,
           "l": 11
         },
         {
           "t": "ٱلسَّمَآءِ",
-          "c": "ﮰ",
           "p": 592,
           "l": 11
         },
         {
           "t": "كَيْفَ",
-          "c": "ﮱ",
           "p": 592,
           "l": 11
         },
         {
           "t": "رُفِعَتْ",
-          "c": "ﯓ",
           "p": 592,
           "l": 12
         }
@@ -1607,28 +10006,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
       "tj": "وَإِلَى <tajweed class=ham_wasl>ٱ</tajweed>لْجِبَالِ كَيْفَ نُصِبَتْ <span class=end>١٩</span>",
+      "e": {
+        "p": 592,
+        "l": 12
+      },
       "words": [
         {
           "t": "وَإِلَى",
-          "c": "ﯕ",
           "p": 592,
           "l": 12
         },
         {
           "t": "ٱلْجِبَالِ",
-          "c": "ﯖ",
           "p": 592,
           "l": 12
         },
         {
           "t": "كَيْفَ",
-          "c": "ﯗ",
           "p": 592,
           "l": 12
         },
         {
           "t": "نُصِبَتْ",
-          "c": "ﯘ",
           "p": 592,
           "l": 12
         }
@@ -1639,28 +10038,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
       "tj": "وَإِلَى <tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضِ كَيْفَ سُطِحَتْ <span class=end>٢٠</span>",
+      "e": {
+        "p": 592,
+        "l": 13
+      },
       "words": [
         {
           "t": "وَإِلَى",
-          "c": "ﯚ",
           "p": 592,
           "l": 12
         },
         {
           "t": "ٱلْأَرْضِ",
-          "c": "ﯛ",
           "p": 592,
           "l": 12
         },
         {
           "t": "كَيْفَ",
-          "c": "ﯜ",
           "p": 592,
           "l": 12
         },
         {
           "t": "سُطِحَتْ",
-          "c": "ﯝ",
           "p": 592,
           "l": 13
         }
@@ -1671,28 +10070,28 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
       "tj": "فَذَكِّرْ إِ<tajweed class=ghunnah>نّ</tajweed>َم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نت</tajweed>َ مُذَكِّرٌ <span class=end>٢١</span>",
+      "e": {
+        "p": 592,
+        "l": 13
+      },
       "words": [
         {
           "t": "فَذَكِّرْ",
-          "c": "ﯟ",
           "p": 592,
           "l": 13
         },
         {
           "t": "إِنَّمَآ",
-          "c": "ﯠ",
           "p": 592,
           "l": 13
         },
         {
           "t": "أَنتَ",
-          "c": "ﯡ",
           "p": 592,
           "l": 13
         },
         {
           "t": "مُذَكِّرٌۭ",
-          "c": "ﯢ",
           "p": 592,
           "l": 13
         }
@@ -1703,22 +10102,23 @@ const SURAH={
       "page_number": 592,
       "text_uthmani": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
       "tj": "لَّسْتَ عَلَيْه<tajweed class=ikhafa_shafawi>ِم ب</tajweed>ِمُصَيْطِرٍ <span class=end>٢٢</span>",
+      "e": {
+        "p": 592,
+        "l": 14
+      },
       "words": [
         {
           "t": "لَّسْتَ",
-          "c": "ﯤ",
           "p": 592,
           "l": 13
         },
         {
           "t": "عَلَيْهِم",
-          "c": "ﯥ",
           "p": 592,
           "l": 13
         },
         {
           "t": "بِمُصَيْطِرٍ",
-          "c": "ﯦ",
           "p": 592,
           "l": 14
         }
@@ -1729,28 +10129,28 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
       "tj": "إِلَّا مَ<tajweed class=ikhafa>ن ت</tajweed>َوَلَّىٰ وَكَفَرَ <span class=end>٢٣</span>",
+      "e": {
+        "p": 592,
+        "l": 14
+      },
       "words": [
         {
           "t": "إِلَّا",
-          "c": "ﯨ",
           "p": 592,
           "l": 14
         },
         {
           "t": "مَن",
-          "c": "ﯩ",
           "p": 592,
           "l": 14
         },
         {
           "t": "تَوَلَّىٰ",
-          "c": "ﯪ",
           "p": 592,
           "l": 14
         },
         {
           "t": "وَكَفَرَ",
-          "c": "ﯫ",
           "p": 592,
           "l": 14
         }
@@ -1761,28 +10161,28 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
       "tj": "فَيُعَذِّبُهُ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ <tajweed class=ham_wasl>ٱ</tajweed>لْعَذَابَ <tajweed class=ham_wasl>ٱ</tajweed>لْأَكْبَرَ <span class=end>٢٤</span>",
+      "e": {
+        "p": 592,
+        "l": 15
+      },
       "words": [
         {
           "t": "فَيُعَذِّبُهُ",
-          "c": "ﯭ",
           "p": 592,
           "l": 14
         },
         {
           "t": "ٱللَّهُ",
-          "c": "ﯮ",
           "p": 592,
           "l": 14
         },
         {
           "t": "ٱلْعَذَابَ",
-          "c": "ﯯ",
           "p": 592,
           "l": 14
         },
         {
           "t": "ٱلْأَكْبَرَ",
-          "c": "ﯰ",
           "p": 592,
           "l": 15
         }
@@ -1793,22 +10193,23 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ إِلَيْن<tajweed class=madda_obligatory>َآ</tajweed> إِيَابَهُمْ <span class=end>٢٥</span>",
+      "e": {
+        "p": 592,
+        "l": 15
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﯲ",
           "p": 592,
           "l": 15
         },
         {
           "t": "إِلَيْنَآ",
-          "c": "ﯳ",
           "p": 592,
           "l": 15
         },
         {
           "t": "إِيَابَهُمْ",
-          "c": "ﯴ",
           "p": 592,
           "l": 15
         }
@@ -1819,28 +10220,28 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
       "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ إِ<tajweed class=ghunnah>نّ</tajweed>َ عَلَيْنَا حِسَابَهُم <span class=end>٢٦</span>",
+      "e": {
+        "p": 592,
+        "l": 15
+      },
       "words": [
         {
           "t": "ثُمَّ",
-          "c": "ﯶ",
           "p": 592,
           "l": 15
         },
         {
           "t": "إِنَّ",
-          "c": "ﯷ",
           "p": 592,
           "l": 15
         },
         {
           "t": "عَلَيْنَا",
-          "c": "ﯸ",
           "p": 592,
           "l": 15
         },
         {
           "t": "حِسَابَهُم",
-          "c": "ﯹ",
           "p": 592,
           "l": 15
         }
@@ -1851,10 +10252,13 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": " وَٱلْفَجْرِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْفَ<tajweed class=qalaqah>جْ</tajweed>رِ <span class=end>١</span>",
+      "e": {
+        "p": 593,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَٱلْفَجْرِ",
-          "c": "ﭑ",
           "p": 593,
           "l": 3
         }
@@ -1865,16 +10269,18 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَلَيَالٍ عَشْرٍ",
       "tj": "وَلَيَالٍ عَشْرٍ <span class=end>٢</span>",
+      "e": {
+        "p": 593,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَلَيَالٍ",
-          "c": "ﭓ",
           "p": 593,
           "l": 3
         },
         {
           "t": "عَشْرٍۢ",
-          "c": "ﭔ",
           "p": 593,
           "l": 3
         }
@@ -1885,16 +10291,18 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>شَّفْعِ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْوَتْرِ <span class=end>٣</span>",
+      "e": {
+        "p": 593,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَٱلشَّفْعِ",
-          "c": "ﭖ",
           "p": 593,
           "l": 3
         },
         {
           "t": "وَٱلْوَتْرِ",
-          "c": "ﭗ",
           "p": 593,
           "l": 3
         }
@@ -1905,22 +10313,23 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَٱلَّيْلِ إِذَا يَسْرِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّيْلِ إِذَا يَسْرِ <span class=end>٤</span>",
+      "e": {
+        "p": 593,
+        "l": 4
+      },
       "words": [
         {
           "t": "وَٱلَّيْلِ",
-          "c": "ﭙ",
           "p": 593,
           "l": 3
         },
         {
           "t": "إِذَا",
-          "c": "ﭚ",
           "p": 593,
           "l": 3
         },
         {
           "t": "يَسْرِ",
-          "c": "ﭛ",
           "p": 593,
           "l": 3
         }
@@ -1931,40 +10340,38 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
       "tj": "هَلْ فِى ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ قَسَ<tajweed class=idgham_wo_ghunnah>مٌ ل</tajweed>ِّذِى حِ<tajweed class=qalaqah>جْ</tajweed>رٍ <span class=end>٥</span>",
+      "e": {
+        "p": 593,
+        "l": 4
+      },
       "words": [
         {
           "t": "هَلْ",
-          "c": "ﭝ",
           "p": 593,
           "l": 4
         },
         {
           "t": "فِى",
-          "c": "ﭞ",
           "p": 593,
           "l": 4
         },
         {
           "t": "ذَٰلِكَ",
-          "c": "ﭟ",
           "p": 593,
           "l": 4
         },
         {
           "t": "قَسَمٌۭ",
-          "c": "ﭠ",
           "p": 593,
           "l": 4
         },
         {
           "t": "لِّذِى",
-          "c": "ﭡ",
           "p": 593,
           "l": 4
         },
         {
           "t": "حِجْرٍ",
-          "c": "ﭢ",
           "p": 593,
           "l": 4
         }
@@ -1975,40 +10382,38 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
       "tj": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِع<tajweed class=madda_permissible>َا</tajweed><tajweed class=qalaqah>د</tajweed>ٍ <span class=end>٦</span>",
+      "e": {
+        "p": 593,
+        "l": 5
+      },
       "words": [
         {
           "t": "أَلَمْ",
-          "c": "ﭤ",
           "p": 593,
           "l": 4
         },
         {
           "t": "تَرَ",
-          "c": "ﭥ",
           "p": 593,
           "l": 4
         },
         {
           "t": "كَيْفَ",
-          "c": "ﭦ",
           "p": 593,
           "l": 4
         },
         {
           "t": "فَعَلَ",
-          "c": "ﭧ",
           "p": 593,
           "l": 4
         },
         {
           "t": "رَبُّكَ",
-          "c": "ﭨ",
           "p": 593,
           "l": 4
         },
         {
           "t": "بِعَادٍ",
-          "c": "ﭩ",
           "p": 593,
           "l": 4
         }
@@ -2019,22 +10424,23 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
       "tj": "إِرَمَ ذَاتِ <tajweed class=ham_wasl>ٱ</tajweed>لْعِم<tajweed class=madda_permissible>َا</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>٧</span>",
+      "e": {
+        "p": 593,
+        "l": 5
+      },
       "words": [
         {
           "t": "إِرَمَ",
-          "c": "ﭫ",
           "p": 593,
           "l": 5
         },
         {
           "t": "ذَاتِ",
-          "c": "ﭬ",
           "p": 593,
           "l": 5
         },
         {
           "t": "ٱلْعِمَادِ",
-          "c": "ﭭ",
           "p": 593,
           "l": 5
         }
@@ -2045,40 +10451,38 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ",
       "tj": "ٱلَّتِى لَمْ يُخْلَ<tajweed class=qalaqah>قْ</tajweed> مِثْلُهَا فِى <tajweed class=ham_wasl>ٱ</tajweed>لْبِلَ<tajweed class=madda_permissible>ـٰ</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>٨</span>",
+      "e": {
+        "p": 593,
+        "l": 5
+      },
       "words": [
         {
           "t": "ٱلَّتِى",
-          "c": "ﭯ",
           "p": 593,
           "l": 5
         },
         {
           "t": "لَمْ",
-          "c": "ﭰ",
           "p": 593,
           "l": 5
         },
         {
           "t": "يُخْلَقْ",
-          "c": "ﭱ",
           "p": 593,
           "l": 5
         },
         {
           "t": "مِثْلُهَا",
-          "c": "ﭲ",
           "p": 593,
           "l": 5
         },
         {
           "t": "فِى",
-          "c": "ﭳ",
           "p": 593,
           "l": 5
         },
         {
           "t": "ٱلْبِلَـٰدِ",
-          "c": "ﭴ",
           "p": 593,
           "l": 5
         }
@@ -2089,34 +10493,33 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
       "tj": "وَثَمُودَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ جَابُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّخْرَ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْو<tajweed class=madda_permissible>َا</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>٩</span>",
+      "e": {
+        "p": 593,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَثَمُودَ",
-          "c": "ﭶ",
           "p": 593,
           "l": 6
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﭷ",
           "p": 593,
           "l": 6
         },
         {
           "t": "جَابُوا۟",
-          "c": "ﭸ",
           "p": 593,
           "l": 6
         },
         {
           "t": "ٱلصَّخْرَ",
-          "c": "ﭹ",
           "p": 593,
           "l": 6
         },
         {
           "t": "بِٱلْوَادِ",
-          "c": "ﭺ",
           "p": 593,
           "l": 6
         }
@@ -2127,22 +10530,23 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
       "tj": "وَفِرْعَوْنَ ذِى <tajweed class=ham_wasl>ٱ</tajweed>لْأَوْت<tajweed class=madda_permissible>َا</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>١٠</span>",
+      "e": {
+        "p": 593,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَفِرْعَوْنَ",
-          "c": "ﭼ",
           "p": 593,
           "l": 6
         },
         {
           "t": "ذِى",
-          "c": "ﭽ",
           "p": 593,
           "l": 6
         },
         {
           "t": "ٱلْأَوْتَادِ",
-          "c": "ﭾ",
           "p": 593,
           "l": 6
         }
@@ -2153,28 +10557,28 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ",
       "tj": "ٱلَّذِينَ طَغَوْ<tajweed class=slnt>اْ</tajweed> فِى <tajweed class=ham_wasl>ٱ</tajweed>لْبِلَ<tajweed class=madda_permissible>ـٰ</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>١١</span>",
+      "e": {
+        "p": 593,
+        "l": 7
+      },
       "words": [
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﮀ",
           "p": 593,
           "l": 7
         },
         {
           "t": "طَغَوْا۟",
-          "c": "ﮁ",
           "p": 593,
           "l": 7
         },
         {
           "t": "فِى",
-          "c": "ﮂ",
           "p": 593,
           "l": 7
         },
         {
           "t": "ٱلْبِلَـٰدِ",
-          "c": "ﮃ",
           "p": 593,
           "l": 7
         }
@@ -2185,22 +10589,23 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
       "tj": "فَأَكْثَرُو<tajweed class=slnt>اْ</tajweed> فِيهَا <tajweed class=ham_wasl>ٱ</tajweed>لْفَس<tajweed class=madda_permissible>َا</tajweed><tajweed class=qalaqah>د</tajweed>َ <span class=end>١٢</span>",
+      "e": {
+        "p": 593,
+        "l": 7
+      },
       "words": [
         {
           "t": "فَأَكْثَرُوا۟",
-          "c": "ﮅ",
           "p": 593,
           "l": 7
         },
         {
           "t": "فِيهَا",
-          "c": "ﮆ",
           "p": 593,
           "l": 7
         },
         {
           "t": "ٱلْفَسَادَ",
-          "c": "ﮇ",
           "p": 593,
           "l": 7
         }
@@ -2211,34 +10616,33 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
       "tj": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذ<tajweed class=madda_permissible>َا</tajweed><tajweed class=qalaqah>ب</tajweed>ٍ <span class=end>١٣</span>",
+      "e": {
+        "p": 593,
+        "l": 8
+      },
       "words": [
         {
           "t": "فَصَبَّ",
-          "c": "ﮉ",
           "p": 593,
           "l": 7
         },
         {
           "t": "عَلَيْهِمْ",
-          "c": "ﮊ",
           "p": 593,
           "l": 8
         },
         {
           "t": "رَبُّكَ",
-          "c": "ﮋ",
           "p": 593,
           "l": 8
         },
         {
           "t": "سَوْطَ",
-          "c": "ﮌ",
           "p": 593,
           "l": 8
         },
         {
           "t": "عَذَابٍ",
-          "c": "ﮍ",
           "p": 593,
           "l": 8
         }
@@ -2249,22 +10653,23 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ رَبَّكَ لَبِ<tajweed class=ham_wasl>ٱ</tajweed>لْمِرْص<tajweed class=madda_permissible>َا</tajweed><tajweed class=qalaqah>د</tajweed>ِ <span class=end>١٤</span>",
+      "e": {
+        "p": 593,
+        "l": 8
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﮏ",
           "p": 593,
           "l": 8
         },
         {
           "t": "رَبَّكَ",
-          "c": "ﮐ",
           "p": 593,
           "l": 8
         },
         {
           "t": "لَبِٱلْمِرْصَادِ",
-          "c": "ﮑ",
           "p": 593,
           "l": 8
         }
@@ -2275,70 +10680,63 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
       "tj": "فَأَ<tajweed class=ghunnah>مّ</tajweed>َا <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ إِذَا مَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=qalaqah>بْ</tajweed>تَلَ<tajweed class=madda_normal>ـٰ</tajweed>هُ رَبُّهُ<tajweed class=madda_normal>ۥ</tajweed> فَأَكْرَمَهُ<tajweed class=madda_normal>ۥ</tajweed> وَنَعَّمَهُ<tajweed class=madda_normal>ۥ</tajweed> فَيَقُولُ رَبّ<tajweed class=madda_obligatory>ِىٓ</tajweed> أَكْرَمَنِ <span class=end>١٥</span>",
+      "e": {
+        "p": 593,
+        "l": 10
+      },
       "words": [
         {
           "t": "فَأَمَّا",
-          "c": "ﮓ",
           "p": 593,
           "l": 8
         },
         {
           "t": "ٱلْإِنسَـٰنُ",
-          "c": "ﮔ",
           "p": 593,
           "l": 9
         },
         {
           "t": "إِذَا",
-          "c": "ﮕ",
           "p": 593,
           "l": 9
         },
         {
           "t": "مَا",
-          "c": "ﮖ",
           "p": 593,
           "l": 9
         },
         {
           "t": "ٱبْتَلَىٰهُ",
-          "c": "ﮗ",
           "p": 593,
           "l": 9
         },
         {
           "t": "رَبُّهُۥ",
-          "c": "ﮘ",
           "p": 593,
           "l": 9
         },
         {
           "t": "فَأَكْرَمَهُۥ",
-          "c": "ﮙ",
           "p": 593,
           "l": 9
         },
         {
           "t": "وَنَعَّمَهُۥ",
-          "c": "ﮚ",
           "p": 593,
           "l": 9
         },
         {
           "t": "فَيَقُولُ",
-          "c": "ﮛ",
           "p": 593,
           "l": 9
         },
         {
           "t": "رَبِّىٓ",
-          "c": "ﮜ",
           "p": 593,
           "l": 9
         },
         {
           "t": "أَكْرَمَنِ",
-          "c": "ﮝ",
           "p": 593,
           "l": 9
         }
@@ -2349,64 +10747,58 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ",
       "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed><tajweed class=madda_obligatory>َآ</tajweed> إِذَا مَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=qalaqah>بْ</tajweed>تَلَ<tajweed class=madda_normal>ـٰ</tajweed>هُ فَقَدَرَ عَلَيْهِ رِزْقَهُ<tajweed class=madda_normal>ۥ</tajweed> فَيَقُولُ رَبّ<tajweed class=madda_obligatory>ِىٓ</tajweed> أَهَ<tajweed class=madda_normal>ـٰ</tajweed>نَنِ <span class=end>١٦</span>",
+      "e": {
+        "p": 593,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَأَمَّآ",
-          "c": "ﮟ",
           "p": 593,
           "l": 10
         },
         {
           "t": "إِذَا",
-          "c": "ﮠ",
           "p": 593,
           "l": 10
         },
         {
           "t": "مَا",
-          "c": "ﮡ",
           "p": 593,
           "l": 10
         },
         {
           "t": "ٱبْتَلَىٰهُ",
-          "c": "ﮢ",
           "p": 593,
           "l": 10
         },
         {
           "t": "فَقَدَرَ",
-          "c": "ﮣ",
           "p": 593,
           "l": 10
         },
         {
           "t": "عَلَيْهِ",
-          "c": "ﮤ",
           "p": 593,
           "l": 10
         },
         {
           "t": "رِزْقَهُۥ",
-          "c": "ﮥ",
           "p": 593,
           "l": 10
         },
         {
           "t": "فَيَقُولُ",
-          "c": "ﮦ",
           "p": 593,
           "l": 10
         },
         {
           "t": "رَبِّىٓ",
-          "c": "ﮧ",
           "p": 593,
           "l": 10
         },
         {
           "t": "أَهَـٰنَنِ",
-          "c": "ﮨ",
           "p": 593,
           "l": 10
         }
@@ -2417,34 +10809,33 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
       "tj": "كَلَّا‌ۖ بَل لَّا تُكْرِمُونَ <tajweed class=ham_wasl>ٱ</tajweed>لْيَت<tajweed class=madda_permissible>ِي</tajweed>مَ <span class=end>١٧</span>",
+      "e": {
+        "p": 593,
+        "l": 11
+      },
       "words": [
         {
           "t": "كَلَّا ۖ",
-          "c": "ﮪﮫ",
           "p": 593,
           "l": 11
         },
         {
           "t": "بَل",
-          "c": "ﮬ",
           "p": 593,
           "l": 11
         },
         {
           "t": "لَّا",
-          "c": "ﮭ",
           "p": 593,
           "l": 11
         },
         {
           "t": "تُكْرِمُونَ",
-          "c": "ﮮ",
           "p": 593,
           "l": 11
         },
         {
           "t": "ٱلْيَتِيمَ",
-          "c": "ﮯ",
           "p": 593,
           "l": 11
         }
@@ -2455,34 +10846,33 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
       "tj": "وَلَا تَحَ<tajweed class=madda_necessary>ـٰٓ</tajweed>ضُّونَ عَلَىٰ طَعَامِ <tajweed class=ham_wasl>ٱ</tajweed>لْمِسْك<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>١٨</span>",
+      "e": {
+        "p": 593,
+        "l": 12
+      },
       "words": [
         {
           "t": "وَلَا",
-          "c": "ﮱ",
           "p": 593,
           "l": 11
         },
         {
           "t": "تَحَـٰٓضُّونَ",
-          "c": "ﯓ",
           "p": 593,
           "l": 11
         },
         {
           "t": "عَلَىٰ",
-          "c": "ﯔ",
           "p": 593,
           "l": 11
         },
         {
           "t": "طَعَامِ",
-          "c": "ﯕ",
           "p": 593,
           "l": 11
         },
         {
           "t": "ٱلْمِسْكِينِ",
-          "c": "ﯖ",
           "p": 593,
           "l": 12
         }
@@ -2493,28 +10883,28 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
       "tj": "وَتَأْكُلُونَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>تُّرَاثَ أَكْل<tajweed class=idgham_wo_ghunnah>اً ل</tajweed>َّ<tajweed class=ghunnah>مّ</tajweed>ًا <span class=end>١٩</span>",
+      "e": {
+        "p": 593,
+        "l": 12
+      },
       "words": [
         {
           "t": "وَتَأْكُلُونَ",
-          "c": "ﯘ",
           "p": 593,
           "l": 12
         },
         {
           "t": "ٱلتُّرَاثَ",
-          "c": "ﯙ",
           "p": 593,
           "l": 12
         },
         {
           "t": "أَكْلًۭا",
-          "c": "ﯚ",
           "p": 593,
           "l": 12
         },
         {
           "t": "لَّمًّۭا",
-          "c": "ﯛ",
           "p": 593,
           "l": 12
         }
@@ -2525,28 +10915,28 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا",
       "tj": "وَتُحِبُّونَ <tajweed class=ham_wasl>ٱ</tajweed>لْمَالَ حُب<tajweed class=ikhafa>ًّا ج</tajweed>َ<tajweed class=ghunnah>مّ</tajweed>ًا <span class=end>٢٠</span>",
+      "e": {
+        "p": 593,
+        "l": 13
+      },
       "words": [
         {
           "t": "وَتُحِبُّونَ",
-          "c": "ﯝ",
           "p": 593,
           "l": 13
         },
         {
           "t": "ٱلْمَالَ",
-          "c": "ﯞ",
           "p": 593,
           "l": 13
         },
         {
           "t": "حُبًّۭا",
-          "c": "ﯟ",
           "p": 593,
           "l": 13
         },
         {
           "t": "جَمًّۭا",
-          "c": "ﯠ",
           "p": 593,
           "l": 13
         }
@@ -2557,40 +10947,38 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
       "tj": "كَلّ<tajweed class=madda_obligatory>َآ</tajweed> إِذَا دُكَّتِ <tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضُ دَك<tajweed class=ikhafa>ًّا د</tajweed>َكًّا <span class=end>٢١</span>",
+      "e": {
+        "p": 593,
+        "l": 14
+      },
       "words": [
         {
           "t": "كَلَّآ",
-          "c": "ﯢ",
           "p": 593,
           "l": 13
         },
         {
           "t": "إِذَا",
-          "c": "ﯣ",
           "p": 593,
           "l": 13
         },
         {
           "t": "دُكَّتِ",
-          "c": "ﯤ",
           "p": 593,
           "l": 13
         },
         {
           "t": "ٱلْأَرْضُ",
-          "c": "ﯥ",
           "p": 593,
           "l": 13
         },
         {
           "t": "دَكًّۭا",
-          "c": "ﯦ",
           "p": 593,
           "l": 13
         },
         {
           "t": "دَكًّۭا",
-          "c": "ﯧ",
           "p": 593,
           "l": 14
         }
@@ -2601,34 +10989,33 @@ const SURAH={
       "page_number": 593,
       "text_uthmani": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
       "tj": "وَج<tajweed class=madda_obligatory>َا</tajweed>ٓءَ رَبُّكَ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْمَلَكُ صَف<tajweed class=ikhafa>ًّا ص</tajweed>َفًّا <span class=end>٢٢</span>",
+      "e": {
+        "p": 593,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَجَآءَ",
-          "c": "ﯩ",
           "p": 593,
           "l": 14
         },
         {
           "t": "رَبُّكَ",
-          "c": "ﯪ",
           "p": 593,
           "l": 14
         },
         {
           "t": "وَٱلْمَلَكُ",
-          "c": "ﯫ",
           "p": 593,
           "l": 14
         },
         {
           "t": "صَفًّۭا",
-          "c": "ﯬ",
           "p": 593,
           "l": 14
         },
         {
           "t": "صَفًّۭا",
-          "c": "ﯭ",
           "p": 593,
           "l": 14
         }
@@ -2639,58 +11026,53 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
       "tj": "وَجِ<tajweed class=slnt>اْ</tajweed><tajweed class=madda_obligatory>ىٓ</tajweed>ءَ يَوْمَئِ<tajweed class=iqlab>ذِۭ ب</tajweed>ِجَهَ<tajweed class=ghunnah>نّ</tajweed>َمَ‌ۚ يَوْمَئِ<tajweed class=idgham_ghunnah>ذٍ ي</tajweed>َتَذَكَّرُ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ وَأَ<tajweed class=ghunnah>نّ</tajweed>َىٰ لَهُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>ذِّكْرَىٰ <span class=end>٢٣</span>",
+      "e": {
+        "p": 593,
+        "l": 15
+      },
       "words": [
         {
           "t": "وَجِا۟ىٓءَ",
-          "c": "ﯯ",
           "p": 593,
           "l": 14
         },
         {
           "t": "يَوْمَئِذٍۭ",
-          "c": "ﯰ",
           "p": 593,
           "l": 14
         },
         {
           "t": "بِجَهَنَّمَ ۚ",
-          "c": "ﯱﯲ",
           "p": 593,
           "l": 15
         },
         {
           "t": "يَوْمَئِذٍۢ",
-          "c": "ﯳ",
           "p": 593,
           "l": 15
         },
         {
           "t": "يَتَذَكَّرُ",
-          "c": "ﯴ",
           "p": 593,
           "l": 15
         },
         {
           "t": "ٱلْإِنسَـٰنُ",
-          "c": "ﯵ",
           "p": 593,
           "l": 15
         },
         {
           "t": "وَأَنَّىٰ",
-          "c": "ﯶ",
           "p": 593,
           "l": 15
         },
         {
           "t": "لَهُ",
-          "c": "ﯷ",
           "p": 593,
           "l": 15
         },
         {
           "t": "ٱلذِّكْرَىٰ",
-          "c": "ﯸ",
           "p": 593,
           "l": 15
         }
@@ -2701,28 +11083,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
       "tj": "يَقُولُ يَ<tajweed class=madda_normal>ـٰ</tajweed>لَيْتَنِى قَدَّمْتُ لِحَيَاتِى <span class=end>٢٤</span>",
+      "e": {
+        "p": 594,
+        "l": 1
+      },
       "words": [
         {
           "t": "يَقُولُ",
-          "c": "ﭑ",
           "p": 594,
           "l": 1
         },
         {
           "t": "يَـٰلَيْتَنِى",
-          "c": "ﭒ",
           "p": 594,
           "l": 1
         },
         {
           "t": "قَدَّمْتُ",
-          "c": "ﭓ",
           "p": 594,
           "l": 1
         },
         {
           "t": "لِحَيَاتِى",
-          "c": "ﭔ",
           "p": 594,
           "l": 1
         }
@@ -2733,34 +11115,33 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
       "tj": "فَيَوْمَئِ<tajweed class=idgham_wo_ghunnah>ذٍ ل</tajweed>َّا يُعَذِّبُ عَذَابَهُ<tajweed class=madda_obligatory>ۥٓ</tajweed> أَحَ<tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٢٥</span>",
+      "e": {
+        "p": 594,
+        "l": 1
+      },
       "words": [
         {
           "t": "فَيَوْمَئِذٍۢ",
-          "c": "ﭖ",
           "p": 594,
           "l": 1
         },
         {
           "t": "لَّا",
-          "c": "ﭗ",
           "p": 594,
           "l": 1
         },
         {
           "t": "يُعَذِّبُ",
-          "c": "ﭘ",
           "p": 594,
           "l": 1
         },
         {
           "t": "عَذَابَهُۥٓ",
-          "c": "ﭙ",
           "p": 594,
           "l": 1
         },
         {
           "t": "أَحَدٌۭ",
-          "c": "ﭚ",
           "p": 594,
           "l": 1
         }
@@ -2771,28 +11152,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ",
       "tj": "وَلَا يُوثِقُ وَثَاقَهُ<tajweed class=madda_obligatory>ۥٓ</tajweed> أَحَ<tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٢٦</span>",
+      "e": {
+        "p": 594,
+        "l": 2
+      },
       "words": [
         {
           "t": "وَلَا",
-          "c": "ﭜ",
           "p": 594,
           "l": 2
         },
         {
           "t": "يُوثِقُ",
-          "c": "ﭝ",
           "p": 594,
           "l": 2
         },
         {
           "t": "وَثَاقَهُۥٓ",
-          "c": "ﭞ",
           "p": 594,
           "l": 2
         },
         {
           "t": "أَحَدٌۭ",
-          "c": "ﭟ",
           "p": 594,
           "l": 2
         }
@@ -2803,22 +11184,23 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
       "tj": "يَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>أَيَّتُهَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َفْسُ <tajweed class=ham_wasl>ٱ</tajweed>لْمُ<tajweed class=qalaqah>طْ</tajweed>مَئِ<tajweed class=ghunnah>نّ</tajweed>َةُ <span class=end>٢٧</span>",
+      "e": {
+        "p": 594,
+        "l": 2
+      },
       "words": [
         {
           "t": "يَـٰٓأَيَّتُهَا",
-          "c": "ﭡ",
           "p": 594,
           "l": 2
         },
         {
           "t": "ٱلنَّفْسُ",
-          "c": "ﭢ",
           "p": 594,
           "l": 2
         },
         {
           "t": "ٱلْمُطْمَئِنَّةُ",
-          "c": "ﭣ",
           "p": 594,
           "l": 2
         }
@@ -2829,34 +11211,33 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
       "tj": "ٱرْجِع<tajweed class=madda_obligatory>ِىٓ</tajweed> إِلَىٰ رَبِّكِ رَاضِيَ<tajweed class=idgham_ghunnah>ةً م</tajweed>َّرْضِيَّةً <span class=end>٢٨</span>",
+      "e": {
+        "p": 594,
+        "l": 3
+      },
       "words": [
         {
           "t": "ٱرْجِعِىٓ",
-          "c": "ﭥ",
           "p": 594,
           "l": 2
         },
         {
           "t": "إِلَىٰ",
-          "c": "ﭦ",
           "p": 594,
           "l": 3
         },
         {
           "t": "رَبِّكِ",
-          "c": "ﭧ",
           "p": 594,
           "l": 3
         },
         {
           "t": "رَاضِيَةًۭ",
-          "c": "ﭨ",
           "p": 594,
           "l": 3
         },
         {
           "t": "مَّرْضِيَّةًۭ",
-          "c": "ﭩ",
           "p": 594,
           "l": 3
         }
@@ -2867,22 +11248,23 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "فَٱدْخُلِى فِى عِبَـٰدِى",
       "tj": "فَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=qalaqah>دْ</tajweed>خُلِى فِى عِبَ<tajweed class=madda_normal>ـٰ</tajweed>دِى <span class=end>٢٩</span>",
+      "e": {
+        "p": 594,
+        "l": 3
+      },
       "words": [
         {
           "t": "فَٱدْخُلِى",
-          "c": "ﭫ",
           "p": 594,
           "l": 3
         },
         {
           "t": "فِى",
-          "c": "ﭬ",
           "p": 594,
           "l": 3
         },
         {
           "t": "عِبَـٰدِى",
-          "c": "ﭭ",
           "p": 594,
           "l": 3
         }
@@ -2893,16 +11275,18 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَٱدْخُلِى جَنَّتِى",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=qalaqah>دْ</tajweed>خُلِى جَ<tajweed class=ghunnah>نّ</tajweed>َتِى <span class=end>٣٠</span>",
+      "e": {
+        "p": 594,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَٱدْخُلِى",
-          "c": "ﭯ",
           "p": 594,
           "l": 3
         },
         {
           "t": "جَنَّتِى",
-          "c": "ﭰ",
           "p": 594,
           "l": 3
         }
@@ -2913,28 +11297,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": " لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ",
       "tj": "ل<tajweed class=madda_obligatory>َآ</tajweed> أُ<tajweed class=qalaqah>قْ</tajweed>سِمُ بِهَ<tajweed class=madda_normal>ـٰ</tajweed>ذَا <tajweed class=ham_wasl>ٱ</tajweed>لْبَلَ<tajweed class=qalaqah>د</tajweed>ِ <span class=end>١</span>",
+      "e": {
+        "p": 594,
+        "l": 6
+      },
       "words": [
         {
           "t": "لَآ",
-          "c": "ﭲ",
           "p": 594,
           "l": 6
         },
         {
           "t": "أُقْسِمُ",
-          "c": "ﭳ",
           "p": 594,
           "l": 6
         },
         {
           "t": "بِهَـٰذَا",
-          "c": "ﭴ",
           "p": 594,
           "l": 6
         },
         {
           "t": "ٱلْبَلَدِ",
-          "c": "ﭵ",
           "p": 594,
           "l": 6
         }
@@ -2945,28 +11329,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ",
       "tj": "وَأَ<tajweed class=ikhafa>نت</tajweed>َ حِل<tajweed class=iqlab>ُّۢ ب</tajweed>ِهَ<tajweed class=madda_normal>ـٰ</tajweed>ذَا <tajweed class=ham_wasl>ٱ</tajweed>لْبَلَ<tajweed class=qalaqah>د</tajweed>ِ <span class=end>٢</span>",
+      "e": {
+        "p": 594,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَأَنتَ",
-          "c": "ﭷ",
           "p": 594,
           "l": 6
         },
         {
           "t": "حِلٌّۢ",
-          "c": "ﭸ",
           "p": 594,
           "l": 6
         },
         {
           "t": "بِهَـٰذَا",
-          "c": "ﭹ",
           "p": 594,
           "l": 6
         },
         {
           "t": "ٱلْبَلَدِ",
-          "c": "ﭺ",
           "p": 594,
           "l": 6
         }
@@ -2977,22 +11361,23 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَوَالِدٍ وَمَا وَلَدَ",
       "tj": "وَوَالِ<tajweed class=idgham_ghunnah>دٍ و</tajweed>َمَا وَلَ<tajweed class=qalaqah>د</tajweed>َ <span class=end>٣</span>",
+      "e": {
+        "p": 594,
+        "l": 7
+      },
       "words": [
         {
           "t": "وَوَالِدٍۢ",
-          "c": "ﭼ",
           "p": 594,
           "l": 6
         },
         {
           "t": "وَمَا",
-          "c": "ﭽ",
           "p": 594,
           "l": 6
         },
         {
           "t": "وَلَدَ",
-          "c": "ﭾ",
           "p": 594,
           "l": 6
         }
@@ -3003,34 +11388,33 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ",
       "tj": "لَقَ<tajweed class=qalaqah>دْ</tajweed> خَلَ<tajweed class=qalaqah>قْ</tajweed>نَا <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نَ فِى كَبَ<tajweed class=qalaqah>د</tajweed>ٍ <span class=end>٤</span>",
+      "e": {
+        "p": 594,
+        "l": 7
+      },
       "words": [
         {
           "t": "لَقَدْ",
-          "c": "ﮀ",
           "p": 594,
           "l": 7
         },
         {
           "t": "خَلَقْنَا",
-          "c": "ﮁ",
           "p": 594,
           "l": 7
         },
         {
           "t": "ٱلْإِنسَـٰنَ",
-          "c": "ﮂ",
           "p": 594,
           "l": 7
         },
         {
           "t": "فِى",
-          "c": "ﮃ",
           "p": 594,
           "l": 7
         },
         {
           "t": "كَبَدٍ",
-          "c": "ﮄ",
           "p": 594,
           "l": 7
         }
@@ -3041,40 +11425,38 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ",
       "tj": "أَيَحْسَبُ أ<tajweed class=idgham_wo_ghunnah>َن ل</tajweed>ّ<tajweed class=idgham_ghunnah>َن ي</tajweed>َ<tajweed class=qalaqah>قْ</tajweed>دِرَ عَلَيْهِ أَحَ<tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٥</span>",
+      "e": {
+        "p": 594,
+        "l": 8
+      },
       "words": [
         {
           "t": "أَيَحْسَبُ",
-          "c": "ﮆ",
           "p": 594,
           "l": 7
         },
         {
           "t": "أَن",
-          "c": "ﮇ",
           "p": 594,
           "l": 7
         },
         {
           "t": "لَّن",
-          "c": "ﮈ",
           "p": 594,
           "l": 7
         },
         {
           "t": "يَقْدِرَ",
-          "c": "ﮉ",
           "p": 594,
           "l": 7
         },
         {
           "t": "عَلَيْهِ",
-          "c": "ﮊ",
           "p": 594,
           "l": 7
         },
         {
           "t": "أَحَدٌۭ",
-          "c": "ﮋ",
           "p": 594,
           "l": 8
         }
@@ -3085,28 +11467,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا",
       "tj": "يَقُولُ أَهْلَكْتُ مَال<tajweed class=idgham_wo_ghunnah>اً ل</tajweed>ُّبَدًا <span class=end>٦</span>",
+      "e": {
+        "p": 594,
+        "l": 8
+      },
       "words": [
         {
           "t": "يَقُولُ",
-          "c": "ﮍ",
           "p": 594,
           "l": 8
         },
         {
           "t": "أَهْلَكْتُ",
-          "c": "ﮎ",
           "p": 594,
           "l": 8
         },
         {
           "t": "مَالًۭا",
-          "c": "ﮏ",
           "p": 594,
           "l": 8
         },
         {
           "t": "لُّبَدًا",
-          "c": "ﮐ",
           "p": 594,
           "l": 8
         }
@@ -3117,34 +11499,33 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ",
       "tj": "أَيَحْسَبُ أ<tajweed class=idgham_wo_ghunnah>َن ل</tajweed>َّمْ يَرَهُ<tajweed class=madda_obligatory>ۥٓ</tajweed> أَحَ<tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٧</span>",
+      "e": {
+        "p": 594,
+        "l": 9
+      },
       "words": [
         {
           "t": "أَيَحْسَبُ",
-          "c": "ﮒ",
           "p": 594,
           "l": 8
         },
         {
           "t": "أَن",
-          "c": "ﮓ",
           "p": 594,
           "l": 8
         },
         {
           "t": "لَّمْ",
-          "c": "ﮔ",
           "p": 594,
           "l": 8
         },
         {
           "t": "يَرَهُۥٓ",
-          "c": "ﮕ",
           "p": 594,
           "l": 8
         },
         {
           "t": "أَحَدٌ",
-          "c": "ﮖ",
           "p": 594,
           "l": 8
         }
@@ -3155,28 +11536,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ",
       "tj": "أَلَمْ نَ<tajweed class=qalaqah>جْ</tajweed>عَل لَّهُ<tajweed class=madda_normal>ۥ</tajweed> عَيْنَ<tajweed class=madda_permissible>يْ</tajweed>نِ <span class=end>٨</span>",
+      "e": {
+        "p": 594,
+        "l": 9
+      },
       "words": [
         {
           "t": "أَلَمْ",
-          "c": "ﮘ",
           "p": 594,
           "l": 9
         },
         {
           "t": "نَجْعَل",
-          "c": "ﮙ",
           "p": 594,
           "l": 9
         },
         {
           "t": "لَّهُۥ",
-          "c": "ﮚ",
           "p": 594,
           "l": 9
         },
         {
           "t": "عَيْنَيْنِ",
-          "c": "ﮛ",
           "p": 594,
           "l": 9
         }
@@ -3187,16 +11568,18 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَلِسَانًا وَشَفَتَيْنِ",
       "tj": "وَلِسَا<tajweed class=idgham_ghunnah>نًا و</tajweed>َشَفَتَ<tajweed class=madda_permissible>يْ</tajweed>نِ <span class=end>٩</span>",
+      "e": {
+        "p": 594,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَلِسَانًۭا",
-          "c": "ﮝ",
           "p": 594,
           "l": 9
         },
         {
           "t": "وَشَفَتَيْنِ",
-          "c": "ﮞ",
           "p": 594,
           "l": 9
         }
@@ -3207,16 +11590,18 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
       "tj": "وَهَدَيْنَ<tajweed class=madda_normal>ـٰ</tajweed>هُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َ<tajweed class=qalaqah>جْ</tajweed>دَ<tajweed class=madda_permissible>يْ</tajweed>نِ <span class=end>١٠</span>",
+      "e": {
+        "p": 594,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَهَدَيْنَـٰهُ",
-          "c": "ﮠ",
           "p": 594,
           "l": 9
         },
         {
           "t": "ٱلنَّجْدَيْنِ",
-          "c": "ﮡ",
           "p": 594,
           "l": 10
         }
@@ -3227,22 +11612,23 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
       "tj": "فَلَا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=qalaqah>قْ</tajweed>تَحَمَ <tajweed class=ham_wasl>ٱ</tajweed>لْعَقَبَةَ <span class=end>١١</span>",
+      "e": {
+        "p": 594,
+        "l": 10
+      },
       "words": [
         {
           "t": "فَلَا",
-          "c": "ﮣ",
           "p": 594,
           "l": 10
         },
         {
           "t": "ٱقْتَحَمَ",
-          "c": "ﮤ",
           "p": 594,
           "l": 10
         },
         {
           "t": "ٱلْعَقَبَةَ",
-          "c": "ﮥ",
           "p": 594,
           "l": 10
         }
@@ -3253,28 +11639,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
       "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا <tajweed class=ham_wasl>ٱ</tajweed>لْعَقَبَةُ <span class=end>١٢</span>",
+      "e": {
+        "p": 594,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَمَآ",
-          "c": "ﮧ",
           "p": 594,
           "l": 10
         },
         {
           "t": "أَدْرَىٰكَ",
-          "c": "ﮨ",
           "p": 594,
           "l": 10
         },
         {
           "t": "مَا",
-          "c": "ﮩ",
           "p": 594,
           "l": 10
         },
         {
           "t": "ٱلْعَقَبَةُ",
-          "c": "ﮪ",
           "p": 594,
           "l": 10
         }
@@ -3285,16 +11671,18 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "فَكُّ رَقَبَةٍ",
       "tj": "فَكُّ رَقَبَةٍ <span class=end>١٣</span>",
+      "e": {
+        "p": 594,
+        "l": 11
+      },
       "words": [
         {
           "t": "فَكُّ",
-          "c": "ﮬ",
           "p": 594,
           "l": 11
         },
         {
           "t": "رَقَبَةٍ",
-          "c": "ﮭ",
           "p": 594,
           "l": 11
         }
@@ -3305,40 +11693,38 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ",
       "tj": "أَوْ إِ<tajweed class=qalaqah>طْ</tajweed>عَ<tajweed class=madda_normal>ـٰ</tajweed><tajweed class=ikhafa>مٌ ف</tajweed>ِى يَوْ<tajweed class=ikhafa>مٍ ذ</tajweed>ِى مَسْغَبَةٍ <span class=end>١٤</span>",
+      "e": {
+        "p": 594,
+        "l": 11
+      },
       "words": [
         {
           "t": "أَوْ",
-          "c": "ﮯ",
           "p": 594,
           "l": 11
         },
         {
           "t": "إِطْعَـٰمٌۭ",
-          "c": "ﮰ",
           "p": 594,
           "l": 11
         },
         {
           "t": "فِى",
-          "c": "ﮱ",
           "p": 594,
           "l": 11
         },
         {
           "t": "يَوْمٍۢ",
-          "c": "ﯓ",
           "p": 594,
           "l": 11
         },
         {
           "t": "ذِى",
-          "c": "ﯔ",
           "p": 594,
           "l": 11
         },
         {
           "t": "مَسْغَبَةٍۢ",
-          "c": "ﯕ",
           "p": 594,
           "l": 11
         }
@@ -3349,22 +11735,23 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "يَتِيمًا ذَا مَقْرَبَةٍ",
       "tj": "يَتِي<tajweed class=ikhafa>مًا ذ</tajweed>َا مَ<tajweed class=qalaqah>قْ</tajweed>رَبَةٍ <span class=end>١٥</span>",
+      "e": {
+        "p": 594,
+        "l": 12
+      },
       "words": [
         {
           "t": "يَتِيمًۭا",
-          "c": "ﯗ",
           "p": 594,
           "l": 11
         },
         {
           "t": "ذَا",
-          "c": "ﯘ",
           "p": 594,
           "l": 11
         },
         {
           "t": "مَقْرَبَةٍ",
-          "c": "ﯙ",
           "p": 594,
           "l": 11
         }
@@ -3375,28 +11762,28 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
       "tj": "أَوْ مِسْكِي<tajweed class=ikhafa>نًا ذ</tajweed>َا مَتْرَبَةٍ <span class=end>١٦</span>",
+      "e": {
+        "p": 594,
+        "l": 12
+      },
       "words": [
         {
           "t": "أَوْ",
-          "c": "ﯛ",
           "p": 594,
           "l": 12
         },
         {
           "t": "مِسْكِينًۭا",
-          "c": "ﯜ",
           "p": 594,
           "l": 12
         },
         {
           "t": "ذَا",
-          "c": "ﯝ",
           "p": 594,
           "l": 12
         },
         {
           "t": "مَتْرَبَةٍۢ",
-          "c": "ﯞ",
           "p": 594,
           "l": 12
         }
@@ -3407,58 +11794,53 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
       "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ كَانَ مِنَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> وَتَوَاصَوْ<tajweed class=slnt>اْ</tajweed> بِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=qalaqah>بْ</tajweed>رِ وَتَوَاصَوْ<tajweed class=slnt>اْ</tajweed> بِ<tajweed class=ham_wasl>ٱ</tajweed>لْمَرْحَمَةِ <span class=end>١٧</span>",
+      "e": {
+        "p": 594,
+        "l": 13
+      },
       "words": [
         {
           "t": "ثُمَّ",
-          "c": "ﯠ",
           "p": 594,
           "l": 12
         },
         {
           "t": "كَانَ",
-          "c": "ﯡ",
           "p": 594,
           "l": 12
         },
         {
           "t": "مِنَ",
-          "c": "ﯢ",
           "p": 594,
           "l": 12
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﯣ",
           "p": 594,
           "l": 12
         },
         {
           "t": "ءَامَنُوا۟",
-          "c": "ﯤ",
           "p": 594,
           "l": 12
         },
         {
           "t": "وَتَوَاصَوْا۟",
-          "c": "ﯥ",
           "p": 594,
           "l": 12
         },
         {
           "t": "بِٱلصَّبْرِ",
-          "c": "ﯦ",
           "p": 594,
           "l": 13
         },
         {
           "t": "وَتَوَاصَوْا۟",
-          "c": "ﯧ",
           "p": 594,
           "l": 13
         },
         {
           "t": "بِٱلْمَرْحَمَةِ",
-          "c": "ﯨ",
           "p": 594,
           "l": 13
         }
@@ -3469,22 +11851,23 @@ const SURAH={
       "page_number": 594,
       "text_uthmani": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
       "tj": "أُ<tajweed class=slnt>وْ</tajweed>لَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ئِكَ أَصْحَ<tajweed class=madda_normal>ـٰ</tajweed>بُ <tajweed class=ham_wasl>ٱ</tajweed>لْمَيْمَنَةِ <span class=end>١٨</span>",
+      "e": {
+        "p": 594,
+        "l": 13
+      },
       "words": [
         {
           "t": "أُو۟لَـٰٓئِكَ",
-          "c": "ﯪ",
           "p": 594,
           "l": 13
         },
         {
           "t": "أَصْحَـٰبُ",
-          "c": "ﯫ",
           "p": 594,
           "l": 13
         },
         {
           "t": "ٱلْمَيْمَنَةِ",
-          "c": "ﯬ",
           "p": 594,
           "l": 13
         }
@@ -3495,40 +11878,38 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ كَفَرُو<tajweed class=slnt>اْ</tajweed> بِـَٔـايَ<tajweed class=madda_normal>ـٰ</tajweed>تِنَا هُمْ أَصْحَ<tajweed class=madda_normal>ـٰ</tajweed>بُ <tajweed class=ham_wasl>ٱ</tajweed>لْمَشْــَٔمَةِ <span class=end>١٩</span>",
+      "e": {
+        "p": 594,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَٱلَّذِينَ",
-          "c": "ﯮ",
           "p": 594,
           "l": 13
         },
         {
           "t": "كَفَرُوا۟",
-          "c": "ﯯ",
           "p": 594,
           "l": 14
         },
         {
           "t": "بِـَٔايَـٰتِنَا",
-          "c": "ﯰ",
           "p": 594,
           "l": 14
         },
         {
           "t": "هُمْ",
-          "c": "ﯱ",
           "p": 594,
           "l": 14
         },
         {
           "t": "أَصْحَـٰبُ",
-          "c": "ﯲ",
           "p": 594,
           "l": 14
         },
         {
           "t": "ٱلْمَشْـَٔمَةِ",
-          "c": "ﯳ",
           "p": 594,
           "l": 14
         }
@@ -3539,22 +11920,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ",
       "tj": "عَلَيْهِمْ نَا<tajweed class=idgham_ghunnah>رٌ م</tajweed>ُّؤْصَدَةُۢ <span class=end>٢٠</span>",
+      "e": {
+        "p": 594,
+        "l": 14
+      },
       "words": [
         {
           "t": "عَلَيْهِمْ",
-          "c": "ﯵ",
           "p": 594,
           "l": 14
         },
         {
           "t": "نَارٌۭ",
-          "c": "ﯶ",
           "p": 594,
           "l": 14
         },
         {
           "t": "مُّؤْصَدَةٌۢ",
-          "c": "ﯷ",
           "p": 594,
           "l": 14
         }
@@ -3565,16 +11947,18 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": " وَٱلشَّمْسِ وَضُحَىٰهَا",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>شَّمْسِ وَضُحَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>١</span>",
+      "e": {
+        "p": 595,
+        "l": 2
+      },
       "words": [
         {
           "t": "وَٱلشَّمْسِ",
-          "c": "ﭑ",
           "p": 595,
           "l": 2
         },
         {
           "t": "وَضُحَىٰهَا",
-          "c": "ﭒ",
           "p": 595,
           "l": 2
         }
@@ -3585,22 +11969,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْقَمَرِ إِذَا تَلَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٢</span>",
+      "e": {
+        "p": 595,
+        "l": 2
+      },
       "words": [
         {
           "t": "وَٱلْقَمَرِ",
-          "c": "ﭔ",
           "p": 595,
           "l": 2
         },
         {
           "t": "إِذَا",
-          "c": "ﭕ",
           "p": 595,
           "l": 2
         },
         {
           "t": "تَلَىٰهَا",
-          "c": "ﭖ",
           "p": 595,
           "l": 2
         }
@@ -3611,22 +11996,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َهَارِ إِذَا جَلَّ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٣</span>",
+      "e": {
+        "p": 595,
+        "l": 2
+      },
       "words": [
         {
           "t": "وَٱلنَّهَارِ",
-          "c": "ﭘ",
           "p": 595,
           "l": 2
         },
         {
           "t": "إِذَا",
-          "c": "ﭙ",
           "p": 595,
           "l": 2
         },
         {
           "t": "جَلَّىٰهَا",
-          "c": "ﭚ",
           "p": 595,
           "l": 2
         }
@@ -3637,22 +12023,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّيْلِ إِذَا يَغْشَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٤</span>",
+      "e": {
+        "p": 595,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَٱلَّيْلِ",
-          "c": "ﭜ",
           "p": 595,
           "l": 3
         },
         {
           "t": "إِذَا",
-          "c": "ﭝ",
           "p": 595,
           "l": 3
         },
         {
           "t": "يَغْشَىٰهَا",
-          "c": "ﭞ",
           "p": 595,
           "l": 3
         }
@@ -3663,22 +12050,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سَّم<tajweed class=madda_obligatory>َا</tajweed>ٓءِ وَمَا بَنَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٥</span>",
+      "e": {
+        "p": 595,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَٱلسَّمَآءِ",
-          "c": "ﭠ",
           "p": 595,
           "l": 3
         },
         {
           "t": "وَمَا",
-          "c": "ﭡ",
           "p": 595,
           "l": 3
         },
         {
           "t": "بَنَىٰهَا",
-          "c": "ﭢ",
           "p": 595,
           "l": 3
         }
@@ -3689,22 +12077,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضِ وَمَا طَحَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٦</span>",
+      "e": {
+        "p": 595,
+        "l": 4
+      },
       "words": [
         {
           "t": "وَٱلْأَرْضِ",
-          "c": "ﭤ",
           "p": 595,
           "l": 3
         },
         {
           "t": "وَمَا",
-          "c": "ﭥ",
           "p": 595,
           "l": 3
         },
         {
           "t": "طَحَىٰهَا",
-          "c": "ﭦ",
           "p": 595,
           "l": 3
         }
@@ -3715,22 +12104,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
       "tj": "وَنَفْ<tajweed class=idgham_ghunnah>سٍ و</tajweed>َمَا سَوَّ<tajweed class=madda_normal>ٮٰ</tajweed>هَا <span class=end>٧</span>",
+      "e": {
+        "p": 595,
+        "l": 4
+      },
       "words": [
         {
           "t": "وَنَفْسٍۢ",
-          "c": "ﭨ",
           "p": 595,
           "l": 4
         },
         {
           "t": "وَمَا",
-          "c": "ﭩ",
           "p": 595,
           "l": 4
         },
         {
           "t": "سَوَّىٰهَا",
-          "c": "ﭪ",
           "p": 595,
           "l": 4
         }
@@ -3741,22 +12131,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
       "tj": "فَأَلْهَمَهَا فُجُورَهَا وَتَ<tajweed class=qalaqah>قْ</tajweed>وَ<tajweed class=madda_normal>ٮٰ</tajweed>هَا <span class=end>٨</span>",
+      "e": {
+        "p": 595,
+        "l": 4
+      },
       "words": [
         {
           "t": "فَأَلْهَمَهَا",
-          "c": "ﭬ",
           "p": 595,
           "l": 4
         },
         {
           "t": "فُجُورَهَا",
-          "c": "ﭭ",
           "p": 595,
           "l": 4
         },
         {
           "t": "وَتَقْوَىٰهَا",
-          "c": "ﭮ",
           "p": 595,
           "l": 4
         }
@@ -3767,28 +12158,28 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
       "tj": "قَ<tajweed class=qalaqah>دْ</tajweed> أَفْلَحَ مَ<tajweed class=ikhafa>ن ز</tajweed>َكَّ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>٩</span>",
+      "e": {
+        "p": 595,
+        "l": 5
+      },
       "words": [
         {
           "t": "قَدْ",
-          "c": "ﭰ",
           "p": 595,
           "l": 4
         },
         {
           "t": "أَفْلَحَ",
-          "c": "ﭱ",
           "p": 595,
           "l": 5
         },
         {
           "t": "مَن",
-          "c": "ﭲ",
           "p": 595,
           "l": 5
         },
         {
           "t": "زَكَّىٰهَا",
-          "c": "ﭳ",
           "p": 595,
           "l": 5
         }
@@ -3799,28 +12190,28 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
       "tj": "وَقَ<tajweed class=qalaqah>دْ</tajweed> خَابَ مَ<tajweed class=ikhafa>ن د</tajweed>َسَّ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>١٠</span>",
+      "e": {
+        "p": 595,
+        "l": 5
+      },
       "words": [
         {
           "t": "وَقَدْ",
-          "c": "ﭵ",
           "p": 595,
           "l": 5
         },
         {
           "t": "خَابَ",
-          "c": "ﭶ",
           "p": 595,
           "l": 5
         },
         {
           "t": "مَن",
-          "c": "ﭷ",
           "p": 595,
           "l": 5
         },
         {
           "t": "دَسَّىٰهَا",
-          "c": "ﭸ",
           "p": 595,
           "l": 5
         }
@@ -3831,22 +12222,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
       "tj": "كَذَّبَتْ ثَمُودُ بِطَغْوَ<tajweed class=madda_normal>ٮٰ</tajweed>هَآ <span class=end>١١</span>",
+      "e": {
+        "p": 595,
+        "l": 6
+      },
       "words": [
         {
           "t": "كَذَّبَتْ",
-          "c": "ﭺ",
           "p": 595,
           "l": 5
         },
         {
           "t": "ثَمُودُ",
-          "c": "ﭻ",
           "p": 595,
           "l": 5
         },
         {
           "t": "بِطَغْوَىٰهَآ",
-          "c": "ﭼ",
           "p": 595,
           "l": 6
         }
@@ -3857,22 +12249,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
       "tj": "إِذِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=iqlab>نۢب</tajweed>َعَثَ أَشْقَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>١٢</span>",
+      "e": {
+        "p": 595,
+        "l": 6
+      },
       "words": [
         {
           "t": "إِذِ",
-          "c": "ﭾ",
           "p": 595,
           "l": 6
         },
         {
           "t": "ٱنۢبَعَثَ",
-          "c": "ﭿ",
           "p": 595,
           "l": 6
         },
         {
           "t": "أَشْقَىٰهَا",
-          "c": "ﮀ",
           "p": 595,
           "l": 6
         }
@@ -3883,46 +12276,43 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
       "tj": "فَقَالَ لَهُمْ رَسُولُ <tajweed class=ham_wasl>ٱ</tajweed>للَّهِ نَاقَةَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهِ وَسُ<tajweed class=qalaqah>قْ</tajweed>يَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>١٣</span>",
+      "e": {
+        "p": 595,
+        "l": 7
+      },
       "words": [
         {
           "t": "فَقَالَ",
-          "c": "ﮂ",
           "p": 595,
           "l": 6
         },
         {
           "t": "لَهُمْ",
-          "c": "ﮃ",
           "p": 595,
           "l": 6
         },
         {
           "t": "رَسُولُ",
-          "c": "ﮄ",
           "p": 595,
           "l": 6
         },
         {
           "t": "ٱللَّهِ",
-          "c": "ﮅ",
           "p": 595,
           "l": 6
         },
         {
           "t": "نَاقَةَ",
-          "c": "ﮆ",
           "p": 595,
           "l": 7
         },
         {
           "t": "ٱللَّهِ",
-          "c": "ﮇ",
           "p": 595,
           "l": 7
         },
         {
           "t": "وَسُقْيَـٰهَا",
-          "c": "ﮈ",
           "p": 595,
           "l": 7
         }
@@ -3933,46 +12323,43 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
       "tj": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّه<tajweed class=ikhafa_shafawi>ُم ب</tajweed>ِذَ<tajweed class=iqlab>نۢب</tajweed>ِهِمْ فَسَوَّ<tajweed class=madda_normal>ٮٰ</tajweed>هَا <span class=end>١٤</span>",
+      "e": {
+        "p": 595,
+        "l": 8
+      },
       "words": [
         {
           "t": "فَكَذَّبُوهُ",
-          "c": "ﮊ",
           "p": 595,
           "l": 7
         },
         {
           "t": "فَعَقَرُوهَا",
-          "c": "ﮋ",
           "p": 595,
           "l": 7
         },
         {
           "t": "فَدَمْدَمَ",
-          "c": "ﮌ",
           "p": 595,
           "l": 7
         },
         {
           "t": "عَلَيْهِمْ",
-          "c": "ﮍ",
           "p": 595,
           "l": 8
         },
         {
           "t": "رَبُّهُم",
-          "c": "ﮎ",
           "p": 595,
           "l": 8
         },
         {
           "t": "بِذَنۢبِهِمْ",
-          "c": "ﮏ",
           "p": 595,
           "l": 8
         },
         {
           "t": "فَسَوَّىٰهَا",
-          "c": "ﮐ",
           "p": 595,
           "l": 8
         }
@@ -3983,22 +12370,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَلَا يَخَافُ عُقْبَـٰهَا",
       "tj": "وَلَا يَخَافُ عُ<tajweed class=qalaqah>قْ</tajweed>بَ<tajweed class=madda_normal>ـٰ</tajweed>هَا <span class=end>١٥</span>",
+      "e": {
+        "p": 595,
+        "l": 8
+      },
       "words": [
         {
           "t": "وَلَا",
-          "c": "ﮒ",
           "p": 595,
           "l": 8
         },
         {
           "t": "يَخَافُ",
-          "c": "ﮓ",
           "p": 595,
           "l": 8
         },
         {
           "t": "عُقْبَـٰهَا",
-          "c": "ﮔ",
           "p": 595,
           "l": 8
         }
@@ -4009,22 +12397,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": " وَٱلَّيْلِ إِذَا يَغْشَىٰ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّيْلِ إِذَا يَغْشَىٰ <span class=end>١</span>",
+      "e": {
+        "p": 595,
+        "l": 11
+      },
       "words": [
         {
           "t": "وَٱلَّيْلِ",
-          "c": "ﮖ",
           "p": 595,
           "l": 11
         },
         {
           "t": "إِذَا",
-          "c": "ﮗ",
           "p": 595,
           "l": 11
         },
         {
           "t": "يَغْشَىٰ",
-          "c": "ﮘ",
           "p": 595,
           "l": 11
         }
@@ -4035,22 +12424,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َهَارِ إِذَا تَجَلَّىٰ <span class=end>٢</span>",
+      "e": {
+        "p": 595,
+        "l": 11
+      },
       "words": [
         {
           "t": "وَٱلنَّهَارِ",
-          "c": "ﮚ",
           "p": 595,
           "l": 11
         },
         {
           "t": "إِذَا",
-          "c": "ﮛ",
           "p": 595,
           "l": 11
         },
         {
           "t": "تَجَلَّىٰ",
-          "c": "ﮜ",
           "p": 595,
           "l": 11
         }
@@ -4061,28 +12451,28 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
       "tj": "وَمَا خَلَقَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>ذَّكَرَ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأُ<tajweed class=ikhafa>نث</tajweed>َىٰٓ <span class=end>٣</span>",
+      "e": {
+        "p": 595,
+        "l": 11
+      },
       "words": [
         {
           "t": "وَمَا",
-          "c": "ﮞ",
           "p": 595,
           "l": 11
         },
         {
           "t": "خَلَقَ",
-          "c": "ﮟ",
           "p": 595,
           "l": 11
         },
         {
           "t": "ٱلذَّكَرَ",
-          "c": "ﮠ",
           "p": 595,
           "l": 11
         },
         {
           "t": "وَٱلْأُنثَىٰٓ",
-          "c": "ﮡ",
           "p": 595,
           "l": 11
         }
@@ -4093,22 +12483,23 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ سَعْيَكُمْ لَشَتَّىٰ <span class=end>٤</span>",
+      "e": {
+        "p": 595,
+        "l": 12
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﮣ",
           "p": 595,
           "l": 12
         },
         {
           "t": "سَعْيَكُمْ",
-          "c": "ﮤ",
           "p": 595,
           "l": 12
         },
         {
           "t": "لَشَتَّىٰ",
-          "c": "ﮥ",
           "p": 595,
           "l": 12
         }
@@ -4119,28 +12510,28 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
       "tj": "فَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَنْ أَعْطَىٰ وَ<tajweed class=ham_wasl>ٱ</tajweed>تَّقَىٰ <span class=end>٥</span>",
+      "e": {
+        "p": 595,
+        "l": 12
+      },
       "words": [
         {
           "t": "فَأَمَّا",
-          "c": "ﮧ",
           "p": 595,
           "l": 12
         },
         {
           "t": "مَنْ",
-          "c": "ﮨ",
           "p": 595,
           "l": 12
         },
         {
           "t": "أَعْطَىٰ",
-          "c": "ﮩ",
           "p": 595,
           "l": 12
         },
         {
           "t": "وَٱتَّقَىٰ",
-          "c": "ﮪ",
           "p": 595,
           "l": 12
         }
@@ -4151,16 +12542,18 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
       "tj": "وَصَدَّقَ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْحُسْنَىٰ <span class=end>٦</span>",
+      "e": {
+        "p": 595,
+        "l": 12
+      },
       "words": [
         {
           "t": "وَصَدَّقَ",
-          "c": "ﮬ",
           "p": 595,
           "l": 12
         },
         {
           "t": "بِٱلْحُسْنَىٰ",
-          "c": "ﮭ",
           "p": 595,
           "l": 12
         }
@@ -4171,16 +12564,18 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
       "tj": "فَسَنُيَسِّرُهُ<tajweed class=madda_normal>ۥ</tajweed> لِلْيُسْرَىٰ <span class=end>٧</span>",
+      "e": {
+        "p": 595,
+        "l": 13
+      },
       "words": [
         {
           "t": "فَسَنُيَسِّرُهُۥ",
-          "c": "ﮯ",
           "p": 595,
           "l": 13
         },
         {
           "t": "لِلْيُسْرَىٰ",
-          "c": "ﮰ",
           "p": 595,
           "l": 13
         }
@@ -4191,28 +12586,28 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
       "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا م<tajweed class=iqlab>َنۢ ب</tajweed>َخِلَ وَ<tajweed class=ham_wasl>ٱ</tajweed>سْتَغْنَىٰ <span class=end>٨</span>",
+      "e": {
+        "p": 595,
+        "l": 13
+      },
       "words": [
         {
           "t": "وَأَمَّا",
-          "c": "ﯓ",
           "p": 595,
           "l": 13
         },
         {
           "t": "مَنۢ",
-          "c": "ﯔ",
           "p": 595,
           "l": 13
         },
         {
           "t": "بَخِلَ",
-          "c": "ﯕ",
           "p": 595,
           "l": 13
         },
         {
           "t": "وَٱسْتَغْنَىٰ",
-          "c": "ﯖ",
           "p": 595,
           "l": 13
         }
@@ -4223,16 +12618,18 @@ const SURAH={
       "page_number": 595,
       "text_uthmani": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
       "tj": "وَكَذَّبَ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْحُسْنَىٰ <span class=end>٩</span>",
+      "e": {
+        "p": 595,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَكَذَّبَ",
-          "c": "ﯘ",
           "p": 595,
           "l": 13
         },
         {
           "t": "بِٱلْحُسْنَىٰ",
-          "c": "ﯙ",
           "p": 595,
           "l": 13
         }
@@ -4243,16 +12640,18 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
       "tj": "فَسَنُيَسِّرُهُ<tajweed class=madda_normal>ۥ</tajweed> لِلْعُسْرَىٰ <span class=end>١٠</span>",
+      "e": {
+        "p": 595,
+        "l": 14
+      },
       "words": [
         {
           "t": "فَسَنُيَسِّرُهُۥ",
-          "c": "ﯛ",
           "p": 595,
           "l": 14
         },
         {
           "t": "لِلْعُسْرَىٰ",
-          "c": "ﯜ",
           "p": 595,
           "l": 14
         }
@@ -4263,40 +12662,38 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
       "tj": "وَمَا يُغْنِى عَنْهُ مَالُهُ<tajweed class=madda_obligatory>ۥٓ</tajweed> إِذَا تَرَدَّىٰٓ <span class=end>١١</span>",
+      "e": {
+        "p": 595,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَمَا",
-          "c": "ﯞ",
           "p": 595,
           "l": 14
         },
         {
           "t": "يُغْنِى",
-          "c": "ﯟ",
           "p": 595,
           "l": 14
         },
         {
           "t": "عَنْهُ",
-          "c": "ﯠ",
           "p": 595,
           "l": 14
         },
         {
           "t": "مَالُهُۥٓ",
-          "c": "ﯡ",
           "p": 595,
           "l": 14
         },
         {
           "t": "إِذَا",
-          "c": "ﯢ",
           "p": 595,
           "l": 14
         },
         {
           "t": "تَرَدَّىٰٓ",
-          "c": "ﯣ",
           "p": 595,
           "l": 14
         }
@@ -4307,22 +12704,23 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ عَلَيْنَا لَلْهُدَىٰ <span class=end>١٢</span>",
+      "e": {
+        "p": 595,
+        "l": 15
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﯥ",
           "p": 595,
           "l": 14
         },
         {
           "t": "عَلَيْنَا",
-          "c": "ﯦ",
           "p": 595,
           "l": 14
         },
         {
           "t": "لَلْهُدَىٰ",
-          "c": "ﯧ",
           "p": 595,
           "l": 15
         }
@@ -4333,28 +12731,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
       "tj": "وَإِ<tajweed class=ghunnah>نّ</tajweed>َ لَنَا لَلْأَخِرَةَ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْأُولَىٰ <span class=end>١٣</span>",
+      "e": {
+        "p": 595,
+        "l": 15
+      },
       "words": [
         {
           "t": "وَإِنَّ",
-          "c": "ﯩ",
           "p": 595,
           "l": 15
         },
         {
           "t": "لَنَا",
-          "c": "ﯪ",
           "p": 595,
           "l": 15
         },
         {
           "t": "لَلْـَٔاخِرَةَ",
-          "c": "ﯫ",
           "p": 595,
           "l": 15
         },
         {
           "t": "وَٱلْأُولَىٰ",
-          "c": "ﯬ",
           "p": 595,
           "l": 15
         }
@@ -4365,22 +12763,23 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
       "tj": "فَأَ<tajweed class=ikhafa>نذ</tajweed>َرْتُكُمْ نَا<tajweed class=ikhafa>رًا ت</tajweed>َلَظَّىٰ <span class=end>١٤</span>",
+      "e": {
+        "p": 595,
+        "l": 15
+      },
       "words": [
         {
           "t": "فَأَنذَرْتُكُمْ",
-          "c": "ﯮ",
           "p": 595,
           "l": 15
         },
         {
           "t": "نَارًۭا",
-          "c": "ﯯ",
           "p": 595,
           "l": 15
         },
         {
           "t": "تَلَظَّىٰ",
-          "c": "ﯰ",
           "p": 595,
           "l": 15
         }
@@ -4391,28 +12790,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
       "tj": "لَا يَصْلَ<tajweed class=madda_normal>ـٰ</tajweed>ه<tajweed class=madda_obligatory>َآ</tajweed> إِلَّا <tajweed class=ham_wasl>ٱ</tajweed>لْأَشْقَى <span class=end>١٥</span>",
+      "e": {
+        "p": 596,
+        "l": 1
+      },
       "words": [
         {
           "t": "لَا",
-          "c": "ﭑ",
           "p": 596,
           "l": 1
         },
         {
           "t": "يَصْلَىٰهَآ",
-          "c": "ﭒ",
           "p": 596,
           "l": 1
         },
         {
           "t": "إِلَّا",
-          "c": "ﭓ",
           "p": 596,
           "l": 1
         },
         {
           "t": "ٱلْأَشْقَى",
-          "c": "ﭔ",
           "p": 596,
           "l": 1
         }
@@ -4423,22 +12822,23 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
       "tj": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ <span class=end>١٦</span>",
+      "e": {
+        "p": 596,
+        "l": 1
+      },
       "words": [
         {
           "t": "ٱلَّذِى",
-          "c": "ﭖ",
           "p": 596,
           "l": 1
         },
         {
           "t": "كَذَّبَ",
-          "c": "ﭗ",
           "p": 596,
           "l": 1
         },
         {
           "t": "وَتَوَلَّىٰ",
-          "c": "ﭘ",
           "p": 596,
           "l": 1
         }
@@ -4449,16 +12849,18 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
       "tj": "وَسَيُجَ<tajweed class=ghunnah>نّ</tajweed>َبُهَا <tajweed class=ham_wasl>ٱ</tajweed>لْأَتْقَى <span class=end>١٧</span>",
+      "e": {
+        "p": 596,
+        "l": 2
+      },
       "words": [
         {
           "t": "وَسَيُجَنَّبُهَا",
-          "c": "ﭚ",
           "p": 596,
           "l": 1
         },
         {
           "t": "ٱلْأَتْقَى",
-          "c": "ﭛ",
           "p": 596,
           "l": 2
         }
@@ -4469,28 +12871,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
       "tj": "ٱلَّذِى يُؤْتِى مَالَهُ<tajweed class=madda_normal>ۥ</tajweed> يَتَزَكَّىٰ <span class=end>١٨</span>",
+      "e": {
+        "p": 596,
+        "l": 2
+      },
       "words": [
         {
           "t": "ٱلَّذِى",
-          "c": "ﭝ",
           "p": 596,
           "l": 2
         },
         {
           "t": "يُؤْتِى",
-          "c": "ﭞ",
           "p": 596,
           "l": 2
         },
         {
           "t": "مَالَهُۥ",
-          "c": "ﭟ",
           "p": 596,
           "l": 2
         },
         {
           "t": "يَتَزَكَّىٰ",
-          "c": "ﭠ",
           "p": 596,
           "l": 2
         }
@@ -4501,40 +12903,38 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
       "tj": "وَمَا لِأَحَدٍ عِ<tajweed class=ikhafa>ند</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> م<tajweed class=idgham_ghunnah>ِن ن</tajweed>ِّعْمَ<tajweed class=ikhafa>ةٍ ت</tajweed>ُ<tajweed class=qalaqah>جْ</tajweed>زَىٰٓ <span class=end>١٩</span>",
+      "e": {
+        "p": 596,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَمَا",
-          "c": "ﭢ",
           "p": 596,
           "l": 2
         },
         {
           "t": "لِأَحَدٍ",
-          "c": "ﭣ",
           "p": 596,
           "l": 2
         },
         {
           "t": "عِندَهُۥ",
-          "c": "ﭤ",
           "p": 596,
           "l": 2
         },
         {
           "t": "مِن",
-          "c": "ﭥ",
           "p": 596,
           "l": 2
         },
         {
           "t": "نِّعْمَةٍۢ",
-          "c": "ﭦ",
           "p": 596,
           "l": 3
         },
         {
           "t": "تُجْزَىٰٓ",
-          "c": "ﭧ",
           "p": 596,
           "l": 3
         }
@@ -4545,34 +12945,33 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
       "tj": "إِلَّا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=qalaqah>بْ</tajweed>تِغ<tajweed class=madda_obligatory>َا</tajweed>ٓءَ وَ<tajweed class=qalaqah>جْ</tajweed>هِ رَبِّهِ <tajweed class=ham_wasl>ٱ</tajweed>لْأَعْلَىٰ <span class=end>٢٠</span>",
+      "e": {
+        "p": 596,
+        "l": 3
+      },
       "words": [
         {
           "t": "إِلَّا",
-          "c": "ﭩ",
           "p": 596,
           "l": 3
         },
         {
           "t": "ٱبْتِغَآءَ",
-          "c": "ﭪ",
           "p": 596,
           "l": 3
         },
         {
           "t": "وَجْهِ",
-          "c": "ﭫ",
           "p": 596,
           "l": 3
         },
         {
           "t": "رَبِّهِ",
-          "c": "ﭬ",
           "p": 596,
           "l": 3
         },
         {
           "t": "ٱلْأَعْلَىٰ",
-          "c": "ﭭ",
           "p": 596,
           "l": 3
         }
@@ -4583,16 +12982,18 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَلَسَوْفَ يَرْضَىٰ",
       "tj": "وَلَسَوْفَ يَرْضَىٰ <span class=end>٢١</span>",
+      "e": {
+        "p": 596,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَلَسَوْفَ",
-          "c": "ﭯ",
           "p": 596,
           "l": 3
         },
         {
           "t": "يَرْضَىٰ",
-          "c": "ﭰ",
           "p": 596,
           "l": 3
         }
@@ -4603,10 +13004,13 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": " وَٱلضُّحَىٰ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>ضُّحَىٰ <span class=end>١</span>",
+      "e": {
+        "p": 596,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَٱلضُّحَىٰ",
-          "c": "ﭲ",
           "p": 596,
           "l": 6
         }
@@ -4617,22 +13021,23 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَٱلَّيْلِ إِذَا سَجَىٰ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لَّيْلِ إِذَا سَجَىٰ <span class=end>٢</span>",
+      "e": {
+        "p": 596,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَٱلَّيْلِ",
-          "c": "ﭴ",
           "p": 596,
           "l": 6
         },
         {
           "t": "إِذَا",
-          "c": "ﭵ",
           "p": 596,
           "l": 6
         },
         {
           "t": "سَجَىٰ",
-          "c": "ﭶ",
           "p": 596,
           "l": 6
         }
@@ -4643,34 +13048,33 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
       "tj": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ <span class=end>٣</span>",
+      "e": {
+        "p": 596,
+        "l": 6
+      },
       "words": [
         {
           "t": "مَا",
-          "c": "ﭸ",
           "p": 596,
           "l": 6
         },
         {
           "t": "وَدَّعَكَ",
-          "c": "ﭹ",
           "p": 596,
           "l": 6
         },
         {
           "t": "رَبُّكَ",
-          "c": "ﭺ",
           "p": 596,
           "l": 6
         },
         {
           "t": "وَمَا",
-          "c": "ﭻ",
           "p": 596,
           "l": 6
         },
         {
           "t": "قَلَىٰ",
-          "c": "ﭼ",
           "p": 596,
           "l": 6
         }
@@ -4681,34 +13085,33 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
       "tj": "وَلَلْأَخِرَةُ خَيْ<tajweed class=idgham_wo_ghunnah>رٌ ل</tajweed>َّكَ مِنَ <tajweed class=ham_wasl>ٱ</tajweed>لْأُولَىٰ <span class=end>٤</span>",
+      "e": {
+        "p": 596,
+        "l": 7
+      },
       "words": [
         {
           "t": "وَلَلْـَٔاخِرَةُ",
-          "c": "ﭾ",
           "p": 596,
           "l": 7
         },
         {
           "t": "خَيْرٌۭ",
-          "c": "ﭿ",
           "p": 596,
           "l": 7
         },
         {
           "t": "لَّكَ",
-          "c": "ﮀ",
           "p": 596,
           "l": 7
         },
         {
           "t": "مِنَ",
-          "c": "ﮁ",
           "p": 596,
           "l": 7
         },
         {
           "t": "ٱلْأُولَىٰ",
-          "c": "ﮂ",
           "p": 596,
           "l": 7
         }
@@ -4719,28 +13122,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
       "tj": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ <span class=end>٥</span>",
+      "e": {
+        "p": 596,
+        "l": 8
+      },
       "words": [
         {
           "t": "وَلَسَوْفَ",
-          "c": "ﮄ",
           "p": 596,
           "l": 7
         },
         {
           "t": "يُعْطِيكَ",
-          "c": "ﮅ",
           "p": 596,
           "l": 7
         },
         {
           "t": "رَبُّكَ",
-          "c": "ﮆ",
           "p": 596,
           "l": 7
         },
         {
           "t": "فَتَرْضَىٰٓ",
-          "c": "ﮇ",
           "p": 596,
           "l": 8
         }
@@ -4751,28 +13154,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
       "tj": "أَلَمْ يَجِ<tajweed class=qalaqah>دْ</tajweed>كَ يَتِي<tajweed class=ikhafa>مًا ف</tajweed>َـَٔـاوَىٰ <span class=end>٦</span>",
+      "e": {
+        "p": 596,
+        "l": 8
+      },
       "words": [
         {
           "t": "أَلَمْ",
-          "c": "ﮉ",
           "p": 596,
           "l": 8
         },
         {
           "t": "يَجِدْكَ",
-          "c": "ﮊ",
           "p": 596,
           "l": 8
         },
         {
           "t": "يَتِيمًۭا",
-          "c": "ﮋ",
           "p": 596,
           "l": 8
         },
         {
           "t": "فَـَٔاوَىٰ",
-          "c": "ﮌ",
           "p": 596,
           "l": 8
         }
@@ -4783,22 +13186,23 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
       "tj": "وَوَجَدَكَ ضَآل<tajweed class=ikhafa>اًّ ف</tajweed>َهَدَىٰ <span class=end>٧</span>",
+      "e": {
+        "p": 596,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَوَجَدَكَ",
-          "c": "ﮎ",
           "p": 596,
           "l": 8
         },
         {
           "t": "ضَآلًّۭا",
-          "c": "ﮏ",
           "p": 596,
           "l": 8
         },
         {
           "t": "فَهَدَىٰ",
-          "c": "ﮐ",
           "p": 596,
           "l": 9
         }
@@ -4809,22 +13213,23 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
       "tj": "وَوَجَدَكَ ع<tajweed class=madda_obligatory>َا</tajweed>ٓئِل<tajweed class=ikhafa>اً ف</tajweed>َأَغْنَىٰ <span class=end>٨</span>",
+      "e": {
+        "p": 596,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَوَجَدَكَ",
-          "c": "ﮒ",
           "p": 596,
           "l": 9
         },
         {
           "t": "عَآئِلًۭا",
-          "c": "ﮓ",
           "p": 596,
           "l": 9
         },
         {
           "t": "فَأَغْنَىٰ",
-          "c": "ﮔ",
           "p": 596,
           "l": 9
         }
@@ -4835,28 +13240,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
       "tj": "فَأَ<tajweed class=ghunnah>مّ</tajweed>َا <tajweed class=ham_wasl>ٱ</tajweed>لْيَتِيمَ فَلَا تَ<tajweed class=qalaqah>قْ</tajweed>هَرْ <span class=end>٩</span>",
+      "e": {
+        "p": 596,
+        "l": 10
+      },
       "words": [
         {
           "t": "فَأَمَّا",
-          "c": "ﮖ",
           "p": 596,
           "l": 9
         },
         {
           "t": "ٱلْيَتِيمَ",
-          "c": "ﮗ",
           "p": 596,
           "l": 9
         },
         {
           "t": "فَلَا",
-          "c": "ﮘ",
           "p": 596,
           "l": 9
         },
         {
           "t": "تَقْهَرْ",
-          "c": "ﮙ",
           "p": 596,
           "l": 9
         }
@@ -4867,28 +13272,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
       "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>سّ<tajweed class=madda_obligatory>َا</tajweed>ٓئِلَ فَلَا تَنْهَرْ <span class=end>١٠</span>",
+      "e": {
+        "p": 596,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَأَمَّا",
-          "c": "ﮛ",
           "p": 596,
           "l": 10
         },
         {
           "t": "ٱلسَّآئِلَ",
-          "c": "ﮜ",
           "p": 596,
           "l": 10
         },
         {
           "t": "فَلَا",
-          "c": "ﮝ",
           "p": 596,
           "l": 10
         },
         {
           "t": "تَنْهَرْ",
-          "c": "ﮞ",
           "p": 596,
           "l": 10
         }
@@ -4899,28 +13304,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
       "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ <span class=end>١١</span>",
+      "e": {
+        "p": 596,
+        "l": 10
+      },
       "words": [
         {
           "t": "وَأَمَّا",
-          "c": "ﮠ",
           "p": 596,
           "l": 10
         },
         {
           "t": "بِنِعْمَةِ",
-          "c": "ﮡ",
           "p": 596,
           "l": 10
         },
         {
           "t": "رَبِّكَ",
-          "c": "ﮢ",
           "p": 596,
           "l": 10
         },
         {
           "t": "فَحَدِّثْ",
-          "c": "ﮣ",
           "p": 596,
           "l": 10
         }
@@ -4931,28 +13336,28 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": " أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
       "tj": "أَلَمْ نَشْرَحْ لَكَ صَ<tajweed class=qalaqah>دْ</tajweed>رَكَ <span class=end>١</span>",
+      "e": {
+        "p": 596,
+        "l": 13
+      },
       "words": [
         {
           "t": "أَلَمْ",
-          "c": "ﮥ",
           "p": 596,
           "l": 13
         },
         {
           "t": "نَشْرَحْ",
-          "c": "ﮦ",
           "p": 596,
           "l": 13
         },
         {
           "t": "لَكَ",
-          "c": "ﮧ",
           "p": 596,
           "l": 13
         },
         {
           "t": "صَدْرَكَ",
-          "c": "ﮨ",
           "p": 596,
           "l": 13
         }
@@ -4963,22 +13368,23 @@ const SURAH={
       "page_number": 596,
       "text_uthmani": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
       "tj": "وَوَضَعْنَا عَ<tajweed class=ikhafa>نك</tajweed>َ وِزْرَكَ <span class=end>٢</span>",
+      "e": {
+        "p": 596,
+        "l": 13
+      },
       "words": [
         {
           "t": "وَوَضَعْنَا",
-          "c": "ﮪ",
           "p": 596,
           "l": 13
         },
         {
           "t": "عَنكَ",
-          "c": "ﮫ",
           "p": 596,
           "l": 13
         },
         {
           "t": "وِزْرَكَ",
-          "c": "ﮬ",
           "p": 596,
           "l": 13
         }
@@ -4989,22 +13395,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
       "tj": "ٱلَّذ<tajweed class=madda_obligatory>ِىٓ</tajweed> أَ<tajweed class=ikhafa>نق</tajweed>َضَ ظَهْرَكَ <span class=end>٣</span>",
+      "e": {
+        "p": 596,
+        "l": 14
+      },
       "words": [
         {
           "t": "ٱلَّذِىٓ",
-          "c": "ﮮ",
           "p": 596,
           "l": 13
         },
         {
           "t": "أَنقَضَ",
-          "c": "ﮯ",
           "p": 596,
           "l": 14
         },
         {
           "t": "ظَهْرَكَ",
-          "c": "ﮰ",
           "p": 596,
           "l": 14
         }
@@ -5015,22 +13422,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
       "tj": "وَرَفَعْنَا لَكَ ذِكْرَكَ <span class=end>٤</span>",
+      "e": {
+        "p": 596,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَرَفَعْنَا",
-          "c": "ﯓ",
           "p": 596,
           "l": 14
         },
         {
           "t": "لَكَ",
-          "c": "ﯔ",
           "p": 596,
           "l": 14
         },
         {
           "t": "ذِكْرَكَ",
-          "c": "ﯕ",
           "p": 596,
           "l": 14
         }
@@ -5041,28 +13449,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
       "tj": "فَإِ<tajweed class=ghunnah>نّ</tajweed>َ مَعَ <tajweed class=ham_wasl>ٱ</tajweed>لْعُسْرِ يُسْرًا <span class=end>٥</span>",
+      "e": {
+        "p": 596,
+        "l": 14
+      },
       "words": [
         {
           "t": "فَإِنَّ",
-          "c": "ﯗ",
           "p": 596,
           "l": 14
         },
         {
           "t": "مَعَ",
-          "c": "ﯘ",
           "p": 596,
           "l": 14
         },
         {
           "t": "ٱلْعُسْرِ",
-          "c": "ﯙ",
           "p": 596,
           "l": 14
         },
         {
           "t": "يُسْرًا",
-          "c": "ﯚ",
           "p": 596,
           "l": 14
         }
@@ -5073,28 +13481,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ مَعَ <tajweed class=ham_wasl>ٱ</tajweed>لْعُسْرِ يُسْرًا <span class=end>٦</span>",
+      "e": {
+        "p": 596,
+        "l": 15
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﯜ",
           "p": 596,
           "l": 14
         },
         {
           "t": "مَعَ",
-          "c": "ﯝ",
           "p": 596,
           "l": 15
         },
         {
           "t": "ٱلْعُسْرِ",
-          "c": "ﯞ",
           "p": 596,
           "l": 15
         },
         {
           "t": "يُسْرًۭا",
-          "c": "ﯟ",
           "p": 596,
           "l": 15
         }
@@ -5105,22 +13513,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
       "tj": "فَإِذَا فَرَغْتَ فَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=ikhafa>نص</tajweed>َ<tajweed class=qalaqah>بْ</tajweed> <span class=end>٧</span>",
+      "e": {
+        "p": 596,
+        "l": 15
+      },
       "words": [
         {
           "t": "فَإِذَا",
-          "c": "ﯡ",
           "p": 596,
           "l": 15
         },
         {
           "t": "فَرَغْتَ",
-          "c": "ﯢ",
           "p": 596,
           "l": 15
         },
         {
           "t": "فَٱنصَبْ",
-          "c": "ﯣ",
           "p": 596,
           "l": 15
         }
@@ -5131,22 +13540,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
       "tj": "وَإِلَىٰ رَبِّكَ فَ<tajweed class=ham_wasl>ٱ</tajweed>رْغَ<tajweed class=qalaqah>ب</tajweed> <span class=end>٨</span>",
+      "e": {
+        "p": 596,
+        "l": 15
+      },
       "words": [
         {
           "t": "وَإِلَىٰ",
-          "c": "ﯥ",
           "p": 596,
           "l": 15
         },
         {
           "t": "رَبِّكَ",
-          "c": "ﯦ",
           "p": 596,
           "l": 15
         },
         {
           "t": "فَٱرْغَب",
-          "c": "ﯧ",
           "p": 596,
           "l": 15
         }
@@ -5157,16 +13567,18 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>تِّينِ وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>زَّيْت<tajweed class=madda_permissible>ُو</tajweed>نِ <span class=end>١</span>",
+      "e": {
+        "p": 597,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَٱلتِّينِ",
-          "c": "ﭑ",
           "p": 597,
           "l": 3
         },
         {
           "t": "وَٱلزَّيْتُونِ",
-          "c": "ﭒ",
           "p": 597,
           "l": 3
         }
@@ -5177,16 +13589,18 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "وَطُورِ سِينِينَ",
       "tj": "وَطُورِ سِين<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٢</span>",
+      "e": {
+        "p": 597,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَطُورِ",
-          "c": "ﭔ",
           "p": 597,
           "l": 3
         },
         {
           "t": "سِينِينَ",
-          "c": "ﭕ",
           "p": 597,
           "l": 3
         }
@@ -5197,22 +13611,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
       "tj": "وَهَ<tajweed class=madda_normal>ـٰ</tajweed>ذَا <tajweed class=ham_wasl>ٱ</tajweed>لْبَلَدِ <tajweed class=ham_wasl>ٱ</tajweed>لْأَم<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٣</span>",
+      "e": {
+        "p": 597,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَهَـٰذَا",
-          "c": "ﭗ",
           "p": 597,
           "l": 3
         },
         {
           "t": "ٱلْبَلَدِ",
-          "c": "ﭘ",
           "p": 597,
           "l": 3
         },
         {
           "t": "ٱلْأَمِينِ",
-          "c": "ﭙ",
           "p": 597,
           "l": 3
         }
@@ -5223,40 +13638,38 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
       "tj": "لَقَ<tajweed class=qalaqah>دْ</tajweed> خَلَ<tajweed class=qalaqah>قْ</tajweed>نَا <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نَ ف<tajweed class=madda_obligatory>ِىٓ</tajweed> أَحْسَنِ تَ<tajweed class=qalaqah>قْ</tajweed>و<tajweed class=madda_permissible>ِي</tajweed>مٍ <span class=end>٤</span>",
+      "e": {
+        "p": 597,
+        "l": 4
+      },
       "words": [
         {
           "t": "لَقَدْ",
-          "c": "ﭛ",
           "p": 597,
           "l": 4
         },
         {
           "t": "خَلَقْنَا",
-          "c": "ﭜ",
           "p": 597,
           "l": 4
         },
         {
           "t": "ٱلْإِنسَـٰنَ",
-          "c": "ﭝ",
           "p": 597,
           "l": 4
         },
         {
           "t": "فِىٓ",
-          "c": "ﭞ",
           "p": 597,
           "l": 4
         },
         {
           "t": "أَحْسَنِ",
-          "c": "ﭟ",
           "p": 597,
           "l": 4
         },
         {
           "t": "تَقْوِيمٍۢ",
-          "c": "ﭠ",
           "p": 597,
           "l": 4
         }
@@ -5267,28 +13680,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ",
       "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ رَدَ<tajweed class=qalaqah>دْ</tajweed>نَ<tajweed class=madda_normal>ـٰ</tajweed>هُ أَسْفَلَ سَ<tajweed class=madda_normal>ـٰ</tajweed>فِل<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٥</span>",
+      "e": {
+        "p": 597,
+        "l": 5
+      },
       "words": [
         {
           "t": "ثُمَّ",
-          "c": "ﭢ",
           "p": 597,
           "l": 4
         },
         {
           "t": "رَدَدْنَـٰهُ",
-          "c": "ﭣ",
           "p": 597,
           "l": 4
         },
         {
           "t": "أَسْفَلَ",
-          "c": "ﭤ",
           "p": 597,
           "l": 4
         },
         {
           "t": "سَـٰفِلِينَ",
-          "c": "ﭥ",
           "p": 597,
           "l": 4
         }
@@ -5299,58 +13712,53 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
       "tj": "إِلَّا <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> وَعَمِلُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=madda_normal>ـٰ</tajweed>لِحَ<tajweed class=madda_normal>ـٰ</tajweed>تِ فَلَهُمْ أَ<tajweed class=qalaqah>جْ</tajweed>رٌ غَيْرُ مَمْن<tajweed class=madda_permissible>ُو</tajweed>نٍ <span class=end>٦</span>",
+      "e": {
+        "p": 597,
+        "l": 5
+      },
       "words": [
         {
           "t": "إِلَّا",
-          "c": "ﭧ",
           "p": 597,
           "l": 5
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﭨ",
           "p": 597,
           "l": 5
         },
         {
           "t": "ءَامَنُوا۟",
-          "c": "ﭩ",
           "p": 597,
           "l": 5
         },
         {
           "t": "وَعَمِلُوا۟",
-          "c": "ﭪ",
           "p": 597,
           "l": 5
         },
         {
           "t": "ٱلصَّـٰلِحَـٰتِ",
-          "c": "ﭫ",
           "p": 597,
           "l": 5
         },
         {
           "t": "فَلَهُمْ",
-          "c": "ﭬ",
           "p": 597,
           "l": 5
         },
         {
           "t": "أَجْرٌ",
-          "c": "ﭭ",
           "p": 597,
           "l": 5
         },
         {
           "t": "غَيْرُ",
-          "c": "ﭮ",
           "p": 597,
           "l": 5
         },
         {
           "t": "مَمْنُونٍۢ",
-          "c": "ﭯ",
           "p": 597,
           "l": 5
         }
@@ -5361,28 +13769,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
       "tj": "فَمَا يُكَذِّبُكَ بَعْدُ بِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دّ<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٧</span>",
+      "e": {
+        "p": 597,
+        "l": 6
+      },
       "words": [
         {
           "t": "فَمَا",
-          "c": "ﭱ",
           "p": 597,
           "l": 6
         },
         {
           "t": "يُكَذِّبُكَ",
-          "c": "ﭲ",
           "p": 597,
           "l": 6
         },
         {
           "t": "بَعْدُ",
-          "c": "ﭳ",
           "p": 597,
           "l": 6
         },
         {
           "t": "بِٱلدِّينِ",
-          "c": "ﭴ",
           "p": 597,
           "l": 6
         }
@@ -5393,28 +13801,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ",
       "tj": "أَلَيْسَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ بِأَحْكَمِ <tajweed class=ham_wasl>ٱ</tajweed>لْحَ<tajweed class=madda_normal>ـٰ</tajweed>كِم<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٨</span>",
+      "e": {
+        "p": 597,
+        "l": 6
+      },
       "words": [
         {
           "t": "أَلَيْسَ",
-          "c": "ﭶ",
           "p": 597,
           "l": 6
         },
         {
           "t": "ٱللَّهُ",
-          "c": "ﭷ",
           "p": 597,
           "l": 6
         },
         {
           "t": "بِأَحْكَمِ",
-          "c": "ﭸ",
           "p": 597,
           "l": 6
         },
         {
           "t": "ٱلْحَـٰكِمِينَ",
-          "c": "ﭹ",
           "p": 597,
           "l": 6
         }
@@ -5425,34 +13833,33 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": " ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
       "tj": "ٱ<tajweed class=qalaqah>قْ</tajweed>رَأْ بِ<tajweed class=ham_wasl>ٱ</tajweed>سْمِ رَبِّكَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِى خَلَ<tajweed class=qalaqah>ق</tajweed>َ <span class=end>١</span>",
+      "e": {
+        "p": 597,
+        "l": 9
+      },
       "words": [
         {
           "t": "ٱقْرَأْ",
-          "c": "ﭻ",
           "p": 597,
           "l": 9
         },
         {
           "t": "بِٱسْمِ",
-          "c": "ﭼ",
           "p": 597,
           "l": 9
         },
         {
           "t": "رَبِّكَ",
-          "c": "ﭽ",
           "p": 597,
           "l": 9
         },
         {
           "t": "ٱلَّذِى",
-          "c": "ﭾ",
           "p": 597,
           "l": 9
         },
         {
           "t": "خَلَقَ",
-          "c": "ﭿ",
           "p": 597,
           "l": 9
         }
@@ -5463,28 +13870,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
       "tj": "خَلَقَ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نَ مِنْ عَلَ<tajweed class=qalaqah>ق</tajweed>ٍ <span class=end>٢</span>",
+      "e": {
+        "p": 597,
+        "l": 9
+      },
       "words": [
         {
           "t": "خَلَقَ",
-          "c": "ﮁ",
           "p": 597,
           "l": 9
         },
         {
           "t": "ٱلْإِنسَـٰنَ",
-          "c": "ﮂ",
           "p": 597,
           "l": 9
         },
         {
           "t": "مِنْ",
-          "c": "ﮃ",
           "p": 597,
           "l": 9
         },
         {
           "t": "عَلَقٍ",
-          "c": "ﮄ",
           "p": 597,
           "l": 9
         }
@@ -5495,22 +13902,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
       "tj": "ٱ<tajweed class=qalaqah>قْ</tajweed>رَأْ وَرَبُّكَ <tajweed class=ham_wasl>ٱ</tajweed>لْأَكْرَمُ <span class=end>٣</span>",
+      "e": {
+        "p": 597,
+        "l": 10
+      },
       "words": [
         {
           "t": "ٱقْرَأْ",
-          "c": "ﮆ",
           "p": 597,
           "l": 9
         },
         {
           "t": "وَرَبُّكَ",
-          "c": "ﮇ",
           "p": 597,
           "l": 9
         },
         {
           "t": "ٱلْأَكْرَمُ",
-          "c": "ﮈ",
           "p": 597,
           "l": 10
         }
@@ -5521,22 +13929,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
       "tj": "ٱلَّذِى عَلَّمَ بِ<tajweed class=ham_wasl>ٱ</tajweed>لْقَلَمِ <span class=end>٤</span>",
+      "e": {
+        "p": 597,
+        "l": 10
+      },
       "words": [
         {
           "t": "ٱلَّذِى",
-          "c": "ﮊ",
           "p": 597,
           "l": 10
         },
         {
           "t": "عَلَّمَ",
-          "c": "ﮋ",
           "p": 597,
           "l": 10
         },
         {
           "t": "بِٱلْقَلَمِ",
-          "c": "ﮌ",
           "p": 597,
           "l": 10
         }
@@ -5547,34 +13956,33 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
       "tj": "عَلَّمَ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نَ مَا لَمْ يَعْلَمْ <span class=end>٥</span>",
+      "e": {
+        "p": 597,
+        "l": 10
+      },
       "words": [
         {
           "t": "عَلَّمَ",
-          "c": "ﮎ",
           "p": 597,
           "l": 10
         },
         {
           "t": "ٱلْإِنسَـٰنَ",
-          "c": "ﮏ",
           "p": 597,
           "l": 10
         },
         {
           "t": "مَا",
-          "c": "ﮐ",
           "p": 597,
           "l": 10
         },
         {
           "t": "لَمْ",
-          "c": "ﮑ",
           "p": 597,
           "l": 10
         },
         {
           "t": "يَعْلَمْ",
-          "c": "ﮒ",
           "p": 597,
           "l": 10
         }
@@ -5585,28 +13993,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
       "tj": "كَلّ<tajweed class=madda_obligatory>َآ</tajweed> إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نَ لَيَ<tajweed class=qalaqah>طْ</tajweed>غَىٰٓ <span class=end>٦</span>",
+      "e": {
+        "p": 597,
+        "l": 11
+      },
       "words": [
         {
           "t": "كَلَّآ",
-          "c": "ﮔ",
           "p": 597,
           "l": 10
         },
         {
           "t": "إِنَّ",
-          "c": "ﮕ",
           "p": 597,
           "l": 10
         },
         {
           "t": "ٱلْإِنسَـٰنَ",
-          "c": "ﮖ",
           "p": 597,
           "l": 11
         },
         {
           "t": "لَيَطْغَىٰٓ",
-          "c": "ﮗ",
           "p": 597,
           "l": 11
         }
@@ -5617,22 +14025,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
       "tj": "أ<tajweed class=idgham_wo_ghunnah>َن ر</tajweed>َّءَاهُ <tajweed class=ham_wasl>ٱ</tajweed>سْتَغْنَىٰٓ <span class=end>٧</span>",
+      "e": {
+        "p": 597,
+        "l": 11
+      },
       "words": [
         {
           "t": "أَن",
-          "c": "ﮙ",
           "p": 597,
           "l": 11
         },
         {
           "t": "رَّءَاهُ",
-          "c": "ﮚ",
           "p": 597,
           "l": 11
         },
         {
           "t": "ٱسْتَغْنَىٰٓ",
-          "c": "ﮛ",
           "p": 597,
           "l": 11
         }
@@ -5643,28 +14052,28 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ إِلَىٰ رَبِّكَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رُّ<tajweed class=qalaqah>جْ</tajweed>عَىٰٓ <span class=end>٨</span>",
+      "e": {
+        "p": 597,
+        "l": 11
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﮝ",
           "p": 597,
           "l": 11
         },
         {
           "t": "إِلَىٰ",
-          "c": "ﮞ",
           "p": 597,
           "l": 11
         },
         {
           "t": "رَبِّكَ",
-          "c": "ﮟ",
           "p": 597,
           "l": 11
         },
         {
           "t": "ٱلرُّجْعَىٰٓ",
-          "c": "ﮠ",
           "p": 597,
           "l": 11
         }
@@ -5675,22 +14084,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
       "tj": "أَرَءَيْتَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِى يَنْهَىٰ <span class=end>٩</span>",
+      "e": {
+        "p": 597,
+        "l": 12
+      },
       "words": [
         {
           "t": "أَرَءَيْتَ",
-          "c": "ﮢ",
           "p": 597,
           "l": 11
         },
         {
           "t": "ٱلَّذِى",
-          "c": "ﮣ",
           "p": 597,
           "l": 12
         },
         {
           "t": "يَنْهَىٰ",
-          "c": "ﮤ",
           "p": 597,
           "l": 12
         }
@@ -5701,22 +14111,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "عَبْدًا إِذَا صَلَّىٰٓ",
       "tj": "عَ<tajweed class=qalaqah>بْ</tajweed>دًا إِذَا صَلَّىٰٓ <span class=end>١٠</span>",
+      "e": {
+        "p": 597,
+        "l": 12
+      },
       "words": [
         {
           "t": "عَبْدًا",
-          "c": "ﮦ",
           "p": 597,
           "l": 12
         },
         {
           "t": "إِذَا",
-          "c": "ﮧ",
           "p": 597,
           "l": 12
         },
         {
           "t": "صَلَّىٰٓ",
-          "c": "ﮨ",
           "p": 597,
           "l": 12
         }
@@ -5727,34 +14138,33 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
       "tj": "أَرَءَيْتَ إِ<tajweed class=ikhafa>ن ك</tajweed>َانَ عَلَى <tajweed class=ham_wasl>ٱ</tajweed>لْهُدَىٰٓ <span class=end>١١</span>",
+      "e": {
+        "p": 597,
+        "l": 12
+      },
       "words": [
         {
           "t": "أَرَءَيْتَ",
-          "c": "ﮪ",
           "p": 597,
           "l": 12
         },
         {
           "t": "إِن",
-          "c": "ﮫ",
           "p": 597,
           "l": 12
         },
         {
           "t": "كَانَ",
-          "c": "ﮬ",
           "p": 597,
           "l": 12
         },
         {
           "t": "عَلَى",
-          "c": "ﮭ",
           "p": 597,
           "l": 12
         },
         {
           "t": "ٱلْهُدَىٰٓ",
-          "c": "ﮮ",
           "p": 597,
           "l": 12
         }
@@ -5765,22 +14175,23 @@ const SURAH={
       "page_number": 597,
       "text_uthmani": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
       "tj": "أَوْ أَمَرَ بِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>تَّ<tajweed class=qalaqah>قْ</tajweed>وَىٰٓ <span class=end>١٢</span>",
+      "e": {
+        "p": 597,
+        "l": 13
+      },
       "words": [
         {
           "t": "أَوْ",
-          "c": "ﮰ",
           "p": 597,
           "l": 12
         },
         {
           "t": "أَمَرَ",
-          "c": "ﮱ",
           "p": 597,
           "l": 12
         },
         {
           "t": "بِٱلتَّقْوَىٰٓ",
-          "c": "ﯓ",
           "p": 597,
           "l": 13
         }
@@ -5791,28 +14202,28 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
       "tj": "أَرَءَيْتَ إِ<tajweed class=ikhafa>ن ك</tajweed>َذَّبَ وَتَوَلَّىٰٓ <span class=end>١٣</span>",
+      "e": {
+        "p": 597,
+        "l": 13
+      },
       "words": [
         {
           "t": "أَرَءَيْتَ",
-          "c": "ﯕ",
           "p": 597,
           "l": 13
         },
         {
           "t": "إِن",
-          "c": "ﯖ",
           "p": 597,
           "l": 13
         },
         {
           "t": "كَذَّبَ",
-          "c": "ﯗ",
           "p": 597,
           "l": 13
         },
         {
           "t": "وَتَوَلَّىٰٓ",
-          "c": "ﯘ",
           "p": 597,
           "l": 13
         }
@@ -5823,34 +14234,33 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
       "tj": "أَلَمْ يَعْل<tajweed class=ikhafa_shafawi>َم ب</tajweed>ِأَ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>للَّهَ يَرَىٰ <span class=end>١٤</span>",
+      "e": {
+        "p": 597,
+        "l": 13
+      },
       "words": [
         {
           "t": "أَلَمْ",
-          "c": "ﯚ",
           "p": 597,
           "l": 13
         },
         {
           "t": "يَعْلَم",
-          "c": "ﯛ",
           "p": 597,
           "l": 13
         },
         {
           "t": "بِأَنَّ",
-          "c": "ﯜ",
           "p": 597,
           "l": 13
         },
         {
           "t": "ٱللَّهَ",
-          "c": "ﯝ",
           "p": 597,
           "l": 13
         },
         {
           "t": "يَرَىٰ",
-          "c": "ﯞ",
           "p": 597,
           "l": 13
         }
@@ -5861,40 +14271,38 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
       "tj": "كَلَّا لَئ<tajweed class=idgham_wo_ghunnah>ِن ل</tajweed>َّمْ يَ<tajweed class=ikhafa>نت</tajweed>َهِ لَنَسْفَع<tajweed class=iqlab>َۢا ب</tajweed>ِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َاصِيَةِ <span class=end>١٥</span>",
+      "e": {
+        "p": 597,
+        "l": 14
+      },
       "words": [
         {
           "t": "كَلَّا",
-          "c": "ﯠ",
           "p": 597,
           "l": 13
         },
         {
           "t": "لَئِن",
-          "c": "ﯡ",
           "p": 597,
           "l": 13
         },
         {
           "t": "لَّمْ",
-          "c": "ﯢ",
           "p": 597,
           "l": 14
         },
         {
           "t": "يَنتَهِ",
-          "c": "ﯣ",
           "p": 597,
           "l": 14
         },
         {
           "t": "لَنَسْفَعًۢا",
-          "c": "ﯤ",
           "p": 597,
           "l": 14
         },
         {
           "t": "بِٱلنَّاصِيَةِ",
-          "c": "ﯥ",
           "p": 597,
           "l": 14
         }
@@ -5905,22 +14313,23 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
       "tj": "نَاصِيَ<tajweed class=ikhafa>ةٍ ك</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>ذِبَةٍ خَاطِئَةٍ <span class=end>١٦</span>",
+      "e": {
+        "p": 597,
+        "l": 14
+      },
       "words": [
         {
           "t": "نَاصِيَةٍۢ",
-          "c": "ﯧ",
           "p": 597,
           "l": 14
         },
         {
           "t": "كَـٰذِبَةٍ",
-          "c": "ﯨ",
           "p": 597,
           "l": 14
         },
         {
           "t": "خَاطِئَةٍۢ",
-          "c": "ﯩ",
           "p": 597,
           "l": 14
         }
@@ -5931,16 +14340,18 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "فَلْيَدْعُ نَادِيَهُۥ",
       "tj": "فَلْيَ<tajweed class=qalaqah>دْ</tajweed>عُ نَادِيَهُۥ <span class=end>١٧</span>",
+      "e": {
+        "p": 597,
+        "l": 15
+      },
       "words": [
         {
           "t": "فَلْيَدْعُ",
-          "c": "ﯫ",
           "p": 597,
           "l": 14
         },
         {
           "t": "نَادِيَهُۥ",
-          "c": "ﯬ",
           "p": 597,
           "l": 14
         }
@@ -5951,16 +14362,18 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "سَنَدْعُ ٱلزَّبَانِيَةَ",
       "tj": "سَنَ<tajweed class=qalaqah>دْ</tajweed>عُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>زَّبَانِيَةَ <span class=end>١٨</span>",
+      "e": {
+        "p": 597,
+        "l": 15
+      },
       "words": [
         {
           "t": "سَنَدْعُ",
-          "c": "ﯮ",
           "p": 597,
           "l": 15
         },
         {
           "t": "ٱلزَّبَانِيَةَ",
-          "c": "ﯯ",
           "p": 597,
           "l": 15
         }
@@ -5971,34 +14384,33 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
       "tj": "كَلَّا لَا تُطِعْهُ وَ<tajweed class=ham_wasl>ٱ</tajweed>سْجُ<tajweed class=qalaqah>دْ</tajweed> وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=qalaqah>قْ</tajweed>تَرِ<tajweed class=qalaqah>ب</tajweed> ۩ <span class=end>١٩</span>",
+      "e": {
+        "p": 597,
+        "l": 15
+      },
       "words": [
         {
           "t": "كَلَّا",
-          "c": "ﯱ",
           "p": 597,
           "l": 15
         },
         {
           "t": "لَا",
-          "c": "ﯲ",
           "p": 597,
           "l": 15
         },
         {
           "t": "تُطِعْهُ",
-          "c": "ﯳ",
           "p": 597,
           "l": 15
         },
         {
           "t": "وَٱسْجُدْ",
-          "c": "ﯴ",
           "p": 597,
           "l": 15
         },
         {
           "t": "وَٱقْتَرِب ۩",
-          "c": "ﯵﯶ",
           "p": 597,
           "l": 15
         }
@@ -6009,34 +14421,33 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نز</tajweed>َلْنَ<tajweed class=madda_normal>ـٰ</tajweed>هُ فِى لَيْلَةِ <tajweed class=ham_wasl>ٱ</tajweed>لْقَ<tajweed class=qalaqah>دْ</tajweed>رِ <span class=end>١</span>",
+      "e": {
+        "p": 598,
+        "l": 3
+      },
       "words": [
         {
           "t": "إِنَّآ",
-          "c": "ﭑ",
           "p": 598,
           "l": 3
         },
         {
           "t": "أَنزَلْنَـٰهُ",
-          "c": "ﭒ",
           "p": 598,
           "l": 3
         },
         {
           "t": "فِى",
-          "c": "ﭓ",
           "p": 598,
           "l": 3
         },
         {
           "t": "لَيْلَةِ",
-          "c": "ﭔ",
           "p": 598,
           "l": 3
         },
         {
           "t": "ٱلْقَدْرِ",
-          "c": "ﭕ",
           "p": 598,
           "l": 3
         }
@@ -6047,34 +14458,33 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
       "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا لَيْلَةُ <tajweed class=ham_wasl>ٱ</tajweed>لْقَ<tajweed class=qalaqah>دْ</tajweed>رِ <span class=end>٢</span>",
+      "e": {
+        "p": 598,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَمَآ",
-          "c": "ﭗ",
           "p": 598,
           "l": 3
         },
         {
           "t": "أَدْرَىٰكَ",
-          "c": "ﭘ",
           "p": 598,
           "l": 3
         },
         {
           "t": "مَا",
-          "c": "ﭙ",
           "p": 598,
           "l": 3
         },
         {
           "t": "لَيْلَةُ",
-          "c": "ﭚ",
           "p": 598,
           "l": 3
         },
         {
           "t": "ٱلْقَدْرِ",
-          "c": "ﭛ",
           "p": 598,
           "l": 3
         }
@@ -6085,40 +14495,38 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
       "tj": "لَيْلَةُ <tajweed class=ham_wasl>ٱ</tajweed>لْقَ<tajweed class=qalaqah>دْ</tajweed>رِ خَيْ<tajweed class=idgham_ghunnah>رٌ م</tajweed>ِّنْ أَلْفِ شَهْرٍ <span class=end>٣</span>",
+      "e": {
+        "p": 598,
+        "l": 4
+      },
       "words": [
         {
           "t": "لَيْلَةُ",
-          "c": "ﭝ",
           "p": 598,
           "l": 4
         },
         {
           "t": "ٱلْقَدْرِ",
-          "c": "ﭞ",
           "p": 598,
           "l": 4
         },
         {
           "t": "خَيْرٌۭ",
-          "c": "ﭟ",
           "p": 598,
           "l": 4
         },
         {
           "t": "مِّنْ",
-          "c": "ﭠ",
           "p": 598,
           "l": 4
         },
         {
           "t": "أَلْفِ",
-          "c": "ﭡ",
           "p": 598,
           "l": 4
         },
         {
           "t": "شَهْرٍۢ",
-          "c": "ﭢ",
           "p": 598,
           "l": 4
         }
@@ -6129,58 +14537,53 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
       "tj": "تَنَزَّلُ <tajweed class=ham_wasl>ٱ</tajweed>لْمَلَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ئِكَةُ وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>رُّوحُ فِيهَا بِإِذْنِ رَبِّه<tajweed class=idgham_shafawi>ِم م</tajweed>ِّ<tajweed class=ikhafa>ن ك</tajweed>ُلِّ أَمْرٍ <span class=end>٤</span>",
+      "e": {
+        "p": 598,
+        "l": 5
+      },
       "words": [
         {
           "t": "تَنَزَّلُ",
-          "c": "ﭤ",
           "p": 598,
           "l": 4
         },
         {
           "t": "ٱلْمَلَـٰٓئِكَةُ",
-          "c": "ﭥ",
           "p": 598,
           "l": 4
         },
         {
           "t": "وَٱلرُّوحُ",
-          "c": "ﭦ",
           "p": 598,
           "l": 4
         },
         {
           "t": "فِيهَا",
-          "c": "ﭧ",
           "p": 598,
           "l": 5
         },
         {
           "t": "بِإِذْنِ",
-          "c": "ﭨ",
           "p": 598,
           "l": 5
         },
         {
           "t": "رَبِّهِم",
-          "c": "ﭩ",
           "p": 598,
           "l": 5
         },
         {
           "t": "مِّن",
-          "c": "ﭪ",
           "p": 598,
           "l": 5
         },
         {
           "t": "كُلِّ",
-          "c": "ﭫ",
           "p": 598,
           "l": 5
         },
         {
           "t": "أَمْرٍۢ",
-          "c": "ﭬ",
           "p": 598,
           "l": 5
         }
@@ -6191,34 +14594,33 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
       "tj": "سَلَ<tajweed class=madda_normal>ـٰ</tajweed>مٌ هِىَ حَتَّىٰ مَ<tajweed class=qalaqah>طْ</tajweed>لَعِ <tajweed class=ham_wasl>ٱ</tajweed>لْفَ<tajweed class=qalaqah>جْ</tajweed>رِ <span class=end>٥</span>",
+      "e": {
+        "p": 598,
+        "l": 5
+      },
       "words": [
         {
           "t": "سَلَـٰمٌ",
-          "c": "ﭮ",
           "p": 598,
           "l": 5
         },
         {
           "t": "هِىَ",
-          "c": "ﭯ",
           "p": 598,
           "l": 5
         },
         {
           "t": "حَتَّىٰ",
-          "c": "ﭰ",
           "p": 598,
           "l": 5
         },
         {
           "t": "مَطْلَعِ",
-          "c": "ﭱ",
           "p": 598,
           "l": 5
         },
         {
           "t": "ٱلْفَجْرِ",
-          "c": "ﭲ",
           "p": 598,
           "l": 5
         }
@@ -6229,76 +14631,68 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": " لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
       "tj": "لَمْ يَكُنِ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ كَفَرُو<tajweed class=slnt>اْ</tajweed> مِنْ أَهْلِ <tajweed class=ham_wasl>ٱ</tajweed>لْكِتَ<tajweed class=madda_normal>ـٰ</tajweed>بِ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْمُشْرِكِينَ مُ<tajweed class=ikhafa>نف</tajweed>َكِّينَ حَتَّىٰ تَأْتِيَهُمُ <tajweed class=ham_wasl>ٱ</tajweed>لْبَيِّنَةُ <span class=end>١</span>",
+      "e": {
+        "p": 598,
+        "l": 9
+      },
       "words": [
         {
           "t": "لَمْ",
-          "c": "ﭴ",
           "p": 598,
           "l": 8
         },
         {
           "t": "يَكُنِ",
-          "c": "ﭵ",
           "p": 598,
           "l": 8
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﭶ",
           "p": 598,
           "l": 8
         },
         {
           "t": "كَفَرُوا۟",
-          "c": "ﭷ",
           "p": 598,
           "l": 8
         },
         {
           "t": "مِنْ",
-          "c": "ﭸ",
           "p": 598,
           "l": 8
         },
         {
           "t": "أَهْلِ",
-          "c": "ﭹ",
           "p": 598,
           "l": 8
         },
         {
           "t": "ٱلْكِتَـٰبِ",
-          "c": "ﭺ",
           "p": 598,
           "l": 8
         },
         {
           "t": "وَٱلْمُشْرِكِينَ",
-          "c": "ﭻ",
           "p": 598,
           "l": 8
         },
         {
           "t": "مُنفَكِّينَ",
-          "c": "ﭼ",
           "p": 598,
           "l": 8
         },
         {
           "t": "حَتَّىٰ",
-          "c": "ﭽ",
           "p": 598,
           "l": 9
         },
         {
           "t": "تَأْتِيَهُمُ",
-          "c": "ﭾ",
           "p": 598,
           "l": 9
         },
         {
           "t": "ٱلْبَيِّنَةُ",
-          "c": "ﭿ",
           "p": 598,
           "l": 9
         }
@@ -6309,40 +14703,38 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "رَسُولٌ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًا مُّطَهَّرَةً",
       "tj": "رَسُو<tajweed class=idgham_ghunnah>لٌ م</tajweed>ِّنَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهِ يَتْلُو<tajweed class=slnt>اْ</tajweed> صُحُ<tajweed class=idgham_ghunnah>فًا م</tajweed>ُّطَهَّرَةً <span class=end>٢</span>",
+      "e": {
+        "p": 598,
+        "l": 9
+      },
       "words": [
         {
           "t": "رَسُولٌۭ",
-          "c": "ﮁ",
           "p": 598,
           "l": 9
         },
         {
           "t": "مِّنَ",
-          "c": "ﮂ",
           "p": 598,
           "l": 9
         },
         {
           "t": "ٱللَّهِ",
-          "c": "ﮃ",
           "p": 598,
           "l": 9
         },
         {
           "t": "يَتْلُوا۟",
-          "c": "ﮄ",
           "p": 598,
           "l": 9
         },
         {
           "t": "صُحُفًۭا",
-          "c": "ﮅ",
           "p": 598,
           "l": 9
         },
         {
           "t": "مُّطَهَّرَةًۭ",
-          "c": "ﮆ",
           "p": 598,
           "l": 9
         }
@@ -6353,22 +14745,23 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "فِيهَا كُتُبٌ قَيِّمَةٌ",
       "tj": "فِيهَا كُتُ<tajweed class=ikhafa>بٌ ق</tajweed>َيِّمَةٌ <span class=end>٣</span>",
+      "e": {
+        "p": 598,
+        "l": 10
+      },
       "words": [
         {
           "t": "فِيهَا",
-          "c": "ﮈ",
           "p": 598,
           "l": 10
         },
         {
           "t": "كُتُبٌۭ",
-          "c": "ﮉ",
           "p": 598,
           "l": 10
         },
         {
           "t": "قَيِّمَةٌۭ",
-          "c": "ﮊ",
           "p": 598,
           "l": 10
         }
@@ -6379,70 +14772,63 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ",
       "tj": "وَمَا تَفَرَّقَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ أُوتُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed>لْكِتَ<tajweed class=madda_normal>ـٰ</tajweed>بَ إِلَّا م<tajweed class=iqlab>ِنۢ ب</tajweed>َعْدِ مَا ج<tajweed class=madda_obligatory>َا</tajweed>ٓءَتْهُمُ <tajweed class=ham_wasl>ٱ</tajweed>لْبَيِّنَةُ <span class=end>٤</span>",
+      "e": {
+        "p": 598,
+        "l": 11
+      },
       "words": [
         {
           "t": "وَمَا",
-          "c": "ﮌ",
           "p": 598,
           "l": 10
         },
         {
           "t": "تَفَرَّقَ",
-          "c": "ﮍ",
           "p": 598,
           "l": 10
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﮎ",
           "p": 598,
           "l": 10
         },
         {
           "t": "أُوتُوا۟",
-          "c": "ﮏ",
           "p": 598,
           "l": 10
         },
         {
           "t": "ٱلْكِتَـٰبَ",
-          "c": "ﮐ",
           "p": 598,
           "l": 10
         },
         {
           "t": "إِلَّا",
-          "c": "ﮑ",
           "p": 598,
           "l": 10
         },
         {
           "t": "مِنۢ",
-          "c": "ﮒ",
           "p": 598,
           "l": 10
         },
         {
           "t": "بَعْدِ",
-          "c": "ﮓ",
           "p": 598,
           "l": 11
         },
         {
           "t": "مَا",
-          "c": "ﮔ",
           "p": 598,
           "l": 11
         },
         {
           "t": "جَآءَتْهُمُ",
-          "c": "ﮕ",
           "p": 598,
           "l": 11
         },
         {
           "t": "ٱلْبَيِّنَةُ",
-          "c": "ﮖ",
           "p": 598,
           "l": 11
         }
@@ -6453,100 +14839,88 @@ const SURAH={
       "page_number": 598,
       "text_uthmani": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
       "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أُمِر<tajweed class=madda_obligatory>ُوٓ</tajweed><tajweed class=slnt>اْ</tajweed> إِلَّا لِيَعْبُدُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed>للَّهَ مُخْلِصِينَ لَهُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دِّينَ حُنَف<tajweed class=madda_obligatory>َا</tajweed>ٓءَ وَيُقِيمُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّلَ<tajweed class=slnt>و</tajweed><tajweed class=madda_normal>ٲ</tajweed>ةَ وَيُؤْتُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>زَّكَ<tajweed class=slnt>و</tajweed><tajweed class=madda_normal>ٲ</tajweed>ةَ‌ۚ وَذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ دِينُ <tajweed class=ham_wasl>ٱ</tajweed>لْقَيِّمَةِ <span class=end>٥</span>",
+      "e": {
+        "p": 598,
+        "l": 13
+      },
       "words": [
         {
           "t": "وَمَآ",
-          "c": "ﮘ",
           "p": 598,
           "l": 11
         },
         {
           "t": "أُمِرُوٓا۟",
-          "c": "ﮙ",
           "p": 598,
           "l": 11
         },
         {
           "t": "إِلَّا",
-          "c": "ﮚ",
           "p": 598,
           "l": 11
         },
         {
           "t": "لِيَعْبُدُوا۟",
-          "c": "ﮛ",
           "p": 598,
           "l": 11
         },
         {
           "t": "ٱللَّهَ",
-          "c": "ﮜ",
           "p": 598,
           "l": 11
         },
         {
           "t": "مُخْلِصِينَ",
-          "c": "ﮝ",
           "p": 598,
           "l": 11
         },
         {
           "t": "لَهُ",
-          "c": "ﮞ",
           "p": 598,
           "l": 12
         },
         {
           "t": "ٱلدِّينَ",
-          "c": "ﮟ",
           "p": 598,
           "l": 12
         },
         {
           "t": "حُنَفَآءَ",
-          "c": "ﮠ",
           "p": 598,
           "l": 12
         },
         {
           "t": "وَيُقِيمُوا۟",
-          "c": "ﮡ",
           "p": 598,
           "l": 12
         },
         {
           "t": "ٱلصَّلَوٰةَ",
-          "c": "ﮢ",
           "p": 598,
           "l": 12
         },
         {
           "t": "وَيُؤْتُوا۟",
-          "c": "ﮣ",
           "p": 598,
           "l": 12
         },
         {
           "t": "ٱلزَّكَوٰةَ ۚ",
-          "c": "ﮤﮥ",
           "p": 598,
           "l": 12
         },
         {
           "t": "وَذَٰلِكَ",
-          "c": "ﮦ",
           "p": 598,
           "l": 12
         },
         {
           "t": "دِينُ",
-          "c": "ﮧ",
           "p": 598,
           "l": 12
         },
         {
           "t": "ٱلْقَيِّمَةِ",
-          "c": "ﮨ",
           "p": 598,
           "l": 13
         }
@@ -6557,100 +14931,88 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَـٰلِدِينَ فِيهَآ ۚ أُو۟لَـٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ كَفَرُو<tajweed class=slnt>اْ</tajweed> مِنْ أَهْلِ <tajweed class=ham_wasl>ٱ</tajweed>لْكِتَ<tajweed class=madda_normal>ـٰ</tajweed>بِ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْمُشْرِكِينَ فِى نَارِ جَهَ<tajweed class=ghunnah>نّ</tajweed>َمَ خَ<tajweed class=madda_normal>ـٰ</tajweed>لِدِينَ فِيه<tajweed class=madda_obligatory>َآ‌ۚ</tajweed> أُ<tajweed class=slnt>وْ</tajweed>لَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ئِكَ هُمْ شَرُّ <tajweed class=ham_wasl>ٱ</tajweed>لْبَرِيَّةِ <span class=end>٦</span>",
+      "e": {
+        "p": 598,
+        "l": 14
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﮪ",
           "p": 598,
           "l": 13
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﮫ",
           "p": 598,
           "l": 13
         },
         {
           "t": "كَفَرُوا۟",
-          "c": "ﮬ",
           "p": 598,
           "l": 13
         },
         {
           "t": "مِنْ",
-          "c": "ﮭ",
           "p": 598,
           "l": 13
         },
         {
           "t": "أَهْلِ",
-          "c": "ﮮ",
           "p": 598,
           "l": 13
         },
         {
           "t": "ٱلْكِتَـٰبِ",
-          "c": "ﮯ",
           "p": 598,
           "l": 13
         },
         {
           "t": "وَٱلْمُشْرِكِينَ",
-          "c": "ﮰ",
           "p": 598,
           "l": 13
         },
         {
           "t": "فِى",
-          "c": "ﮱ",
           "p": 598,
           "l": 14
         },
         {
           "t": "نَارِ",
-          "c": "ﯓ",
           "p": 598,
           "l": 14
         },
         {
           "t": "جَهَنَّمَ",
-          "c": "ﯔ",
           "p": 598,
           "l": 14
         },
         {
           "t": "خَـٰلِدِينَ",
-          "c": "ﯕ",
           "p": 598,
           "l": 14
         },
         {
           "t": "فِيهَآ ۚ",
-          "c": "ﯖﯗ",
           "p": 598,
           "l": 14
         },
         {
           "t": "أُو۟لَـٰٓئِكَ",
-          "c": "ﯘ",
           "p": 598,
           "l": 14
         },
         {
           "t": "هُمْ",
-          "c": "ﯙ",
           "p": 598,
           "l": 14
         },
         {
           "t": "شَرُّ",
-          "c": "ﯚ",
           "p": 598,
           "l": 14
         },
         {
           "t": "ٱلْبَرِيَّةِ",
-          "c": "ﯛ",
           "p": 598,
           "l": 14
         }
@@ -6661,58 +15023,53 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> وَعَمِلُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=madda_normal>ـٰ</tajweed>لِحَ<tajweed class=madda_normal>ـٰ</tajweed>تِ أُ<tajweed class=slnt>وْ</tajweed>لَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>ئِكَ هُمْ خَيْرُ <tajweed class=ham_wasl>ٱ</tajweed>لْبَرِيَّةِ <span class=end>٧</span>",
+      "e": {
+        "p": 598,
+        "l": 15
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﯝ",
           "p": 598,
           "l": 14
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﯞ",
           "p": 598,
           "l": 15
         },
         {
           "t": "ءَامَنُوا۟",
-          "c": "ﯟ",
           "p": 598,
           "l": 15
         },
         {
           "t": "وَعَمِلُوا۟",
-          "c": "ﯠ",
           "p": 598,
           "l": 15
         },
         {
           "t": "ٱلصَّـٰلِحَـٰتِ",
-          "c": "ﯡ",
           "p": 598,
           "l": 15
         },
         {
           "t": "أُو۟لَـٰٓئِكَ",
-          "c": "ﯢ",
           "p": 598,
           "l": 15
         },
         {
           "t": "هُمْ",
-          "c": "ﯣ",
           "p": 598,
           "l": 15
         },
         {
           "t": "خَيْرُ",
-          "c": "ﯤ",
           "p": 598,
           "l": 15
         },
         {
           "t": "ٱلْبَرِيَّةِ",
-          "c": "ﯥ",
           "p": 598,
           "l": 15
         }
@@ -6723,130 +15080,113 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّـٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ",
       "tj": "جَز<tajweed class=madda_obligatory>َا</tajweed>ٓؤُهُمْ عِ<tajweed class=ikhafa>ند</tajweed>َ رَبِّهِمْ جَ<tajweed class=ghunnah>نّ</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>تُ عَ<tajweed class=qalaqah>دْ</tajweed><tajweed class=ikhafa>نٍ ت</tajweed>َ<tajweed class=qalaqah>جْ</tajweed>رِى مِ<tajweed class=ikhafa>ن ت</tajweed>َحْتِهَا <tajweed class=ham_wasl>ٱ</tajweed>لْأَنْهَ<tajweed class=madda_normal>ـٰ</tajweed>رُ خَ<tajweed class=madda_normal>ـٰ</tajweed>لِدِينَ فِيه<tajweed class=madda_obligatory>َآ</tajweed> أَبَ<tajweed class=idgham_wo_ghunnah>دًا‌ۖ ر</tajweed>َّضِىَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ عَنْهُمْ وَرَضُو<tajweed class=slnt>اْ</tajweed> عَنْهُ‌ۚ ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ لِمَنْ خَشِىَ رَبَّهُۥ <span class=end>٨</span>",
+      "e": {
+        "p": 599,
+        "l": 2
+      },
       "words": [
         {
           "t": "جَزَآؤُهُمْ",
-          "c": "ﭑ",
           "p": 599,
           "l": 1
         },
         {
           "t": "عِندَ",
-          "c": "ﭒ",
           "p": 599,
           "l": 1
         },
         {
           "t": "رَبِّهِمْ",
-          "c": "ﭓ",
           "p": 599,
           "l": 1
         },
         {
           "t": "جَنَّـٰتُ",
-          "c": "ﭔ",
           "p": 599,
           "l": 1
         },
         {
           "t": "عَدْنٍۢ",
-          "c": "ﭕ",
           "p": 599,
           "l": 1
         },
         {
           "t": "تَجْرِى",
-          "c": "ﭖ",
           "p": 599,
           "l": 1
         },
         {
           "t": "مِن",
-          "c": "ﭗ",
           "p": 599,
           "l": 1
         },
         {
           "t": "تَحْتِهَا",
-          "c": "ﭘ",
           "p": 599,
           "l": 1
         },
         {
           "t": "ٱلْأَنْهَـٰرُ",
-          "c": "ﭙ",
           "p": 599,
           "l": 1
         },
         {
           "t": "خَـٰلِدِينَ",
-          "c": "ﭚ",
           "p": 599,
           "l": 1
         },
         {
           "t": "فِيهَآ",
-          "c": "ﭛ",
           "p": 599,
           "l": 2
         },
         {
           "t": "أَبَدًۭا ۖ",
-          "c": "ﭜﭝ",
           "p": 599,
           "l": 2
         },
         {
           "t": "رَّضِىَ",
-          "c": "ﭞ",
           "p": 599,
           "l": 2
         },
         {
           "t": "ٱللَّهُ",
-          "c": "ﭟ",
           "p": 599,
           "l": 2
         },
         {
           "t": "عَنْهُمْ",
-          "c": "ﭠ",
           "p": 599,
           "l": 2
         },
         {
           "t": "وَرَضُوا۟",
-          "c": "ﭡ",
           "p": 599,
           "l": 2
         },
         {
           "t": "عَنْهُ ۚ",
-          "c": "ﭢﭣ",
           "p": 599,
           "l": 2
         },
         {
           "t": "ذَٰلِكَ",
-          "c": "ﭤ",
           "p": 599,
           "l": 2
         },
         {
           "t": "لِمَنْ",
-          "c": "ﭥ",
           "p": 599,
           "l": 2
         },
         {
           "t": "خَشِىَ",
-          "c": "ﭦ",
           "p": 599,
           "l": 2
         },
         {
           "t": "رَبَّهُۥ",
-          "c": "ﭧ",
           "p": 599,
           "l": 2
         }
@@ -6857,28 +15197,28 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": " إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
       "tj": "إِذَا زُلْزِلَتِ <tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضُ زِلْزَالَهَا <span class=end>١</span>",
+      "e": {
+        "p": 599,
+        "l": 5
+      },
       "words": [
         {
           "t": "إِذَا",
-          "c": "ﭩ",
           "p": 599,
           "l": 5
         },
         {
           "t": "زُلْزِلَتِ",
-          "c": "ﭪ",
           "p": 599,
           "l": 5
         },
         {
           "t": "ٱلْأَرْضُ",
-          "c": "ﭫ",
           "p": 599,
           "l": 5
         },
         {
           "t": "زِلْزَالَهَا",
-          "c": "ﭬ",
           "p": 599,
           "l": 5
         }
@@ -6889,22 +15229,23 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
       "tj": "وَأَخْرَجَتِ <tajweed class=ham_wasl>ٱ</tajweed>لْأَرْضُ أَثْقَالَهَا <span class=end>٢</span>",
+      "e": {
+        "p": 599,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَأَخْرَجَتِ",
-          "c": "ﭮ",
           "p": 599,
           "l": 5
         },
         {
           "t": "ٱلْأَرْضُ",
-          "c": "ﭯ",
           "p": 599,
           "l": 5
         },
         {
           "t": "أَثْقَالَهَا",
-          "c": "ﭰ",
           "p": 599,
           "l": 5
         }
@@ -6915,28 +15256,28 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
       "tj": "وَقَالَ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نُ مَا لَهَا <span class=end>٣</span>",
+      "e": {
+        "p": 599,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَقَالَ",
-          "c": "ﭲ",
           "p": 599,
           "l": 6
         },
         {
           "t": "ٱلْإِنسَـٰنُ",
-          "c": "ﭳ",
           "p": 599,
           "l": 6
         },
         {
           "t": "مَا",
-          "c": "ﭴ",
           "p": 599,
           "l": 6
         },
         {
           "t": "لَهَا",
-          "c": "ﭵ",
           "p": 599,
           "l": 6
         }
@@ -6947,22 +15288,23 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
       "tj": "يَوْمَئِ<tajweed class=ikhafa>ذٍ ت</tajweed>ُحَدِّثُ أَخْبَارَهَا <span class=end>٤</span>",
+      "e": {
+        "p": 599,
+        "l": 6
+      },
       "words": [
         {
           "t": "يَوْمَئِذٍۢ",
-          "c": "ﭷ",
           "p": 599,
           "l": 6
         },
         {
           "t": "تُحَدِّثُ",
-          "c": "ﭸ",
           "p": 599,
           "l": 6
         },
         {
           "t": "أَخْبَارَهَا",
-          "c": "ﭹ",
           "p": 599,
           "l": 6
         }
@@ -6973,28 +15315,28 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
       "tj": "بِأَ<tajweed class=ghunnah>نّ</tajweed>َ رَبَّكَ أَوْحَىٰ لَهَا <span class=end>٥</span>",
+      "e": {
+        "p": 599,
+        "l": 7
+      },
       "words": [
         {
           "t": "بِأَنَّ",
-          "c": "ﭻ",
           "p": 599,
           "l": 7
         },
         {
           "t": "رَبَّكَ",
-          "c": "ﭼ",
           "p": 599,
           "l": 7
         },
         {
           "t": "أَوْحَىٰ",
-          "c": "ﭽ",
           "p": 599,
           "l": 7
         },
         {
           "t": "لَهَا",
-          "c": "ﭾ",
           "p": 599,
           "l": 7
         }
@@ -7005,40 +15347,38 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
       "tj": "يَوْمَئِ<tajweed class=idgham_ghunnah>ذٍ ي</tajweed>َصْدُرُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َاسُ أَشْتَا<tajweed class=idgham_wo_ghunnah>تًا ل</tajweed>ِّيُرَوْ<tajweed class=slnt>اْ</tajweed> أَعْمَ<tajweed class=madda_normal>ـٰ</tajweed>لَهُمْ <span class=end>٦</span>",
+      "e": {
+        "p": 599,
+        "l": 8
+      },
       "words": [
         {
           "t": "يَوْمَئِذٍۢ",
-          "c": "ﮀ",
           "p": 599,
           "l": 7
         },
         {
           "t": "يَصْدُرُ",
-          "c": "ﮁ",
           "p": 599,
           "l": 7
         },
         {
           "t": "ٱلنَّاسُ",
-          "c": "ﮂ",
           "p": 599,
           "l": 7
         },
         {
           "t": "أَشْتَاتًۭا",
-          "c": "ﮃ",
           "p": 599,
           "l": 7
         },
         {
           "t": "لِّيُرَوْا۟",
-          "c": "ﮄ",
           "p": 599,
           "l": 8
         },
         {
           "t": "أَعْمَـٰلَهُمْ",
-          "c": "ﮅ",
           "p": 599,
           "l": 8
         }
@@ -7049,40 +15389,38 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
       "tj": "فَم<tajweed class=idgham_ghunnah>َن ي</tajweed>َعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْ<tajweed class=idgham_ghunnah>رًا ي</tajweed>َرَهُۥ <span class=end>٧</span>",
+      "e": {
+        "p": 599,
+        "l": 9
+      },
       "words": [
         {
           "t": "فَمَن",
-          "c": "ﮇ",
           "p": 599,
           "l": 8
         },
         {
           "t": "يَعْمَلْ",
-          "c": "ﮈ",
           "p": 599,
           "l": 8
         },
         {
           "t": "مِثْقَالَ",
-          "c": "ﮉ",
           "p": 599,
           "l": 8
         },
         {
           "t": "ذَرَّةٍ",
-          "c": "ﮊ",
           "p": 599,
           "l": 8
         },
         {
           "t": "خَيْرًۭا",
-          "c": "ﮋ",
           "p": 599,
           "l": 8
         },
         {
           "t": "يَرَهُۥ",
-          "c": "ﮌ",
           "p": 599,
           "l": 9
         }
@@ -7093,40 +15431,38 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
       "tj": "وَم<tajweed class=idgham_ghunnah>َن ي</tajweed>َعْمَلْ مِثْقَالَ ذَرَّ<tajweed class=ikhafa>ةٍ ش</tajweed>َر<tajweed class=idgham_ghunnah>ًّا ي</tajweed>َرَهُۥ <span class=end>٨</span>",
+      "e": {
+        "p": 599,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَمَن",
-          "c": "ﮎ",
           "p": 599,
           "l": 9
         },
         {
           "t": "يَعْمَلْ",
-          "c": "ﮏ",
           "p": 599,
           "l": 9
         },
         {
           "t": "مِثْقَالَ",
-          "c": "ﮐ",
           "p": 599,
           "l": 9
         },
         {
           "t": "ذَرَّةٍۢ",
-          "c": "ﮑ",
           "p": 599,
           "l": 9
         },
         {
           "t": "شَرًّۭا",
-          "c": "ﮒ",
           "p": 599,
           "l": 9
         },
         {
           "t": "يَرَهُۥ",
-          "c": "ﮓ",
           "p": 599,
           "l": 9
         }
@@ -7137,16 +15473,18 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": " وَٱلْعَـٰدِيَـٰتِ ضَبْحًا",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْعَ<tajweed class=madda_normal>ـٰ</tajweed>دِيَ<tajweed class=madda_normal>ـٰ</tajweed>تِ ضَ<tajweed class=qalaqah>بْ</tajweed>حًا <span class=end>١</span>",
+      "e": {
+        "p": 599,
+        "l": 12
+      },
       "words": [
         {
           "t": "وَٱلْعَـٰدِيَـٰتِ",
-          "c": "ﮕ",
           "p": 599,
           "l": 12
         },
         {
           "t": "ضَبْحًۭا",
-          "c": "ﮖ",
           "p": 599,
           "l": 12
         }
@@ -7157,16 +15495,18 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "فَٱلْمُورِيَـٰتِ قَدْحًا",
       "tj": "فَ<tajweed class=ham_wasl>ٱ</tajweed>لْمُورِيَ<tajweed class=madda_normal>ـٰ</tajweed>تِ قَ<tajweed class=qalaqah>دْ</tajweed>حًا <span class=end>٢</span>",
+      "e": {
+        "p": 599,
+        "l": 12
+      },
       "words": [
         {
           "t": "فَٱلْمُورِيَـٰتِ",
-          "c": "ﮘ",
           "p": 599,
           "l": 12
         },
         {
           "t": "قَدْحًۭا",
-          "c": "ﮙ",
           "p": 599,
           "l": 12
         }
@@ -7177,16 +15517,18 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "فَٱلْمُغِيرَٰتِ صُبْحًا",
       "tj": "فَ<tajweed class=ham_wasl>ٱ</tajweed>لْمُغِير<tajweed class=madda_normal>َٲ</tajweed>تِ صُ<tajweed class=qalaqah>بْ</tajweed>حًا <span class=end>٣</span>",
+      "e": {
+        "p": 599,
+        "l": 13
+      },
       "words": [
         {
           "t": "فَٱلْمُغِيرَٰتِ",
-          "c": "ﮛ",
           "p": 599,
           "l": 12
         },
         {
           "t": "صُبْحًۭا",
-          "c": "ﮜ",
           "p": 599,
           "l": 12
         }
@@ -7197,22 +15539,23 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "فَأَثَرْنَ بِهِۦ نَقْعًا",
       "tj": "فَأَثَرْنَ بِه<tajweed class=madda_normal>ِۦ</tajweed> نَ<tajweed class=qalaqah>قْ</tajweed>عًا <span class=end>٤</span>",
+      "e": {
+        "p": 599,
+        "l": 13
+      },
       "words": [
         {
           "t": "فَأَثَرْنَ",
-          "c": "ﮞ",
           "p": 599,
           "l": 13
         },
         {
           "t": "بِهِۦ",
-          "c": "ﮟ",
           "p": 599,
           "l": 13
         },
         {
           "t": "نَقْعًۭا",
-          "c": "ﮠ",
           "p": 599,
           "l": 13
         }
@@ -7223,22 +15566,23 @@ const SURAH={
       "page_number": 599,
       "text_uthmani": "فَوَسَطْنَ بِهِۦ جَمْعًا",
       "tj": "فَوَسَ<tajweed class=qalaqah>طْ</tajweed>نَ بِه<tajweed class=madda_normal>ِۦ</tajweed> جَمْعًا <span class=end>٥</span>",
+      "e": {
+        "p": 599,
+        "l": 13
+      },
       "words": [
         {
           "t": "فَوَسَطْنَ",
-          "c": "ﮢ",
           "p": 599,
           "l": 13
         },
         {
           "t": "بِهِۦ",
-          "c": "ﮣ",
           "p": 599,
           "l": 13
         },
         {
           "t": "جَمْعًا",
-          "c": "ﮤ",
           "p": 599,
           "l": 13
         }
@@ -7249,28 +15593,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نَ لِرَبِّه<tajweed class=madda_normal>ِۦ</tajweed> لَكَن<tajweed class=madda_permissible>ُو</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٦</span>",
+      "e": {
+        "p": 599,
+        "l": 14
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﮦ",
           "p": 599,
           "l": 13
         },
         {
           "t": "ٱلْإِنسَـٰنَ",
-          "c": "ﮧ",
           "p": 599,
           "l": 13
         },
         {
           "t": "لِرَبِّهِۦ",
-          "c": "ﮨ",
           "p": 599,
           "l": 14
         },
         {
           "t": "لَكَنُودٌۭ",
-          "c": "ﮩ",
           "p": 599,
           "l": 14
         }
@@ -7281,28 +15625,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
       "tj": "وَإِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> عَلَىٰ ذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ لَشَه<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٧</span>",
+      "e": {
+        "p": 599,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَإِنَّهُۥ",
-          "c": "ﮫ",
           "p": 599,
           "l": 14
         },
         {
           "t": "عَلَىٰ",
-          "c": "ﮬ",
           "p": 599,
           "l": 14
         },
         {
           "t": "ذَٰلِكَ",
-          "c": "ﮭ",
           "p": 599,
           "l": 14
         },
         {
           "t": "لَشَهِيدٌۭ",
-          "c": "ﮮ",
           "p": 599,
           "l": 14
         }
@@ -7313,28 +15657,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
       "tj": "وَإِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> لِحُبِّ <tajweed class=ham_wasl>ٱ</tajweed>لْخَيْرِ لَشَد<tajweed class=madda_permissible>ِي</tajweed><tajweed class=qalaqah>د</tajweed>ٌ <span class=end>٨</span>",
+      "e": {
+        "p": 599,
+        "l": 15
+      },
       "words": [
         {
           "t": "وَإِنَّهُۥ",
-          "c": "ﮰ",
           "p": 599,
           "l": 14
         },
         {
           "t": "لِحُبِّ",
-          "c": "ﮱ",
           "p": 599,
           "l": 14
         },
         {
           "t": "ٱلْخَيْرِ",
-          "c": "ﯓ",
           "p": 599,
           "l": 15
         },
         {
           "t": "لَشَدِيدٌ",
-          "c": "ﯔ",
           "p": 599,
           "l": 15
         }
@@ -7345,46 +15689,43 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
       "tj": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى <tajweed class=ham_wasl>ٱ</tajweed>لْقُب<tajweed class=madda_permissible>ُو</tajweed>رِ <span class=end>٩</span>",
+      "e": {
+        "p": 599,
+        "l": 15
+      },
       "words": [
         {
           "t": "۞ أَفَلَا",
-          "c": "ﯖ ﯗ",
           "p": 599,
           "l": 15
         },
         {
           "t": "يَعْلَمُ",
-          "c": "ﯘ",
           "p": 599,
           "l": 15
         },
         {
           "t": "إِذَا",
-          "c": "ﯙ",
           "p": 599,
           "l": 15
         },
         {
           "t": "بُعْثِرَ",
-          "c": "ﯚ",
           "p": 599,
           "l": 15
         },
         {
           "t": "مَا",
-          "c": "ﯛ",
           "p": 599,
           "l": 15
         },
         {
           "t": "فِى",
-          "c": "ﯜ",
           "p": 599,
           "l": 15
         },
         {
           "t": "ٱلْقُبُورِ",
-          "c": "ﯝ",
           "p": 599,
           "l": 15
         }
@@ -7395,28 +15736,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
       "tj": "وَحُصِّلَ مَا فِى <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صُّد<tajweed class=madda_permissible>ُو</tajweed>رِ <span class=end>١٠</span>",
+      "e": {
+        "p": 600,
+        "l": 1
+      },
       "words": [
         {
           "t": "وَحُصِّلَ",
-          "c": "ﭑ",
           "p": 600,
           "l": 1
         },
         {
           "t": "مَا",
-          "c": "ﭒ",
           "p": 600,
           "l": 1
         },
         {
           "t": "فِى",
-          "c": "ﭓ",
           "p": 600,
           "l": 1
         },
         {
           "t": "ٱلصُّدُورِ",
-          "c": "ﭔ",
           "p": 600,
           "l": 1
         }
@@ -7427,34 +15768,33 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ رَبَّه<tajweed class=ikhafa_shafawi>ُم ب</tajweed>ِهِمْ يَوْمَئِ<tajweed class=idgham_wo_ghunnah>ذٍ ل</tajweed>َّخَب<tajweed class=madda_permissible>ِي</tajweed>رُۢ <span class=end>١١</span>",
+      "e": {
+        "p": 600,
+        "l": 1
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﭖ",
           "p": 600,
           "l": 1
         },
         {
           "t": "رَبَّهُم",
-          "c": "ﭗ",
           "p": 600,
           "l": 1
         },
         {
           "t": "بِهِمْ",
-          "c": "ﭘ",
           "p": 600,
           "l": 1
         },
         {
           "t": "يَوْمَئِذٍۢ",
-          "c": "ﭙ",
           "p": 600,
           "l": 1
         },
         {
           "t": "لَّخَبِيرٌۢ",
-          "c": "ﭚ",
           "p": 600,
           "l": 1
         }
@@ -7465,10 +15805,13 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": " ٱلْقَارِعَةُ",
       "tj": "ٱلْقَارِعَةُ <span class=end>١</span>",
+      "e": {
+        "p": 600,
+        "l": 4
+      },
       "words": [
         {
           "t": "ٱلْقَارِعَةُ",
-          "c": "ﭜ",
           "p": 600,
           "l": 4
         }
@@ -7479,16 +15822,18 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "مَا ٱلْقَارِعَةُ",
       "tj": "مَا <tajweed class=ham_wasl>ٱ</tajweed>لْقَارِعَةُ <span class=end>٢</span>",
+      "e": {
+        "p": 600,
+        "l": 4
+      },
       "words": [
         {
           "t": "مَا",
-          "c": "ﭞ",
           "p": 600,
           "l": 4
         },
         {
           "t": "ٱلْقَارِعَةُ",
-          "c": "ﭟ",
           "p": 600,
           "l": 4
         }
@@ -7499,28 +15844,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
       "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا <tajweed class=ham_wasl>ٱ</tajweed>لْقَارِعَةُ <span class=end>٣</span>",
+      "e": {
+        "p": 600,
+        "l": 5
+      },
       "words": [
         {
           "t": "وَمَآ",
-          "c": "ﭡ",
           "p": 600,
           "l": 4
         },
         {
           "t": "أَدْرَىٰكَ",
-          "c": "ﭢ",
           "p": 600,
           "l": 4
         },
         {
           "t": "مَا",
-          "c": "ﭣ",
           "p": 600,
           "l": 4
         },
         {
           "t": "ٱلْقَارِعَةُ",
-          "c": "ﭤ",
           "p": 600,
           "l": 4
         }
@@ -7531,34 +15876,33 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
       "tj": "يَوْمَ يَكُونُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َاسُ كَ<tajweed class=ham_wasl>ٱ</tajweed>لْفَرَاشِ <tajweed class=ham_wasl>ٱ</tajweed>لْمَ<tajweed class=qalaqah>بْ</tajweed>ث<tajweed class=madda_permissible>ُو</tajweed>ثِ <span class=end>٤</span>",
+      "e": {
+        "p": 600,
+        "l": 5
+      },
       "words": [
         {
           "t": "يَوْمَ",
-          "c": "ﭦ",
           "p": 600,
           "l": 5
         },
         {
           "t": "يَكُونُ",
-          "c": "ﭧ",
           "p": 600,
           "l": 5
         },
         {
           "t": "ٱلنَّاسُ",
-          "c": "ﭨ",
           "p": 600,
           "l": 5
         },
         {
           "t": "كَٱلْفَرَاشِ",
-          "c": "ﭩ",
           "p": 600,
           "l": 5
         },
         {
           "t": "ٱلْمَبْثُوثِ",
-          "c": "ﭪ",
           "p": 600,
           "l": 5
         }
@@ -7569,28 +15913,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
       "tj": "وَتَكُونُ <tajweed class=ham_wasl>ٱ</tajweed>لْجِبَالُ كَ<tajweed class=ham_wasl>ٱ</tajweed>لْعِهْنِ <tajweed class=ham_wasl>ٱ</tajweed>لْمَ<tajweed class=ikhafa>نف</tajweed><tajweed class=madda_permissible>ُو</tajweed>شِ <span class=end>٥</span>",
+      "e": {
+        "p": 600,
+        "l": 6
+      },
       "words": [
         {
           "t": "وَتَكُونُ",
-          "c": "ﭬ",
           "p": 600,
           "l": 6
         },
         {
           "t": "ٱلْجِبَالُ",
-          "c": "ﭭ",
           "p": 600,
           "l": 6
         },
         {
           "t": "كَٱلْعِهْنِ",
-          "c": "ﭮ",
           "p": 600,
           "l": 6
         },
         {
           "t": "ٱلْمَنفُوشِ",
-          "c": "ﭯ",
           "p": 600,
           "l": 6
         }
@@ -7601,28 +15945,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
       "tj": "فَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَ<tajweed class=ikhafa>ن ث</tajweed>َقُلَتْ مَو<tajweed class=madda_normal>َٲ</tajweed>زِينُهُۥ <span class=end>٦</span>",
+      "e": {
+        "p": 600,
+        "l": 7
+      },
       "words": [
         {
           "t": "فَأَمَّا",
-          "c": "ﭱ",
           "p": 600,
           "l": 6
         },
         {
           "t": "مَن",
-          "c": "ﭲ",
           "p": 600,
           "l": 7
         },
         {
           "t": "ثَقُلَتْ",
-          "c": "ﭳ",
           "p": 600,
           "l": 7
         },
         {
           "t": "مَوَٰزِينُهُۥ",
-          "c": "ﭴ",
           "p": 600,
           "l": 7
         }
@@ -7633,28 +15977,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
       "tj": "فَهُوَ فِى عِيشَ<tajweed class=idgham_wo_ghunnah>ةٍ ر</tajweed>َّاضِيَةٍ <span class=end>٧</span>",
+      "e": {
+        "p": 600,
+        "l": 8
+      },
       "words": [
         {
           "t": "فَهُوَ",
-          "c": "ﭶ",
           "p": 600,
           "l": 7
         },
         {
           "t": "فِى",
-          "c": "ﭷ",
           "p": 600,
           "l": 7
         },
         {
           "t": "عِيشَةٍۢ",
-          "c": "ﭸ",
           "p": 600,
           "l": 7
         },
         {
           "t": "رَّاضِيَةٍۢ",
-          "c": "ﭹ",
           "p": 600,
           "l": 7
         }
@@ -7665,28 +16009,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
       "tj": "وَأَ<tajweed class=ghunnah>مّ</tajweed>َا مَنْ خَفَّتْ مَو<tajweed class=madda_normal>َٲ</tajweed>زِينُهُۥ <span class=end>٨</span>",
+      "e": {
+        "p": 600,
+        "l": 8
+      },
       "words": [
         {
           "t": "وَأَمَّا",
-          "c": "ﭻ",
           "p": 600,
           "l": 8
         },
         {
           "t": "مَنْ",
-          "c": "ﭼ",
           "p": 600,
           "l": 8
         },
         {
           "t": "خَفَّتْ",
-          "c": "ﭽ",
           "p": 600,
           "l": 8
         },
         {
           "t": "مَوَٰزِينُهُۥ",
-          "c": "ﭾ",
           "p": 600,
           "l": 8
         }
@@ -7697,16 +16041,18 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "فَأُمُّهُۥ هَاوِيَةٌ",
       "tj": "فَأُ<tajweed class=ghunnah>مّ</tajweed>ُهُ<tajweed class=madda_normal>ۥ</tajweed> هَاوِيَةٌ <span class=end>٩</span>",
+      "e": {
+        "p": 600,
+        "l": 9
+      },
       "words": [
         {
           "t": "فَأُمُّهُۥ",
-          "c": "ﮀ",
           "p": 600,
           "l": 8
         },
         {
           "t": "هَاوِيَةٌۭ",
-          "c": "ﮁ",
           "p": 600,
           "l": 8
         }
@@ -7717,28 +16063,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
       "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا هِيَهْ <span class=end>١٠</span>",
+      "e": {
+        "p": 600,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَمَآ",
-          "c": "ﮃ",
           "p": 600,
           "l": 9
         },
         {
           "t": "أَدْرَىٰكَ",
-          "c": "ﮄ",
           "p": 600,
           "l": 9
         },
         {
           "t": "مَا",
-          "c": "ﮅ",
           "p": 600,
           "l": 9
         },
         {
           "t": "هِيَهْ",
-          "c": "ﮆ",
           "p": 600,
           "l": 9
         }
@@ -7749,16 +16095,18 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "نَارٌ حَامِيَةٌۢ",
       "tj": "نَارٌ حَامِيَةُۢ <span class=end>١١</span>",
+      "e": {
+        "p": 600,
+        "l": 9
+      },
       "words": [
         {
           "t": "نَارٌ",
-          "c": "ﮈ",
           "p": 600,
           "l": 9
         },
         {
           "t": "حَامِيَةٌۢ",
-          "c": "ﮉ",
           "p": 600,
           "l": 9
         }
@@ -7769,16 +16117,18 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": " أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
       "tj": "أَلْهَ<tajweed class=madda_normal>ـٰ</tajweed>كُمُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>تَّكَاثُرُ <span class=end>١</span>",
+      "e": {
+        "p": 600,
+        "l": 12
+      },
       "words": [
         {
           "t": "أَلْهَىٰكُمُ",
-          "c": "ﮋ",
           "p": 600,
           "l": 12
         },
         {
           "t": "ٱلتَّكَاثُرُ",
-          "c": "ﮌ",
           "p": 600,
           "l": 12
         }
@@ -7789,22 +16139,23 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
       "tj": "حَتَّىٰ زُرْتُمُ <tajweed class=ham_wasl>ٱ</tajweed>لْمَقَابِرَ <span class=end>٢</span>",
+      "e": {
+        "p": 600,
+        "l": 12
+      },
       "words": [
         {
           "t": "حَتَّىٰ",
-          "c": "ﮎ",
           "p": 600,
           "l": 12
         },
         {
           "t": "زُرْتُمُ",
-          "c": "ﮏ",
           "p": 600,
           "l": 12
         },
         {
           "t": "ٱلْمَقَابِرَ",
-          "c": "ﮐ",
           "p": 600,
           "l": 12
         }
@@ -7815,22 +16166,23 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "كَلَّا سَوْفَ تَعْلَمُونَ",
       "tj": "كَلَّا سَوْفَ تَعْلَم<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٣</span>",
+      "e": {
+        "p": 600,
+        "l": 13
+      },
       "words": [
         {
           "t": "كَلَّا",
-          "c": "ﮒ",
           "p": 600,
           "l": 12
         },
         {
           "t": "سَوْفَ",
-          "c": "ﮓ",
           "p": 600,
           "l": 12
         },
         {
           "t": "تَعْلَمُونَ",
-          "c": "ﮔ",
           "p": 600,
           "l": 13
         }
@@ -7841,28 +16193,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
       "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ كَلَّا سَوْفَ تَعْلَم<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٤</span>",
+      "e": {
+        "p": 600,
+        "l": 13
+      },
       "words": [
         {
           "t": "ثُمَّ",
-          "c": "ﮖ",
           "p": 600,
           "l": 13
         },
         {
           "t": "كَلَّا",
-          "c": "ﮗ",
           "p": 600,
           "l": 13
         },
         {
           "t": "سَوْفَ",
-          "c": "ﮘ",
           "p": 600,
           "l": 13
         },
         {
           "t": "تَعْلَمُونَ",
-          "c": "ﮙ",
           "p": 600,
           "l": 13
         }
@@ -7873,34 +16225,33 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
       "tj": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ <tajweed class=ham_wasl>ٱ</tajweed>لْيَق<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٥</span>",
+      "e": {
+        "p": 600,
+        "l": 14
+      },
       "words": [
         {
           "t": "كَلَّا",
-          "c": "ﮛ",
           "p": 600,
           "l": 13
         },
         {
           "t": "لَوْ",
-          "c": "ﮜ",
           "p": 600,
           "l": 13
         },
         {
           "t": "تَعْلَمُونَ",
-          "c": "ﮝ",
           "p": 600,
           "l": 13
         },
         {
           "t": "عِلْمَ",
-          "c": "ﮞ",
           "p": 600,
           "l": 14
         },
         {
           "t": "ٱلْيَقِينِ",
-          "c": "ﮟ",
           "p": 600,
           "l": 14
         }
@@ -7911,16 +16262,18 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "لَتَرَوُنَّ ٱلْجَحِيمَ",
       "tj": "لَتَرَوُ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْجَح<tajweed class=madda_permissible>ِي</tajweed>مَ <span class=end>٦</span>",
+      "e": {
+        "p": 600,
+        "l": 14
+      },
       "words": [
         {
           "t": "لَتَرَوُنَّ",
-          "c": "ﮡ",
           "p": 600,
           "l": 14
         },
         {
           "t": "ٱلْجَحِيمَ",
-          "c": "ﮢ",
           "p": 600,
           "l": 14
         }
@@ -7931,28 +16284,28 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
       "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ لَتَرَوُ<tajweed class=ghunnah>نّ</tajweed>َهَا عَيْنَ <tajweed class=ham_wasl>ٱ</tajweed>لْيَق<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٧</span>",
+      "e": {
+        "p": 600,
+        "l": 15
+      },
       "words": [
         {
           "t": "ثُمَّ",
-          "c": "ﮤ",
           "p": 600,
           "l": 14
         },
         {
           "t": "لَتَرَوُنَّهَا",
-          "c": "ﮥ",
           "p": 600,
           "l": 14
         },
         {
           "t": "عَيْنَ",
-          "c": "ﮦ",
           "p": 600,
           "l": 15
         },
         {
           "t": "ٱلْيَقِينِ",
-          "c": "ﮧ",
           "p": 600,
           "l": 15
         }
@@ -7963,34 +16316,33 @@ const SURAH={
       "page_number": 600,
       "text_uthmani": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
       "tj": "ثُ<tajweed class=ghunnah>مّ</tajweed>َ لَتُسْــَٔلُ<tajweed class=ghunnah>نّ</tajweed>َ يَوْمَئِذٍ عَنِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َع<tajweed class=madda_permissible>ِي</tajweed>مِ <span class=end>٨</span>",
+      "e": {
+        "p": 600,
+        "l": 15
+      },
       "words": [
         {
           "t": "ثُمَّ",
-          "c": "ﮩ",
           "p": 600,
           "l": 15
         },
         {
           "t": "لَتُسْـَٔلُنَّ",
-          "c": "ﮪ",
           "p": 600,
           "l": 15
         },
         {
           "t": "يَوْمَئِذٍ",
-          "c": "ﮫ",
           "p": 600,
           "l": 15
         },
         {
           "t": "عَنِ",
-          "c": "ﮬ",
           "p": 600,
           "l": 15
         },
         {
           "t": "ٱلنَّعِيمِ",
-          "c": "ﮭ",
           "p": 600,
           "l": 15
         }
@@ -8001,10 +16353,13 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": " وَٱلْعَصْرِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>لْعَصْرِ <span class=end>١</span>",
+      "e": {
+        "p": 601,
+        "l": 3
+      },
       "words": [
         {
           "t": "وَٱلْعَصْرِ",
-          "c": "ﭑ",
           "p": 601,
           "l": 3
         }
@@ -8015,28 +16370,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ <tajweed class=ham_wasl>ٱ</tajweed>لْإِ<tajweed class=ikhafa>نس</tajweed>َ<tajweed class=madda_normal>ـٰ</tajweed>نَ لَفِى خُسْرٍ <span class=end>٢</span>",
+      "e": {
+        "p": 601,
+        "l": 3
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﭓ",
           "p": 601,
           "l": 3
         },
         {
           "t": "ٱلْإِنسَـٰنَ",
-          "c": "ﭔ",
           "p": 601,
           "l": 3
         },
         {
           "t": "لَفِى",
-          "c": "ﭕ",
           "p": 601,
           "l": 3
         },
         {
           "t": "خُسْرٍ",
-          "c": "ﭖ",
           "p": 601,
           "l": 3
         }
@@ -8047,58 +16402,53 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
       "tj": "إِلَّا <tajweed class=ham_wasl>ٱ</tajweed>لَّذِينَ ءَامَنُو<tajweed class=slnt>اْ</tajweed> وَعَمِلُو<tajweed class=slnt>اْ</tajweed> <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=madda_normal>ـٰ</tajweed>لِحَ<tajweed class=madda_normal>ـٰ</tajweed>تِ وَتَوَاصَوْ<tajweed class=slnt>اْ</tajweed> بِ<tajweed class=ham_wasl>ٱ</tajweed>لْحَقِّ وَتَوَاصَوْ<tajweed class=slnt>اْ</tajweed> بِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّ<tajweed class=qalaqah>بْ</tajweed>رِ <span class=end>٣</span>",
+      "e": {
+        "p": 601,
+        "l": 4
+      },
       "words": [
         {
           "t": "إِلَّا",
-          "c": "ﭘ",
           "p": 601,
           "l": 3
         },
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﭙ",
           "p": 601,
           "l": 3
         },
         {
           "t": "ءَامَنُوا۟",
-          "c": "ﭚ",
           "p": 601,
           "l": 3
         },
         {
           "t": "وَعَمِلُوا۟",
-          "c": "ﭛ",
           "p": 601,
           "l": 4
         },
         {
           "t": "ٱلصَّـٰلِحَـٰتِ",
-          "c": "ﭜ",
           "p": 601,
           "l": 4
         },
         {
           "t": "وَتَوَاصَوْا۟",
-          "c": "ﭝ",
           "p": 601,
           "l": 4
         },
         {
           "t": "بِٱلْحَقِّ",
-          "c": "ﭞ",
           "p": 601,
           "l": 4
         },
         {
           "t": "وَتَوَاصَوْا۟",
-          "c": "ﭟ",
           "p": 601,
           "l": 4
         },
         {
           "t": "بِٱلصَّبْرِ",
-          "c": "ﭠ",
           "p": 601,
           "l": 4
         }
@@ -8109,28 +16459,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": " وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
       "tj": "وَيْ<tajweed class=idgham_wo_ghunnah>لٌ ل</tajweed>ِّكُلِّ هُمَزَ<tajweed class=idgham_wo_ghunnah>ةٍ ل</tajweed>ُّمَزَةٍ <span class=end>١</span>",
+      "e": {
+        "p": 601,
+        "l": 7
+      },
       "words": [
         {
           "t": "وَيْلٌۭ",
-          "c": "ﭢ",
           "p": 601,
           "l": 7
         },
         {
           "t": "لِّكُلِّ",
-          "c": "ﭣ",
           "p": 601,
           "l": 7
         },
         {
           "t": "هُمَزَةٍۢ",
-          "c": "ﭤ",
           "p": 601,
           "l": 7
         },
         {
           "t": "لُّمَزَةٍ",
-          "c": "ﭥ",
           "p": 601,
           "l": 7
         }
@@ -8141,28 +16491,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
       "tj": "ٱلَّذِى جَمَعَ مَال<tajweed class=idgham_ghunnah>اً و</tajweed>َعَدَّدَهُۥ <span class=end>٢</span>",
+      "e": {
+        "p": 601,
+        "l": 7
+      },
       "words": [
         {
           "t": "ٱلَّذِى",
-          "c": "ﭧ",
           "p": 601,
           "l": 7
         },
         {
           "t": "جَمَعَ",
-          "c": "ﭨ",
           "p": 601,
           "l": 7
         },
         {
           "t": "مَالًۭا",
-          "c": "ﭩ",
           "p": 601,
           "l": 7
         },
         {
           "t": "وَعَدَّدَهُۥ",
-          "c": "ﭪ",
           "p": 601,
           "l": 7
         }
@@ -8173,28 +16523,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
       "tj": "يَحْسَبُ أَ<tajweed class=ghunnah>نّ</tajweed>َ مَالَهُ<tajweed class=madda_obligatory>ۥٓ</tajweed> أَخْلَدَهُۥ <span class=end>٣</span>",
+      "e": {
+        "p": 601,
+        "l": 8
+      },
       "words": [
         {
           "t": "يَحْسَبُ",
-          "c": "ﭬ",
           "p": 601,
           "l": 8
         },
         {
           "t": "أَنَّ",
-          "c": "ﭭ",
           "p": 601,
           "l": 8
         },
         {
           "t": "مَالَهُۥٓ",
-          "c": "ﭮ",
           "p": 601,
           "l": 8
         },
         {
           "t": "أَخْلَدَهُۥ",
-          "c": "ﭯ",
           "p": 601,
           "l": 8
         }
@@ -8205,28 +16555,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
       "tj": "كَلَّا‌ۖ لَيُ<tajweed class=iqlab>نۢب</tajweed>َذَ<tajweed class=ghunnah>نّ</tajweed>َ فِى <tajweed class=ham_wasl>ٱ</tajweed>لْحُطَمَةِ <span class=end>٤</span>",
+      "e": {
+        "p": 601,
+        "l": 8
+      },
       "words": [
         {
           "t": "كَلَّا ۖ",
-          "c": "ﭱﭲ",
           "p": 601,
           "l": 8
         },
         {
           "t": "لَيُنۢبَذَنَّ",
-          "c": "ﭳ",
           "p": 601,
           "l": 8
         },
         {
           "t": "فِى",
-          "c": "ﭴ",
           "p": 601,
           "l": 8
         },
         {
           "t": "ٱلْحُطَمَةِ",
-          "c": "ﭵ",
           "p": 601,
           "l": 8
         }
@@ -8237,28 +16587,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
       "tj": "وَم<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=qalaqah>دْ</tajweed>رَ<tajweed class=madda_normal>ٮٰ</tajweed>كَ مَا <tajweed class=ham_wasl>ٱ</tajweed>لْحُطَمَةُ <span class=end>٥</span>",
+      "e": {
+        "p": 601,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَمَآ",
-          "c": "ﭷ",
           "p": 601,
           "l": 9
         },
         {
           "t": "أَدْرَىٰكَ",
-          "c": "ﭸ",
           "p": 601,
           "l": 9
         },
         {
           "t": "مَا",
-          "c": "ﭹ",
           "p": 601,
           "l": 9
         },
         {
           "t": "ٱلْحُطَمَةُ",
-          "c": "ﭺ",
           "p": 601,
           "l": 9
         }
@@ -8269,22 +16619,23 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
       "tj": "نَارُ <tajweed class=ham_wasl>ٱ</tajweed>للَّهِ <tajweed class=ham_wasl>ٱ</tajweed>لْمُوقَدَةُ <span class=end>٦</span>",
+      "e": {
+        "p": 601,
+        "l": 9
+      },
       "words": [
         {
           "t": "نَارُ",
-          "c": "ﭼ",
           "p": 601,
           "l": 9
         },
         {
           "t": "ٱللَّهِ",
-          "c": "ﭽ",
           "p": 601,
           "l": 9
         },
         {
           "t": "ٱلْمُوقَدَةُ",
-          "c": "ﭾ",
           "p": 601,
           "l": 9
         }
@@ -8295,28 +16646,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
       "tj": "ٱلَّتِى تَطَّلِعُ عَلَى <tajweed class=ham_wasl>ٱ</tajweed>لْأَفْــِٔدَةِ <span class=end>٧</span>",
+      "e": {
+        "p": 601,
+        "l": 10
+      },
       "words": [
         {
           "t": "ٱلَّتِى",
-          "c": "ﮀ",
           "p": 601,
           "l": 9
         },
         {
           "t": "تَطَّلِعُ",
-          "c": "ﮁ",
           "p": 601,
           "l": 9
         },
         {
           "t": "عَلَى",
-          "c": "ﮂ",
           "p": 601,
           "l": 10
         },
         {
           "t": "ٱلْأَفْـِٔدَةِ",
-          "c": "ﮃ",
           "p": 601,
           "l": 10
         }
@@ -8327,22 +16678,23 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َهَا عَلَيْه<tajweed class=idgham_shafawi>ِم م</tajweed>ُّؤْصَدَةٌ <span class=end>٨</span>",
+      "e": {
+        "p": 601,
+        "l": 10
+      },
       "words": [
         {
           "t": "إِنَّهَا",
-          "c": "ﮅ",
           "p": 601,
           "l": 10
         },
         {
           "t": "عَلَيْهِم",
-          "c": "ﮆ",
           "p": 601,
           "l": 10
         },
         {
           "t": "مُّؤْصَدَةٌۭ",
-          "c": "ﮇ",
           "p": 601,
           "l": 10
         }
@@ -8353,22 +16705,23 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
       "tj": "فِى عَمَ<tajweed class=idgham_ghunnah>دٍ م</tajweed>ُّمَدَّدَةِۭ <span class=end>٩</span>",
+      "e": {
+        "p": 601,
+        "l": 10
+      },
       "words": [
         {
           "t": "فِى",
-          "c": "ﮉ",
           "p": 601,
           "l": 10
         },
         {
           "t": "عَمَدٍۢ",
-          "c": "ﮊ",
           "p": 601,
           "l": 10
         },
         {
           "t": "مُّمَدَّدَةٍۭ",
-          "c": "ﮋ",
           "p": 601,
           "l": 10
         }
@@ -8379,46 +16732,43 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": " أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
       "tj": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَ<tajweed class=madda_normal>ـٰ</tajweed>بِ <tajweed class=ham_wasl>ٱ</tajweed>لْف<tajweed class=madda_permissible>ِي</tajweed>لِ <span class=end>١</span>",
+      "e": {
+        "p": 601,
+        "l": 13
+      },
       "words": [
         {
           "t": "أَلَمْ",
-          "c": "ﮍ",
           "p": 601,
           "l": 13
         },
         {
           "t": "تَرَ",
-          "c": "ﮎ",
           "p": 601,
           "l": 13
         },
         {
           "t": "كَيْفَ",
-          "c": "ﮏ",
           "p": 601,
           "l": 13
         },
         {
           "t": "فَعَلَ",
-          "c": "ﮐ",
           "p": 601,
           "l": 13
         },
         {
           "t": "رَبُّكَ",
-          "c": "ﮑ",
           "p": 601,
           "l": 13
         },
         {
           "t": "بِأَصْحَـٰبِ",
-          "c": "ﮒ",
           "p": 601,
           "l": 13
         },
         {
           "t": "ٱلْفِيلِ",
-          "c": "ﮓ",
           "p": 601,
           "l": 13
         }
@@ -8429,34 +16779,33 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
       "tj": "أَلَمْ يَ<tajweed class=qalaqah>جْ</tajweed>عَلْ كَيْدَهُمْ فِى تَضْل<tajweed class=madda_permissible>ِي</tajweed>لٍ <span class=end>٢</span>",
+      "e": {
+        "p": 601,
+        "l": 14
+      },
       "words": [
         {
           "t": "أَلَمْ",
-          "c": "ﮕ",
           "p": 601,
           "l": 13
         },
         {
           "t": "يَجْعَلْ",
-          "c": "ﮖ",
           "p": 601,
           "l": 13
         },
         {
           "t": "كَيْدَهُمْ",
-          "c": "ﮗ",
           "p": 601,
           "l": 13
         },
         {
           "t": "فِى",
-          "c": "ﮘ",
           "p": 601,
           "l": 14
         },
         {
           "t": "تَضْلِيلٍۢ",
-          "c": "ﮙ",
           "p": 601,
           "l": 14
         }
@@ -8467,28 +16816,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
       "tj": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَاب<tajweed class=madda_permissible>ِي</tajweed>لَ <span class=end>٣</span>",
+      "e": {
+        "p": 601,
+        "l": 14
+      },
       "words": [
         {
           "t": "وَأَرْسَلَ",
-          "c": "ﮛ",
           "p": 601,
           "l": 14
         },
         {
           "t": "عَلَيْهِمْ",
-          "c": "ﮜ",
           "p": 601,
           "l": 14
         },
         {
           "t": "طَيْرًا",
-          "c": "ﮝ",
           "p": 601,
           "l": 14
         },
         {
           "t": "أَبَابِيلَ",
-          "c": "ﮞ",
           "p": 601,
           "l": 14
         }
@@ -8499,28 +16848,28 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
       "tj": "تَرْمِيه<tajweed class=ikhafa_shafawi>ِم ب</tajweed>ِحِجَارَ<tajweed class=idgham_ghunnah>ةٍ م</tajweed>ِّ<tajweed class=ikhafa>ن س</tajweed>ِجّ<tajweed class=madda_permissible>ِي</tajweed>لٍ <span class=end>٤</span>",
+      "e": {
+        "p": 601,
+        "l": 15
+      },
       "words": [
         {
           "t": "تَرْمِيهِم",
-          "c": "ﮠ",
           "p": 601,
           "l": 14
         },
         {
           "t": "بِحِجَارَةٍۢ",
-          "c": "ﮡ",
           "p": 601,
           "l": 15
         },
         {
           "t": "مِّن",
-          "c": "ﮢ",
           "p": 601,
           "l": 15
         },
         {
           "t": "سِجِّيلٍۢ",
-          "c": "ﮣ",
           "p": 601,
           "l": 15
         }
@@ -8531,22 +16880,23 @@ const SURAH={
       "page_number": 601,
       "text_uthmani": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
       "tj": "فَجَعَلَهُمْ كَعَصْ<tajweed class=idgham_ghunnah>فٍ م</tajweed>َّأْك<tajweed class=madda_permissible>ُو</tajweed>لِۭ <span class=end>٥</span>",
+      "e": {
+        "p": 601,
+        "l": 15
+      },
       "words": [
         {
           "t": "فَجَعَلَهُمْ",
-          "c": "ﮥ",
           "p": 601,
           "l": 15
         },
         {
           "t": "كَعَصْفٍۢ",
-          "c": "ﮦ",
           "p": 601,
           "l": 15
         },
         {
           "t": "مَّأْكُولٍۭ",
-          "c": "ﮧ",
           "p": 601,
           "l": 15
         }
@@ -8557,16 +16907,18 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": " لِإِيلَـٰفِ قُرَيْشٍ",
       "tj": "لِإِيلَ<tajweed class=madda_normal>ـٰ</tajweed>فِ قُر<tajweed class=madda_permissible>َي</tajweed>ْشٍ <span class=end>١</span>",
+      "e": {
+        "p": 602,
+        "l": 3
+      },
       "words": [
         {
           "t": "لِإِيلَـٰفِ",
-          "c": "ﭑ",
           "p": 602,
           "l": 3
         },
         {
           "t": "قُرَيْشٍ",
-          "c": "ﭒ",
           "p": 602,
           "l": 3
         }
@@ -8577,28 +16929,28 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
       "tj": "إ<tajweed class=madda_normal>ِۦ</tajweed>لَ<tajweed class=madda_normal>ـٰ</tajweed>فِهِمْ رِحْلَةَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>شِّت<tajweed class=madda_obligatory>َا</tajweed>ٓءِ وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صّ<tajweed class=madda_permissible>َي</tajweed>ْفِ <span class=end>٢</span>",
+      "e": {
+        "p": 602,
+        "l": 4
+      },
       "words": [
         {
           "t": "إِۦلَـٰفِهِمْ",
-          "c": "ﭔ",
           "p": 602,
           "l": 3
         },
         {
           "t": "رِحْلَةَ",
-          "c": "ﭕ",
           "p": 602,
           "l": 3
         },
         {
           "t": "ٱلشِّتَآءِ",
-          "c": "ﭖ",
           "p": 602,
           "l": 3
         },
         {
           "t": "وَٱلصَّيْفِ",
-          "c": "ﭗ",
           "p": 602,
           "l": 3
         }
@@ -8609,28 +16961,28 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
       "tj": "فَلْيَعْبُدُو<tajweed class=slnt>اْ</tajweed> رَبَّ هَ<tajweed class=madda_normal>ـٰ</tajweed>ذَا <tajweed class=ham_wasl>ٱ</tajweed>لْب<tajweed class=madda_permissible>َي</tajweed>ْتِ <span class=end>٣</span>",
+      "e": {
+        "p": 602,
+        "l": 4
+      },
       "words": [
         {
           "t": "فَلْيَعْبُدُوا۟",
-          "c": "ﭙ",
           "p": 602,
           "l": 4
         },
         {
           "t": "رَبَّ",
-          "c": "ﭚ",
           "p": 602,
           "l": 4
         },
         {
           "t": "هَـٰذَا",
-          "c": "ﭛ",
           "p": 602,
           "l": 4
         },
         {
           "t": "ٱلْبَيْتِ",
-          "c": "ﭜ",
           "p": 602,
           "l": 4
         }
@@ -8641,46 +16993,43 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
       "tj": "ٱلَّذ<tajweed class=madda_obligatory>ِىٓ</tajweed> أَ<tajweed class=qalaqah>طْ</tajweed>عَمَه<tajweed class=idgham_shafawi>ُم م</tajweed>ِّ<tajweed class=ikhafa>ن ج</tajweed>ُو<tajweed class=idgham_ghunnah>عٍ و</tajweed>َءَامَنَه<tajweed class=idgham_shafawi>ُم م</tajweed>ِّنْ خ<tajweed class=madda_permissible>َو</tajweed>ْفِۭ <span class=end>٤</span>",
+      "e": {
+        "p": 602,
+        "l": 5
+      },
       "words": [
         {
           "t": "ٱلَّذِىٓ",
-          "c": "ﭞ",
           "p": 602,
           "l": 4
         },
         {
           "t": "أَطْعَمَهُم",
-          "c": "ﭟ",
           "p": 602,
           "l": 4
         },
         {
           "t": "مِّن",
-          "c": "ﭠ",
           "p": 602,
           "l": 5
         },
         {
           "t": "جُوعٍۢ",
-          "c": "ﭡ",
           "p": 602,
           "l": 5
         },
         {
           "t": "وَءَامَنَهُم",
-          "c": "ﭢ",
           "p": 602,
           "l": 5
         },
         {
           "t": "مِّنْ",
-          "c": "ﭣ",
           "p": 602,
           "l": 5
         },
         {
           "t": "خَوْفٍۭ",
-          "c": "ﭤ",
           "p": 602,
           "l": 5
         }
@@ -8691,28 +17040,28 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": " أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
       "tj": "أَرَءَيْتَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِى يُكَذِّبُ بِ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>دّ<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>١</span>",
+      "e": {
+        "p": 602,
+        "l": 8
+      },
       "words": [
         {
           "t": "أَرَءَيْتَ",
-          "c": "ﭦ",
           "p": 602,
           "l": 8
         },
         {
           "t": "ٱلَّذِى",
-          "c": "ﭧ",
           "p": 602,
           "l": 8
         },
         {
           "t": "يُكَذِّبُ",
-          "c": "ﭨ",
           "p": 602,
           "l": 8
         },
         {
           "t": "بِٱلدِّينِ",
-          "c": "ﭩ",
           "p": 602,
           "l": 8
         }
@@ -8723,28 +17072,28 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
       "tj": "فَذ<tajweed class=madda_normal>َٲ</tajweed>لِكَ <tajweed class=ham_wasl>ٱ</tajweed>لَّذِى يَدُعُّ <tajweed class=ham_wasl>ٱ</tajweed>لْيَت<tajweed class=madda_permissible>ِي</tajweed>مَ <span class=end>٢</span>",
+      "e": {
+        "p": 602,
+        "l": 9
+      },
       "words": [
         {
           "t": "فَذَٰلِكَ",
-          "c": "ﭫ",
           "p": 602,
           "l": 8
         },
         {
           "t": "ٱلَّذِى",
-          "c": "ﭬ",
           "p": 602,
           "l": 8
         },
         {
           "t": "يَدُعُّ",
-          "c": "ﭭ",
           "p": 602,
           "l": 9
         },
         {
           "t": "ٱلْيَتِيمَ",
-          "c": "ﭮ",
           "p": 602,
           "l": 9
         }
@@ -8755,34 +17104,33 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
       "tj": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ <tajweed class=ham_wasl>ٱ</tajweed>لْمِسْك<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٣</span>",
+      "e": {
+        "p": 602,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَلَا",
-          "c": "ﭰ",
           "p": 602,
           "l": 9
         },
         {
           "t": "يَحُضُّ",
-          "c": "ﭱ",
           "p": 602,
           "l": 9
         },
         {
           "t": "عَلَىٰ",
-          "c": "ﭲ",
           "p": 602,
           "l": 9
         },
         {
           "t": "طَعَامِ",
-          "c": "ﭳ",
           "p": 602,
           "l": 9
         },
         {
           "t": "ٱلْمِسْكِينِ",
-          "c": "ﭴ",
           "p": 602,
           "l": 9
         }
@@ -8793,16 +17141,18 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "فَوَيْلٌ لِّلْمُصَلِّينَ",
       "tj": "فَوَيْ<tajweed class=idgham_wo_ghunnah>لٌ ل</tajweed>ِّلْمُصَلّ<tajweed class=madda_permissible>ِي</tajweed>نَ <span class=end>٤</span>",
+      "e": {
+        "p": 602,
+        "l": 10
+      },
       "words": [
         {
           "t": "فَوَيْلٌۭ",
-          "c": "ﭶ",
           "p": 602,
           "l": 10
         },
         {
           "t": "لِّلْمُصَلِّينَ",
-          "c": "ﭷ",
           "p": 602,
           "l": 10
         }
@@ -8813,34 +17163,33 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
       "tj": "ٱلَّذِينَ هُمْ عَ<tajweed class=ikhafa>ن ص</tajweed>َلَاتِهِمْ سَاه<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٥</span>",
+      "e": {
+        "p": 602,
+        "l": 11
+      },
       "words": [
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﭹ",
           "p": 602,
           "l": 10
         },
         {
           "t": "هُمْ",
-          "c": "ﭺ",
           "p": 602,
           "l": 10
         },
         {
           "t": "عَن",
-          "c": "ﭻ",
           "p": 602,
           "l": 10
         },
         {
           "t": "صَلَاتِهِمْ",
-          "c": "ﭼ",
           "p": 602,
           "l": 10
         },
         {
           "t": "سَاهُونَ",
-          "c": "ﭽ",
           "p": 602,
           "l": 10
         }
@@ -8851,22 +17200,23 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
       "tj": "ٱلَّذِينَ هُمْ يُر<tajweed class=madda_obligatory>َا</tajweed>ٓء<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٦</span>",
+      "e": {
+        "p": 602,
+        "l": 11
+      },
       "words": [
         {
           "t": "ٱلَّذِينَ",
-          "c": "ﭿ",
           "p": 602,
           "l": 11
         },
         {
           "t": "هُمْ",
-          "c": "ﮀ",
           "p": 602,
           "l": 11
         },
         {
           "t": "يُرَآءُونَ",
-          "c": "ﮁ",
           "p": 602,
           "l": 11
         }
@@ -8877,16 +17227,18 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
       "tj": "وَيَمْنَعُونَ <tajweed class=ham_wasl>ٱ</tajweed>لْمَاع<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٧</span>",
+      "e": {
+        "p": 602,
+        "l": 11
+      },
       "words": [
         {
           "t": "وَيَمْنَعُونَ",
-          "c": "ﮃ",
           "p": 602,
           "l": 11
         },
         {
           "t": "ٱلْمَاعُونَ",
-          "c": "ﮄ",
           "p": 602,
           "l": 11
         }
@@ -8897,22 +17249,23 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": " إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_obligatory>َآ</tajweed> أَعْطَيْنَ<tajweed class=madda_normal>ـٰ</tajweed>كَ <tajweed class=ham_wasl>ٱ</tajweed>لْكَوْثَرَ <span class=end>١</span>",
+      "e": {
+        "p": 602,
+        "l": 14
+      },
       "words": [
         {
           "t": "إِنَّآ",
-          "c": "ﮆ",
           "p": 602,
           "l": 14
         },
         {
           "t": "أَعْطَيْنَـٰكَ",
-          "c": "ﮇ",
           "p": 602,
           "l": 14
         },
         {
           "t": "ٱلْكَوْثَرَ",
-          "c": "ﮈ",
           "p": 602,
           "l": 14
         }
@@ -8923,22 +17276,23 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
       "tj": "فَصَلِّ لِرَبِّكَ وَ<tajweed class=ham_wasl>ٱ</tajweed>نْحَرْ <span class=end>٢</span>",
+      "e": {
+        "p": 602,
+        "l": 14
+      },
       "words": [
         {
           "t": "فَصَلِّ",
-          "c": "ﮊ",
           "p": 602,
           "l": 14
         },
         {
           "t": "لِرَبِّكَ",
-          "c": "ﮋ",
           "p": 602,
           "l": 14
         },
         {
           "t": "وَٱنْحَرْ",
-          "c": "ﮌ",
           "p": 602,
           "l": 14
         }
@@ -8949,28 +17303,28 @@ const SURAH={
       "page_number": 602,
       "text_uthmani": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
       "tj": "إِ<tajweed class=ghunnah>نّ</tajweed>َ شَانِئَكَ هُوَ <tajweed class=ham_wasl>ٱ</tajweed>لْأَ<tajweed class=qalaqah>بْ</tajweed>تَرُ <span class=end>٣</span>",
+      "e": {
+        "p": 602,
+        "l": 15
+      },
       "words": [
         {
           "t": "إِنَّ",
-          "c": "ﮎ",
           "p": 602,
           "l": 15
         },
         {
           "t": "شَانِئَكَ",
-          "c": "ﮏ",
           "p": 602,
           "l": 15
         },
         {
           "t": "هُوَ",
-          "c": "ﮐ",
           "p": 602,
           "l": 15
         },
         {
           "t": "ٱلْأَبْتَرُ",
-          "c": "ﮑ",
           "p": 602,
           "l": 15
         }
@@ -8981,22 +17335,23 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": " قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
       "tj": "قُلْ يَ<tajweed class=madda_obligatory>ـٰٓ</tajweed>أَيُّهَا <tajweed class=ham_wasl>ٱ</tajweed>لْكَ<tajweed class=madda_normal>ـٰ</tajweed>فِر<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>١</span>",
+      "e": {
+        "p": 603,
+        "l": 3
+      },
       "words": [
         {
           "t": "قُلْ",
-          "c": "ﭑ",
           "p": 603,
           "l": 3
         },
         {
           "t": "يَـٰٓأَيُّهَا",
-          "c": "ﭒ",
           "p": 603,
           "l": 3
         },
         {
           "t": "ٱلْكَـٰفِرُونَ",
-          "c": "ﭓ",
           "p": 603,
           "l": 3
         }
@@ -9007,28 +17362,28 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
       "tj": "ل<tajweed class=madda_obligatory>َآ</tajweed> أَعْبُدُ مَا تَعْبُد<tajweed class=madda_permissible>ُو</tajweed>نَ <span class=end>٢</span>",
+      "e": {
+        "p": 603,
+        "l": 3
+      },
       "words": [
         {
           "t": "لَآ",
-          "c": "ﭕ",
           "p": 603,
           "l": 3
         },
         {
           "t": "أَعْبُدُ",
-          "c": "ﭖ",
           "p": 603,
           "l": 3
         },
         {
           "t": "مَا",
-          "c": "ﭗ",
           "p": 603,
           "l": 3
         },
         {
           "t": "تَعْبُدُونَ",
-          "c": "ﭘ",
           "p": 603,
           "l": 3
         }
@@ -9039,34 +17394,33 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
       "tj": "وَل<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نت</tajweed>ُمْ عَ<tajweed class=madda_normal>ـٰ</tajweed>بِدُونَ م<tajweed class=madda_obligatory>َآ</tajweed> أَعْبُ<tajweed class=qalaqah>د</tajweed>ُ <span class=end>٣</span>",
+      "e": {
+        "p": 603,
+        "l": 4
+      },
       "words": [
         {
           "t": "وَلَآ",
-          "c": "ﭚ",
           "p": 603,
           "l": 4
         },
         {
           "t": "أَنتُمْ",
-          "c": "ﭛ",
           "p": 603,
           "l": 4
         },
         {
           "t": "عَـٰبِدُونَ",
-          "c": "ﭜ",
           "p": 603,
           "l": 4
         },
         {
           "t": "مَآ",
-          "c": "ﭝ",
           "p": 603,
           "l": 4
         },
         {
           "t": "أَعْبُدُ",
-          "c": "ﭞ",
           "p": 603,
           "l": 4
         }
@@ -9077,34 +17431,33 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
       "tj": "وَل<tajweed class=madda_obligatory>َآ</tajweed> أَنَا۟ عَابِ<tajweed class=idgham_ghunnah>دٌ م</tajweed>َّا عَبَ<tajweed class=idgham_mutajanisayn>د</tajweed>تُّمْ <span class=end>٤</span>",
+      "e": {
+        "p": 603,
+        "l": 4
+      },
       "words": [
         {
           "t": "وَلَآ",
-          "c": "ﭠ",
           "p": 603,
           "l": 4
         },
         {
           "t": "أَنَا۠",
-          "c": "ﭡ",
           "p": 603,
           "l": 4
         },
         {
           "t": "عَابِدٌۭ",
-          "c": "ﭢ",
           "p": 603,
           "l": 4
         },
         {
           "t": "مَّا",
-          "c": "ﭣ",
           "p": 603,
           "l": 4
         },
         {
           "t": "عَبَدتُّمْ",
-          "c": "ﭤ",
           "p": 603,
           "l": 4
         }
@@ -9115,34 +17468,33 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
       "tj": "وَل<tajweed class=madda_obligatory>َآ</tajweed> أَ<tajweed class=ikhafa>نت</tajweed>ُمْ عَ<tajweed class=madda_normal>ـٰ</tajweed>بِدُونَ م<tajweed class=madda_obligatory>َآ</tajweed> أَعْبُ<tajweed class=qalaqah>د</tajweed>ُ <span class=end>٥</span>",
+      "e": {
+        "p": 603,
+        "l": 5
+      },
       "words": [
         {
           "t": "وَلَآ",
-          "c": "ﭦ",
           "p": 603,
           "l": 5
         },
         {
           "t": "أَنتُمْ",
-          "c": "ﭧ",
           "p": 603,
           "l": 5
         },
         {
           "t": "عَـٰبِدُونَ",
-          "c": "ﭨ",
           "p": 603,
           "l": 5
         },
         {
           "t": "مَآ",
-          "c": "ﭩ",
           "p": 603,
           "l": 5
         },
         {
           "t": "أَعْبُدُ",
-          "c": "ﭪ",
           "p": 603,
           "l": 5
         }
@@ -9153,28 +17505,28 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
       "tj": "لَكُمْ دِينُكُمْ وَلِىَ د<tajweed class=madda_permissible>ِي</tajweed>نِ <span class=end>٦</span>",
+      "e": {
+        "p": 603,
+        "l": 5
+      },
       "words": [
         {
           "t": "لَكُمْ",
-          "c": "ﭬ",
           "p": 603,
           "l": 5
         },
         {
           "t": "دِينُكُمْ",
-          "c": "ﭭ",
           "p": 603,
           "l": 5
         },
         {
           "t": "وَلِىَ",
-          "c": "ﭮ",
           "p": 603,
           "l": 5
         },
         {
           "t": "دِينِ",
-          "c": "ﭯ",
           "p": 603,
           "l": 5
         }
@@ -9185,34 +17537,33 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": " إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
       "tj": "إِذَا ج<tajweed class=madda_obligatory>َا</tajweed>ٓءَ نَصْرُ <tajweed class=ham_wasl>ٱ</tajweed>للَّهِ وَ<tajweed class=ham_wasl>ٱ</tajweed>لْفَتْحُ <span class=end>١</span>",
+      "e": {
+        "p": 603,
+        "l": 8
+      },
       "words": [
         {
           "t": "إِذَا",
-          "c": "ﭱ",
           "p": 603,
           "l": 8
         },
         {
           "t": "جَآءَ",
-          "c": "ﭲ",
           "p": 603,
           "l": 8
         },
         {
           "t": "نَصْرُ",
-          "c": "ﭳ",
           "p": 603,
           "l": 8
         },
         {
           "t": "ٱللَّهِ",
-          "c": "ﭴ",
           "p": 603,
           "l": 8
         },
         {
           "t": "وَٱلْفَتْحُ",
-          "c": "ﭵ",
           "p": 603,
           "l": 8
         }
@@ -9223,46 +17574,43 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
       "tj": "وَرَأَيْتَ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َاسَ يَ<tajweed class=qalaqah>دْ</tajweed>خُلُونَ فِى دِينِ <tajweed class=ham_wasl>ٱ</tajweed>للَّهِ أَفْوَاجًا <span class=end>٢</span>",
+      "e": {
+        "p": 603,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَرَأَيْتَ",
-          "c": "ﭷ",
           "p": 603,
           "l": 8
         },
         {
           "t": "ٱلنَّاسَ",
-          "c": "ﭸ",
           "p": 603,
           "l": 8
         },
         {
           "t": "يَدْخُلُونَ",
-          "c": "ﭹ",
           "p": 603,
           "l": 9
         },
         {
           "t": "فِى",
-          "c": "ﭺ",
           "p": 603,
           "l": 9
         },
         {
           "t": "دِينِ",
-          "c": "ﭻ",
           "p": 603,
           "l": 9
         },
         {
           "t": "ٱللَّهِ",
-          "c": "ﭼ",
           "p": 603,
           "l": 9
         },
         {
           "t": "أَفْوَاجًۭا",
-          "c": "ﭽ",
           "p": 603,
           "l": 9
         }
@@ -9273,46 +17621,43 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
       "tj": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَ<tajweed class=ham_wasl>ٱ</tajweed>سْتَغْفِرْهُ‌ۚ إِ<tajweed class=ghunnah>نّ</tajweed>َهُ<tajweed class=madda_normal>ۥ</tajweed> كَانَ تَوَّابَۢا <span class=end>٣</span>",
+      "e": {
+        "p": 603,
+        "l": 10
+      },
       "words": [
         {
           "t": "فَسَبِّحْ",
-          "c": "ﭿ",
           "p": 603,
           "l": 9
         },
         {
           "t": "بِحَمْدِ",
-          "c": "ﮀ",
           "p": 603,
           "l": 9
         },
         {
           "t": "رَبِّكَ",
-          "c": "ﮁ",
           "p": 603,
           "l": 9
         },
         {
           "t": "وَٱسْتَغْفِرْهُ ۚ",
-          "c": "ﮂﮃ",
           "p": 603,
           "l": 10
         },
         {
           "t": "إِنَّهُۥ",
-          "c": "ﮄ",
           "p": 603,
           "l": 10
         },
         {
           "t": "كَانَ",
-          "c": "ﮅ",
           "p": 603,
           "l": 10
         },
         {
           "t": "تَوَّابًۢا",
-          "c": "ﮆ",
           "p": 603,
           "l": 10
         }
@@ -9323,34 +17668,33 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
       "tj": "تَبَّتْ يَد<tajweed class=madda_obligatory>َآ</tajweed> أَبِى لَهَ<tajweed class=idgham_ghunnah>بٍ و</tajweed>َتَ<tajweed class=qalaqah>ب</tajweed>َّ <span class=end>١</span>",
+      "e": {
+        "p": 603,
+        "l": 13
+      },
       "words": [
         {
           "t": "تَبَّتْ",
-          "c": "ﮈ",
           "p": 603,
           "l": 13
         },
         {
           "t": "يَدَآ",
-          "c": "ﮉ",
           "p": 603,
           "l": 13
         },
         {
           "t": "أَبِى",
-          "c": "ﮊ",
           "p": 603,
           "l": 13
         },
         {
           "t": "لَهَبٍۢ",
-          "c": "ﮋ",
           "p": 603,
           "l": 13
         },
         {
           "t": "وَتَبَّ",
-          "c": "ﮌ",
           "p": 603,
           "l": 13
         }
@@ -9361,40 +17705,38 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
       "tj": "م<tajweed class=madda_obligatory>َآ</tajweed> أَغْنَىٰ عَنْهُ مَالُهُ<tajweed class=madda_normal>ۥ</tajweed> وَمَا كَسَ<tajweed class=qalaqah>ب</tajweed>َ <span class=end>٢</span>",
+      "e": {
+        "p": 603,
+        "l": 14
+      },
       "words": [
         {
           "t": "مَآ",
-          "c": "ﮎ",
           "p": 603,
           "l": 13
         },
         {
           "t": "أَغْنَىٰ",
-          "c": "ﮏ",
           "p": 603,
           "l": 13
         },
         {
           "t": "عَنْهُ",
-          "c": "ﮐ",
           "p": 603,
           "l": 13
         },
         {
           "t": "مَالُهُۥ",
-          "c": "ﮑ",
           "p": 603,
           "l": 13
         },
         {
           "t": "وَمَا",
-          "c": "ﮒ",
           "p": 603,
           "l": 13
         },
         {
           "t": "كَسَبَ",
-          "c": "ﮓ",
           "p": 603,
           "l": 14
         }
@@ -9405,28 +17747,28 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
       "tj": "سَيَصْلَىٰ نَا<tajweed class=ikhafa>رًا ذ</tajweed>َاتَ لَهَ<tajweed class=qalaqah>ب</tajweed>ٍ <span class=end>٣</span>",
+      "e": {
+        "p": 603,
+        "l": 14
+      },
       "words": [
         {
           "t": "سَيَصْلَىٰ",
-          "c": "ﮕ",
           "p": 603,
           "l": 14
         },
         {
           "t": "نَارًۭا",
-          "c": "ﮖ",
           "p": 603,
           "l": 14
         },
         {
           "t": "ذَاتَ",
-          "c": "ﮗ",
           "p": 603,
           "l": 14
         },
         {
           "t": "لَهَبٍۢ",
-          "c": "ﮘ",
           "p": 603,
           "l": 14
         }
@@ -9437,22 +17779,23 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
       "tj": "وَ<tajweed class=ham_wasl>ٱ</tajweed>مْرَأَتُهُ<tajweed class=madda_normal>ۥ</tajweed> حَ<tajweed class=ghunnah>مّ</tajweed>َالَةَ <tajweed class=ham_wasl>ٱ</tajweed>لْحَطَ<tajweed class=qalaqah>ب</tajweed>ِ <span class=end>٤</span>",
+      "e": {
+        "p": 603,
+        "l": 15
+      },
       "words": [
         {
           "t": "وَٱمْرَأَتُهُۥ",
-          "c": "ﮚ",
           "p": 603,
           "l": 14
         },
         {
           "t": "حَمَّالَةَ",
-          "c": "ﮛ",
           "p": 603,
           "l": 15
         },
         {
           "t": "ٱلْحَطَبِ",
-          "c": "ﮜ",
           "p": 603,
           "l": 15
         }
@@ -9463,34 +17806,33 @@ const SURAH={
       "page_number": 603,
       "text_uthmani": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
       "tj": "فِى جِيدِهَا حَ<tajweed class=qalaqah>بْ</tajweed><tajweed class=idgham_ghunnah>لٌ م</tajweed>ّ<tajweed class=idgham_ghunnah>ِن م</tajweed>َّسَ<tajweed class=qalaqah>د</tajweed>ِۭ <span class=end>٥</span>",
+      "e": {
+        "p": 603,
+        "l": 15
+      },
       "words": [
         {
           "t": "فِى",
-          "c": "ﮞ",
           "p": 603,
           "l": 15
         },
         {
           "t": "جِيدِهَا",
-          "c": "ﮟ",
           "p": 603,
           "l": 15
         },
         {
           "t": "حَبْلٌۭ",
-          "c": "ﮠ",
           "p": 603,
           "l": 15
         },
         {
           "t": "مِّن",
-          "c": "ﮡ",
           "p": 603,
           "l": 15
         },
         {
           "t": "مَّسَدٍۭ",
-          "c": "ﮢ",
           "p": 603,
           "l": 15
         }
@@ -9501,28 +17843,28 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": " قُلْ هُوَ ٱللَّهُ أَحَدٌ",
       "tj": "قُلْ هُوَ <tajweed class=ham_wasl>ٱ</tajweed>للَّهُ أَحَ<tajweed class=qalaqah>د</tajweed>ٌ <span class=end>١</span>",
+      "e": {
+        "p": 604,
+        "l": 3
+      },
       "words": [
         {
           "t": "قُلْ",
-          "c": "ﭑ",
           "p": 604,
           "l": 3
         },
         {
           "t": "هُوَ",
-          "c": "ﭒ",
           "p": 604,
           "l": 3
         },
         {
           "t": "ٱللَّهُ",
-          "c": "ﭓ",
           "p": 604,
           "l": 3
         },
         {
           "t": "أَحَدٌ",
-          "c": "ﭔ",
           "p": 604,
           "l": 3
         }
@@ -9533,16 +17875,18 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "ٱللَّهُ ٱلصَّمَدُ",
       "tj": "ٱللَّهُ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed>صَّمَ<tajweed class=qalaqah>د</tajweed>ُ <span class=end>٢</span>",
+      "e": {
+        "p": 604,
+        "l": 3
+      },
       "words": [
         {
           "t": "ٱللَّهُ",
-          "c": "ﭖ",
           "p": 604,
           "l": 3
         },
         {
           "t": "ٱلصَّمَدُ",
-          "c": "ﭗ",
           "p": 604,
           "l": 3
         }
@@ -9553,28 +17897,28 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
       "tj": "لَمْ يَلِ<tajweed class=qalaqah>دْ</tajweed> وَلَمْ يُولَ<tajweed class=qalaqah>دْ</tajweed> <span class=end>٣</span>",
+      "e": {
+        "p": 604,
+        "l": 4
+      },
       "words": [
         {
           "t": "لَمْ",
-          "c": "ﭙ",
           "p": 604,
           "l": 3
         },
         {
           "t": "يَلِدْ",
-          "c": "ﭚ",
           "p": 604,
           "l": 3
         },
         {
           "t": "وَلَمْ",
-          "c": "ﭛ",
           "p": 604,
           "l": 4
         },
         {
           "t": "يُولَدْ",
-          "c": "ﭜ",
           "p": 604,
           "l": 4
         }
@@ -9585,34 +17929,33 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
       "tj": "وَلَمْ يَك<tajweed class=idgham_wo_ghunnah>ُن ل</tajweed>َّهُ<tajweed class=madda_normal>ۥ</tajweed> كُفُوًا أَحَ<tajweed class=qalaqah>د</tajweed>ُۢ <span class=end>٤</span>",
+      "e": {
+        "p": 604,
+        "l": 4
+      },
       "words": [
         {
           "t": "وَلَمْ",
-          "c": "ﭞ",
           "p": 604,
           "l": 4
         },
         {
           "t": "يَكُن",
-          "c": "ﭟ",
           "p": 604,
           "l": 4
         },
         {
           "t": "لَّهُۥ",
-          "c": "ﭠ",
           "p": 604,
           "l": 4
         },
         {
           "t": "كُفُوًا",
-          "c": "ﭡ",
           "p": 604,
           "l": 4
         },
         {
           "t": "أَحَدٌۢ",
-          "c": "ﭢ",
           "p": 604,
           "l": 4
         }
@@ -9623,28 +17966,28 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": " قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
       "tj": "قُلْ أَعُوذُ بِرَبِّ <tajweed class=ham_wasl>ٱ</tajweed>لْفَلَ<tajweed class=qalaqah>ق</tajweed>ِ <span class=end>١</span>",
+      "e": {
+        "p": 604,
+        "l": 7
+      },
       "words": [
         {
           "t": "قُلْ",
-          "c": "ﭤ",
           "p": 604,
           "l": 7
         },
         {
           "t": "أَعُوذُ",
-          "c": "ﭥ",
           "p": 604,
           "l": 7
         },
         {
           "t": "بِرَبِّ",
-          "c": "ﭦ",
           "p": 604,
           "l": 7
         },
         {
           "t": "ٱلْفَلَقِ",
-          "c": "ﭧ",
           "p": 604,
           "l": 7
         }
@@ -9655,28 +17998,28 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "مِن شَرِّ مَا خَلَقَ",
       "tj": "مِ<tajweed class=ikhafa>ن ش</tajweed>َرِّ مَا خَلَ<tajweed class=qalaqah>ق</tajweed>َ <span class=end>٢</span>",
+      "e": {
+        "p": 604,
+        "l": 7
+      },
       "words": [
         {
           "t": "مِن",
-          "c": "ﭩ",
           "p": 604,
           "l": 7
         },
         {
           "t": "شَرِّ",
-          "c": "ﭪ",
           "p": 604,
           "l": 7
         },
         {
           "t": "مَا",
-          "c": "ﭫ",
           "p": 604,
           "l": 7
         },
         {
           "t": "خَلَقَ",
-          "c": "ﭬ",
           "p": 604,
           "l": 7
         }
@@ -9687,34 +18030,33 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
       "tj": "وَمِ<tajweed class=ikhafa>ن ش</tajweed>َرِّ غَاسِقٍ إِذَا وَقَ<tajweed class=qalaqah>ب</tajweed>َ <span class=end>٣</span>",
+      "e": {
+        "p": 604,
+        "l": 8
+      },
       "words": [
         {
           "t": "وَمِن",
-          "c": "ﭮ",
           "p": 604,
           "l": 7
         },
         {
           "t": "شَرِّ",
-          "c": "ﭯ",
           "p": 604,
           "l": 8
         },
         {
           "t": "غَاسِقٍ",
-          "c": "ﭰ",
           "p": 604,
           "l": 8
         },
         {
           "t": "إِذَا",
-          "c": "ﭱ",
           "p": 604,
           "l": 8
         },
         {
           "t": "وَقَبَ",
-          "c": "ﭲ",
           "p": 604,
           "l": 8
         }
@@ -9725,34 +18067,33 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
       "tj": "وَمِ<tajweed class=ikhafa>ن ش</tajweed>َرِّ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed>َفَّ<tajweed class=madda_normal>ـٰ</tajweed>ثَ<tajweed class=madda_normal>ـٰ</tajweed>تِ فِى <tajweed class=ham_wasl>ٱ</tajweed>لْعُقَ<tajweed class=qalaqah>د</tajweed>ِ <span class=end>٤</span>",
+      "e": {
+        "p": 604,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَمِن",
-          "c": "ﭴ",
           "p": 604,
           "l": 8
         },
         {
           "t": "شَرِّ",
-          "c": "ﭵ",
           "p": 604,
           "l": 8
         },
         {
           "t": "ٱلنَّفَّـٰثَـٰتِ",
-          "c": "ﭶ",
           "p": 604,
           "l": 8
         },
         {
           "t": "فِى",
-          "c": "ﭷ",
           "p": 604,
           "l": 8
         },
         {
           "t": "ٱلْعُقَدِ",
-          "c": "ﭸ",
           "p": 604,
           "l": 9
         }
@@ -9763,34 +18104,33 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
       "tj": "وَمِ<tajweed class=ikhafa>ن ش</tajweed>َرِّ حَاسِدٍ إِذَا حَسَ<tajweed class=qalaqah>د</tajweed>َ <span class=end>٥</span>",
+      "e": {
+        "p": 604,
+        "l": 9
+      },
       "words": [
         {
           "t": "وَمِن",
-          "c": "ﭺ",
           "p": 604,
           "l": 9
         },
         {
           "t": "شَرِّ",
-          "c": "ﭻ",
           "p": 604,
           "l": 9
         },
         {
           "t": "حَاسِدٍ",
-          "c": "ﭼ",
           "p": 604,
           "l": 9
         },
         {
           "t": "إِذَا",
-          "c": "ﭽ",
           "p": 604,
           "l": 9
         },
         {
           "t": "حَسَدَ",
-          "c": "ﭾ",
           "p": 604,
           "l": 9
         }
@@ -9801,28 +18141,28 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": " قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
       "tj": "قُلْ أَعُوذُ بِرَبِّ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_permissible>َا</tajweed>سِ <span class=end>١</span>",
+      "e": {
+        "p": 604,
+        "l": 12
+      },
       "words": [
         {
           "t": "قُلْ",
-          "c": "ﮀ",
           "p": 604,
           "l": 12
         },
         {
           "t": "أَعُوذُ",
-          "c": "ﮁ",
           "p": 604,
           "l": 12
         },
         {
           "t": "بِرَبِّ",
-          "c": "ﮂ",
           "p": 604,
           "l": 12
         },
         {
           "t": "ٱلنَّاسِ",
-          "c": "ﮃ",
           "p": 604,
           "l": 12
         }
@@ -9833,16 +18173,18 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "مَلِكِ ٱلنَّاسِ",
       "tj": "مَلِكِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_permissible>َا</tajweed>سِ <span class=end>٢</span>",
+      "e": {
+        "p": 604,
+        "l": 12
+      },
       "words": [
         {
           "t": "مَلِكِ",
-          "c": "ﮅ",
           "p": 604,
           "l": 12
         },
         {
           "t": "ٱلنَّاسِ",
-          "c": "ﮆ",
           "p": 604,
           "l": 12
         }
@@ -9853,16 +18195,18 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "إِلَـٰهِ ٱلنَّاسِ",
       "tj": "إِلَ<tajweed class=madda_normal>ـٰ</tajweed>هِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_permissible>َا</tajweed>سِ <span class=end>٣</span>",
+      "e": {
+        "p": 604,
+        "l": 13
+      },
       "words": [
         {
           "t": "إِلَـٰهِ",
-          "c": "ﮈ",
           "p": 604,
           "l": 12
         },
         {
           "t": "ٱلنَّاسِ",
-          "c": "ﮉ",
           "p": 604,
           "l": 13
         }
@@ -9873,28 +18217,28 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
       "tj": "مِ<tajweed class=ikhafa>ن ش</tajweed>َرِّ <tajweed class=ham_wasl>ٱ</tajweed>لْوَسْوَاسِ <tajweed class=ham_wasl>ٱ</tajweed>لْخَ<tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_permissible>َا</tajweed>سِ <span class=end>٤</span>",
+      "e": {
+        "p": 604,
+        "l": 13
+      },
       "words": [
         {
           "t": "مِن",
-          "c": "ﮋ",
           "p": 604,
           "l": 13
         },
         {
           "t": "شَرِّ",
-          "c": "ﮌ",
           "p": 604,
           "l": 13
         },
         {
           "t": "ٱلْوَسْوَاسِ",
-          "c": "ﮍ",
           "p": 604,
           "l": 13
         },
         {
           "t": "ٱلْخَنَّاسِ",
-          "c": "ﮎ",
           "p": 604,
           "l": 13
         }
@@ -9905,34 +18249,33 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
       "tj": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ <tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_permissible>َا</tajweed>سِ <span class=end>٥</span>",
+      "e": {
+        "p": 604,
+        "l": 14
+      },
       "words": [
         {
           "t": "ٱلَّذِى",
-          "c": "ﮐ",
           "p": 604,
           "l": 13
         },
         {
           "t": "يُوَسْوِسُ",
-          "c": "ﮑ",
           "p": 604,
           "l": 14
         },
         {
           "t": "فِى",
-          "c": "ﮒ",
           "p": 604,
           "l": 14
         },
         {
           "t": "صُدُورِ",
-          "c": "ﮓ",
           "p": 604,
           "l": 14
         },
         {
           "t": "ٱلنَّاسِ",
-          "c": "ﮔ",
           "p": 604,
           "l": 14
         }
@@ -9943,22 +18286,23 @@ const SURAH={
       "page_number": 604,
       "text_uthmani": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
       "tj": "مِنَ <tajweed class=ham_wasl>ٱ</tajweed>لْجِ<tajweed class=ghunnah>نّ</tajweed>َةِ وَ<tajweed class=ham_wasl>ٱ</tajweed><tajweed class=laam_shamsiyah>ل</tajweed><tajweed class=ghunnah>نّ</tajweed><tajweed class=madda_permissible>َا</tajweed>سِ <span class=end>٦</span>",
+      "e": {
+        "p": 604,
+        "l": 15
+      },
       "words": [
         {
           "t": "مِنَ",
-          "c": "ﮖ",
           "p": 604,
           "l": 15
         },
         {
           "t": "ٱلْجِنَّةِ",
-          "c": "ﮗ",
           "p": 604,
           "l": 15
         },
         {
           "t": "وَٱلنَّاسِ",
-          "c": "ﮘ",
           "p": 604,
           "l": 15
         }
@@ -9967,4 +18311,3 @@ const SURAH={
   ]
 };
 const BASMALA="بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ";
-const BASMALA_W=[{"t":"بِسْمِ","c":"ﭑ","p":1},{"t":"ٱللَّهِ","c":"ﭒ","p":1},{"t":"ٱلرَّحْمَـٰنِ","c":"ﭓ","p":1},{"t":"ٱلرَّحِيمِ","c":"ﭔ","p":1}];
