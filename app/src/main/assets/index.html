@@ -1315,3 +1315,252 @@ function start(){
 }
 loadAll().then(start,start);
 </script></body></html>
+)){d.classList.add('c');return}
+    const ch=[...d.children];
+    if(!ch.length)return;
+    const nw=natW(d);
+    const aw=p.inner.clientWidth||p.el.clientWidth-24;
+    if(nw>0&&aw>0){
+      if(nw>aw){
+        const ratio=aw/nw;
+        ch.forEach(c=>{
+          c.style.scale=String(ratio);
+          c._sx=ratio;
+        });
+      }else{
+        d.classList.add('c');
+      }
+    }
+    wrows.push(d);
+  });
+  p.inner.style.height=(rh*15)+'px';
+  p.rows.forEach(d=>{if(d)d.style.height=rh+'px'});
+  p.stale=false;
+}
+
+function renderAll(force){
+  pages.forEach(p=>{
+    if(force||p.stale){
+      if(p.canMush&&p.rows)layoutMush(p);
+    }
+  });
+}
+
+function setMode(m){
+  pages.forEach(p=>{
+    if(m==='mush'&&p.canMush){
+      if(p.mode!=='mush')toMush(p);
+      layoutMush(p);
+    }else if(p.mode!=='flow'){
+      toFlow(p);
+    }
+  });
+}
+
+function goPage(idx,smooth=true){
+  if(idx<0||idx>=pages.length)return;
+  curPage=idx;
+  const p=pages[idx];
+  if(p.canMush&&p.mode!=='mush')toMush(p);
+  if(p.mode==='mush'&&p.stale)layoutMush(p);
+  pagesEl.scrollTo({left:p.el.offsetLeft,behavior:smooth?'smooth':'auto'});
+  updHead();
+}
+
+function highlightIdx(idx){
+  if(idx<0||idx>=ws.length)return;
+  if(i>=0&&ws[i])ws[i].classList.remove('on');
+  i=idx;
+  const el=ws[i];
+  if(!el)return;
+  el.classList.add('on');
+  if(blind&&i>seenIdx)seenIdx=i;
+  if(el._p!==curPage)goPage(el._p,true);
+  updProg();
+}
+
+function stepPlay(){
+  const next=(i<0)?(pages[curPage]&&pages[curPage].words[0]?ws.indexOf(pages[curPage].words[0]):0):i+1;
+  if(next>=ws.length){stopPlay();return}
+  highlightIdx(next);
+}
+
+function startPlay(){
+  if(t)clearInterval(t);
+  b.classList.add('playing');
+  document.body.classList.add('tracking');
+  if(i<0)stepPlay();
+  const baseMs=GS===1?950:(GS===2?650:420);
+  t=setInterval(stepPlay,baseMs);
+}
+
+function stopPlay(){
+  if(t){clearInterval(t);t=null}
+  b.classList.remove('playing');
+  document.body.classList.remove('tracking');
+}
+
+b.addEventListener('click',()=>{
+  if(b.classList.contains('playing'))stopPlay();
+  else startPlay();
+});
+
+const bEye=document.getElementById('bEye');
+bEye.addEventListener('click',()=>{
+  blind=!blind;
+  bEye.classList.toggle('act',blind);
+  document.body.classList.toggle('blind',blind);
+  seenIdx=Math.max(seenIdx,i);
+  ws.forEach((w,k)=>{
+    if(blind&&k>seenIdx)w.classList.add('fut');
+    else w.classList.remove('fut');
+  });
+});
+
+const bSpdBtn=document.getElementById('bSpdBtn'),spop=document.getElementById('spop');
+bSpdBtn.addEventListener('click',e=>{e.stopPropagation();spop.classList.toggle('open')});
+document.addEventListener('click',()=>spop.classList.remove('open'));
+spop.querySelectorAll('.sopt').forEach(opt=>{
+  opt.addEventListener('click',e=>{
+    e.stopPropagation();
+    spop.querySelectorAll('.sopt').forEach(x=>x.classList.remove('sel'));
+    opt.classList.add('sel');
+    const m=opt.dataset.m;
+    GS=m==='tahqiq'?1:(m==='tadwir'?2:3);
+    spop.classList.remove('open');
+    if(b.classList.contains('playing'))startPlay();
+  });
+});
+
+const menuBtn=document.getElementById('menuBtn'),scrim=document.getElementById('scrim');
+function closeMenu(){document.body.classList.remove('menuopen')}
+menuBtn.addEventListener('click',()=>document.body.classList.toggle('menuopen'));
+scrim.addEventListener('click',closeMenu);
+
+const miTheme=document.getElementById('miTheme'),subTheme=document.getElementById('subTheme');
+miTheme.addEventListener('click',()=>{
+  miTheme.classList.toggle('open');
+  subTheme.classList.toggle('open');
+});
+function applyTheme(th){
+  const isL=th==='light';
+  document.body.classList.toggle('light',isL);
+  subTheme.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',o.dataset.th===th));
+  try{localStorage.setItem('qtheme',th)}catch(e){}
+}
+subTheme.querySelectorAll('.opt').forEach(o=>o.addEventListener('click',()=>applyTheme(o.dataset.th)));
+try{const savedTh=localStorage.getItem('qtheme');if(savedTh)applyTheme(savedTh)}catch(e){}
+
+const miTaj=document.getElementById('miTaj'),swTaj=document.getElementById('swTaj');
+function syncTaj(){
+  swTaj.classList.toggle('on',tajOn);
+  document.body.classList.toggle('tj',tajOn);
+  ws.forEach(w=>{if(w._t)renderWord(w)});
+}
+miTaj.addEventListener('click',()=>{
+  tajOn=!tajOn;
+  try{localStorage.setItem('qtaj',tajOn?'1':'0')}catch(e){}
+  syncTaj();
+});
+
+const setBtn=document.getElementById('setBtn'),setBack=document.getElementById('setBack');
+setBtn.addEventListener('click',()=>document.body.classList.add('setpage-open'));
+setBack.addEventListener('click',()=>document.body.classList.remove('setpage-open'));
+
+const slist=document.getElementById('slist'),slb=document.getElementById('slb'),slClose=document.getElementById('slClose');
+function buildSurahList(){
+  slb.innerHTML='';
+  Object.keys(NAMES).map(Number).sort((a,b)=>a-b).forEach((num,idx)=>{
+    const btn=document.createElement('button');
+    btn.className='sli';
+    btn.style.setProperty('--d',(idx*18)+'ms');
+    btn.innerHTML='<span class="sn">'+ar(num)+'</span><span class="sm2">'+SUR+NAMES[num]+'</span><span class="sc">'+ar(cnt[num]||0)+' آية</span>';
+    btn.addEventListener('click',()=>{
+      const target=jp[num];
+      slist.classList.remove('slopen');
+      slist.style.visibility='hidden';
+      if(target&&target.p)goPage(target.p.k,false);
+    });
+    slb.appendChild(btn);
+  });
+}
+titleEl.parentElement.addEventListener('click',()=>{
+  if(!slb.children.length)buildSurahList();
+  slist.style.visibility='visible';
+  requestAnimationFrame(()=>slist.classList.add('slopen'));
+});
+slClose.addEventListener('click',()=>{
+  slist.classList.remove('slopen');
+  setTimeout(()=>{if(!slist.classList.contains('slopen'))slist.style.visibility='hidden'},250);
+});
+
+const srcBtn=document.getElementById('srcBtn'),srScrim=document.getElementById('srScrim'),srIn=document.getElementById('srIn'),srX=document.getElementById('srX'),srRes=document.getElementById('srRes');
+const normAr=s=>(s||'').replace(/[\u064B-\u065F\u0670\u06D6-\u06ED\u0671]/g,'').replace(/[إأآا]/g,'ا').replace(/ى/g,'ي').replace(/ؤ/g,'و').replace(/ئ/g,'ي').replace(/ة/g,'ه');
+function openSearch(){
+  document.body.classList.add('srchopen');
+  setTimeout(()=>srIn.focus(),120);
+}
+function closeSearch(){
+  document.body.classList.remove('srchopen');
+  srIn.value='';srRes.innerHTML='';srRes.classList.remove('has');
+}
+srcBtn.addEventListener('click',openSearch);
+srScrim.addEventListener('click',closeSearch);
+srX.addEventListener('click',closeSearch);
+srIn.addEventListener('input',()=>{
+  const q=normAr(srIn.value.trim());
+  srRes.innerHTML='';
+  if(!q){srRes.classList.remove('has');return}
+  const matches=SURAH.verses.filter(v=>normAr(v.text_uthmani).includes(q)).slice(0,25);
+  if(!matches.length){
+    srRes.innerHTML='<div class="srn">لا توجد نتائج مطابقة</div>';
+    srRes.classList.add('has');
+    return;
+  }
+  matches.forEach(v=>{
+    const [c,n]=v.verse_key.split(':').map(Number);
+    const item=document.createElement('button');
+    item.className='sri';
+    item.innerHTML='<span class="sk">'+SUR+NAMES[c]+' • آية '+ar(n)+'</span><span class="st">'+v.text_uthmani+'</span>';
+    item.addEventListener('click',()=>{
+      closeSearch();
+      const rng=vr[v.verse_key];
+      if(rng&&ws[rng.a]){
+        goPage(ws[rng.a]._p,false);
+        highlightIdx(rng.a);
+      }
+    });
+    srRes.appendChild(item);
+  });
+  srRes.classList.add('has');
+});
+
+pagesEl.addEventListener('scroll',()=>{
+  if(!pages.length)return;
+  const idx=Math.round(pagesEl.scrollLeft/Math.max(1,pagesEl.clientWidth));
+  if(idx!==curPage&&pages[idx]){
+    curPage=idx;
+    if(pages[idx].canMush&&pages[idx].mode!=='mush')toMush(pages[idx]);
+    if(pages[idx].mode==='mush'&&pages[idx].stale)layoutMush(pages[idx]);
+    updHead();
+  }
+},{passive:true});
+
+window.addEventListener('resize',()=>{
+  applyInset();
+  renderAll(true);
+});
+
+build();
+mkInfo();
+syncTaj();
+setMode('mush');
+if(pages.length)goPage(0,false);
+loadU().then(()=>{
+  renderAll(true);
+  const sp=document.getElementById('splash');
+  const rem=Math.max(0,900-(Date.now()-T0));
+  setTimeout(()=>{if(sp){sp.classList.add('hide');setTimeout(()=>sp.remove(),550)}},rem);
+});
+</script>
+</body></html>
