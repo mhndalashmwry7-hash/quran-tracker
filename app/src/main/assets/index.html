@@ -31,7 +31,8 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 #menuBtn:active{transform:scale(.94)}
 #pages{flex:1;min-height:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;touch-action:pan-x pan-y;scrollbar-width:none;font-size:17px}
 #pages::-webkit-scrollbar{display:none}
-.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:0 8px calc(3px + var(--bar,70px)) 12px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
+.page{flex:0 0 100%;scroll-snap-align:center;position:relative;box-sizing:border-box;padding:0 8px calc(3px + var(--bar,70px) + var(--tp,0px)) 12px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;isolation:isolate}
+.tracking .page{--tp:48vh}
 .page::-webkit-scrollbar{display:none}
 .zoom{position:relative;display:flow-root;transform-origin:0 0}
 .inner{word-spacing:-.16em;text-align:justify;text-align-last:center;line-height:2.1}
@@ -43,7 +44,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .ln .ban{margin:0;width:100%;box-sizing:border-box;font-size:inherit}
 .ln .bsm{margin:0;width:100%;font-size:inherit;line-height:1.3;position:relative;top:-.12em}
 .w{display:inline-block;position:relative;z-index:1;padding:0 1px;margin:calc(-.2em + var(--gap,0px)) 0;opacity:.95;color:#f2d28f;transform:scale(1);
- transition:opacity .35s ease, color .35s ease, transform .55s cubic-bezier(0.22, 1, 0.36, 1);
+ transition:opacity .4s ease, color .4s ease, transform 0.75s cubic-bezier(0.25, 1, 0.5, 1);
  transform-origin:center center}
 .w.on{opacity:1;color:#ffffff;transform:scale(1.15);text-shadow:0 0 12px rgba(255,240,207,0.6)}
 .blind .w.fut{opacity:0!important;text-shadow:none}
@@ -76,9 +77,9 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  border:1.5px solid rgba(255,255,255,.55);
  box-shadow:inset 0 1px 2px rgba(255,255,255,.6),0 8px 24px rgba(0,0,0,.55),0 0 18px rgba(232,184,106,.35);
  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
- transition:left 0.55s cubic-bezier(0.22, 1, 0.36, 1), top 0.55s cubic-bezier(0.22, 1, 0.36, 1), width 0.55s cubic-bezier(0.22, 1, 0.36, 1), height 0.55s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+ transition:left 0.75s cubic-bezier(0.25, 1, 0.5, 1), top 0.75s cubic-bezier(0.25, 1, 0.5, 1), width 0.75s cubic-bezier(0.25, 1, 0.5, 1), height 0.75s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.5s ease;
 }
-.busy .g,.busy .ban .bn,.busy .bb,.busy #head,.busy .hbtn{-webkit-backdrop-filter:none;backdrop-filter:none}
+.busy .g,.busy .ban .bn{-webkit-backdrop-filter:none;backdrop-filter:none}
 /* ===== زر ابدأ التلاوة ===== */
 #bar{position:fixed;left:0;right:0;bottom:14px;z-index:20;display:flex;justify-content:center;pointer-events:none}
 #b{z-index:2;pointer-events:auto;position:relative;left:calc(-1*min(2.45vw,9.5px));width:min(39vw,152px);height:50px;border-radius:25px;padding:0;margin:0;outline:none;overflow:hidden;cursor:pointer;
@@ -87,12 +88,12 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
  background-size:320% 100%;
  box-shadow:inset 0 1px 1px rgba(255,255,255,.5),inset 0 -8px 16px rgba(0,0,0,.35),0 8px 20px rgba(0,0,0,.55),0 0 16px rgba(232,184,106,.25);
  animation:flow 7s ease-in-out infinite alternate;
- transition:transform .5s cubic-bezier(.22,1,.36,1)}
-#b.intro{animation:rise .8s cubic-bezier(.2,.8,.2,1) backwards,flow 7s ease-in-out infinite alternate}
-#b:active{transform:scale(.95);transition:transform .1s ease-out}
+ transition:transform .85s cubic-bezier(.22,1,.36,1)}
+#b.intro{animation:rise .9s cubic-bezier(.2,.8,.2,1) backwards,flow 7s ease-in-out infinite alternate}
+#b:active{transform:scale(.95);transition:transform .12s ease-out}
 @keyframes rise{from{opacity:0;transform:translateY(18px) scale(.92)}to{opacity:1;transform:none}}
 @keyframes flow{0%{background-position:100% 0}100%{background-position:0 0}}
-#fill{position:absolute;top:0;bottom:0;right:0;width:0;overflow:hidden;transition:width .45s ease;
+#fill{position:absolute;top:0;bottom:0;right:0;width:0;overflow:hidden;transition:width .6s ease;
  background:linear-gradient(270deg,rgba(255,170,190,.6),rgba(255,214,170,.3))}
 #fill::after{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:rgba(255,240,207,.8)}
 #sheen{position:absolute;top:0;bottom:0;width:38%;left:-50%;
@@ -101,7 +102,7 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .playing #sheen{animation-duration:2.2s}
 @keyframes sweep{0%{left:-50%}100%{left:130%}}
 #face{position:relative;z-index:2;height:100%;display:flex;align-items:center;justify-content:center;gap:8px}
-.ic{width:17px;height:17px;fill:#fff0cf;flex:none;filter:drop-shadow(0 1px 4px rgba(0,0,0,.6));animation:pop .35s cubic-bezier(.2,.9,.3,1.2)}
+.ic{width:17px;height:17px;fill:#fff0cf;flex:none;filter:drop-shadow(0 1px 4px rgba(0,0,0,.6));animation:pop .4s cubic-bezier(.2,.9,.3,1.2)}
 @keyframes pop{from{opacity:0;transform:scale(.4) rotate(-90deg)}to{opacity:1;transform:none}}
 .lbl{font-size:18px;line-height:1;text-shadow:0 1px 8px rgba(0,0,0,.7)}
 .stop,.l-stop{display:none}
@@ -112,31 +113,30 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 @keyframes glow{0%,100%{box-shadow:inset 0 1px 1px rgba(255,255,255,.5),inset 0 -8px 16px rgba(0,0,0,.35),0 8px 20px rgba(0,0,0,.55),0 0 14px rgba(232,184,106,.2)}
  50%{box-shadow:inset 0 1px 1px rgba(255,255,255,.5),inset 0 -8px 16px rgba(0,0,0,.35),0 8px 20px rgba(0,0,0,.55),0 0 30px rgba(232,184,106,.55)}}
 /* ===== الفقاعتان (الغيب + السرعة) ===== */
-.bub{position:absolute;bottom:7px;left:50%;margin-left:-18px;width:36px;height:36px;z-index:1;opacity:0;pointer-events:none;
- transform:translateX(0) scale(.25);transition:transform .4s cubic-bezier(.5,0,.75,.4),opacity .25s ease .08s}
-.tracking .bub{opacity:1;pointer-events:auto;transition:transform .55s cubic-bezier(.34,1.55,.5,1),opacity .3s ease}
-.tracking .bub.l{transform:translateX(-114px) scale(1)}
-.tracking .bub.r{transform:translateX(94px) scale(1)}
+.bub{position:absolute;bottom:3px;left:50%;margin-left:-22px;width:44px;height:44px;z-index:1;opacity:0;pointer-events:none;
+ transform:translateX(0) scale(.25);transition:transform .5s cubic-bezier(.5,0,.75,.4),opacity .3s ease .1s}
+.tracking .bub{opacity:1;pointer-events:auto;transition:transform .72s cubic-bezier(.34,1.55,.5,1),opacity .35s ease}
+.tracking .bub.l{transform:translateX(-128px) scale(1)}
+.tracking .bub.r{transform:translateX(108px) scale(1)}
 .bb{width:100%;height:100%;border-radius:50%;padding:0;margin:0;outline:none;cursor:pointer;display:grid;place-items:center;color:#f6dca0;
  background:linear-gradient(145deg,rgba(255,255,255,.2),rgba(255,255,255,.06));border:1.5px solid rgba(240,207,142,.7);
  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
  box-shadow:inset 0 1px 1px rgba(255,255,255,.4),0 6px 16px rgba(0,0,0,.5),0 0 12px rgba(232,184,106,.2);
- transition:background .25s ease,color .25s ease,transform .18s ease}
-.bb svg{width:17px;height:17px}
+ transition:background .3s ease,color .3s ease,transform .2s ease}
 .bb:active{transform:scale(.92)}
 .bb.act{background:linear-gradient(145deg,#f6dca0,#b98a3e);color:#2a1b0a}
-.spop{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%) translateY(8px) scale(.92);transform-origin:50% 100%;opacity:0;pointer-events:none;white-space:nowrap;padding:5px;border-radius:14px;
+.spop{position:absolute;bottom:calc(100% + 12px);left:50%;transform:translateX(-50%) translateY(8px) scale(.92);transform-origin:50% 100%;opacity:0;pointer-events:none;white-space:nowrap;padding:6px;border-radius:16px;
  background:linear-gradient(165deg,rgba(70,50,26,.84),rgba(26,17,9,.9));-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
- border:1px solid rgba(240,207,142,.4);box-shadow:0 10px 28px rgba(0,0,0,.5);transition:transform .35s cubic-bezier(.22,1,.36,1),opacity .25s ease}
+ border:1px solid rgba(240,207,142,.4);box-shadow:0 10px 28px rgba(0,0,0,.5);transition:transform .45s cubic-bezier(.22,1,.36,1),opacity .3s ease}
 .spop.open{opacity:1;pointer-events:auto;transform:translateX(-50%) scale(1)}
-.sopt{display:flex;align-items:center;gap:8px;width:100%;box-sizing:border-box;padding:7px 10px;border-radius:11px;background:none;border:0;color:#e8cf9a;font-family:inherit;font-size:14px;text-align:start;outline:none;cursor:pointer}
+.sopt{display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;padding:9px 12px;border-radius:12px;background:none;border:0;color:#e8cf9a;font-family:inherit;font-size:15px;text-align:start;outline:none;cursor:pointer}
 .sopt.sel{background:rgba(240,207,142,.16);color:#fff0cf}
-.ck{flex:none;width:17px;height:17px;border-radius:50%;border:1.5px solid rgba(240,207,142,.5);box-sizing:border-box}
+.ck{flex:none;width:20px;height:20px;border-radius:50%;border:1.5px solid rgba(240,207,142,.5);box-sizing:border-box}
 .sel .ck{background:linear-gradient(145deg,#f6dca0,#b98a3e);border-color:transparent}
 /* ===== القائمة الجانبية الزجاجية ===== */
-#scrim{position:fixed;top:0;right:0;bottom:0;left:0;z-index:50;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .6s ease}
+#scrim{position:fixed;top:0;right:0;bottom:0;left:0;z-index:50;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .8s ease}
 #menu{position:fixed;top:0;bottom:0;left:0;z-index:60;width:min(74vw,290px);box-sizing:border-box;padding:calc(14px + var(--st,0px)) 0 16px;
- transform:translateX(-104%);transition:transform .65s cubic-bezier(.22,1,.36,1);
+ transform:translateX(-104%);transition:transform .85s cubic-bezier(.22,1,.36,1);
  background:linear-gradient(165deg,rgba(70,50,26,.72),rgba(26,17,9,.8));
  -webkit-backdrop-filter:blur(10px) saturate(1.4);backdrop-filter:blur(10px) saturate(1.4);
  border-right:1px solid rgba(240,207,142,.4);box-shadow:8px 0 40px rgba(0,0,0,.4),inset -1px 0 1px rgba(255,255,255,.2)}
@@ -150,9 +150,9 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 body.light .mic .i-sun{display:block}
 body.light .mic .i-moon{display:none}
 .mi .mt{flex:1}
-.mi .chev{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:rgba(240,207,142,.12);border:1px solid rgba(240,207,142,.38);transition:transform .45s cubic-bezier(.22,1,.36,1),background .3s ease}
+.mi .chev{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:rgba(240,207,142,.12);border:1px solid rgba(240,207,142,.38);transition:transform .55s cubic-bezier(.22,1,.36,1),background .3s ease}
 .mi.open .chev{transform:rotate(180deg);background:rgba(240,207,142,.26)}
-.sub{max-height:0;overflow:hidden;transition:max-height .5s ease}
+.sub{max-height:0;overflow:hidden;transition:max-height .6s ease}
 .sub.open{max-height:180px}
 .opt{display:flex;align-items:center;gap:12px;width:calc(100% - 44px);margin:8px 22px 0;box-sizing:border-box;padding:9px 12px;border-radius:14px;
  background:rgba(255,255,255,.06);border:1px solid rgba(240,207,142,.22);color:#e8cf9a;font-family:inherit;font-size:16px;text-align:start;outline:none;cursor:pointer;transition:background .3s ease,border-color .3s ease}
@@ -161,7 +161,7 @@ body.light .mic .i-moon{display:none}
 .opt.sel{background:rgba(240,207,142,.18);border-color:rgba(240,207,142,.7);color:#fff0cf}
 /* ===== لوحة الإعدادات (فاضية الحين) ===== */
 #sets{position:fixed;top:0;bottom:0;right:0;z-index:60;width:min(80vw,320px);box-sizing:border-box;padding:calc(14px + var(--st,0px)) 16px 16px;
- transform:translateX(104%);transition:transform .65s cubic-bezier(.22,1,.36,1);
+ transform:translateX(104%);transition:transform .85s cubic-bezier(.22,1,.36,1);
  background:linear-gradient(165deg,rgba(70,50,26,.72),rgba(26,17,9,.8));
  -webkit-backdrop-filter:blur(10px) saturate(1.4);backdrop-filter:blur(10px) saturate(1.4);
  border-left:1px solid rgba(240,207,142,.4);box-shadow:-8px 0 40px rgba(0,0,0,.4),inset 1px 0 1px rgba(255,255,255,.2)}
@@ -235,8 +235,8 @@ body.light .playing#b{animation:glowL 2.6s ease-in-out infinite}
 </div><div id="mini"><span id="mSu"></span><span id="mPg"></span><span id="mHz"></span></div></div>
 <div id="pages"></div>
 <div id="bar">
- <div class="bub l"><button class="bb" id="bEye" aria-label="blind"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12s3.5-6.5 9-6.5S21 12 21 12s-3.5 6.5-9 6.5S3 12 3 12z"/><circle cx="12" cy="12" r="2.6"/><path d="M4 4l16 16"/></svg></button></div>
- <div class="bub r"><button class="bb" id="bSpdBtn" aria-label="speed"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 17a8.5 8.5 0 1 1 15 0"/><path d="M12 14.2l4-5"/><circle cx="12" cy="14.2" r="1.3" fill="currentColor"/></svg></button>
+ <div class="bub l"><button class="bb" id="bEye" aria-label="blind"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12s3.5-6.5 9-6.5S21 12 21 12s-3.5 6.5-9 6.5S3 12 3 12z"/><circle cx="12" cy="12" r="2.6"/><path d="M4 4l16 16"/></svg></button></div>
+ <div class="bub r"><button class="bb" id="bSpdBtn" aria-label="speed"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 17a8.5 8.5 0 1 1 15 0"/><path d="M12 14.2l4-5"/><circle cx="12" cy="14.2" r="1.3" fill="currentColor"/></svg></button>
   <div class="spop" id="spop"><button class="sopt sel" data-m="normal"><span class="ck"></span><span>الوضع العادي</span></button><button class="sopt" data-m="hadr"><span class="ck"></span><span>وضع الحدر</span></button></div></div>
  <button id="b" class="intro" aria-label="play">
  <span id="fill"></span><span id="sheen"></span>
@@ -269,7 +269,7 @@ b.addEventListener('animationend',e=>{if(e.animationName==='rise')b.classList.re
 const ar=n=>Number(n).toLocaleString('ar-EG');
 const ws=[],pages=[],pmap={},fs=[],cinfo={};
 const MAXS=1.35;
-const HADR=2;
+const HADR=3;
 const BARH=70;
 const AV=el=>el.clientHeight-6-BARH;
 const NAMES={86:'الطَّارِقِ',87:'الأَعْلَى',88:'الغَاشِيَةِ',89:'الفَجْرِ',90:'البَلَدِ',91:'الشَّمْسِ',92:'اللَّيْلِ',93:'الضُّحَى',94:'الشَّرْحِ',95:'التِّينِ',96:'العَلَقِ',97:'القَدْرِ',98:'البَيِّنَةِ',99:'الزَّلْزَلَةِ',100:'العَادِيَاتِ',101:'القَارِعَةِ',102:'التَّكَاثُرِ',103:'العَصْرِ',104:'الهُمَزَةِ',105:'الفِيلِ',106:'قُرَيْشٍ',107:'المَاعُونِ',108:'الكَوْثَرِ',109:'الكَافِرُونَ',110:'النَّصْرِ',111:'المَسَدِ',112:'الإِخْلَاصِ',113:'الفَلَقِ',114:'النَّاسِ'};
@@ -365,7 +365,7 @@ function mkInfo(){
   });
 }
 let i=-1,gEnd=-1,t=null,mul=1,curPage=0,lastP=-1,lock=0,ready=false,progCh=-1,lastPE=0,lastZoom=1;
-let blind=false,seenIdx=-1,hadr=false;
+let sessStart=-1,blind=false,seenIdx=-1,hadr=false;
 
 /* امتداد الشاشة تحت شريط الإشعارات */
 function applyInset(){
@@ -558,7 +558,7 @@ function ensure(p){
 function warm(){
   [curPage-1,curPage+1].forEach(k=>{
     const q=pages[k];
-    if(q&&q.stale)setTimeout(()=>{ensure(q);if(i>=0&&ws[i]._p===q.k)place(false,true)},160);
+    if(q&&q.stale)setTimeout(()=>{ensure(q);if(i>=0&&ws[i]._p===q.k)place(false,true)},90);
   });
 }
 function autoFit(){
@@ -568,7 +568,7 @@ function autoFit(){
   warm();
 }
 
-/* مؤشر التتبع (كلمة واحدة، أو كلمتين في وضع الحدر) */
+/* مؤشر التتبع (كلمة واحدة، أو مجموعة في وضع الحدر) */
 function sameLine(a,b){return Math.abs(a.offsetTop-b.offsetTop)<=a.offsetHeight*0.5}
 function groupEnd(s){
   if(!hadr)return s;
@@ -602,17 +602,19 @@ function place(anim,instant){
   g.style.width=(R-L+10)+'px';
   g.style.height=gh+'px';
   if(instant||same){g.style.opacity=1}
-  else{requestAnimationFrame(()=>{g.style.transition='left 0.55s cubic-bezier(0.22, 1, 0.36, 1), top 0.55s cubic-bezier(0.22, 1, 0.36, 1), width 0.55s cubic-bezier(0.22, 1, 0.36, 1), height 0.55s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease';g.style.opacity=1})}
+  else{requestAnimationFrame(()=>{g.style.transition='left 0.75s cubic-bezier(0.25, 1, 0.5, 1), top 0.75s cubic-bezier(0.25, 1, 0.5, 1), width 0.75s cubic-bezier(0.25, 1, 0.5, 1), height 0.75s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.5s ease';g.style.opacity=1})}
   lastP=w._p;
 }
-function jumpToWord(w,smooth){
-  if(!w)return;
+/* التتبع في منتصف الشاشة */
+function follow(w,inst){
   const p=pages[w._p],el=p.el;
-  if(w._p!==curPage)showPage(w._p);
-  if(el.scrollHeight>el.clientHeight+2){
-    const targetTop=Math.max(0,Math.min(el.scrollHeight-el.clientHeight,w.offsetTop-el.clientHeight*0.42));
-    el.scrollTo({top:targetTop,behavior:smooth?'smooth':'auto'});
-  }
+  if(el.scrollHeight<=el.clientHeight+2)return;
+  const r=w.getBoundingClientRect();
+  const cy=r.top+r.height/2,target=window.innerHeight/2;
+  if(!land()&&cy<=target+4)return;
+  const maxTop=el.scrollHeight-el.clientHeight;
+  const to=Math.max(0,Math.min(maxTop,el.scrollTop+(cy-target)));
+  el.scrollTo({top:to,behavior:inst?'auto':'smooth'});
 }
 function showPage(k){
   ensure(pages[k]);
@@ -621,7 +623,7 @@ function showPage(k){
   warm();
 }
 
-/* القراءة بالغيب: إظهار كل الكلمات السابقة وإخفاء المستقبلية حتى يتم تتبعها */
+/* القراءة بالغيب: تظهر الكلمات اللي تم تتبعها فقط */
 function markSeen(upTo){
   if(!blind)return;
   for(let k=seenIdx+1;k<=upTo&&k<ws.length;k++)ws[k].classList.remove('fut');
@@ -633,11 +635,9 @@ function setBlind(on){
   document.body.classList.toggle('blind',on);
   bEye.classList.toggle('act',on);
   if(on){
-    const curPos=Math.max(gEnd,i);
-    if(curPos>seenIdx)seenIdx=curPos;
+    seenIdx=Math.max(gEnd,i);
     for(let k=0;k<ws.length;k++){
-      if(k>seenIdx)ws[k].classList.add('fut');
-      else ws[k].classList.remove('fut');
+      if(k>seenIdx||(sessStart>=0&&k<sessStart))ws[k].classList.add('fut');else ws[k].classList.remove('fut');
     }
   }else{
     for(let k=0;k<ws.length;k++)ws[k].classList.remove('fut');
@@ -647,8 +647,9 @@ function setBlind(on){
 function stop(){
   clearInterval(t);t=null;b.classList.remove('playing');
   document.body.classList.remove('tracking');
-  setBlind(false);seenIdx=-1;
+  setBlind(false);sessStart=-1;
   document.getElementById('spop').classList.remove('open');
+  try{pages[curPage].el.scrollTo({top:0,behavior:'smooth'})}catch(e){}
 }
 function go(){
   if(i>=0)for(let k=i;k<=gEnd;k++)ws[k].classList.remove('on');
@@ -657,24 +658,16 @@ function go(){
   if(i>=ws.length){stop();i=-1;gEnd=-1;place(false);updProg();updMini();return}
   ensure(pages[ws[i]._p]);
   gEnd=groupEnd(i);
+  if(sessStart<0)sessStart=i;
   for(let k=i;k<=gEnd;k++)ws[k].classList.add('on');
   markSeen(gEnd);
   if(ws[i]._p!==curPage&&Date.now()>lock)showPage(ws[i]._p);
-  place(true);updProg();updMini();
+  follow(ws[i]);place(true);updProg();updMini();
 }
 b.onclick=()=>{
   if(!ready)return;
   if(t){stop();return}
-  if(i>=0&&ws[i]){
-    document.body.classList.add('tracking');
-    b.classList.add('playing');
-    jumpToWord(ws[i],true);
-    place(false,true);
-    updProg();updMini();
-    t=setInterval(go,800);
-    return;
-  }
-  i=ws.findIndex(w=>w._p===curPage)-1;gEnd=i;
+  if(i<0){i=ws.findIndex(w=>w._p===curPage)-1;gEnd=i}
   document.body.classList.add('tracking');
   b.classList.add('playing');go();t=setInterval(go,800);
 };
@@ -704,7 +697,7 @@ function collapseTheme(){
   subTheme.style.transition='';
 }
 function openMenu(){collapseTheme();document.body.classList.add('menuopen')}
-function closeMenu(){document.body.classList.remove('menuopen');setTimeout(collapseTheme,700)}
+function closeMenu(){document.body.classList.remove('menuopen');setTimeout(collapseTheme,950)}
 menuBtn.addEventListener('click',e=>{e.stopPropagation();openMenu()});
 setBtn.addEventListener('click',e=>{e.stopPropagation();document.body.classList.add('setopen')});
 setX.addEventListener('click',()=>document.body.classList.remove('setopen'));
@@ -729,69 +722,84 @@ document.addEventListener('click',e=>{if(!e.target.closest('#spop')&&!e.target.c
 let savedSp='normal';try{savedSp=localStorage.getItem('qspeed')||'normal'}catch(e){}
 setSpeed(savedSp);
 
-let pinch=null,zoomT=0,raf=0;
+let pinch=null,flipT=0,flipPage=null,raf=0;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
 const mid=e=>({x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2});
 
-function finishZoom(p){
-  clearTimeout(zoomT);
+function cleanFlip(){
+  clearTimeout(flipT);
   document.body.classList.remove('busy');
-  if(!p)return;
-  p.z.style.transition='none';
-  p.z.style.transform='';
-  p.z.style.transformOrigin='0 0';
-  p.z.style.willChange='';
+  if(!flipPage)return;
+  flipPage.items.forEach(w=>{w.style.transition='';w.style.transform='';w.style.transformOrigin=''});
+  flipPage.g.style.transition='none';flipPage.g.style.transform='';flipPage.g.style.transformOrigin='';
+  flipPage=null;
 }
 
 function commit(p,s,anchor,dur){
-  dur=dur||650;
+  dur=dur||700;
   if(Math.abs(s-1)<0.02){
-    p.z.style.transition='transform 0.35s cubic-bezier(.22,1,.36,1)';
-    p.z.style.transform='translate3d(0,0,0) scale(1)';
-    zoomT=setTimeout(()=>finishZoom(p),380);
+    p.z.style.transform='';p.z.style.transformOrigin='';p.z.style.willChange='';
+    document.body.classList.remove('busy');
     return;
   }
   document.body.classList.add('busy');
   let nm=Math.max(1,Math.min(mm(p.k),mul*s));
   if(nm<1.04)nm=1;
-  const prevMul=mul;
-  const ratio=nm/prevMul;
-  const r=p.z.getBoundingClientRect();
-  const ax=anchor?(anchor.x-r.left):r.width/2;
-  const ay=anchor?(anchor.y-r.top):r.height/2;
-  const tx=(anchor?anchor.x:r.width/2)-(r.left+ax*ratio);
-  const ty=(anchor?anchor.y:r.height/2)-(r.top+ay*ratio);
-  p.z.style.transformOrigin='0 0';
-  p.z.style.willChange='transform';
-  p.z.style.transition='transform '+(dur/1000)+'s cubic-bezier(.22,1,.36,1)';
-  p.z.style.transform='translate3d('+tx+'px,'+ty+'px,0) scale('+ratio+')';
-  clearTimeout(zoomT);
-  zoomT=setTimeout(()=>{
-    const prevScrollTop=p.el.scrollTop;
-    mul=nm;if(nm>1)lastZoom=nm;
-    applyMode(p);
-    p.z.style.transition='none';
-    p.z.style.transform='';
-    p.z.style.transformOrigin='0 0';
-    p.z.style.willChange='';
-    if(anchor){
-      const ratioScroll=(p.el.scrollHeight/Math.max(1,p.el.clientHeight));
-      p.el.scrollTop=Math.max(0,prevScrollTop*ratio);
-    }
-    place(false,true);
-    document.body.classList.remove('busy');
-    pages.forEach(q=>{if(q!==p)q.stale=true});
-    setTimeout(warm,140);
-  },dur+20);
+  const vp=p.el.getBoundingClientRect();
+  const olds=p.items.map(w=>w.getBoundingClientRect());
+  let ai=-1;
+  if(anchor){
+    let best=1e9;
+    p.items.forEach((w,j)=>{const o=olds[j];if(!o.width)return;const d=Math.hypot(o.left+o.width/2-anchor.x,o.top+o.height/2-anchor.y);if(d<best){best=d;ai=j}});
+  }
+  const og=p.g.getBoundingClientRect();
+  const gVisible=p.g.style.opacity==='1';
+  p.z.style.transition='none';p.z.style.transform='';p.z.style.transformOrigin='';p.z.style.willChange='';
+  mul=nm;if(nm>1)lastZoom=nm;
+  applyMode(p);
+  const tracked=(i>=0&&ws[i]._p===p.k);
+  if(tracked&&p.mode==='flow'){
+    const r=ws[i].getBoundingClientRect();
+    p.el.scrollTop+=(r.top+r.height/2)-window.innerHeight/2;
+  }else if(ai>=0){
+    const r=p.items[ai].getBoundingClientRect();p.el.scrollTop+=(r.top+r.height/2)-anchor.y;
+  }
+  place(false,true);
+  const news=p.items.map(w=>w.getBoundingClientRect());
+  const ng=p.g.getBoundingClientRect();
+  const near=r=>r.bottom>vp.top-60&&r.top<vp.bottom+60&&r.right>vp.left-60&&r.left<vp.right+60;
+  const moved=[];
+  p.items.forEach((w,j)=>{
+    const o=olds[j],n=news[j];
+    if(!n.width||!o.width)return;
+    if(!(near(o)||near(n)))return;
+    w.style.transition='none';w.style.transformOrigin='0 0';
+    w.style.transform='translate('+(o.left-n.left)+'px,'+(o.top-n.top)+'px) scale('+(o.width/n.width)+')';
+    moved.push(w);
+  });
+  if(gVisible&&ng.width){
+    p.g.style.transition='none';p.g.style.transformOrigin='0 0';
+    p.g.style.transform='translate('+(og.left-ng.left)+'px,'+(og.top-ng.top)+'px) scale('+(og.width/ng.width)+','+(og.height/ng.height)+')';
+  }
+  void p.el.offsetWidth;
+  const T='transform '+(dur/1000)+'s cubic-bezier(.22,.8,.25,1)';
+  moved.forEach(w=>{w.style.transition=T;w.style.transform=''});
+  if(gVisible){p.g.style.transition=T;p.g.style.transform=''}
+  flipPage=p;
+  flipT=setTimeout(cleanFlip,dur+80);
+  pages.forEach(q=>{if(q!==p)q.stale=true});
+  setTimeout(warm,dur+200);
 }
 
 /* ===== اللمس: ضغطة واحدة (القائمة العلوية ترتفع/تنزل) ومرتين (تكبير/رجوع) ===== */
 function singleTap(){document.body.classList.toggle('nohead')}
 function doubleTap(x,y){
   const p=pages[curPage];if(!p)return;
-  const a={x:x,y:y};
+  let a={x:x,y:y};
+  if(i>=0&&ws[i]._p===p.k){const r=ws[i].getBoundingClientRect();a={x:r.left+r.width/2,y:r.top+r.height/2}}
+  cleanFlip();
   const target=mul>1?1/mul:Math.min(mm(p.k),lastZoom>1?lastZoom:1.9);
-  commit(p,target,a,650);
+  commit(p,target,a,720);
 }
 let tapT=0,lastTapT=0,lastTapX=0,lastTapY=0,tdown=null;
 pagesEl.addEventListener('touchstart',e=>{
@@ -808,21 +816,21 @@ pagesEl.addEventListener('touchend',e=>{
   if(e.touches.length>0){tdown.ok=false;return}
   const d=tdown;tdown=null;
   const now=Date.now();
-  if(!d.ok||pinch||!ready||now-lastPE<350||now-d.t>350)return;
-  if(now-lastTapT<300&&Math.hypot(d.x-lastTapX,d.y-lastTapY)<50){
+  if(!d.ok||pinch||!ready||now-lastPE<500||now-d.t>350)return;
+  if(now-lastTapT<320&&Math.hypot(d.x-lastTapX,d.y-lastTapY)<50){
     clearTimeout(tapT);lastTapT=0;doubleTap(d.x,d.y);
   }else{
     lastTapT=now;lastTapX=d.x;lastTapY=d.y;
     clearTimeout(tapT);
-    tapT=setTimeout(()=>{if(!pinch)singleTap()},310);
+    tapT=setTimeout(()=>{if(!pinch)singleTap()},330);
   }
 },{passive:true});
 
 function applyPinch(){
   raf=0;
   if(!pinch)return;
-  pinch.cs+=(pinch.s-pinch.cs)*0.24;
-  if(Math.abs(pinch.s-pinch.cs)<0.003)pinch.cs=pinch.s;
+  pinch.cs+=(pinch.s-pinch.cs)*0.22;
+  if(Math.abs(pinch.s-pinch.cs)<0.002)pinch.cs=pinch.s;
   pinch.p.z.style.transform='translate3d('+pinch.dx+'px,'+pinch.dy+'px,0) scale('+pinch.cs+')';
   if(pinch.cs!==pinch.s)raf=requestAnimationFrame(applyPinch);
 }
@@ -831,7 +839,7 @@ document.addEventListener('touchstart',e=>{
     if(e.cancelable)e.preventDefault();
     if(pinch||!ready)return;
     clearTimeout(tapT);lastTapT=0;
-    finishZoom(pages[curPage]);
+    cleanFlip();
     document.body.classList.add('busy');
     const p=pages[curPage],r=p.z.getBoundingClientRect(),c=mid(e);
     pinch={p,d0:dist(e)||1,c0:c,s:1,cs:1,dx:0,dy:0};
@@ -854,13 +862,13 @@ function endPinch(e){
     cancelAnimationFrame(raf);raf=0;
     const {p,cs,dx,dy,c0}=pinch;pinch=null;lastPE=Date.now();
     p.z.style.transform='translate3d('+dx+'px,'+dy+'px,0) scale('+cs+')';
-    commit(p,cs,{x:c0.x+dx,y:c0.y+dy},650);
+    commit(p,cs,{x:c0.x+dx,y:c0.y+dy},700);
   }
 }
 document.addEventListener('touchend',endPinch);
 document.addEventListener('touchcancel',endPinch);
 
-/* إعادة الترتيب تلقائياً لما يتغير حجم منطقة الصفحات (تدوير الشاشة...) */
+/* إعادة الترتيب تلقائياً لما يتغير حجم منطقة الصفحات (تدوير الشاشة...) ثم إرجاع المؤشر للمنتصف */
 let roT=0,lastRO='';
 function relayout(){
   const k=pagesEl.clientWidth+'x'+pagesEl.clientHeight;
@@ -871,6 +879,7 @@ function relayout(){
     applyInset();autoFit();
     const p=pages[curPage];
     p.el.scrollTop=0;
+    if(i>=0&&ws[i]._p===curPage)follow(ws[i],true);
     place(false,true);
     p.el.scrollIntoView({inline:'center',block:'nearest'});
   },80);
