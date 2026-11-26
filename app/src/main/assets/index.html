@@ -544,7 +544,7 @@ function layoutMush(p){
     el.style.fontSize=f+'px';
     let mx=0;wrows.forEach(d=>{mx=Math.max(mx,natW(d))});
     if(!mx)break;
-    f=Math.max(9,Math.min(L?90:rh*1.05,f*C/mx*1.04));
+    f=Math.max(9,Math.min(L?90:rh*1.05,f*C/mx*0.99));
   }
   if(L)rh=Math.max(rh,f*1.6);
   p.inner.style.height=(rh*15)+'px';
