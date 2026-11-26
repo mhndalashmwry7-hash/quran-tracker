@@ -458,7 +458,7 @@ function build(){
     if(n===1)banner(pageOf(first),c,wl?wl[0].l:null);
     if(wl)wl.forEach((w,j)=>add(pageOf(w.p),w.t,false,w,w.l,c,okT?segs[j]:null));
     else v.text_uthmani.split(' ').forEach(t=>add(pageOf(first),t,false,null,null,c,null));
-    add(pageOf(last),ar(n),true,null,wl?wl[wl.length-1].l:null,c);
+    add(pageOf(v.e&&v.e.p?v.e.p:last),ar(n),true,null,v.e&&v.e.l?v.e.l:(wl?wl[wl.length-1].l:null),c);
   });
 }
 function mkInfo(){
