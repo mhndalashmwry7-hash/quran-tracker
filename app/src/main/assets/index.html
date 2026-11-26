@@ -260,7 +260,7 @@ body.light #fill::after{background:rgba(255,255,255,.95)}
 body.light .playing#b{animation:glowL 2.6s ease-in-out infinite}
 @keyframes glowL{0%,100%{box-shadow:inset 0 1px 2px rgba(255,255,255,.95),inset 0 -6px 14px rgba(255,255,255,.35),0 0 0 1px rgba(0,0,0,.12),0 10px 24px rgba(150,90,200,.22)}
  50%{box-shadow:inset 0 1px 2px rgba(255,255,255,.95),inset 0 -6px 14px rgba(255,255,255,.35),0 0 0 1px rgba(0,0,0,.12),0 10px 32px rgba(255,110,170,.42)}}
-</style></head><body>
+.w{-webkit-text-stroke:.022em currentColor}.w.num{-webkit-text-stroke:0}</style></head><body>
 <div id="top"><div id="hrow">
  <button class="hbtn" id="setBtn" aria-label="settings"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
  <button class="hbtn" id="srcBtn" aria-label="search"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg></button>
@@ -270,7 +270,7 @@ body.light .playing#b{animation:glowL 2.6s ease-in-out infinite}
 <div id="bar">
  <div class="bub l"><button class="bb" id="bEye" aria-label="blind"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12s3.5-6.5 9-6.5S21 12 21 12s-3.5 6.5-9 6.5S3 12 3 12z"/><circle cx="12" cy="12" r="2.6"/><path d="M4 4l16 16"/></svg></button></div>
  <div class="bub r"><button class="bb" id="bSpdBtn" aria-label="speed"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 17a8.5 8.5 0 1 1 15 0"/><path d="M12 14.2l4-5"/><circle cx="12" cy="14.2" r="1.3" fill="currentColor"/></svg></button>
-  <div class="spop" id="spop"><button class="sopt sel" data-m="normal"><span class="ck"></span><span>الوضع العادي</span></button><button class="sopt" data-m="hadr"><span class="ck"></span><span>وضع الحدر</span></button></div></div>
+  <div class="spop" id="spop"><button class="sopt sel" data-m="tahqiq"><span class="ck"></span><span>تحقيق</span></button><button class="sopt" data-m="tadwir"><span class="ck"></span><span>تدوير</span></button><button class="sopt" data-m="hadr"><span class="ck"></span><span>حدر</span></button></div></div>
  <button id="b" class="intro" aria-label="play">
  <span id="fill"></span><span id="sheen"></span>
  <span id="face">
@@ -308,7 +308,7 @@ b.addEventListener('animationend',e=>{if(e.animationName==='rise')b.classList.re
 const ar=n=>Number(n).toLocaleString('ar-EG');
 const ws=[],pages=[],pmap={},fs=[],cinfo={},jp={};
 const MAXS=1.6;
-const HADR=3;
+let GN=1;
 const BARH=70;
 const AV=el=>el.clientHeight-6-BARH;
 const NAMES={78:'النَّبَإِ',79:'النَّازِعَاتِ',80:'عَبَسَ',81:'التَّكْوِيرِ',82:'الِانفِطَارِ',83:'المُطَفِّفِينَ',84:'الِانشِقَاقِ',85:'البُرُوجِ',86:'الطَّارِقِ',87:'الأَعْلَى',88:'الغَاشِيَةِ',89:'الفَجْرِ',90:'البَلَدِ',91:'الشَّمْسِ',92:'اللَّيْلِ',93:'الضُّحَى',94:'الشَّرْحِ',95:'التِّينِ',96:'العَلَقِ',97:'القَدْرِ',98:'البَيِّنَةِ',99:'الزَّلْزَلَةِ',100:'العَادِيَاتِ',101:'القَارِعَةِ',102:'التَّكَاثُرِ',103:'العَصْرِ',104:'الهُمَزَةِ',105:'الفِيلِ',106:'قُرَيْشٍ',107:'المَاعُونِ',108:'الكَوْثَرِ',109:'الكَافِرُونَ',110:'النَّصْرِ',111:'المَسَدِ',112:'الإِخْلَاصِ',113:'الفَلَقِ',114:'النَّاسِ'};
@@ -375,7 +375,7 @@ function tfSplit(txt){
   let out='',open=false;
   const close=()=>{if(open){out+='</i>';open=false}};
   for(const ch of txt){
-    if(isSmall(ch)){close();out+='<i class="sm">'+ch+'</i>';continue}
+    if(isSmall(ch)){out+=ch;continue}
     if(isMark(ch)){out+=ch;continue}
     close();
     if(TAF.indexOf(ch)>=0){out+='<i class="tf">'+ch;open=true}else out+=ch;
@@ -600,7 +600,7 @@ function stretchPage(p){
     r.forEach((q,k)=>{l=Math.min(l,q.left);rr=Math.max(rr,q.right);if(!L[k].classList.contains('num'))sw+=q.width});
     const left=C-(rr-l);
     if(left<=1||left/C>0.28||!sw)return;
-    const s=Math.min(MAXS,1+left*0.96/sw);
+    const s=Math.min(1.18,1+left*0.96/sw);
     if(s<1.002)return;
     L.forEach((w,k)=>{if(!w.classList.contains('num'))plan.push([w,s,r[k].width*(s-1)/2])});
   });
@@ -652,9 +652,9 @@ function ensure(p){
   applyMode(p);
 }
 function warm(){
-  [curPage-1,curPage+1].forEach(k=>{
+  [curPage-1,curPage+1].forEach((k,ix)=>{
     const q=pages[k];
-    if(q&&q.stale)setTimeout(()=>{ensure(q);if(i>=0&&ws[i]._p===q.k)place(false,true)},90);
+    if(q&&q.stale)setTimeout(()=>{ensure(q);if(i>=0&&ws[i]._p===q.k)place(false,true)},260+ix*380);
   });
 }
 function autoFit(){
@@ -667,9 +667,9 @@ function autoFit(){
 /* مؤشر التتبع (كلمة واحدة، أو مجموعة في وضع الحدر) */
 function sameLine(a,b){return Math.abs(a.offsetTop-b.offsetTop)<=a.offsetHeight*0.5}
 function groupEnd(s){
-  if(!hadr)return s;
+  if(GN<2)return s;
   const w0=ws[s];let e=s,n=1;
-  for(let k=s+1;k<ws.length&&n<HADR;k++){
+  for(let k=s+1;k<ws.length&&n<GN;k++){
     const w=ws[k];
     if(w._p!==w0._p||w._c!==w0._c||!sameLine(w0,w))break;
     e=k;
@@ -681,9 +681,9 @@ function groupEnd(s){
 function prevStart(s){
   let n=s-1;while(n>=0&&ws[n].classList.contains('num'))n--;
   if(n<0)return -1;
-  if(!hadr)return n;
+  if(GN<2)return n;
   let c=1;const w0=ws[n];
-  while(c<HADR){
+  while(c<GN){
     let m=n-1;while(m>=0&&ws[m].classList.contains('num'))m--;
     if(m<0||ws[m]._p!==w0._p||ws[m]._c!==w0._c||!sameLine(w0,ws[m]))break;
     n=m;c++;
@@ -803,8 +803,8 @@ function scrub(dir){
 function jumpToCursor(){
   const w=ws[i];if(!w)return;
   ensure(pages[w._p]);
-  if(w._p!==curPage)gotoPage(w._p);
-  follow(w,true);
+  if(w._p!==curPage)showPage(w._p);
+  follow(w,false);
 }
 let sc=null,supClick=false;
 b.addEventListener('touchstart',e=>{
@@ -952,7 +952,7 @@ document.getElementById('slClose').addEventListener('click',closeList);
 /* فقاعة الغيب وفقاعة السرعة */
 const bSpdBtn=document.getElementById('bSpdBtn'),spop=document.getElementById('spop');
 function setSpeed(m){
-  hadr=(m==='hadr');
+  if(m!=='tadwir'&&m!=='hadr')m='tahqiq';GN=m==='tadwir'?2:m==='hadr'?3:1;hadr=GN>1;
   spop.querySelectorAll('.sopt').forEach(o=>o.classList.toggle('sel',o.dataset.m===m));
   bSpdBtn.classList.toggle('act',hadr);
   try{localStorage.setItem('qspeed',m)}catch(e){}
@@ -961,13 +961,15 @@ bEye.addEventListener('click',e=>{e.stopPropagation();setBlind(!blind)});
 bSpdBtn.addEventListener('click',e=>{e.stopPropagation();spop.classList.toggle('open')});
 spop.querySelectorAll('.sopt').forEach(o=>o.addEventListener('click',e=>{e.stopPropagation();setSpeed(o.dataset.m);spop.classList.remove('open')}));
 document.addEventListener('click',e=>{if(!e.target.closest('#spop')&&!e.target.closest('#bSpdBtn'))spop.classList.remove('open')});
-let savedSp='normal';try{savedSp=localStorage.getItem('qspeed')||'normal'}catch(e){}
+let savedSp='tahqiq';try{savedSp=localStorage.getItem('qspeed')||'tahqiq'}catch(e){}
 setSpeed(savedSp);
 
 let pinch=null,flipT=0,flipPage=null,raf=0;
 const dist=e=>Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
 const mid=e=>({x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2});
 
+function zLv(k){const M=Math.min(6,Math.max(1.8,mm(k)));return [1,1+(M-1)*0.3,1+(M-1)*0.62,M]}
+function snapZ(k,v){const A=zLv(k);let b=A[0],d=1e9;A.forEach(a=>{const e=Math.abs(Math.log(v/a));if(e<d){d=e;b=a}});return b}
 function cleanFlip(){
   clearTimeout(flipT);
   document.body.classList.remove('busy');
@@ -985,8 +987,8 @@ function commit(p,s,anchor,dur){
     return;
   }
   document.body.classList.add('busy');
-  let nm=Math.max(1,Math.min(mm(p.k),mul*s));
-  if(nm<1.04)nm=1;
+  let nm=snapZ(p.k,mul*s);
+  if(Math.abs(nm-mul)<0.01){p.z.style.transition='transform .25s ease';p.z.style.transform='';setTimeout(()=>{p.z.style.transition='';p.z.style.transformOrigin='';p.z.style.willChange='';document.body.classList.remove('busy')},280);return}
   const vp=p.el.getBoundingClientRect();
   const olds=p.items.map(w=>w.getBoundingClientRect());
   let ai=-1;
@@ -1030,7 +1032,7 @@ function commit(p,s,anchor,dur){
   flipPage=p;
   flipT=setTimeout(cleanFlip,dur+80);
   pages.forEach(q=>{if(q!==p)q.stale=true});
-  setTimeout(warm,dur+200);
+  setTimeout(warm,dur+700);
 }
 
 /* ===== اللمس: ضغطة واحدة (القائمة العلوية ترتفع/تنزل) ومرتين (تكبير/رجوع) ===== */
@@ -1040,7 +1042,7 @@ function doubleTap(x,y){
   let a={x:x,y:y};
   if(i>=0&&ws[i]._p===p.k){const r=ws[i].getBoundingClientRect();a={x:r.left+r.width/2,y:r.top+r.height/2}}
   cleanFlip();
-  const target=mul>1?1/mul:Math.min(mm(p.k),lastZoom>1?lastZoom:1.9);
+  const target=mul>1.02?1/mul:zLv(p.k)[2];
   commit(p,target,a,720);
 }
 let tapT=0,lastTapT=0,lastTapX=0,lastTapY=0,tdown=null;
