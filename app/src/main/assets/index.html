@@ -50,8 +50,8 @@ body{display:flex;flex-direction:column;background:radial-gradient(120% 70% at 5
 .blind .w.fut{opacity:0!important;text-shadow:none}
 /* ألوان التجويد */
 .w i{font-style:normal}
-.w i.t1{color:var(--t1)}.w i.t2{color:var(--t2)}.w i.t3{color:var(--t3)}.w i.t4{color:var(--t4)}
-.w i.t5{color:var(--t5)}.w i.t6{color:var(--t6)}.w i.tf{color:var(--tf)}.w i.sm{color:var(--sm)}
+.tj .w i.t1{color:var(--t1)}.tj .w i.t2{color:var(--t2)}.tj .w i.t3{color:var(--t3)}.tj .w i.t4{color:var(--t4)}
+.tj .w i.t5{color:var(--t5)}.tj .w i.t6{color:var(--t6)}.tj .w i.tf{color:var(--tf)}.tj .w i.sm{color:var(--sm)}
 .tj .w.on i{filter:brightness(1.2)}
 .num{width:1.2em;padding:0;margin:calc(-.2em + var(--gap,0px)) 1px;opacity:.85}
 .num svg{position:absolute;inset:0;width:100%;height:100%}
@@ -392,15 +392,8 @@ function tjHTML(segs){
   return out;
 }
 function renderWord(s){
-  const w=s._w;
-  if(tajOn&&(s._seg||w)){
-    s.style.fontFamily="'uhafs',serif";
-    s.innerHTML=s._seg?tjHTML(s._seg):tfSplit(s._t);
-  }else if(w&&qready[w.p]){
-    s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c;
-  }else{
-    s.style.fontFamily='';s.textContent=s._t;
-  }
+  s.style.fontFamily="'uhafs',serif";
+  s.innerHTML=s._seg?tjHTML(s._seg):tfSplit(s._t);
 }
 
 function newPage(n){
@@ -892,8 +885,7 @@ function setTaj(on,rel){
   swTaj.classList.toggle('on',on);
   try{localStorage.setItem('qtaj',on?'1':'0')}catch(e){}
   if(rel&&ready){
-    ws.forEach(s=>{if(!s.classList.contains('num'))renderWord(s)});
-    autoFit();place(false,true);
+    
   }
 }
 miTaj.addEventListener('click',()=>setTaj(!tajOn,true));
