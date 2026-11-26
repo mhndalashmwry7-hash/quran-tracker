@@ -393,7 +393,7 @@ function tjHTML(segs){
   return out;
 }
 function renderWord(s){
-  s.style.fontFamily="'uhafs',serif";
+  s.style.fontFamily=(s._t&&s._t.indexOf('\u0670')>=0)?"'amq','uhafs',serif":"'uhafs',serif";
   s.innerHTML=s._seg?tjHTML(s._seg):tfSplit(s._t);
 }
 
