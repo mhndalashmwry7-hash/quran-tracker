@@ -307,7 +307,7 @@ const mSu=document.getElementById('mSu'),mPg=document.getElementById('mPg'),mHz=
 b.addEventListener('animationend',e=>{if(e.animationName==='rise')b.classList.remove('intro')});
 const ar=n=>Number(n).toLocaleString('ar-EG');
 const ws=[],pages=[],pmap={},fs=[],cinfo={},jp={};
-const MAXS=1.35;
+const MAXS=1.6;
 const HADR=3;
 const BARH=70;
 const AV=el=>el.clientHeight-6-BARH;
@@ -559,7 +559,7 @@ function layoutMush(p){
   const plans=[];
   wrows.forEach(d=>{
     const nat=natW(d),left=C-nat;
-    if(nat/C<0.8){plans.push({d:d,c:true});return}
+    if(nat/C<0.6){plans.push({d:d,c:true});return}
     let sw=0;const lst=[];
     [...d.children].forEach(c=>{if(!c.classList.contains('num')){const w=c.getBoundingClientRect().width;sw+=w;lst.push([c,w])}});
     if(left<=0.5||!sw)return;
