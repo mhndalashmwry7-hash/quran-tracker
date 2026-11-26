@@ -372,6 +372,7 @@ function tjParse(html){
   return words;
 }
 function tfSplit(txt){
+  txt=txt.replace(/\u06ED/g,'');
   let out='',open=false;
   const close=()=>{if(open){out+='</i>';open=false}};
   for(const ch of txt){
