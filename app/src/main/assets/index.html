@@ -268,6 +268,22 @@ body.light .playing#b{animation:glowL 2.6s ease-in-out infinite}
 @keyframes wr{to{-webkit-mask-position:100% 0}}
 body.light #intro{background:#fff}
 body.light #intro .tx{color:#111;text-shadow:none}
+#srch{position:fixed;top:0;right:0;bottom:0;left:0;z-index:90;display:flex;flex-direction:column;box-sizing:border-box;padding:calc(10px + var(--st,0px)) 12px 12px;visibility:hidden;opacity:0;background:rgba(8,5,2,.5);-webkit-backdrop-filter:blur(18px) saturate(1.5);backdrop-filter:blur(18px) saturate(1.5);transition:opacity .35s ease,visibility 0s linear .35s}
+.srchopen #srch{visibility:visible;opacity:1;transition:opacity .35s ease}
+.sbox{flex:none;display:flex;align-items:center;gap:10px;padding:0 14px;height:48px;border-radius:18px;transform:translateY(-14px);transition:transform .5s cubic-bezier(.22,1,.36,1);background:linear-gradient(145deg,rgba(255,255,255,.18),rgba(255,255,255,.06));border:1px solid rgba(240,207,142,.45);box-shadow:inset 0 1px 1px rgba(255,255,255,.35),0 8px 24px rgba(0,0,0,.5);color:#f0cf8e}
+.srchopen .sbox{transform:none}
+#sin{flex:1;min-width:0;background:none;border:0;outline:none;color:#f6dca0;font-family:inherit;font-size:19px;padding:0}
+#sin::placeholder{color:rgba(240,207,142,.5)}
+#sres{flex:1;min-height:0;overflow-y:auto;margin-top:12px;scrollbar-width:none}
+#sres::-webkit-scrollbar{display:none}
+.sm3{flex:1;min-width:0}
+.sm3 b{display:block;font-weight:normal;font-size:12px;color:rgba(232,184,106,.8)}
+.sm3 i{display:block;font-style:normal;font-family:'uhafs',serif;font-size:20px;line-height:1.6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.snone{text-align:center;padding:30px 10px;color:rgba(232,184,106,.7);font-size:15px}
+body.light #srch{background:rgba(255,255,255,.55)}
+body.light .sbox{color:#111;background:linear-gradient(145deg,rgba(255,255,255,.9),rgba(255,255,255,.5));border-color:rgba(0,0,0,.25)}
+body.light #sin{color:#111}
+body.light .sm3 b{color:rgba(0,0,0,.55)}
 </style></head><body>
 <div id="top"><div id="hrow">
  <button class="hbtn" id="setBtn" aria-label="settings"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
@@ -309,6 +325,7 @@ body.light #intro .tx{color:#111;text-shadow:none}
 <div id="setpage"><div class="sph"><button class="spb" id="setBack" aria-label="back"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><span class="spt">الإعدادات</span></div></div>
 <div id="slist"><div class="slh"><span class="slt">السور</span><button class="slx" id="slClose" aria-label="close"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div class="slb" id="slb"></div></div>
 <div id="intro"><div class="tx">تلاوات</div></div>
+<div id="srch"><div class="sbox"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg><input id="sin" type="text" inputmode="search" enterkeyhint="search" placeholder="ابحث بآية أو كلمة" autocomplete="off" spellcheck="false"><button id="sxb" class="slx" aria-label="close"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div id="sres"></div></div>
 <script src="surah.js"></script>
 <script>
 const pagesEl=document.getElementById('pages'),b=document.getElementById('b'),fill=document.getElementById('fill'),sub=document.getElementById('sub'),pg=document.getElementById('pg'),titleEl=document.getElementById('title');
@@ -1142,6 +1159,52 @@ function relayout(){
 }
 if(typeof ResizeObserver!=='undefined')new ResizeObserver(()=>{if(ready)relayout()}).observe(pagesEl);
 window.addEventListener('resize',()=>{if(ready)relayout()});
+
+/* البحث */
+const srch=document.getElementById('srch'),sin=document.getElementById('sin'),sres=document.getElementById('sres');
+let SIDX=null,VM=null;
+const nz=x=>x.replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640\u200B-\u200F]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/ؤ/g,'و').replace(/ئ/g,'ي');
+function vmap(){
+  if(VM)return VM;
+  VM={};let c=0,n=1,st=true;
+  ws.forEach((w,k)=>{
+    if(w._c!==c){c=w._c;n=1;st=true}
+    if(st){VM[c+':'+n]=k;st=false}
+    if(w.classList.contains('num')){n++;st=true}
+  });
+  return VM;
+}
+function goVerse(key){
+  const k=vmap()[key];if(k==null)return;
+  closeSearch();
+  const w=ws[k];
+  if(t){
+    if(i>=0)for(let q=i;q<=gEnd;q++)ws[q].classList.remove('on');
+    i=k-1;gEnd=i;if(blind)markSeen(k-1);
+    ensure(pages[w._p]);gotoPage(w._p);
+  }else{setCursor(k);resume=true}
+}
+function runSearch(){
+  const q=nz(sin.value.trim());
+  if(q.length<2){sres.innerHTML='<div class="snone">اكتب حرفين على الأقل</div>';return}
+  if(!SIDX)SIDX=SURAH.verses.map(v=>{const a=v.verse_key.split(':');return {c:+a[0],n:+a[1],k:v.verse_key,u:v.text_uthmani||'',s:nz(v.text_uthmani||'')}});
+  const out=[];
+  for(const e of SIDX){if(e.s.indexOf(q)>=0){out.push(e);if(out.length>=40)break}}
+  if(!out.length){sres.innerHTML='<div class="snone">ما فيه نتائج</div>';return}
+  sres.innerHTML=out.map(e=>'<button class="sli" data-k="'+e.k+'"><span class="sn">'+ar(e.n)+'</span><span class="sm3"><b>'+SUR+(NAMES[e.c]||'')+'</b><i>'+e.u.trim()+'</i></span></button>').join('');
+}
+function openSearch(){
+  if(!ready)return;
+  document.body.classList.remove('menuopen');
+  sin.value='';runSearch();
+  document.body.classList.add('srchopen');
+  setTimeout(()=>sin.focus(),150);
+}
+function closeSearch(){document.body.classList.remove('srchopen');sin.blur()}
+sin.addEventListener('input',runSearch);
+sres.addEventListener('click',ev=>{const b=ev.target.closest('.sli');if(b)goVerse(b.dataset.k)});
+document.getElementById('sxb').addEventListener('click',closeSearch);
+document.getElementById('srcBtn').addEventListener('click',e=>{e.stopPropagation();openSearch()});
 
 function start(){
   pagesEl.innerHTML='';
