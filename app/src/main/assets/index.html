@@ -371,12 +371,12 @@ function tjParse(html){
   if(!words[words.length-1].length)words.pop();
   return words;
 }
-const DA='<i class="da">\u0627</i>';function tfSplit(txt){
+function tfSplit(txt){
   txt=txt.replace(/\u06ED/g,'');
   let out='',open=false;
   const close=()=>{if(open){out+='</i>';open=false}};
   for(const ch of txt){
-    if(ch==='\u0670'){out+=DA;continue}if(isSmall(ch)){out+=ch;continue}
+    if(isSmall(ch)){out+=ch;continue}
     if(isMark(ch)){out+=ch;continue}
     close();
     if(TAF.indexOf(ch)>=0){out+='<i class="tf">'+ch;open=true}else out+=ch;
@@ -387,14 +387,16 @@ function tjHTML(segs){
   let out='';
   segs.forEach(sg=>{
     const k=TJ_CLS[sg[1]];
-    if(k)out+='<i class="'+k+'">'+sg[0].replace(/\u0670/g,DA)+'</i>';
+    if(k)out+='<i class="'+k+'">'+sg[0]+'</i>';
     else out+=tfSplit(sg[0]);
   });
   return out;
 }
+const DA='<i class="da">\u0627</i>';
+function fixDA(h){return h.replace(/([\u0627\u062F\u0630\u0631\u0632\u0648](?:[\u064B-\u0652]|<\/?i[^>]*>)*)\u0670/g,'$1'+DA)}
 function renderWord(s){
   s.style.fontFamily="'uhafs',serif";
-  s.innerHTML=s._seg?tjHTML(s._seg):tfSplit(s._t);
+  s.innerHTML=fixDA(s._seg?tjHTML(s._seg):tfSplit(s._t));
 }
 
 function newPage(n){
