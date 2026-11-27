@@ -260,7 +260,7 @@ body.light #fill::after{background:rgba(255,255,255,.95)}
 body.light .playing#b{animation:glowL 2.6s ease-in-out infinite}
 @keyframes glowL{0%,100%{box-shadow:inset 0 1px 2px rgba(255,255,255,.95),inset 0 -6px 14px rgba(255,255,255,.35),0 0 0 1px rgba(0,0,0,.12),0 10px 24px rgba(150,90,200,.22)}
  50%{box-shadow:inset 0 1px 2px rgba(255,255,255,.95),inset 0 -6px 14px rgba(255,255,255,.35),0 0 0 1px rgba(0,0,0,.12),0 10px 32px rgba(255,110,170,.42)}}
-.w{-webkit-text-stroke:.022em currentColor}.w.num{-webkit-text-stroke:0}</style></head><body>
+.w{-webkit-text-stroke:.022em currentColor}.w.num{-webkit-text-stroke:0}.w i.da{font-style:normal;font-size:.5em;position:relative;top:-.9em;margin:0 -.05em}</style></head><body>
 <div id="top"><div id="hrow">
  <button class="hbtn" id="setBtn" aria-label="settings"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
  <button class="hbtn" id="srcBtn" aria-label="search"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg></button>
@@ -371,12 +371,12 @@ function tjParse(html){
   if(!words[words.length-1].length)words.pop();
   return words;
 }
-function tfSplit(txt){
+const DA='<i class="da">\u0627</i>';function tfSplit(txt){
   txt=txt.replace(/\u06ED/g,'');
   let out='',open=false;
   const close=()=>{if(open){out+='</i>';open=false}};
   for(const ch of txt){
-    if(isSmall(ch)){out+=ch;continue}
+    if(ch==='\u0670'){out+=DA;continue}if(isSmall(ch)){out+=ch;continue}
     if(isMark(ch)){out+=ch;continue}
     close();
     if(TAF.indexOf(ch)>=0){out+='<i class="tf">'+ch;open=true}else out+=ch;
@@ -387,13 +387,13 @@ function tjHTML(segs){
   let out='';
   segs.forEach(sg=>{
     const k=TJ_CLS[sg[1]];
-    if(k)out+='<i class="'+k+'">'+sg[0]+'</i>';
+    if(k)out+='<i class="'+k+'">'+sg[0].replace(/\u0670/g,DA)+'</i>';
     else out+=tfSplit(sg[0]);
   });
   return out;
 }
 function renderWord(s){
-  s.style.fontFamily=(s._t&&s._t.indexOf('\u0670')>=0)?"'amq','uhafs',serif":"'uhafs',serif";
+  s.style.fontFamily="'uhafs',serif";
   s.innerHTML=s._seg?tjHTML(s._seg):tfSplit(s._t);
 }
 
