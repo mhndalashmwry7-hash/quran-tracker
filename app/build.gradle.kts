@@ -4,7 +4,7 @@ plugins {
 }
 android {
     namespace = "com.example.qurantracker"
-    compileSdk = 34
+    compileSdk = 35
     defaultConfig {
         applicationId = "com.example.qurantracker"
         minSdk = 24
@@ -19,6 +19,6 @@ android {
     kotlinOptions { jvmTarget = "17" }
 }
 dependencies {
-    implementation("net.java.dev.jna:jna:5.13.0@aar")
-    implementation("com.alphacephei:vosk-android:0.3.47")
+    implementation("dev.ffmpegkit-maintained:whisper-android:1.0.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
 }

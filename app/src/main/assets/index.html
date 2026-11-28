@@ -1354,21 +1354,26 @@ function vlev(a,b){const m=a.length,n=b.length;if(!m||!n)return Math.max(m,n);le
 function vsim(a,b){if(a===b)return true;const L=Math.max(a.length,b.length);return L>=4&&vlev(a,b)<=(L>=7?2:1)}
 function vmatch(T){
   if(!T.length)return;
-  const st=i>=0?Math.max(0,gEnd-2):ws.findIndex(w=>w._p===curPage&&!w.classList.contains('num'));
+  const st=i>=0?Math.max(0,gEnd-3):ws.findIndex(w=>w._p===curPage&&!w.classList.contains('num'));
   if(st<0)return;
   const cand=[];
-  for(let k=st;k<ws.length&&cand.length<30;k++)if(!ws[k].classList.contains('num'))cand.push(k);
-  const last=T[T.length-1],prev=T.length>1?T[T.length-2]:null;
+  for(let k=st;k<ws.length&&cand.length<45;k++)if(!ws[k].classList.contains('num'))cand.push(k);
   let best=-1,bs=0;
-  for(let a=0;a<cand.length;a++){
-    if(!vsim(vw(cand[a]),last))continue;
-    let sc=2;
-    if(prev&&a>0&&vsim(vw(cand[a-1]),prev))sc+=1;
-    if(last.length<=3&&sc<3)continue;
-    sc-=a*0.01;
-    if(sc>bs){bs=sc;best=cand[a]}
+  for(let d=0;d<2;d++){
+    const tail=T.slice(0,T.length-d).slice(-5);
+    if(!tail.length)continue;
+    for(let a=0;a<cand.length;a++){
+      let m=0;
+      for(let q=1;q<=tail.length&&a-q+1>=0;q++){
+        if(vsim(vw(cand[a-q+1]),tail[tail.length-q]))m++;else break;
+      }
+      if(!m)continue;
+      if(m===1&&(tail[tail.length-1].length<4||a>12))continue;
+      const sc=m-d*0.5-a*0.005;
+      if(sc>bs){bs=sc;best=cand[a]}
+    }
   }
-  if(best>=0&&(i<0||best!==i))setCursor(best);
+  if(best>=0&&(i<0||best>=i))setCursor(best);
 }
 let voiceOn=false;
 

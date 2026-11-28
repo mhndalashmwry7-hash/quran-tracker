@@ -2,68 +2,85 @@ package com.example.qurantracker
 
 import android.Manifest
 import android.app.Activity
-import android.content.Intent
 import android.content.pm.PackageManager
-import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.speech.RecognitionListener
-import android.speech.RecognizerIntent
-import android.speech.SpeechRecognizer
+import android.media.AudioFormat
+import android.media.AudioRecord
+import android.media.MediaRecorder
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
+import dev.ffmpegkit.whisper.Whisper
+import dev.ffmpegkit.whisper.WhisperConfig
+import dev.ffmpegkit.whisper.WhisperModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
 import org.json.JSONObject
+import java.io.File
+import java.io.FileOutputStream
+import java.nio.ByteBuffer
+import java.nio.ByteOrder
+import kotlin.math.sqrt
 
 class VoiceBridge(private val act: Activity, private val web: WebView) {
-    private var rec: SpeechRecognizer? = null
-    private var on = false
-    private var told = false
-    private var errs = 0
-    private val h = Handler(Looper.getMainLooper())
+    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private var job: Job? = null
+    private var model: WhisperModel? = null
+    private val rate = 16000
+    private val keep = rate * 5
+    private val ring = ShortArray(keep)
+    private val lock = Any()
+    private var wpos = 0
+    private var total = 0L
 
     private fun js(code: String) { web.post { web.evaluateJavascript(code, null) } }
     private fun status(s: String) { js("window.onVoiceStatus&&onVoiceStatus('" + s + "')") }
-    private fun text(t: String?, fin: Boolean) {
-        if (t.isNullOrEmpty()) return
-        js("window.onVoiceText&&onVoiceText(" + JSONObject.quote(t) + "," + fin + ")")
-    }
-    private fun first(b: Bundle?): String? =
-        b?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)?.firstOrNull()
-
-    private fun makeIntent(): Intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
-        putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-        putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ar-SA")
-        putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
-        putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, true)
-        putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1)
-        putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, act.packageName)
+    private fun send(t: String) {
+        if (t.isBlank()) return
+        js("window.onVoiceText&&onVoiceText(" + JSONObject.quote(t) + ",true)")
     }
 
-    private fun listen() { if (on) rec?.startListening(makeIntent()) }
+    private fun snapshot(): ShortArray = synchronized(lock) {
+        val n = minOf(total, keep.toLong()).toInt()
+        val out = ShortArray(n)
+        val start = (wpos - n + keep) % keep
+        for (i in 0 until n) out[i] = ring[(start + i) % keep]
+        out
+    }
 
-    private val listener = object : RecognitionListener {
-        override fun onReadyForSpeech(p: Bundle?) { if (!told) { told = true; status("listening") } }
-        override fun onBeginningOfSpeech() {}
-        override fun onRmsChanged(v: Float) {}
-        override fun onBufferReceived(b: ByteArray?) {}
-        override fun onEndOfSpeech() {}
-        override fun onEvent(t: Int, p: Bundle?) {}
-        override fun onPartialResults(b: Bundle?) { errs = 0; text(first(b), false) }
-        override fun onResults(b: Bundle?) { errs = 0; text(first(b), true); h.postDelayed({ listen() }, 30) }
-        override fun onError(e: Int) {
-            if (!on) return
-            when (e) {
-                9 -> { on = false; status("perm") }
-                12, 13 -> { on = false; status("lang") }
-                6, 7 -> h.postDelayed({ listen() }, 30)
-                8 -> { rec?.cancel(); h.postDelayed({ listen() }, 400) }
-                else -> {
-                    errs++
-                    if (errs > 8) { on = false; status("error") }
-                    else h.postDelayed({ listen() }, 300)
-                }
+    private fun rms(p: ShortArray, last: Int): Double {
+        val n = minOf(last, p.size)
+        if (n == 0) return 0.0
+        var s = 0.0
+        for (i in p.size - n until p.size) { val v = p[i].toDouble(); s += v * v }
+        return sqrt(s / n)
+    }
+
+    private fun writeWav(f: File, p: ShortArray) {
+        val len = p.size * 2
+        val h = ByteBuffer.allocate(44 + len).order(ByteOrder.LITTLE_ENDIAN)
+        h.put("RIFF".toByteArray()); h.putInt(36 + len); h.put("WAVE".toByteArray())
+        h.put("fmt ".toByteArray()); h.putInt(16); h.putShort(1); h.putShort(1)
+        h.putInt(rate); h.putInt(rate * 2); h.putShort(2); h.putShort(16)
+        h.put("data".toByteArray()); h.putInt(len)
+        for (v in p) h.putShort(v)
+        FileOutputStream(f).use { it.write(h.array()) }
+    }
+
+    private suspend fun loadModel(): WhisperModel {
+        val dst = File(act.filesDir, "quran-base-q5_1.bin")
+        if (!dst.exists() || dst.length() < 50_000_000L) {
+            dst.delete()
+            val tmp = File(act.filesDir, "quran-base-q5_1.tmp")
+            act.assets.open("models/quran-base-q5_1.bin").use { i ->
+                FileOutputStream(tmp).use { o -> i.copyTo(o) }
             }
+            tmp.renameTo(dst)
         }
+        return Whisper.loadModel(act, dst.absolutePath)
     }
 
     @JavascriptInterface
@@ -73,24 +90,60 @@ class VoiceBridge(private val act: Activity, private val web: WebView) {
             status("perm")
             return
         }
-        act.runOnUiThread {
-            if (!SpeechRecognizer.isRecognitionAvailable(act)) { status("error"); return@runOnUiThread }
-            on = true; told = false; errs = 0
-            rec?.destroy()
-            rec = SpeechRecognizer.createSpeechRecognizer(act).also { it.setRecognitionListener(listener) }
-            listen()
+        if (job?.isActive == true) return
+        job = scope.launch {
+            var rec: AudioRecord? = null
+            try {
+                status("loading")
+                val m = model ?: loadModel().also { model = it }
+                val minBuf = AudioRecord.getMinBufferSize(rate, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT)
+                val r = AudioRecord(MediaRecorder.AudioSource.MIC, rate, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, maxOf(minBuf, rate))
+                rec = r
+                synchronized(lock) { wpos = 0; total = 0L }
+                r.startRecording()
+                val reader = launch(Dispatchers.IO) {
+                    val buf = ShortArray(1600)
+                    while (isActive) {
+                        val n = r.read(buf, 0, buf.size)
+                        if (n > 0) {
+                            synchronized(lock) {
+                                for (i in 0 until n) { ring[wpos] = buf[i]; wpos = (wpos + 1) % keep }
+                                total += n
+                            }
+                        } else if (n < 0) break
+                    }
+                }
+                status("listening")
+                val wav = File(act.cacheDir, "w.wav")
+                var last = 0L
+                while (isActive) {
+                    delay(250)
+                    val t = synchronized(lock) { total }
+                    if (t - last < rate * 8 / 10) continue
+                    last = t
+                    val pcm = snapshot()
+                    if (pcm.size < rate * 3 / 2) continue
+                    if (rms(pcm, rate) < 300.0) continue
+                    writeWav(wav, pcm)
+                    val res = Whisper.transcribe(m, wav.absolutePath, WhisperConfig(language = "ar"))
+                    send(res.text)
+                }
+                reader.cancel()
+            } catch (e: kotlinx.coroutines.CancellationException) {
+                throw e
+            } catch (e: Throwable) {
+                status("error")
+            } finally {
+                try { rec?.stop() } catch (e: Exception) {}
+                rec?.release()
+            }
         }
     }
 
     @JavascriptInterface
     fun stop() {
-        act.runOnUiThread {
-            on = false
-            h.removeCallbacksAndMessages(null)
-            rec?.cancel()
-            rec?.destroy()
-            rec = null
-            status("stopped")
-        }
+        job?.cancel()
+        job = null
+        status("stopped")
     }
 }
