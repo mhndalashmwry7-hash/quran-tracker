@@ -410,7 +410,7 @@ body.light .ab-f{color:rgba(0,0,0,.55)}
   <span class="mt">عرض ألوان التجويد</span>
   <span class="sw" id="swTaj"><i></i></span>
  </button>
-</aside>
+<button class="mi" id="miVoice"><span class="mic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span><span class="mt">التتبع بالصوت</span><span class="sw" id="swVoice"><i></i></span></button></aside>
 <div id="setpage"><div class="sph"><button class="spb" id="setBack" aria-label="back"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><span class="spt">الإعدادات</span></div></div>
 <div id="slist"><div class="slh"><span class="slt">السور</span><button class="slx" id="slClose" aria-label="close"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div class="slb" id="slb"></div></div>
 <div id="intro"><div class="tx">تلاوات</div></div>
@@ -1343,6 +1343,43 @@ function toast(m){let d=document.getElementById('toast');if(!d){d=document.creat
   '<div class="ab-f">الإصدار: 1.0.0 — تطوير: أبو خطاب</div>';
   document.getElementById('setpage').appendChild(av);
 })();
+
+/* التتبع بالصوت */
+const vnz=x=>x.replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640\u200B-\u200F]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/ؤ/g,'و').replace(/ئ/g,'ي');
+function vw(k){const w=ws[k];return w._vn||(w._vn=vnz(w._t||''))}
+function vlev(a,b){const m=a.length,n=b.length;if(!m||!n)return Math.max(m,n);let p=[];for(let j=0;j<=n;j++)p[j]=j;for(let x=1;x<=m;x++){const c=[x];for(let j=1;j<=n;j++)c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[x-1]===b[j-1]?0:1));p=c}return p[n]}
+function vsim(a,b){if(a===b)return true;const L=Math.max(a.length,b.length);return L>=4&&vlev(a,b)<=(L>=7?2:1)}
+function vmatch(T){
+  if(!T.length)return;
+  const st=i>=0?Math.max(0,gEnd-2):ws.findIndex(w=>w._p===curPage&&!w.classList.contains('num'));
+  if(st<0)return;
+  const cand=[];
+  for(let k=st;k<ws.length&&cand.length<30;k++)if(!ws[k].classList.contains('num'))cand.push(k);
+  const last=T[T.length-1],prev=T.length>1?T[T.length-2]:null;
+  let best=-1,bs=0;
+  for(let a=0;a<cand.length;a++){
+    if(!vsim(vw(cand[a]),last))continue;
+    let sc=2;
+    if(prev&&a>0&&vsim(vw(cand[a-1]),prev))sc+=1;
+    if(last.length<=3&&sc<3)continue;
+    sc-=a*0.01;
+    if(sc>bs){bs=sc;best=cand[a]}
+  }
+  if(best>=0&&(i<0||best!==i))setCursor(best);
+}
+let voiceOn=false;
+const miVoice=document.getElementById('miVoice'),swVoice=document.getElementById('swVoice');
+window.onVoiceText=function(t,fin){if(!voiceOn||!ready)return;vmatch(vnz(t).split(/\s+/).filter(Boolean))};
+window.onVoiceStatus=function(s){
+  const M={perm:'اسمح بالميكروفون ثم شغّل الخيار مرة ثانية',download:'جارٍ تنزيل نموذج الصوت (مرة واحدة)',loading:'جارٍ تجهيز النموذج',listening:'جارٍ الاستماع',error:'تعذّر تشغيل الصوت'};
+  if(s==='perm'||s==='error'){voiceOn=false;swVoice.classList.remove('on')}
+  if(M[s]&&typeof toast==='function')toast(M[s]);
+};
+miVoice.addEventListener('click',()=>{
+  if(typeof Voice==='undefined'){if(typeof toast==='function')toast('حدّث التطبيق لتفعيل الصوت');return}
+  voiceOn=!voiceOn;swVoice.classList.toggle('on',voiceOn);
+  if(voiceOn)Voice.start();else Voice.stop();
+});
 
 function start(){
   pagesEl.innerHTML='';

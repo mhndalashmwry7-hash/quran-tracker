@@ -61,6 +61,7 @@ class MainActivity : Activity() {
         web.settings.javaScriptEnabled = true
         web.settings.domStorageEnabled = true
         web.addJavascriptInterface(Bridge(), "Android")
+        web.addJavascriptInterface(VoiceBridge(this, web), "Voice")
         setContentView(web)
         web.loadUrl("file:///android_asset/index.html")
     }
