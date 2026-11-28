@@ -1379,7 +1379,7 @@ let voiceOn=false;
 
 window.onVoiceText=function(t,fin){if(!voiceOn||!ready)return;vmatch(vnz(t).split(/\s+/).filter(Boolean))};
 window.onVoiceStatus=function(s){
-  const M={lang:'نزّل الحزمة العربية للتعرف دون إنترنت من إعدادات صوت جوجل',perm:'اسمح بالميكروفون ثم اضغط ابدأ التلاوة مرة ثانية',download:'جارٍ تنزيل نموذج الصوت (مرة واحدة)',loading:'جارٍ تجهيز النموذج',listening:'جارٍ الاستماع',error:'تعذّر تشغيل الصوت'};
+  const M={lang:'نزّل الحزمة العربية للتعرف دون إنترنت من إعدادات صوت جوجل',perm:'اسمح بالميكروفون ثم اضغط ابدأ التلاوة مرة ثانية',download:'جارٍ تنزيل نموذج الصوت (مرة واحدة)',loading:'جارٍ تجهيز النموذج',error:'تعذّر تشغيل الصوت'};
   if(s==='perm'||s==='error'||s==='lang'){voiceOn=false;if(t)stop()}
   if(M[s]&&typeof toast==='function')toast(M[s]);
 };

@@ -30,7 +30,7 @@ class VoiceBridge(private val act: Activity, private val web: WebView) {
     private var job: Job? = null
     private var model: WhisperModel? = null
     private val rate = 16000
-    private val keep = rate * 5
+    private val keep = rate * 3
     private val ring = ShortArray(keep)
     private val lock = Any()
     private var wpos = 0
@@ -117,15 +117,15 @@ class VoiceBridge(private val act: Activity, private val web: WebView) {
                 val wav = File(act.cacheDir, "w.wav")
                 var last = 0L
                 while (isActive) {
-                    delay(250)
+                    delay(100)
                     val t = synchronized(lock) { total }
-                    if (t - last < rate * 8 / 10) continue
+                    if (t - last < rate / 2) continue
                     last = t
                     val pcm = snapshot()
-                    if (pcm.size < rate * 3 / 2) continue
-                    if (rms(pcm, rate) < 300.0) continue
+                    if (pcm.size < rate) continue
+                    if (rms(pcm, rate * 6 / 10) < 300.0) continue
                     writeWav(wav, pcm)
-                    val res = Whisper.transcribe(m, wav.absolutePath, WhisperConfig(language = "ar"))
+                    val res = Whisper.transcribe(m, wav.absolutePath, WhisperConfig(language = "ar", threads = 4, printTimestamps = false))
                     send(res.text)
                 }
                 reader.cancel()
