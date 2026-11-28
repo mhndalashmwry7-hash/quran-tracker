@@ -425,7 +425,7 @@ const ws=[],pages=[],pmap={},fs=[],cinfo={},jp={};
 const MAXS=1.6;
 let GN=1;
 const BARH=70;
-const AV=el=>el.clientHeight-6-BARH;
+const AV=el=>el.clientHeight-12-BARH;
 const NAMES={78:'النَّبَإِ',79:'النَّازِعَاتِ',80:'عَبَسَ',81:'التَّكْوِيرِ',82:'الِانفِطَارِ',83:'المُطَفِّفِينَ',84:'الِانشِقَاقِ',85:'البُرُوجِ',86:'الطَّارِقِ',87:'الأَعْلَى',88:'الغَاشِيَةِ',89:'الفَجْرِ',90:'البَلَدِ',91:'الشَّمْسِ',92:'اللَّيْلِ',93:'الضُّحَى',94:'الشَّرْحِ',95:'التِّينِ',96:'العَلَقِ',97:'القَدْرِ',98:'البَيِّنَةِ',99:'الزَّلْزَلَةِ',100:'العَادِيَاتِ',101:'القَارِعَةِ',102:'التَّكَاثُرِ',103:'العَصْرِ',104:'الهُمَزَةِ',105:'الفِيلِ',106:'قُرَيْشٍ',107:'المَاعُونِ',108:'الكَوْثَرِ',109:'الكَافِرُونَ',110:'النَّصْرِ',111:'المَسَدِ',112:'الإِخْلَاصِ',113:'الفَلَقِ',114:'النَّاسِ'};
 const SUR='سُورَةُ ';
 const BSM=(typeof BASMALA!=='undefined'&&BASMALA)?BASMALA:'بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ';
@@ -542,7 +542,7 @@ function banner(p,c,L0){
   const d=document.createElement('div');d.className='ban';
   d.innerHTML='<div class="bd"><small>ترتيبها</small><b>'+ar(c)+'</b></div><div class="bn"><i class="dm"></i><span class="bt">'+SUR+NAMES[c]+'</span><i class="dm"></i></div><div class="bd"><small>آياتها</small><b>'+ar(cnt[c])+'</b></div>';
   const m=document.createElement('div');m.className='bsm';
-  if(typeof BASMALA_W!=='undefined'&&BASMALA_W.length&&BASMALA_W.every(w=>qready[w.p])){
+  if(typeof BASMALA_W!=='undefined'&&BASMALA_W.length&&false){
     BASMALA_W.forEach((w,k)=>{
       const s=document.createElement('span');
       s.className=k===1?'q r':'q';s.style.fontFamily="'qv1-"+w.p+"'";s.innerHTML=w.c;m.appendChild(s);
@@ -669,7 +669,7 @@ function layoutMush(p){
   p.rows.forEach(d=>{
     if(!d)return;
     d.style.height=rh+'px';
-    if(d.querySelector('.ban'))d.style.fontSize=(rh*0.27)+'px';
+    if(d.querySelector('.ban'))d.style.fontSize=(rh*0.25)+'px';
     else if(d.querySelector('.bsm'))d.style.fontSize=(rh*0.5)+'px';
   });
   el.style.fontSize=f+'px';
@@ -864,7 +864,7 @@ function markSeen(upTo){
 const bEye=document.getElementById('bEye');
 function setBlind(on){
   blind=on;
-  document.body.classList.toggle('blind',on);
+  document.body.classList.toggle('blind',on);document.body.classList.toggle('eyekeep',on);
   bEye.classList.toggle('act',on);
   if(on){
     seenIdx=Math.max(gEnd,i);
@@ -879,7 +879,6 @@ function setBlind(on){
 function stop(){
   clearInterval(t);t=null;b.classList.remove('playing');
   document.body.classList.remove('tracking');
-  setBlind(false);
   document.getElementById('spop').classList.remove('open');
 }
 function go(stay){
@@ -990,7 +989,7 @@ function closeMenu(){document.body.classList.remove('menuopen');setTimeout(colla
 menuBtn.addEventListener('click',e=>{e.stopPropagation();openMenu()});
 scrim.addEventListener('click',closeMenu);
 setBtn.addEventListener('click',e=>{e.stopPropagation();document.body.classList.add('setpage-open')});
-setBack.addEventListener('click',()=>{if(document.body.classList.contains('profopen'))document.body.classList.remove('profopen');else document.body.classList.remove('setpage-open')});
+setBack.addEventListener('click',()=>{const c=document.body.classList;if(c.contains('profopen')||c.contains('aboutopen'))c.remove('profopen','aboutopen');else c.remove('setpage-open')});
 miTheme.addEventListener('click',()=>{miTheme.classList.toggle('open');subTheme.classList.toggle('open')});
 document.querySelectorAll('.opt').forEach(o=>o.addEventListener('click',()=>setTheme(o.dataset.th)));
 let savedTheme='dark';try{savedTheme=localStorage.getItem('qtheme')||'dark'}catch(e){}
@@ -1324,13 +1323,25 @@ function toast(m){let d=document.getElementById('toast');if(!d){d=document.creat
       document.body.classList.remove('profopen','setpage-open');
       toast('تم تسجيل الخروج');return;
     }
-    if(b.dataset.k==='0'){document.body.classList.add('profopen');return}
+    if(b.dataset.k==='0'){document.body.classList.add('profopen');return}if(b.dataset.k==='5'){document.body.classList.add('aboutopen');return}
     toast('قريباً');
   });
   document.getElementById('pfSave').addEventListener('click',()=>{
     try{localStorage.setItem('qprof',JSON.stringify({n:nm.value.trim(),m:ml.value.trim()}))}catch(x){}
     pw.value='';toast('تم حفظ الاسم والبريد');
   });
+})();
+
+/* حول التطبيق */
+(function(){
+  const av=document.createElement('div');av.id='aboutview';
+  av.innerHTML='<div class="ab-t">حول التطبيق</div><div class="ab-d"></div>'+
+  '<p class="ab-p">تطبيق مخصص لقراءة القرآن الكريم وتدبره في أجواء هادئة ومريحة للعين دون تشتيت، صُمم بعناية ليكون رفيقك اليومي في التلاوة والمحافظة على وردك.</p>'+
+  '<p class="ab-p">هذا العمل جهد فردي بُذل بمحبة ورغبة في خدمة كتاب الله وتيسير الوصول إليه في كل وقت؛ إن أصبت فمن الله وحده، وإن أخطأت أو قصّرت فمن نفسي. نسأل الله أن يجعله خالصاً لوجهه الكريم، وأن يكتب أجره لكل من قرأ حرفاً أو دعا لنا بظهر الغيب.</p>'+
+  '<p class="ab-p">نسعد دائماً بملاحظاتكم واقتراحاتكم لتطوير التطبيق عبر قسم الدعم والمساعدة.</p>'+
+  '<div class="ab-v"><b>﴿ إِنَّ هَٰذَا الْقُرْآنَ يَهْدِي لِلَّتِي هِيَ أَقْوَمُ ﴾</b><span>اللهم اجعل القرآن ربيع قلوبنا، ونور صدورنا، وجلاء أحزاننا.</span></div>'+
+  '<div class="ab-f">الإصدار: 1.0.0 — تطوير: أبو خطاب</div>';
+  document.getElementById('setpage').appendChild(av);
 })();
 
 function start(){
