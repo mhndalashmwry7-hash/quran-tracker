@@ -2,60 +2,68 @@ package com.example.qurantracker
 
 import android.Manifest
 import android.app.Activity
+import android.content.Intent
 import android.content.pm.PackageManager
+import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.speech.RecognitionListener
+import android.speech.RecognizerIntent
+import android.speech.SpeechRecognizer
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
 import org.json.JSONObject
-import org.vosk.Model
-import org.vosk.Recognizer
-import org.vosk.android.RecognitionListener
-import org.vosk.android.SpeechService
-import java.io.File
-import java.io.FileOutputStream
-import java.net.HttpURLConnection
-import java.net.URL
-import java.util.zip.ZipInputStream
 
 class VoiceBridge(private val act: Activity, private val web: WebView) {
-    private var model: Model? = null
-    private var service: SpeechService? = null
-    private var busy = false
-    private val dir = File(act.filesDir, "vosk-model")
-    private val url = "https://alphacephei.com/vosk/models/vosk-model-ar-mgb2-0.4.zip"
+    private var rec: SpeechRecognizer? = null
+    private var on = false
+    private var told = false
+    private var errs = 0
+    private val h = Handler(Looper.getMainLooper())
 
     private fun js(code: String) { web.post { web.evaluateJavascript(code, null) } }
     private fun status(s: String) { js("window.onVoiceStatus&&onVoiceStatus('" + s + "')") }
+    private fun text(t: String?, fin: Boolean) {
+        if (t.isNullOrEmpty()) return
+        js("window.onVoiceText&&onVoiceText(" + JSONObject.quote(t) + "," + fin + ")")
+    }
+    private fun first(b: Bundle?): String? =
+        b?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)?.firstOrNull()
 
-    private fun send(h: String?, fin: Boolean) {
-        if (h == null) return
-        val o = JSONObject(h)
-        val t = if (fin) o.optString("text") else o.optString("partial")
-        if (t.isNotEmpty()) js("window.onVoiceText&&onVoiceText(" + JSONObject.quote(t) + "," + fin + ")")
+    private fun makeIntent(): Intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
+        putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
+        putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ar-SA")
+        putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
+        putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, true)
+        putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1)
+        putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, act.packageName)
     }
 
-    private fun download() {
-        dir.deleteRecursively()
-        dir.mkdirs()
-        val c = URL(url).openConnection() as HttpURLConnection
-        c.connectTimeout = 15000
-        c.readTimeout = 30000
-        ZipInputStream(c.inputStream.buffered()).use { z ->
-            var e = z.nextEntry
-            while (e != null) {
-                val name = e.name.substringAfter('/', "")
-                if (name.isNotEmpty()) {
-                    val f = File(dir, name)
-                    if (!f.canonicalPath.startsWith(dir.canonicalPath)) throw SecurityException("zip")
-                    if (e.isDirectory) f.mkdirs() else {
-                        f.parentFile?.mkdirs()
-                        FileOutputStream(f).use { z.copyTo(it) }
-                    }
+    private fun listen() { if (on) rec?.startListening(makeIntent()) }
+
+    private val listener = object : RecognitionListener {
+        override fun onReadyForSpeech(p: Bundle?) { if (!told) { told = true; status("listening") } }
+        override fun onBeginningOfSpeech() {}
+        override fun onRmsChanged(v: Float) {}
+        override fun onBufferReceived(b: ByteArray?) {}
+        override fun onEndOfSpeech() {}
+        override fun onEvent(t: Int, p: Bundle?) {}
+        override fun onPartialResults(b: Bundle?) { errs = 0; text(first(b), false) }
+        override fun onResults(b: Bundle?) { errs = 0; text(first(b), true); h.postDelayed({ listen() }, 30) }
+        override fun onError(e: Int) {
+            if (!on) return
+            when (e) {
+                9 -> { on = false; status("perm") }
+                12, 13 -> { on = false; status("lang") }
+                6, 7 -> h.postDelayed({ listen() }, 30)
+                8 -> { rec?.cancel(); h.postDelayed({ listen() }, 400) }
+                else -> {
+                    errs++
+                    if (errs > 8) { on = false; status("error") }
+                    else h.postDelayed({ listen() }, 300)
                 }
-                z.closeEntry()
-                e = z.nextEntry
             }
         }
-        File(dir, ".done").writeText("ok")
     }
 
     @JavascriptInterface
@@ -65,34 +73,24 @@ class VoiceBridge(private val act: Activity, private val web: WebView) {
             status("perm")
             return
         }
-        if (busy) return
-        busy = true
-        Thread {
-            try {
-                if (!File(dir, ".done").exists()) { status("download"); download() }
-                val m = model ?: run { status("loading"); Model(dir.absolutePath).also { model = it } }
-                val sv = SpeechService(Recognizer(m, 16000.0f), 16000.0f)
-                service = sv
-                sv.startListening(object : RecognitionListener {
-                    override fun onPartialResult(h: String?) { send(h, false) }
-                    override fun onResult(h: String?) { send(h, true) }
-                    override fun onFinalResult(h: String?) { send(h, true) }
-                    override fun onError(e: Exception?) { status("error") }
-                    override fun onTimeout() {}
-                })
-                status("listening")
-            } catch (e: Exception) {
-                status("error")
-            }
-            busy = false
-        }.start()
+        act.runOnUiThread {
+            if (!SpeechRecognizer.isRecognitionAvailable(act)) { status("error"); return@runOnUiThread }
+            on = true; told = false; errs = 0
+            rec?.destroy()
+            rec = SpeechRecognizer.createSpeechRecognizer(act).also { it.setRecognitionListener(listener) }
+            listen()
+        }
     }
 
     @JavascriptInterface
     fun stop() {
-        service?.stop()
-        service?.shutdown()
-        service = null
-        status("stopped")
+        act.runOnUiThread {
+            on = false
+            h.removeCallbacksAndMessages(null)
+            rec?.cancel()
+            rec?.destroy()
+            rec = null
+            status("stopped")
+        }
     }
 }
