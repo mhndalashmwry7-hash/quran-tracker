@@ -298,6 +298,32 @@ body.light #srch{background:rgba(255,255,255,.25)!important}
 body.light .sbox{background:linear-gradient(145deg,rgba(255,255,255,.55),rgba(255,255,255,.25))!important}
 #b{background:linear-gradient(115deg,rgba(42,23,10,.5) 0%,rgba(94,58,22,.5) 18%,rgba(201,154,82,.5) 36%,rgba(122,74,26,.5) 50%,rgba(74,42,18,.5) 66%,rgba(143,63,85,.5) 82%,rgba(42,23,10,.5) 100%);background-size:320% 100%;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
 body.light #b{background:linear-gradient(135deg,rgba(255,170,200,.3),rgba(200,175,255,.22) 50%,rgba(150,215,255,.28))!important;background-size:auto!important}
+
+#setpage{display:flex;flex-direction:column}
+#setlist,#profview{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding-top:14px;scrollbar-width:none}
+#profview{display:none}
+.profopen #setlist{display:none}
+.profopen #profview{display:flex}
+.sti{display:flex;align-items:center;gap:12px;width:100%;box-sizing:border-box;padding:13px 14px;border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.04));border:1px solid rgba(240,207,142,.3);color:#f6dca0;font-family:inherit;font-size:17px;text-align:start;outline:none;cursor:pointer;flex:none}
+.sti:active{background:rgba(240,207,142,.18)}
+.sti .sic{flex:none;width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(145deg,#f6dca0,#b98a3e);color:#2a1b0a}
+.sti .stx{flex:1}
+.sti.out{margin-top:auto;justify-content:center;padding:18px;font-size:20px;background:rgba(220,40,40,.16);border-color:rgba(255,90,80,.6);color:#ff6a5c}
+.sti.out .sic{background:none;color:#ff6a5c}
+.pf{display:block;flex:none}
+.pf span{display:block;font-size:14px;color:rgba(232,184,106,.85);margin:0 4px 6px}
+.pf input{width:100%;box-sizing:border-box;height:48px;padding:0 14px;border-radius:16px;font-family:inherit;font-size:17px;outline:none;color:#f6dca0;background:rgba(255,255,255,.07);border:1px solid rgba(240,207,142,.35)}
+.sti.sv{justify-content:center;margin-top:6px;background:linear-gradient(145deg,#f6dca0,#b98a3e);color:#2a1b0a;border-color:transparent;font-size:18px}
+#toast{position:fixed;left:50%;bottom:110px;transform:translateX(-50%) translateY(10px);z-index:300;padding:10px 18px;border-radius:999px;background:rgba(30,20,10,.85);color:#f6dca0;border:1px solid rgba(240,207,142,.45);font-size:15px;opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s ease}
+#toast.on{opacity:1;transform:translateX(-50%)}
+body.light .sti{color:#111;background:linear-gradient(145deg,rgba(255,255,255,.9),rgba(255,255,255,.5));border-color:rgba(0,0,0,.16)}
+body.light .sti .sic{background:linear-gradient(145deg,#ffd9e6,#c9b7ff);color:#2b2230}
+body.light .sti.out{background:rgba(220,40,40,.1);border-color:rgba(211,40,28,.55);color:#d3281c}
+body.light .sti.out .sic{background:none;color:#d3281c}
+body.light .pf span{color:rgba(0,0,0,.6)}
+body.light .pf input{color:#111;background:rgba(0,0,0,.04);border-color:rgba(0,0,0,.25)}
+body.light .sti.sv{background:linear-gradient(145deg,#ffb3cf,#b9a5ff);color:#2b2230}
+body.light #toast{background:rgba(255,255,255,.92);color:#111;border-color:rgba(0,0,0,.2)}
 </style></head><body>
 <div id="top"><div id="hrow">
  <button class="hbtn" id="setBtn" aria-label="settings"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
@@ -915,7 +941,7 @@ function closeMenu(){document.body.classList.remove('menuopen');setTimeout(colla
 menuBtn.addEventListener('click',e=>{e.stopPropagation();openMenu()});
 scrim.addEventListener('click',closeMenu);
 setBtn.addEventListener('click',e=>{e.stopPropagation();document.body.classList.add('setpage-open')});
-setBack.addEventListener('click',()=>document.body.classList.remove('setpage-open'));
+setBack.addEventListener('click',()=>{if(document.body.classList.contains('profopen'))document.body.classList.remove('profopen');else document.body.classList.remove('setpage-open')});
 miTheme.addEventListener('click',()=>{miTheme.classList.toggle('open');subTheme.classList.toggle('open')});
 document.querySelectorAll('.opt').forEach(o=>o.addEventListener('click',()=>setTheme(o.dataset.th)));
 let savedTheme='dark';try{savedTheme=localStorage.getItem('qtheme')||'dark'}catch(e){}
@@ -1219,6 +1245,44 @@ sin.addEventListener('input',runSearch);
 sres.addEventListener('click',ev=>{const b=ev.target.closest('.sli');if(b)goVerse(b.dataset.k)});
 document.getElementById('sxb').addEventListener('click',closeSearch);
 document.getElementById('srcBtn').addEventListener('click',e=>{e.stopPropagation();openSearch()});
+
+/* صفحة الإعدادات */
+function toast(m){let d=document.getElementById('toast');if(!d){d=document.createElement('div');d.id='toast';document.body.appendChild(d)}d.textContent=m;d.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>d.classList.remove('on'),1700)}
+(function(){
+  const sv=p=>'<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+p+'</svg>';
+  const IT=[
+   ['الملف الشخصي','<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/>'],
+   ['المزامنة والنسخ الاحتياطي','<path d="M20 11a8 8 0 0 0-14-4M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14 4M20 20v-4h-4"/>'],
+   ['الإشعارات والتنبيهات','<path d="M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 21h4"/>'],
+   ['الخصوصية والأمان','<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>'],
+   ['الدعم والمساعدة','<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17h.01"/>'],
+   ['حول','<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/>']
+  ];
+  const sp=document.getElementById('setpage');
+  const lst=document.createElement('div');lst.id='setlist';
+  lst.innerHTML=IT.map((a,k)=>'<button class="sti" data-k="'+k+'"><span class="sic">'+sv(a[1])+'</span><span class="stx">'+a[0]+'</span></button>').join('')+
+   '<button class="sti out" id="stOut"><span class="sic">'+sv('<path d="M9 21H5V3h4M16 17l5-5-5-5M21 12H9"/>')+'</span><span>تسجيل الخروج</span></button>';
+  const pv=document.createElement('div');pv.id='profview';
+  pv.innerHTML='<label class="pf"><span>الاسم</span><input id="pfName" type="text" autocomplete="off"></label><label class="pf"><span>البريد الإلكتروني</span><input id="pfMail" type="email" autocomplete="off"></label><label class="pf"><span>كلمة السر</span><input id="pfPass" type="password" autocomplete="new-password" placeholder="••••••••"></label><button class="sti sv" id="pfSave">حفظ</button>';
+  sp.appendChild(lst);sp.appendChild(pv);
+  const nm=document.getElementById('pfName'),ml=document.getElementById('pfMail'),pw=document.getElementById('pfPass');
+  try{const P=JSON.parse(localStorage.getItem('qprof')||'{}');nm.value=P.n||'';ml.value=P.m||''}catch(e){}
+  lst.addEventListener('click',e=>{
+    const b=e.target.closest('.sti');if(!b)return;
+    if(b.id==='stOut'){
+      try{localStorage.removeItem('qprof')}catch(x){}
+      nm.value='';ml.value='';pw.value='';
+      document.body.classList.remove('profopen','setpage-open');
+      toast('تم تسجيل الخروج');return;
+    }
+    if(b.dataset.k==='0'){document.body.classList.add('profopen');return}
+    toast('قريباً');
+  });
+  document.getElementById('pfSave').addEventListener('click',()=>{
+    try{localStorage.setItem('qprof',JSON.stringify({n:nm.value.trim(),m:ml.value.trim()}))}catch(x){}
+    pw.value='';toast('تم حفظ الاسم والبريد');
+  });
+})();
 
 function start(){
   pagesEl.innerHTML='';
