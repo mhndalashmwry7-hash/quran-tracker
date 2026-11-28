@@ -410,7 +410,7 @@ body.light .ab-f{color:rgba(0,0,0,.55)}
   <span class="mt">عرض ألوان التجويد</span>
   <span class="sw" id="swTaj"><i></i></span>
  </button>
-<button class="mi" id="miVoice"><span class="mic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span><span class="mt">التتبع بالصوت</span><span class="sw" id="swVoice"><i></i></span></button></aside>
+</aside>
 <div id="setpage"><div class="sph"><button class="spb" id="setBack" aria-label="back"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><span class="spt">الإعدادات</span></div></div>
 <div id="slist"><div class="slh"><span class="slt">السور</span><button class="slx" id="slClose" aria-label="close"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div class="slb" id="slb"></div></div>
 <div id="intro"><div class="tx">تلاوات</div></div>
@@ -877,6 +877,7 @@ function setBlind(on){
 }
 
 function stop(){
+  try{if(voiceOn){voiceOn=false;Voice.stop()}}catch(e){}
   clearInterval(t);t=null;b.classList.remove('playing');
   document.body.classList.remove('tracking');
   document.getElementById('spop').classList.remove('open');
@@ -956,7 +957,9 @@ b.onclick=()=>{
   else{stay=resume;jumpToCursor()}
   resume=false;
   document.body.classList.add('tracking');
-  b.classList.add('playing');go(stay);t=setInterval(()=>go(),800);
+  b.classList.add('playing');t=setInterval(()=>{},1e9);go(stay);if(!t)return;
+  if(typeof Voice==='undefined'){toast('الصوت غير متوفر في هذه النسخة');stop();return}
+  voiceOn=true;Voice.start();
 };
 let rafS=0;
 pagesEl.addEventListener('scroll',()=>{
@@ -1368,18 +1371,13 @@ function vmatch(T){
   if(best>=0&&(i<0||best!==i))setCursor(best);
 }
 let voiceOn=false;
-const miVoice=document.getElementById('miVoice'),swVoice=document.getElementById('swVoice');
+
 window.onVoiceText=function(t,fin){if(!voiceOn||!ready)return;vmatch(vnz(t).split(/\s+/).filter(Boolean))};
 window.onVoiceStatus=function(s){
-  const M={perm:'اسمح بالميكروفون ثم شغّل الخيار مرة ثانية',download:'جارٍ تنزيل نموذج الصوت (مرة واحدة)',loading:'جارٍ تجهيز النموذج',listening:'جارٍ الاستماع',error:'تعذّر تشغيل الصوت'};
-  if(s==='perm'||s==='error'){voiceOn=false;swVoice.classList.remove('on')}
+  const M={perm:'اسمح بالميكروفون ثم اضغط ابدأ التلاوة مرة ثانية',download:'جارٍ تنزيل نموذج الصوت (مرة واحدة)',loading:'جارٍ تجهيز النموذج',listening:'جارٍ الاستماع',error:'تعذّر تشغيل الصوت'};
+  if(s==='perm'||s==='error'){voiceOn=false;if(t)stop()}
   if(M[s]&&typeof toast==='function')toast(M[s]);
 };
-miVoice.addEventListener('click',()=>{
-  if(typeof Voice==='undefined'){if(typeof toast==='function')toast('حدّث التطبيق لتفعيل الصوت');return}
-  voiceOn=!voiceOn;swVoice.classList.toggle('on',voiceOn);
-  if(voiceOn)Voice.start();else Voice.stop();
-});
 
 function start(){
   pagesEl.innerHTML='';
